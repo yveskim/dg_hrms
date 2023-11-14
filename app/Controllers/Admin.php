@@ -11,7 +11,7 @@ use App\Models\EmpFamBgModel;
 use App\Models\EmpLearningDevelopmentModel;
 use App\Models\EmployeeCategoryModel;
 use App\Models\EmploymentStatusModel;
-use App\Models\EmpModel;
+use App\Models\EmployeeModel;
 use App\Models\EmpOthersModel;
 use App\Models\EmpProgramModel;
 use App\Models\EmpWorkExperienceModel;
@@ -32,11 +32,9 @@ class Admin extends BaseController
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
         $syMdl = new SchoolYearModel();
-        $semMdl = new SemesterModel();
-        $enMdl = new EnrollmentMdl();
 
         $loggedAdminID = session()->get('loggedAdmin');
         // $userRestriction = session()->get('userRestriction');
@@ -46,25 +44,12 @@ class Admin extends BaseController
         $adminInfo = $empModel->where('emp_id', $emp_id)->first();
 
         $sy_id = $syMdl->where('is_active', true)->first();
-        $sem = $semMdl->where('is_active', true)->first();
-
-        $total_enrollees = $enMdl->getNumberOfEnrollees();
-        $student_per_strand_11 = $enMdl->getStudentPerStrand_11();
-        $student_per_strand_12 = $enMdl->getStudentPerStrand_12();
-        $countProgramPerGrade = $enMdl->countProgramPerGrade();
-        $countRegular = $enMdl->countRegular();
 
         $data = [
             'title' => 'Admin',
             'admin' => $adminInfo,
             'user' => $loggedAdminID,
             'sy_id' => $sy_id,
-            'sem' => $sem,
-            'enrollees' => $total_enrollees,
-            'per_strand_11' => $student_per_strand_11,
-            'per_strand_12' => $student_per_strand_12,
-            'prog_per_grade' => $countProgramPerGrade,
-            'prog_regular' => $countRegular,
 
             // 'user_restriction' => $userRestriction,
         ];
@@ -112,7 +97,7 @@ class Admin extends BaseController
 
     public function insertEmpPersonalInfo()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
 
         $empImage = $this->request->getFile('empImage');
 
@@ -476,7 +461,7 @@ class Admin extends BaseController
 
     public function loadEmp()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $data['emp'] = $empModel->findAll();
         return $this->response->setJSON($data);
     }
@@ -535,7 +520,7 @@ class Admin extends BaseController
 
     public function viewEachEmp()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $statMdl = new EmploymentStatusModel();
         $deptMdl = new EmpDepartmentModel();
         $empCatMdl = new EmployeeCategoryModel();
@@ -682,7 +667,7 @@ class Admin extends BaseController
 
     public function deleteEmp()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $empId = $this->request->getPost('emp_id');
         // $empImage = $this->request->getPost('emp_image');
         //    $empModel->delete($empId);
@@ -862,7 +847,7 @@ class Admin extends BaseController
 
     public function updateEmp()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
 
         $data = [
             'job_description' => $this->request->getPost('job_description'),

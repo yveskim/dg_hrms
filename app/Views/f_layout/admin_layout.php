@@ -59,6 +59,8 @@
   <link rel="stylesheet" href="node_modules/@selectize/selectize/dist/css/selectize.bootstrap4.css">
   <link rel="stylesheet" href="assets/myCustomCss/universal.css">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
   <style media="screen">
     .hrTab {
       height: 5px;
@@ -147,7 +149,6 @@
               <h2><?= $admin['emp_fname'] . ' ' . $admin['emp_lname'] ?></h2>
               <p class="p-info">User ID: <span ><?= $user ?></span> </p>
                   
-              <input type="hidden" value="<?= $sem['sem_id'] ?>" id="sem_id">
               <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
               <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
               <input type="hidden" name="sy_ref" id="sy_ref" value="<?= $sy_id['sy_id'] ?>"><!--reference for javascript user id-->
@@ -159,9 +160,6 @@
                   <ul>
                       <li>
                         <p class="p-info">SY: <span ><?= $sy_id['school_year'] ?></span> </p>
-                      </li>
-                      <li>
-                        <p class="p-info"><span ><?= $sem['sem_title'] ?></span> </p>
                       </li>
                   </ul>
               </div>
@@ -180,10 +178,8 @@
                       <li><a class="g-menu" href="javascript:void(0)" id="usersList">Emp Users</a></li>
                       <?php endif; ?>
                       <?php if (session()->get('userType') == "Admin") : ?>
-                        <li><a class="g-menu" href="javascript:void(0)" id="getPrograms">Programs</a></li>
                         <li><a class="g-menu" href="javascript:void(0)" id="getDepartments">Departments</a></li>
                         <li><a class="g-menu" href="javascript:void(0)" id="btnGetNews">News</a></li>
-                        <li><a class="g-menu" href="javascript:void(0)" id="studentUsers">Student Users</a></li>
                       <?php endif; ?>
                   </ul>
                 </li>
@@ -205,40 +201,6 @@
                 </li>
                 <?php endif; ?>
 
-                <?php if (session()->get('userType') == "Admin" || session()->get('userType') == "Registrar") : ?>
-                <li><a><i class="fa fa-book"></i> Enrollment Transaction <span class="fa fa-chevron-down"></span></a>
-                  <ul class="nav child_menu">
-                    <li><a class="g-menu" href="javascript:void(0)" id="enrollment_data">Enrollment Data</a></li><!--show validated without grades-->
-                  </ul>
-                </li>
-                <?php endif; ?> 
-
-                  <!-- <li><a><i class="fa fa-users" aria-hidden="true"></i> Faculty & Staff <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a class="g-menu" href="javascript:void(0)" id="faculty">Faculty</a></li>
-                      <li><a class="g-menu" href="javascript:void(0)">Staff</a></li>
-                    </ul>
-                  </li> -->
-
-                <?php if(session()->get('userCategory') == 1 || session()->get('userCategory') == 3): ?>
-                
-                  <li><a><i class="fa fa-archive" aria-hidden="true"></i> Junior High School <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a class="g-menu" href="javascript:void(0)" id="school_program">Programs</a></li>
-                      <li><a class="g-menu" href="javascript:void(0)" id="school_department">Department</a></li>
-                    </ul>
-                  </li>
-                <?php endif; ?>
-
-                <?php if(session()->get('userCategory') == 2 || session()->get('userCategory') == 3): ?>
-    
-                <li><a><i class="fa fa-bank" aria-hidden="true"></i>Senior High School<span class="fa fa-chevron-down"></span></a>
-                  <ul class="nav child_menu">
-                    <li><a class="g-menu" href="javascript:void(0)" id="subject_group">Subject Group</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="track_strand">Track & Strand</a></li>
-                  </ul>
-                </li>
-                <?php endif; ?>
               </ul>
 
 
@@ -270,71 +232,7 @@
 
                 </div>
               </li>
-              <!-- 
-              <li role="presentation" class="nav-item dropdown open">
-                <a href="javascript:;" class="dropdown-toggle info-number" id="navbarDropdown1" data-toggle="dropdown" aria-expanded="false">
-                  <i class="fa fa-envelope-o"></i>
-                  <span class="badge bg-green">6</span>
-                </a>
-                <ul class="dropdown-menu list-unstyled msg_list" role="menu" aria-labelledby="navbarDropdown1">
-                  <li class="nav-item">
-                    <a class="dropdown-item">
-                      <span class="image"><img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="Profile Image" /></span>
-                      <span>
-                        <span>John Smith</span>
-                        <span class="time">3 mins ago</span>
-                      </span>
-                      <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item">
-                      <span class="image"><img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="Profile Image" /></span>
-                      <span>
-                        <span>John Smith</span>
-                        <span class="time">3 mins ago</span>
-                      </span>
-                      <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item">
-                      <span class="image"><img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="Profile Image" /></span>
-                      <span>
-                        <span>John Smith</span>
-                        <span class="time">3 mins ago</span>
-                      </span>
-                      <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="dropdown-item">
-                      <span class="image"><img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="Profile Image" /></span>
-                      <span>
-                        <span>John Smith</span>
-                        <span class="time">3 mins ago</span>
-                      </span>
-                      <span class="message">
-                        Film festivals used to be do-or-die moments for movie makers. They were where...
-                      </span>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <div class="text-center">
-                      <a class="dropdown-item">
-                        <strong>See All Alerts</strong>
-                        <i class="fa fa-angle-right"></i>
-                      </a>
-                    </div>
-                  </li>
-                </ul>
-              </li> -->
+      
             </ul>
           </nav>
         </div>
@@ -443,16 +341,12 @@
 
     $(document).ready(function() {
  
-
     $(".g-menu").click(function() {
       //alert('ok');
       $(".nav .child_menu").find(".active").removeClass("active");
       $(this).parents().addClass('active');
       //$(this).addClass("active");
     });
-
-
-    //  $('.content-div').load('pages/dashboard/dashboard_view.php');
 
     $('#menu-plantilla').click(function() {
       $('.content-div').load('pages/dashboard/dashboard_view.php');

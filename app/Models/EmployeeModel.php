@@ -4,7 +4,7 @@
 
 use CodeIgniter\Model;
 
-class EmpModel extends Model
+class EmployeeModel extends Model
 {
   protected $table      = 'employee_t';
   protected $primaryKey = 'emp_id';

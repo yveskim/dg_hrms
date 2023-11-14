@@ -5,7 +5,7 @@ namespace App\Controllers;
 use App\Models\AdviseryModel;
 use App\Models\EmpEducModel;
 use App\Models\EmpEligibilityModel;
-use App\Models\EmpModel;
+use App\Models\EmployeeModel;
 use App\Models\EmpFamBgModel;
 use App\Models\EmpFamBgChildrenModel;
 use App\Models\EmpLearningDevelopmentModel;
@@ -31,10 +31,9 @@ class Faculty extends BaseController
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
         $syMdl = new SchoolYearModel();
-        $semMdl = new SemesterModel();
 
         $loggedFaculty = session()->get('loggedAdmin');
 
@@ -43,7 +42,6 @@ class Faculty extends BaseController
         $faculty_info = $empModel->where('emp_id', $emp_id)->first();
 
         $sy_id = $syMdl->where('is_active', true)->first();
-        $sem = $semMdl->where('is_active', true)->first();
 
 
         $data = [
@@ -51,14 +49,13 @@ class Faculty extends BaseController
             'faculty' => $faculty_info,
             'user' => $loggedFaculty,
             'sy_id' => $sy_id,
-            'sem' => $sem,
         ];
         return view('f_faculty/' . $page, $data);
 
     }
 
     function updateProfile(){
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
 		$emp_id = $this->request->getPost('emp_id');
 
 		$image = $this->request->getFile('emp_file');
@@ -113,14 +110,14 @@ class Faculty extends BaseController
 
     public function getFaculty()
     {
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $data['faculty'] = $empMdl->where('job_description', 2)->findAll();
         return $this->response->setJSON($data);
     }
 
     public function getFacultyNotPh()
     {
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
 
         $data['faculty'] = $empMdl
             ->join('program_head_tbl', 'program_head_tbl.ph_emp_id = employee_t.emp_id', 'left')
@@ -132,7 +129,7 @@ class Faculty extends BaseController
 
     public function getFacultyDetails()
     {
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $syModel = new SchoolYearModel();
         $studAdvMdl = new AdviseryModel();
         $advMdl = new AdviseryModel();
@@ -164,7 +161,7 @@ class Faculty extends BaseController
 
     public function getAdvisery()
     {
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $data['adv'] = $empMdl->join('school_year_tbl', 'school_year_tbl.sy_id = enrollment_tbl.school_year_id', 'left')
             ->select('enrollment_tbl.*')
             ->select('school_year_tbl.*')
@@ -258,7 +255,7 @@ class Faculty extends BaseController
             // Whoops, we don't have a page for that!
             throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
         }
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
         $syMdl = new SchoolYearModel();
         $semMdl = new SemesterModel();
@@ -286,7 +283,7 @@ class Faculty extends BaseController
     }
  
     function getEmploymentDetails(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getGet('emp_id');
         $data['category'] = $empMdl->join('employee_category_tbl', 'employee_category_tbl.emp_id = employee_t.emp_id', 'left')
         ->join('category_tbl', 'category_tbl.cat_id = employee_category_tbl.cat_id', 'left')
@@ -304,7 +301,7 @@ class Faculty extends BaseController
     }
 
     function getEmploymentPersonalInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getGet('emp_id');
         $data['emp'] = $empMdl->where('emp_id', $emp_id)->first();
         return $this->response->setJSON($data);
@@ -312,7 +309,7 @@ class Faculty extends BaseController
     }
 
     function updateBasicInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getPost('emp_id');
 
         $data = [
@@ -349,7 +346,7 @@ class Faculty extends BaseController
     }
 
     function updateOtherInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getPost('emp_id');
 
         $data = [
@@ -377,7 +374,7 @@ class Faculty extends BaseController
     }
 
     function updateContactInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getPost('emp_id');
 
         $data = [
@@ -402,7 +399,7 @@ class Faculty extends BaseController
     }
 
     function updatePerAddressInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getPost('emp_id');
 
         $data = [
@@ -434,7 +431,7 @@ class Faculty extends BaseController
 
 
     function updateCurAddressInfo(){
-        $empMdl = new EmpModel();
+        $empMdl = new EmployeeModel();
         $emp_id = $this->request->getPost('emp_id');
 
         $data = [

@@ -126,18 +126,11 @@
                         $("#emp_department").text("N/A");
                       }
 
-                      if(res.prog != null){
-                        $("#emp_program").text(res.prog.program_title);
-                      }else{
-                        $("#emp_program").text("N/A");
-                      }
-
                       if(res.des != null){
                         $("#emp_designation").text();
                       }else{
                         $("#emp_designation").text("N/A");
                       }
-                      
                       
                       if(res.emp.emp_image == ""){
                         $(".profile_pic").attr("src", 'upload/system_file/noimage.png');  

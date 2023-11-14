@@ -1,0 +1,191 @@
+CRITICAL - 2023-11-14 10:31:42 --> Class 'App\Models\SemesterModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 10:34:35 --> Undefined variable: enrollees
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_admin\index.php(43): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ICT IN...', 43, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(56): view('f_admin/index', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-11-14 10:35:16 --> Undefined variable: sem
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_layout\admin_layout.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ICT IN...', 150, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('f_layout/admin_...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(56): view('f_admin/index', Array)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#11 {main}
+CRITICAL - 2023-11-14 10:36:06 --> Undefined variable: sem
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_layout\admin_layout.php(163): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ICT IN...', 163, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('f_layout/admin_...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(56): view('f_admin/index', Array)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#11 {main}
+CRITICAL - 2023-11-14 10:46:54 --> Class 'App\Controllers\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+ERROR - 2023-11-14 10:49:55 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+CRITICAL - 2023-11-14 10:49:55 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(555): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->viewEachEmp()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-11-14 10:50:08 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+CRITICAL - 2023-11-14 10:50:08 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(555): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->viewEachEmp()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-11-14 10:50:51 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+CRITICAL - 2023-11-14 10:50:51 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(555): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->viewEachEmp()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-11-14 10:53:26 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+CRITICAL - 2023-11-14 10:53:26 --> Table 'dg_hrms.employee_program_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(555): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->viewEachEmp()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-11-14 11:10:28 --> Table 'dg_hrms.users' doesn't exist
+CRITICAL - 2023-11-14 11:10:28 --> Table 'dg_hrms.users' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `emp_id`...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emp_id`...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emp_id`...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `emp_id`...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(42): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-11-14 11:39:41 --> Table 'dg_hrms.users' doesn't exist
+CRITICAL - 2023-11-14 11:39:41 --> Table 'dg_hrms.users' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `emp_id`...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emp_id`...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emp_id`...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `emp_id`...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Admin.php(42): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+CRITICAL - 2023-11-14 11:41:00 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 11:41:02 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 11:41:05 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 11:41:08 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 12:23:16 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 12:23:20 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 12:24:44 --> Class 'App\Models\EmpModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getEmploymentPersonalInfo()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
