@@ -69,33 +69,60 @@ class Faculty extends BaseController
 			if ($image->isValid() && !$image->hasMoved()) { //check if image is valid and has not moved
 				$image->move('upload/user_files/', $randomFileName); // move the image to upload folder
 			}
-
-
             $data = [
                 'emp_image' => $randomFileName
             ];
+
+            // remove existing image in the folder 
+            $currentImage = $empModel->where('emp_id', $emp_id)->select('emp_image')->find();
+            $filePath = "";
+            foreach($currentImage as $img){
+                $filePath = 'upload/user_files/' . $img['emp_image'];
+            }
+
+            if(file_exists($filePath)){//if image exist unlink it
+                unlink($filePath);
+                try{
+                    $result['pic'] = $empModel->update($emp_id, $data);
+                    if($result){
     
-            try{
-                $result['pic'] = $empModel->update($emp_id, $data);
-                if($result){
-                    $result['status'] = 1;
-                    $result['randomFileName'] = $randomFileName;
+                        $result['status'] = 1;
+                        $result['randomFileName'] = $randomFileName;
+                        echo json_encode($result);
+                        die;
+                    }
+                }catch (\Exception $e) {
+                    $result['status'] = 0;
+                    $result['message'] = $e->getMessage();
                     echo json_encode($result);
                     die;
                 }
-            }catch (\Exception $e) {
-                $result['status'] = 0;
-                $result['message'] = $e->getMessage();
-                echo json_encode($result);
-                die;
+            }else{//if no file exist just save new file
+                try{
+                    $result['pic'] = $empModel->update($emp_id, $data);
+                    if($result){
+    
+                        $result['status'] = 1;
+                        $result['randomFileName'] = $randomFileName;
+                        echo json_encode($result);
+                        die;
+                    }
+                }catch (\Exception $e) {
+                    $result['status'] = 0;
+                    $result['message'] = $e->getMessage();
+                    echo json_encode($result);
+                    die;
+                }
             }
+    
 		}else{
             $result['status'] = 0;
             $result['message'] = "No image selected";
             echo json_encode($result);
             die;
         }
-	
+
+       
 
 		
 	
@@ -258,7 +285,6 @@ class Faculty extends BaseController
         $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
         $syMdl = new SchoolYearModel();
-        $semMdl = new SemesterModel();
 
         $loggedFaculty = session()->get('loggedAdmin');
 
@@ -267,14 +293,12 @@ class Faculty extends BaseController
         $faculty_info = $empModel->where('emp_id', $emp_id)->first();
 
         $sy_id = $syMdl->where('is_active', true)->first();
-        $sem = $semMdl->where('is_active', true)->first();
 
         $data = [
             'title' => 'Profile',
             'faculty' => $faculty_info,
             'user' => $loggedFaculty,
             'sy_id' => $sy_id,
-            'sem' => $sem,
             
         ];
         return view('f_faculty/profile/' . $page, $data);

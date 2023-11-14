@@ -189,3 +189,95 @@ CRITICAL - 2023-11-14 12:24:44 --> Class 'App\Models\EmpModel' not found
 #3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
 #4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
 #5 {main}
+CRITICAL - 2023-11-14 16:10:23 --> Undefined variable: sem
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_layout\faculty_layout.php(110): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ICT IN...', 110, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(230): CodeIgniter\View\View->render('f_layout/facult...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/index', Array, true)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(53): view('f_faculty/index', Array)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->index()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#11 {main}
+CRITICAL - 2023-11-14 16:10:54 --> Class 'App\Models\SemesterModel' not found
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-11-14 16:11:15 --> Undefined variable: semMdl
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(269): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\ICT IN...', 269, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#6 {main}
+CRITICAL - 2023-11-14 16:13:51 --> A non-numeric value encountered
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_faculty\profile\faculty_profile.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\ICT IN...', 79, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(277): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-11-14 16:14:45 --> A non-numeric value encountered
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_faculty\profile\faculty_profile.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\ICT IN...', 79, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(277): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-11-14 16:15:40 --> A non-numeric value encountered
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_faculty\profile\faculty_profile.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\ICT IN...', 79, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(277): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-11-14 16:16:06 --> A non-numeric value encountered
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Views\f_faculty\profile\faculty_profile.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\ICT IN...', 79, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(277): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-11-14 16:41:26 --> Illegal string offset 'emp_image'
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\ICT IN...', 79, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->updateProfile()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#6 {main}
+CRITICAL - 2023-11-14 16:42:40 --> Illegal string offset 'emp_image'
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\Users\\ICT IN...', 80, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->updateProfile()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#6 {main}

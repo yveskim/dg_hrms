@@ -107,7 +107,6 @@
     <!-- Sidebar -->
     <div class="sidebar">
       <!-- References +++++++++++++++++++++++++++++++ -->
-      <input type="hidden" value="<?= $sem['sem_id'] ?>" id="sem_id">
       <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
       <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
       <input type="hidden" name="sy_ref" id="sy_ref" value="<?= $sy_id['sy_id'] ?>"><!--reference for javascript user id-->

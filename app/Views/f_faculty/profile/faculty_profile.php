@@ -76,16 +76,17 @@
                 no-repeat; background-size: cover;">
           </div>
           <div class="widget-user-image">
-            <?php  if($faculty['emp_image'] == null):   ?>
-              <div class="img-container ">
-                <img class="img-circle _img user_profile_pic profile_pic " src="upload/system_file/noimage.png" id="no-image-icon" alt="User Avatar">
-                <i class="fas fa-camera cam-icn" type="button" title="change image" data-toggle="modal" data-target="#modalChangeProfile"></i>
-              </div>
-            <?php else:?>
+            <?php  if(file_exists('upload/user_files/' . $faculty['emp_image'])):   ?>
               <div class="img-container">
                 <img class="img-circle _img user_profile_pic profile_pic" src="<?= 'upload/user_files/' . $faculty['emp_image'] ?>" alt="User Avatar"  title="change image">
                 <i class="fas fa-camera cam-icn" type="button" title="change image" data-toggle="modal" id="user-image-icon" data-target="#modalChangeProfile"></i>
               </div>
+            <?php else:?>
+              <div class="img-container ">
+                <img class="img-circle _img user_profile_pic profile_pic " src="upload/system_file/noimage.png" id="no-image-icon" alt="User Avatar">
+                <i class="fas fa-camera cam-icn" type="button" title="change image" data-toggle="modal" data-target="#modalChangeProfile"></i>
+              </div>
+              
               <?php endif;?>
           </div>
 
@@ -319,6 +320,7 @@
                     showConfirmButton: true
                 });
                 $('#modalChangeProfile').modal('toggle');
+                $('body').css({ overflow: 'visible'}); //enables scroll in the document after closing modal
                 $('.profile_pic').prop('src', 'upload/user_files/'+res.randomFileName);
             }else {
                 Swal.fire({
