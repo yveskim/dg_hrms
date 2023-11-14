@@ -1,0 +1,27 @@
+ERROR - 2023-01-11 18:20:17 --> Table 'nasyo_integrated.applicants_profile_pic' doesn't exist
+CRITICAL - 2023-01-11 18:20:17 --> Table 'nasyo_integrated.applicants_profile_pic' doesn't exist
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(51): CodeIgniter\BaseModel->first()
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->index()
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#12 {main}
+CRITICAL - 2023-01-11 18:43:48 --> Trying to access array offset on value of type null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Views\f_application\application_header.php(111): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\User\\O...', 111, Array)
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\User\\O...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(61): view('f_application/a...', Array)
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->index()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#10 {main}

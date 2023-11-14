@@ -1,0 +1,18 @@
+ERROR - 2022-02-16 03:28:43 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_2` FOREIGN KEY (`s_app_user_id`) REFERENCES `temp_user_table` (`temp_user_id`) ON DELETE CASCADE ON UPDATE CAS)
+ERROR - 2022-02-16 03:28:59 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_2` FOREIGN KEY (`s_app_user_id`) REFERENCES `temp_user_table` (`temp_user_id`) ON DELETE CASCADE ON UPDATE CAS)
+ERROR - 2022-02-16 03:31:46 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_2` FOREIGN KEY (`s_app_user_id`) REFERENCES `temp_user_table` (`temp_user_id`) ON DELETE CASCADE ON UPDATE CAS)
+ERROR - 2022-02-16 04:39:47 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-16 04:39:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

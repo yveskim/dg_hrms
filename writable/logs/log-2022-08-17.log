@@ -1,0 +1,97 @@
+CRITICAL - 2022-08-17 01:19:16 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1103)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 06:08:06 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(997): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 997)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewUploads()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+ERROR - 2022-08-17 08:31:27 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated_v3.1`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_4` FOREIGN KEY (`s_app_alternative_program_code`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CA)
+CRITICAL - 2022-08-17 09:04:42 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(997): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 997)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewUploads()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 17:13:18 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(997): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 997)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewUploads()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 19:05:47 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1103)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:31:34 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:31:39 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:31:42 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:31:44 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:31:45 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:32:09 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-08-17 23:32:49 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(1144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 1144)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}

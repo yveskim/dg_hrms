@@ -1,0 +1,32 @@
+ERROR - 2023-05-23 08:51:08 --> Duplicate entry '' for key 'emp_school_id'
+CRITICAL - 2023-05-23 08:51:08 --> Duplicate entry '' for key 'emp_school_id'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `employe...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `employe...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `employe...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `employe...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Admin.php(809): CodeIgniter\Model->update(NULL, Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->updateEmp()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2023-05-23 11:59:34 --> Duplicate entry '' for key 'emp_school_id'
+CRITICAL - 2023-05-23 11:59:34 --> Duplicate entry '' for key 'emp_school_id'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('UPDATE `employe...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `employe...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `employe...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `employe...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Admin.php(809): CodeIgniter\Model->update(NULL, Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->updateEmp()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#13 {main}

@@ -1,0 +1,579 @@
+CRITICAL - 2022-07-25 04:09:30 --> Undefined array key "s_app_academic_year_applied"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 192)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 04:10:50 --> Undefined array key "assigned_program_id"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 199)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+ERROR - 2022-07-25 05:29:49 --> Unknown column 'en_is_endigenous' in 'field list'
+CRITICAL - 2022-07-25 05:29:49 --> Unknown column 'en_is_endigenous' in 'field list'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(116): CodeIgniter\Model->insert(Array)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#13 {main}
+ERROR - 2022-07-25 05:30:01 --> Unknown column 'en_is_endigenous' in 'field list'
+CRITICAL - 2022-07-25 05:30:01 --> Unknown column 'en_is_endigenous' in 'field list'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(116): CodeIgniter\Model->insert(Array)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#13 {main}
+ERROR - 2022-07-25 05:31:58 --> Unknown column 'en_is_endigenous' in 'field list'
+CRITICAL - 2022-07-25 05:31:58 --> Unknown column 'en_is_endigenous' in 'field list'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(116): CodeIgniter\Model->insert(Array)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#13 {main}
+ERROR - 2022-07-25 05:32:20 --> Unknown column 'en_is_endigenous' in 'field list'
+CRITICAL - 2022-07-25 05:32:20 --> Unknown column 'en_is_endigenous' in 'field list'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(116): CodeIgniter\Model->insert(Array)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#13 {main}
+CRITICAL - 2022-07-25 05:36:46 --> Undefined variable $is_indigenous
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 101)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:37:24 --> Undefined variable $is_indigenous
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 101)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:37:40 --> Undefined variable $is_indigenous
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 101)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:38:43 --> Undefined variable $is_indigenous
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 101)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:41:08 --> Undefined variable $indigenous_group
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 102)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:42:30 --> Undefined variable $indigenous_group
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(102): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 102)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 05:53:51 --> Undefined array key "secretFormValue"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 06:00:15 --> Undefined variable $formSession
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 63)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 06:00:52 --> syntax error, unexpected token ";", expecting ")"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\INHS WEBSITE...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-25 06:01:23 --> Undefined variable $secretFormValue
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(80): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 06:06:11 --> Undefined variable $session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 63)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 06:06:39 --> Undefined variable $session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(80): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 06:12:52 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'G:\\INHS WEBSITE...', 61)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(61): session_start()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#7 {main}
+CRITICAL - 2022-07-25 06:14:04 --> Undefined array key "secretFormValue"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(79): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 06:15:49 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'G:\\INHS WEBSITE...', 61)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(61): session_start()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#7 {main}
+CRITICAL - 2022-07-25 06:15:59 --> Undefined array key "secretFormValue"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(80): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-25 06:29:14 --> Undefined variable $_SESSION
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(125): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 125)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 06:32:15 --> syntax error, unexpected token ":"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\INHS WEBSITE...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-25 07:00:54 --> Undefined variable $_SESSION
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 130)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:15:25 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 64)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:16:52 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 64)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:17:06 --> Undefined variable $config
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 24)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:17:41 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:17:57 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:18:17 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:18:52 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 64)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:20:00 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 64)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:20:34 --> Call to undefined method App\Controllers\Enrollment::set()
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#5 {main}
+CRITICAL - 2022-07-25 07:20:54 --> Undefined variable $session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:21:29 --> Undefined variable $session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 65)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:23:52 --> Undefined property: App\Controllers\Enrollment::$session
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'G:\\INHS WEBSITE...', 127)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-25 07:31:27 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#5 {main}
+CRITICAL - 2022-07-25 07:48:14 --> syntax error, unexpected token "}"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\INHS WEBSITE...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+ERROR - 2022-07-25 19:25:23 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 19:25:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:02:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 20:02:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:02:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 20:02:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:02:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 20:02:33 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:02:50 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 20:02:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:03:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-07-25 20:03:27 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-25 20:22:58 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-07-25 22:32:11 --> Table 'inhs_integrated_v3.shs_enrollment_application_t' doesn't exist
+CRITICAL - 2022-07-25 22:32:11 --> Table 'inhs_integrated_v3.shs_enrollment_application_t' doesn't exist
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Application.php(64): CodeIgniter\BaseModel->first()
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#12 {main}
+ERROR - 2022-07-25 22:37:00 --> Table 'inhs_integrated_v3.1.inhs_grade10_sections_t' doesn't exist
+CRITICAL - 2022-07-25 22:37:00 --> Table 'inhs_integrated_v3.1.inhs_grade10_sections_t' doesn't exist
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(52): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#12 {main}
+ERROR - 2022-07-25 22:59:17 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+CRITICAL - 2022-07-25 22:59:17 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(135): CodeIgniter\Model->insert(Array)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#13 {main}
+ERROR - 2022-07-25 23:48:13 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+CRITICAL - 2022-07-25 23:48:13 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(127): CodeIgniter\Model->insert(Array)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#13 {main}
+ERROR - 2022-07-25 23:48:14 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+CRITICAL - 2022-07-25 23:48:14 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(127): CodeIgniter\Model->insert(Array)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#13 {main}
+ERROR - 2022-07-25 23:48:14 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+CRITICAL - 2022-07-25 23:48:14 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(127): CodeIgniter\Model->insert(Array)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#13 {main}
+ERROR - 2022-07-25 23:48:15 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+CRITICAL - 2022-07-25 23:48:15 --> Duplicate entry '0' for key 'shs_enrollment_application_t.PRIMARY'
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `sh...')
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `sh...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `sh...')
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `sh...', Array, false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\app\Controllers\Enrollment.php(127): CodeIgniter\Model->insert(Array)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->submitEnrollmentForm()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#10 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#13 {main}

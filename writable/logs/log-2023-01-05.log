@@ -1,0 +1,341 @@
+<<<<<<< HEAD
+=======
+CRITICAL - 2023-01-05 00:20:42 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 16:59:54 --> Class 'App\Models\StudentAdmissionModel' not found
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+ERROR - 2023-01-05 17:01:12 --> Unknown column 'per_stud_city' in 'where clause'
+CRITICAL - 2023-01-05 17:01:12 --> Unknown column 'per_stud_city' in 'where clause'
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT COUNT(*)...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1981): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(561): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\Admin.php(36): CodeIgniter\Model->countAllResults()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#11 {main}
+CRITICAL - 2023-01-05 17:06:04 --> Undefined variable: totalAdmission
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\Admin.php(136): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\User\\O...', 136, Array)
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#6 {main}
+CRITICAL - 2023-01-05 17:06:14 --> Undefined variable: totalAdmission
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Views\f_admin\index.php(60): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\User\\O...', 60, Array)
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\User\\O...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\Admin.php(150): view('f_admin/index', Array)
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#10 {main}
+CRITICAL - 2023-01-05 17:07:00 --> Undefined variable: totalApp
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Views\f_admin\index.php(62): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\User\\O...', 62, Array)
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\User\\O...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\Admin.php(150): view('f_admin/index', Array)
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#10 {main}
+ERROR - 2023-01-05 17:11:34 --> Table 'nasyo_integrated.student_application_t' doesn't exist
+CRITICAL - 2023-01-05 17:11:34 --> Table 'nasyo_integrated.student_application_t' doesn't exist
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `student...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `student...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `student...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `student...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Models\StudentApplicationModel.php(426): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\Transferees.php(23): App\Models\StudentApplicationModel->getAllTransferee()
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Transferees->getAllTransferees()
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transferees))
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#11 {main}
+CRITICAL - 2023-01-05 17:13:40 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:17:29 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:17:44 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:19:23 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:20:23 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:20:27 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:20:55 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+CRITICAL - 2023-01-05 17:21:06 --> Call to a member function getSize() on null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#5 {main}
+ERROR - 2023-01-05 17:32:12 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:32:12 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:32:18 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:32:18 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:32:43 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:32:43 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:35:59 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:35:59 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:37:10 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:37:10 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:39:53 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:39:53 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:42:01 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:42:01 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:42:25 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:42:25 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:50:52 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:50:52 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:51:33 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:51:33 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:57:13 --> Column 'applicant_id' cannot be null
+CRITICAL - 2023-01-05 17:57:13 --> Column 'applicant_id' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+ERROR - 2023-01-05 17:58:12 --> Column 'filename' cannot be null
+CRITICAL - 2023-01-05 17:58:12 --> Column 'filename' cannot be null
+#0 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\User\OneDrive - iloilonhs.edu.ph\Desktop\NASYO INTEGRATED\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\User\\O...')
+#13 {main}
+>>>>>>> b4d2bebe282eab30370ae2b9c3349a4dd777a6f7
+ERROR - 2023-01-05 18:17:32 --> Unknown column 'created_at' in 'field list'
+CRITICAL - 2023-01-05 18:17:32 --> Unknown column 'created_at' in 'field list'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantProfile.php(161): CodeIgniter\Model->insert(Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantProfile->updateImage()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantProfile))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}

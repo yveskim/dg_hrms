@@ -1,0 +1,14 @@
+CRITICAL - 2021-06-11 23:37:52 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-11 23:47:10 --> Call to a member function isValid() on array
+#0 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4 new\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

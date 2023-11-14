@@ -1,0 +1,206 @@
+CRITICAL - 2023-05-18 13:21:38 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Student.php(47): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 47, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Student->index()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Student))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:22:01 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:22:29 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:23:17 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:23:20 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:23:44 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:24:47 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:27:05 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:27:28 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:27:34 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:28:08 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:28:12 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(146): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 146, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+ERROR - 2023-05-18 13:30:23 --> Not unique table/alias: 'student_account_t'
+CRITICAL - 2023-05-18 13:30:23 --> Not unique table/alias: 'student_account_t'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(145): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-18 13:30:45 --> Not unique table/alias: 'student_account_t'
+CRITICAL - 2023-05-18 13:30:45 --> Not unique table/alias: 'student_account_t'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(145): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-18 13:30:51 --> Not unique table/alias: 'student_account_t'
+CRITICAL - 2023-05-18 13:30:51 --> Not unique table/alias: 'student_account_t'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(145): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-18 13:33:12 --> Unknown column 'user_name' in 'where clause'
+CRITICAL - 2023-05-18 13:33:12 --> Unknown column 'user_name' in 'where clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(144): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+CRITICAL - 2023-05-18 13:33:43 --> Trying to access array offset on value of type null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Login.php(149): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\yvesk\\...', 149, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-05-18 13:36:19 --> Call to a member function check_code() on null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-18 13:36:24 --> Call to a member function check_code() on null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-18 13:38:47 --> Call to a member function check_code() on null
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-18 13:46:42 --> Call to a member function check_code() on array
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-18 13:48:19 --> Call to a member function check_code() on array
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-18 13:48:40 --> Call to a member function check_code() on array
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Login->validateStudent()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}

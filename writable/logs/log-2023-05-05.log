@@ -1,0 +1,167 @@
+CRITICAL - 2023-05-05 12:37:17 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-05-05 12:37:41 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+ERROR - 2023-05-05 13:05:55 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 13:05:55 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(288): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledDataNoProgram()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 13:44:29 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 13:44:29 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 13:44:32 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 13:44:32 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 13:44:35 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 13:44:35 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:17 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:17 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:23 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:23 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:26 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:26 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:28 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:28 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:34 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:34 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:15:45 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+CRITICAL - 2023-05-05 14:15:45 --> Unknown column 'enrollment_status_tbl.cat_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(271): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->getEnrolledData()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-05-05 14:59:19 --> Column 'en_id' cannot be null
+ERROR - 2023-05-05 15:02:25 --> Column 'en_id' cannot be null
+ERROR - 2023-05-05 15:03:08 --> Cannot add or update a child row: a foreign key constraint fails (`nasyo_integrated_2`.`enrollment_status_tbl`, CONSTRAINT `enrollment_status_tbl_ibfk_5` FOREIGN KEY (`enrolled_by`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE)

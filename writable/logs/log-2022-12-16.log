@@ -1,0 +1,12 @@
+CRITICAL - 2022-12-16 06:29:28 --> Undefined variable: title
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\app\Views\templates\news_header.php(10): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 10, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\yvesk\\...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('templates/news_...', Array, true)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\app\Controllers\News.php(105): view('templates/news_...')
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\INHS_Integrated_v3.1\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#10 {main}

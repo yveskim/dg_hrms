@@ -1,0 +1,40 @@
+[
+  {
+    "province": "Iloilo",
+    "city_name": "Iloilo City",
+    "municipalities": {
+      "municipality_name": "Manduriao",
+      "barangay_list": [
+        {
+          "barangay_name": "sook",
+          "barangay_captain": "Jose Rizal",
+          "barangay_trasurer": "Girly Ganancial"
+        },
+        {
+          "barangay_name": "san jose",
+          "barangay_captain": "George Bush",
+          "barangay_trasurer": "Maria Clara"
+        }
+      ]
+    }
+  },
+  {
+    "province": "Antique",
+    "city_name": null,
+    "municipalities": {
+      "municipality_name": "Sibalom",
+      "barangay_list": [
+        {
+          "barangay_name": "kagwapohan",
+          "barangay_captain": "Yves Kim Cabanting",
+          "barangay_trasurer": "Maria Ozawa"
+        },
+        {
+          "barangay_name": "Kasexihan",
+          "barangay_captain": "Jessie Sexy",
+          "barangay_trasurer": "Lexi Lore"
+        }
+      ]
+    }
+    }
+]

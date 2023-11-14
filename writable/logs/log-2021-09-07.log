@@ -1,0 +1,24 @@
+CRITICAL - 2021-09-07 03:57:32 --> Undefined array key "publish_time_stamp"
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Views\f_news\index.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/index', Array, true)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(21): view('f_news/index', Array)
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-09-07 03:58:24 --> Undefined array key "publish_time_stamp"
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Views\f_news\index.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/index', Array, true)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(21): view('f_news/index', Array)
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

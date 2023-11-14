@@ -1,0 +1,621 @@
+CRITICAL - 2022-05-03 00:06:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(773): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->reprocessAppForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 00:06:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(773): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->reprocessAppForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 00:06:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(773): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->reprocessAppForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 00:40:07 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:40:19 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:42:35 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:43:41 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:43:46 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:43:58 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:44:18 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:44:30 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:46:09 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:50:06 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:50:15 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:50:59 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:51:45 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:52:19 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:59:06 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 00:59:47 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:03:16 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:03:28 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:07:05 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 01:10:16 --> unlink(upload/student_files/admission_files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/s...', 'C:\\xampp\\htdocs...', 667)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(667): unlink('upload/student_...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->deleteDropzone()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-03 01:10:17 --> unlink(upload/student_files/admission_files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/s...', 'C:\\xampp\\htdocs...', 667)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(667): unlink('upload/student_...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->deleteDropzone()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-05-03 01:10:31 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:10:43 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:10:48 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:16:16 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:16:21 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:19:25 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:19:28 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:21:44 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:21:45 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:21:47 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:25:06 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:25:11 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:25:21 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:31:53 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 01:33:58 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 02:09:47 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(973): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 973)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-03 02:30:15 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 02:30:19 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 02:43:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:43:59 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 02:44:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 03:03:13 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 03:12:22 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(932): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 932)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-05-03 03:26:46 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:34:24 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:34:30 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:34:39 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:35:29 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:36:26 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:37:14 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:44:11 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:44:18 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:50:37 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:50:44 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:51:23 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:51:32 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 03:52:29 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 04:22:17 --> unlink(upload/student_files/admission_files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/s...', 'C:\\xampp\\htdocs...', 667)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(667): unlink('upload/student_...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->deleteDropzone()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-05-03 04:54:33 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 04:56:25 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 04:56:32 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:09:52 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:10:00 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:17:43 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:18:04 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:22:57 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:28:40 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 05:33:46 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 05:35:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 05:37:42 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 06:36:10 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 06:55:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 07:18:00 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:21:56 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 07:32:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 07:32:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 07:32:33 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:38:06 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:38:43 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:43:13 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:43:32 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:49:14 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:49:20 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:54:34 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:54:39 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 07:59:33 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 08:29:03 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 08:45:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-05-03 08:52:24 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 08:58:50 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 08:59:01 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 08:59:08 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+ERROR - 2022-05-03 09:08:43 --> Duplicate entry '0' for key 'application_update_t.PRIMARY'
+CRITICAL - 2022-05-03 09:29:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(932): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 932)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-03 09:30:31 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(932): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 932)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-03 09:31:14 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 10:04:16 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(832): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 832)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewUploads()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-05-03 10:17:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-05-03 19:06:42 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 100)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\Users\\SERVER...')
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Controllers\Application.php(221): view('f_application/a...', Array)
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#10 {main}
+CRITICAL - 2022-05-03 21:30:27 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Controllers\Application.php(973): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 973)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-05-03 21:30:27 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Controllers\Application.php(973): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 973)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-05-03 21:30:31 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Controllers\Application.php(973): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 973)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewProfile()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}
+CRITICAL - 2022-05-03 22:56:21 --> Trying to access array offset on value of type null
+#0 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\app\Controllers\Application.php(932): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\Users\\SERVER...', 932)
+#1 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->viewApplication()
+#2 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\SERVER\Desktop\ICTD_INHS_WEBSITE\INHS_Integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\SERVER...')
+#6 {main}

@@ -1,0 +1,134 @@
+CRITICAL - 2023-03-07 08:21:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:21:47 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:23:38 --> Invalid EAN UPC barcode value "846347582782543"
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode\EanUpc.php(24): Mpdf\Barcode\EanUpc->init('846347582782543', 13)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode.php(33): Mpdf\Barcode\EanUpc->__construct('846347582782543', 13, 11, 7, 0.33, 25.93)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode.php(10): Mpdf\Barcode->getBarcode('846347582782543', 'ISBN', '', 0, 0)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Tag\BarCode.php(185): Mpdf\Barcode->getBarcodeArray('846347582782543', 'ISBN', '', 0, 0)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\BarCode->open(Array, Array, 1)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Mpdf.php(13892): Mpdf\Tag->OpenTag('BARCODE', Array, Array, 1)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Mpdf.php(14572): Mpdf\Mpdf->WriteHTML('<barcode code="...', 4)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(501): Mpdf\Mpdf->WriteFixedPosHTML('<barcode code="...', 175, 45, 50, 90, 'auto')
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+CRITICAL - 2023-03-07 08:24:00 --> UPC-A cannot produce a valid UPC-E barcode
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode\EanUpc.php(24): Mpdf\Barcode\EanUpc->init('084634758278254...', 13)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode.php(39): Mpdf\Barcode\EanUpc->__construct('846347582782543', 6, 9, 7, 0.33, 25.93)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Barcode.php(10): Mpdf\Barcode->getBarcode('846347582782543', 'UPCE', '', 0, 0)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Tag\BarCode.php(185): Mpdf\Barcode->getBarcodeArray('846347582782543', 'UPCE', '', 0, 0)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Tag.php(240): Mpdf\Tag\BarCode->open(Array, Array, 1)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Mpdf.php(13892): Mpdf\Tag->OpenTag('BARCODE', Array, Array, 1)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\mpdf\mpdf\src\Mpdf.php(14572): Mpdf\Mpdf->WriteHTML('<barcode code="...', 4)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(501): Mpdf\Mpdf->WriteFixedPosHTML('<barcode code="...', 175, 45, 50, 90, 'auto')
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+CRITICAL - 2023-03-07 08:24:20 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:25:01 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:25:25 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:25:53 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php on line 130
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php(130): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Transferees->printApplicationTransferee()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transferees))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:26:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php on line 130
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php(130): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Transferees->printApplicationTransferee()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transferees))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:26:57 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php on line 130
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php(130): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Transferees->printApplicationTransferee()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transferees))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:29:04 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php on line 137
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Transferees.php(137): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Transferees->printApplicationTransferee()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transferees))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 08:46:12 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 12:21:14 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 12:23:46 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2023-03-07 13:10:00 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php on line 536
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Application.php(536): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->printApplication()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#6 {main}

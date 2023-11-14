@@ -1,0 +1,24 @@
+CRITICAL - 2021-12-14 08:39:21 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(351): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->acceptRequest()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-14 08:50:36 --> Email: sendWithSmtp throwed fsockopen(): SSL: The operation completed successfully.
+
+CRITICAL - 2021-12-14 09:03:49 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(229): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(352): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->acceptRequest()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

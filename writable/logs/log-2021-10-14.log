@@ -1,0 +1,56 @@
+CRITICAL - 2021-10-14 07:12:45 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(42): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmpPersonalInfo()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-14 09:06:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2021-10-14 09:06:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(181): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEmp()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-10-14 09:16:59 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->getChildren()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-14 09:19:23 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, string given, called in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php on line 800
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('emp_id', '')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(34): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->getChildren()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-14 09:19:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::getWhere() must be of the type int or null, string given, called in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php on line 800
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(800): CodeIgniter\Database\BaseBuilder->getWhere('emp_id', '')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(34): CodeIgniter\Model->__call('getWhere', Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->getChildren()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-14 09:28:36 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-14 09:32:56 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-14 09:44:17 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-14 10:06:16 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-14 10:37:09 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-14 10:55:33 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`employee_children_t`, CONSTRAINT `employee_children_t_ibfk_1` FOREIGN KEY (`emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)

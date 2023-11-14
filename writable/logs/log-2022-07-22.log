@@ -1,0 +1,117 @@
+CRITICAL - 2022-07-22 03:29:15 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 201)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(139): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-22 03:33:02 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(139): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-22 03:38:19 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 54)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-22 05:15:11 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 54)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-22 05:17:19 --> Undefined variable $enrollment_is_submitted
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 140)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-22 05:17:59 --> Cannot access offset of type string on string
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(146): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-22 06:21:52 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 163)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-22 06:26:24 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 163)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-22 06:32:45 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 163)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-22 06:33:06 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 163)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-22 06:36:31 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_enrollment\shs_enrollment_form.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 163)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_enrollment/sh...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrollment.php(74): view('f_enrollment/sh...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrollment->shsEnrollmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}

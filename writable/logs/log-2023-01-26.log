@@ -1,0 +1,72 @@
+ERROR - 2023-01-26 19:04:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2023-01-26 19:04:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(158): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(538): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->find()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\News.php(23): App\Models\NewsModel->getNews(10)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+CRITICAL - 2023-01-26 20:56:35 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantFiles.php(80): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantFiles->deleteFile()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantFiles))
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#8 {main}
+CRITICAL - 2023-01-26 20:58:02 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantFiles.php(80): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantFiles->deleteFile()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantFiles))
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#8 {main}
+CRITICAL - 2023-01-26 20:58:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantFiles.php(80): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantFiles->deleteFile()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantFiles))
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#8 {main}
+CRITICAL - 2023-01-26 20:59:02 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantFiles.php(80): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantFiles->deleteFile()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantFiles))
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#8 {main}
+ERROR - 2023-01-26 21:02:19 --> Unknown column 'file_id' in 'where clause'
+CRITICAL - 2023-01-26 21:02:19 --> Unknown column 'file_id' in 'where clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('DELETE FROM `ap...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ap...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ap...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2881): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ap...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\app\Controllers\ApplicantFiles.php(80): CodeIgniter\BaseModel->delete()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\ApplicantFiles->deleteFile()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ApplicantFiles))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE NEW\inhs_ingetrated_github\nasyo_integrated\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#12 {main}

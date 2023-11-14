@@ -1,0 +1,9 @@
+ERROR - 2021-12-27 08:27:33 --> Table 'inhs_integrated.admission_status_t' doesn't exist
+CRITICAL - 2021-12-27 08:27:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(28): App\Models\StudentAdmissionModel->getAdmissionData()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->loadAdmission()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

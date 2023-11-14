@@ -1,0 +1,77 @@
+CRITICAL - 2021-06-16 23:10:42 --> Call to undefined function App\Controllers\getData()
+#0 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-16 23:35:48 --> syntax error, unexpected token "=>", expecting ")"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-16 23:35:51 --> syntax error, unexpected token "=>", expecting ")"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-16 23:36:19 --> syntax error, unexpected token "=>", expecting ")"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-16 23:36:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-16 23:37:45 --> Undefined array key "user_passwor"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-16 23:37:57 --> Undefined array key "user_passwor"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-16 23:55:35 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-16 23:57:17 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Login.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

@@ -1,0 +1,408 @@
+CRITICAL - 2021-11-09 20:07:56 --> Call to undefined function ZNPU29E3Y1Q6TZS()
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-09 20:11:41 --> Call to undefined function DU4LKGFMDUKRG1Y()
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-09 20:13:59 --> Call to undefined function R6W5EGRJJOJLOYN()
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-09 20:21:04 --> Call to undefined function KQ9YSKAMF86O414()
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-11-09 20:41:37 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 20:41:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 20:43:37 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 20:43:37 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 20:47:11 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 20:47:11 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 20:49:07 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 20:49:07 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 20:55:55 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 20:55:55 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:01:12 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:01:12 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:02:14 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:02:14 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:04:25 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:04:25 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:07:09 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:07:09 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:13:32 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:13:32 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:15:17 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:15:17 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:26:16 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:26:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:35:26 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:35:26 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:36:41 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:36:41 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:39:31 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:39:31 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:41:16 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:41:16 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:42:52 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:42:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 21:57:52 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 21:57:52 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 22:01:21 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 22:01:21 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-09 22:03:48 --> Undefined variable: message
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admission.php(127): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-11-09 22:03:48 --> Uncaught CodeIgniter\Format\Exceptions\FormatException: Failed to parse json string, error: "Type is not supported". in C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php:41
+Stack trace:
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Format\JSONFormatter.php(41): CodeIgniter\Format\Exceptions\FormatException::forInvalidJSON('Type is not sup...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(341): CodeIgniter\Format\JSONFormatter->format(Array)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\API\ResponseTrait.php(99): CodeIgniter\Debug\Exceptions->format(Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Debug\Exceptions.php(126): CodeIgniter\Debug\Exceptions->respond(Array, 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,338 @@
+ERROR - 2022-01-23 00:29:04 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:29:14 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:29:15 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:29:34 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:30:27 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:32:34 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:32:45 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:32:51 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:33:31 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:34:36 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:36:29 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:36:40 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:37:47 --> Unknown column 's_app_psa' in 'field list'
+CRITICAL - 2022-01-23 00:39:06 --> syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(152): view('f_application/a...', Array)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->getForm()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-23 00:39:22 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:39:49 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:41:00 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:41:48 --> Unknown column 's_app_psa' in 'field list'
+ERROR - 2022-01-23 00:53:19 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:04:11 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:04:19 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:04:36 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:05:56 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:06:00 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:06:06 --> Column 's_app_is_pwd' cannot be null
+ERROR - 2022-01-23 01:06:24 --> Column 's_app_is_pwd' cannot be null
+ERROR - 2022-01-23 01:06:27 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:07:28 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:11:20 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+ERROR - 2022-01-23 01:22:52 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`student_application_t`, CONSTRAINT `student_application_t_ibfk_1` FOREIGN KEY (`s_app_admission_id`) REFERENCES `student_admission_t` (`admission_id`) ON DELETE CASCADE ON U)
+CRITICAL - 2022-01-23 01:35:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:36:00 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:36:14 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:36:15 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:36:18 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:37:04 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:37:58 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:38:12 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:38:28 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:38:44 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:38:54 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:40:11 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(290): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:40:56 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:41:32 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(289): CodeIgniter\HTTP\Files\UploadedFile->move('upload/students...', '')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->saveApplication()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 01:59:00 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(767): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(386): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-23 08:25:00 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:25:00 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-01-23 08:48:28 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:48:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-01-23 08:48:32 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:48:32 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-01-23 08:48:33 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:48:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-01-23 08:48:34 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:48:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-01-23 08:49:28 --> Unknown column 's_app_form137' in 'field list'
+CRITICAL - 2022-01-23 08:49:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Application.php(473): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Application->viewCard()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 09:57:05 --> unlink(upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/)...', 'C:\\xampp\\htdocs...', 459)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(459): unlink('upload/')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEmp()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 09:57:11 --> unlink(upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/)...', 'C:\\xampp\\htdocs...', 459)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(459): unlink('upload/')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEmp()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 09:57:12 --> unlink(upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/)...', 'C:\\xampp\\htdocs...', 459)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(459): unlink('upload/')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEmp()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 09:57:56 --> unlink(upload/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/)...', 'C:\\xampp\\htdocs...', 459)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(459): unlink('upload/')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEmp()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-01-23 09:58:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_layout\admin_layout.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('f_layout/admin_...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(39): view('f_admin/index', Array)
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-23 09:58:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_layout\admin_layout.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('f_layout/admin_...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admin.php(39): view('f_admin/index', Array)
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-23 18:54:00 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admission.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 18:54:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admission.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 18:54:11 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Admission.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admission->captcha_verify()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admission))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 20:31:03 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-23 20:31:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

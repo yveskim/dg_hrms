@@ -1,0 +1,45 @@
+ERROR - 2023-06-14 16:43:10 --> Unknown column 'en_id' in 'where clause'
+CRITICAL - 2023-06-14 16:43:10 --> Unknown column 'en_id' in 'where clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(405): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->loadEnrolleeProfile()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-06-14 16:47:43 --> Unknown column 'en_id' in 'where clause'
+CRITICAL - 2023-06-14 16:47:43 --> Unknown column 'en_id' in 'where clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(403): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->loadEnrolleeInfo()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}
+ERROR - 2023-06-14 16:52:37 --> Unknown column 'student_program_tbl.progr_id' in 'on clause'
+CRITICAL - 2023-06-14 16:52:37 --> Unknown column 'student_program_tbl.progr_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\app\Controllers\Enrollment.php(406): CodeIgniter\BaseModel->first()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->loadEnrolleeInfo()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}

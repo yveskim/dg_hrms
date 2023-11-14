@@ -1,0 +1,447 @@
+ERROR - 2022-02-28 01:55:54 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-02-28 01:55:54 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 01:56:22 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2022-02-28 01:56:22 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-02-28 06:06:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-02-28 06:06:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-02-28 10:18:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 10:18:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 10:19:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 10:19:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 10:39:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 10:39:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:15:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:15:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:00 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:00 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:10 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:10 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:15 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:30 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 11:16:40 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 11:16:40 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 12:25:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 12:25:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 13:04:57 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 13:04:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 14:32:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 14:32:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 16:08:25 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 16:08:25 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 17:28:35 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 17:28:35 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 17:31:06 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 17:31:06 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 17:39:05 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 17:39:05 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 17:47:45 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 17:47:45 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 18:36:17 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 18:36:17 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 19:03:32 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 19:03:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 19:19:41 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 19:19:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 19:39:26 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-02-28 19:39:26 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-02-28 22:35:44 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-28 22:35:44 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm_use...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(34): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-02-28 22:52:18 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 100)
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(195): view('f_application/a...', Array)
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

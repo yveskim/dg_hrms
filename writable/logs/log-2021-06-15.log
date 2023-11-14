@@ -1,0 +1,485 @@
+ERROR - 2021-06-15 00:06:20 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 00:07:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 00:32:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 00:33:20 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 00:34:09 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 00:35:48 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-15 00:41:58 --> syntax error, unexpected single-quoted string "confirm_password", expecting "]"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-06-15 03:35:04 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 03:36:08 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-15 03:40:46 --> Invalid file: register.php
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register.php')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('register', Array, true)
+#2 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(71): view('register', Array)
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-06-15 03:42:12 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 03:44:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 03:44:58 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 03:47:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 03:47:59 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:15:22 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-15 20:31:46 --> Undefined variable $userModel
+#0 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-15 20:31:57 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:33:26 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:33:26 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:36 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:36 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:35:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:38:21 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:38:21 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:39:58 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:39:58 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:40:54 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:40:54 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:21 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:21 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:31 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:31 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:42 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:42 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:56 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:41:56 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 20:42:16 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-15 20:50:40 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 20:51:08 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\ci4new\app\Controllers\News.php on line 67
+#0 C:\xampp\htdocs\ci4new\app\Controllers\News.php(67): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-15 20:52:11 --> Call to a member function isValid() on null
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-15 20:52:25 --> Call to a member function getName() on null
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-15 20:52:37 --> url_title(): Argument #1 ($str) must be of type string, null given, called in C:\xampp\htdocs\ci4new\app\Controllers\News.php on line 67
+#0 C:\xampp\htdocs\ci4new\app\Controllers\News.php(67): url_title(NULL, '-', true)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-15 20:53:02 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:02 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:03 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:04 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:05 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:05 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:05 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:06 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:07 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:10 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:11 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:12 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:12 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:12 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:13 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:14 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:20 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+ERROR - 2021-06-15 20:53:21 --> Column 'title' cannot be null
+CRITICAL - 2021-06-15 21:00:25 --> Cannot redeclare App\Controllers\Login::register()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2021-06-15 21:03:30 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:03:30 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:03:55 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:03:55 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:06:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:07:31 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:09:40 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:12:41 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:12:41 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:13:19 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:13:19 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:13:27 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:13:27 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:14:40 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:14:40 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:16:36 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:16:36 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:12 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:12 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:19 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:19 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:58 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:17:58 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:20:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:20:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:23:45 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:23:45 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:23:57 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-15 21:23:57 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-15 21:44:11 --> Undefined variable $success
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:45:12 --> Undefined variable $success
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:46:10 --> Undefined variable $success
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:51:47 --> Undefined variable $success
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:53:33 --> Undefined variable $session
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:54:08 --> Undefined variable $session
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 21:59:12 --> Undefined variable $session
+#0 C:\xampp\htdocs\ci4new\app\Views\f_login\register.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/registe...', Array, true)
+#4 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(60): view('f_login/registe...', Array)
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-15 22:41:52 --> syntax error, unexpected variable "$encrypter"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:43:51 --> syntax error, unexpected variable "$enc"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:44:05 --> syntax error, unexpected variable "$enc_password"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:44:20 --> syntax error, unexpected variable "$enc_password"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:44:36 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:44:59 --> syntax error, unexpected variable "$enc_password"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:56:06 --> syntax error, unexpected variable "$loginModel"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:56:25 --> syntax error, unexpected variable "$loginModel"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:57:07 --> syntax error, unexpected variable "$loginModel"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:57:08 --> syntax error, unexpected variable "$loginModel"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:57:27 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:57:37 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 22:58:10 --> Email is required is not a valid rule.
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Validation\Validation.php(321): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('Email is requir...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Validation\Validation.php(159): CodeIgniter\Validation\Validation->processRules('email', 'email', 'yveskim.cabanti...', Array, Array)
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Controller.php(183): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(42): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-15 23:30:18 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 23:30:21 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-15 23:30:28 --> Undefined variable $password
+#0 C:\xampp\htdocs\ci4new\app\Controllers\Login.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63)
+#1 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->register()
+#2 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}

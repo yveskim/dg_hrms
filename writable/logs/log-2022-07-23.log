@@ -1,0 +1,416 @@
+CRITICAL - 2022-07-23 02:23:40 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-07-23 02:28:05 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 67)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 02:30:41 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 67)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 02:34:37 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 67)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 02:37:51 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 67)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 02:52:12 --> syntax error, unexpected token ")"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\INHS WEBSITE...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:02:10 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 69)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:02:41 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 68)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:11:42 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:13:26 --> Cannot access offset of type string on string
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:13:59 --> Cannot access offset of type string on string
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:15:30 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:15:55 --> Unmatched '}'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:16:04 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:16:19 --> Array to string conversion
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:16:44 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:21:11 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:21:14 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:21:24 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(255): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 255)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:23:54 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 246)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:25:12 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:29:31 --> Unmatched ')'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:29:54 --> Unmatched ')'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:30:33 --> Unmatched ')'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:30:49 --> Unmatched ')'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:31:08 --> Unmatched ')'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}
+CRITICAL - 2022-07-23 03:31:48 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 254)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:32:24 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(254): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 254)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:33:14 --> Undefined variable $enStat
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(154): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 154)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:33:36 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 70)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:34:08 --> Cannot access offset of type string on string
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(161): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:38:07 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 70)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:39:08 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 70)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:41:43 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 70)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-23 03:43:55 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#5 {main}
+CRITICAL - 2022-07-23 03:44:50 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#5 {main}
+CRITICAL - 2022-07-23 03:48:17 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(160): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 03:55:42 --> Trying to access array offset on value of type null
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'G:\\INHS WEBSITE...', 245)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(159): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 03:56:44 --> Cannot access offset of type string on string
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(158): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 04:01:27 --> Cannot use object of type stdClass as array
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#9 {main}
+CRITICAL - 2022-07-23 04:01:53 --> Undefined array key "stat_title"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\index.php(245): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'G:\\INHS WEBSITE...', 245)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(156): view('f_application/i...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-23 04:23:11 --> syntax error, unexpected token "}", expecting "," or ";"
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/i...', Array, true)
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Application.php(157): view('f_application/i...', Array)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->index()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#8 {main}

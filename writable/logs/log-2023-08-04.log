@@ -1,0 +1,16 @@
+CRITICAL - 2023-08-04 03:41:01 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\spark(45): require('C:\\Users\\yvesk\\...')
+#2 {main}
+CRITICAL - 2023-08-04 03:41:13 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\spark(45): require('C:\\Users\\yvesk\\...')
+#2 {main}
+CRITICAL - 2023-08-04 07:37:46 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\spark(45): require('C:\\Users\\yvesk\\...')
+#2 {main}
+CRITICAL - 2023-08-04 07:38:28 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\nasyo_integrated_2\spark(45): require('C:\\Users\\yvesk\\...')
+#2 {main}

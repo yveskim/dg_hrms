@@ -1,0 +1,11 @@
+ERROR - 2021-11-11 02:24:58 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 02:25:44 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 02:27:30 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 02:30:58 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 02:31:08 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 02:35:21 --> Column 'stud_firstname' cannot be null
+ERROR - 2021-11-11 23:49:36 --> Unknown column 'stud_barangay' in 'field list'
+ERROR - 2021-11-11 23:49:52 --> Unknown column 'stud_barangay' in 'field list'
+ERROR - 2021-11-11 23:49:57 --> Unknown column 'stud_barangay' in 'field list'
+ERROR - 2021-11-11 23:51:29 --> Unknown column 'stud_barangay' in 'field list'
+ERROR - 2021-11-11 23:51:41 --> Unknown column 'stud_barangay' in 'field list'

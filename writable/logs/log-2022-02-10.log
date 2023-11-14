@@ -1,0 +1,26 @@
+CRITICAL - 2022-02-10 01:10:48 --> Undefined array key "author"
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Views\f_news\view.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/view', Array, true)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(39): view('f_news/view', Array)
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->view('iloilo-nhs-news...')
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2022-02-10 01:52:52 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: NO)
+CRITICAL - 2022-02-10 01:52:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `temp_us...', Array, false)
+#2 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\inhs\inhsDevFinal\app\Controllers\Application.php(136): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getForm()
+#6 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#7 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\inhs\inhsDevFinal\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\inhs\inhsDevFinal\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

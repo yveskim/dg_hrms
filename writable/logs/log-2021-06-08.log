@@ -1,0 +1,112 @@
+CRITICAL - 2021-06-08 22:05:50 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:06:59 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:07:37 --> Call to undefined function App\Controllers\getData()
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-08 22:09:10 --> Call to undefined function App\Controllers\getData()
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-08 22:35:31 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:35:31 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:37:31 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:37:31 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:37:32 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:37:32 --> Cannot redeclare App\Controllers\Pages::view()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-06-08 22:43:26 --> Undefined array key "title"
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Views\f_news\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/view', Array, true)
+#4 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\News.php(19): view('f_news/view', Array)
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-06-08 23:02:57 --> Invalid file: templates/header.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('templates/heade...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\News.php(61): view('templates/heade...', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-08 23:03:55 --> Invalid file: news/success.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/success.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('news/success', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\News.php(56): view('news/success')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-08 23:04:29 --> Invalid file: news/success.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/success.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('news/success', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\News.php(56): view('news/success')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-08 23:04:58 --> Invalid file: news/success.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('news/success.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('news/success', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\News.php(56): view('news/success')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->create()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-08 23:09:51 --> Invalid file: f_news/index.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_news/index.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Pages.php(21): view('f_news/index', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pages->view()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-08 23:10:45 --> Undefined variable $news
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Views\f_news\view.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_news/view', Array, true)
+#4 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Pages.php(21): view('f_news/view', Array)
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Pages->view()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}

@@ -1,0 +1,564 @@
+CRITICAL - 2022-07-11 03:34:51 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:34:58 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:35:43 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:36:04 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:36:05 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:36:19 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:36:59 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:37:16 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:37:30 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:37:40 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:37:49 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:38:32 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:38:44 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:38:45 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:39:00 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:39:23 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:39:24 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 03:39:42 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+ERROR - 2022-07-11 03:40:05 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 03:40:05 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(299): CodeIgniter\BaseModel->save(Array)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeFromList()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#14 {main}
+CRITICAL - 2022-07-11 03:42:13 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+ERROR - 2022-07-11 03:42:44 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 03:42:44 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(299): CodeIgniter\BaseModel->save(Array)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeFromList()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#14 {main}
+ERROR - 2022-07-11 04:04:30 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:04:30 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(299): CodeIgniter\BaseModel->save(Array)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeFromList()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#14 {main}
+CRITICAL - 2022-07-11 04:04:47 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+ERROR - 2022-07-11 04:05:11 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:05:11 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(299): CodeIgniter\BaseModel->save(Array)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeFromList()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#14 {main}
+ERROR - 2022-07-11 04:05:23 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:05:23 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `re...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, false)
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(687): CodeIgniter\Model->insert(Array, false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(299): CodeIgniter\BaseModel->save(Array)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeFromList()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#14 {main}
+CRITICAL - 2022-07-11 04:05:32 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 04:05:37 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 04:05:46 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplication
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-11 04:06:58 --> Call to undefined method App\Models\RemovedAppModel::getRemovedApplicationJjs
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): CodeIgniter\Model->__call('getRemovedAppli...', Array)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+ERROR - 2022-07-11 04:07:38 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:07:38 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(319): App\Models\RemovedAppModel->getRemovedApplicationJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:09:25 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:09:25 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(317): App\Models\RemovedAppModel->getRemovedAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:18:27 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:18:27 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(323): App\Models\RemovedAppModel->getRemovedAppShs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:18:36 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:18:36 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(323): App\Models\RemovedAppModel->getRemovedAppShs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:22:47 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:22:47 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(90): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(323): App\Models\RemovedAppModel->getRemAppShs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:25:18 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:25:18 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `s_app_i...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s_app_i...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s_app_i...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `s_app_i...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}
+ERROR - 2022-07-11 04:43:25 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:43:25 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `s_app_i...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s_app_i...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s_app_i...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `s_app_i...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationShs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}
+ERROR - 2022-07-11 04:44:27 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:44:27 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(317): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemovedApplicationJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:49:28 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:49:28 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `s_app_i...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s_app_i...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s_app_i...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `s_app_i...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(326): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemShs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}
+ERROR - 2022-07-11 04:54:13 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:54:13 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:54:47 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:54:47 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:56:21 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:56:21 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 04:57:10 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 04:57:10 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+CRITICAL - 2022-07-11 04:58:09 --> Class "App\Controllers\RemovedAppModel" not found
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->getRemJhs()
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#5 {main}
+ERROR - 2022-07-11 05:03:10 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 05:03:10 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 05:04:36 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 05:04:36 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 05:05:16 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 05:05:16 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}
+ERROR - 2022-07-11 05:05:26 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 05:05:26 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `s_app_i...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s_app_i...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s_app_i...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `s_app_i...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(324): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemShs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}
+CRITICAL - 2022-07-11 05:05:39 --> Undefined variable $data
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(316): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 316)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+ERROR - 2022-07-11 05:09:56 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+CRITICAL - 2022-07-11 05:09:56 --> Table 'inhs_integrated_v3.removed_application_t' doesn't exist
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `adm`.`a...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `adm`.`a...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `adm`.`a...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `adm`.`a...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Models\RemovedAppModel.php(58): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(315): App\Models\RemovedAppModel->getRemAppJhs()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemJhs()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#11 {main}
+ERROR - 2022-07-11 05:14:51 --> Unknown column 's_app_id' in 'field list'
+CRITICAL - 2022-07-11 05:14:51 --> Unknown column 's_app_id' in 'field list'
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `s_app_i...')
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `s_app_i...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `s_app_i...')
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `s_app_i...', Array, false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Assigning.php(324): CodeIgniter\BaseModel->findAll()
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->getRemShs()
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#12 {main}

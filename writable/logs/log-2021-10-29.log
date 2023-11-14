@@ -1,0 +1,52 @@
+CRITICAL - 2021-10-29 03:08:02 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(493): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEligibility()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 03:08:04 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(493): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEligibility()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 23:39:17 --> Cannot redeclare App\Controllers\Admin::editEligibility()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-29 23:39:17 --> Cannot redeclare App\Controllers\Admin::editEligibility()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-29 23:39:18 --> Cannot redeclare App\Controllers\Admin::editEligibility()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-29 23:39:34 --> Cannot redeclare App\Controllers\Admin::editEligibility()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-10-29 23:50:39 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(513): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteWorkExperience()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-29 23:51:13 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(513): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteWorkExperience()
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}

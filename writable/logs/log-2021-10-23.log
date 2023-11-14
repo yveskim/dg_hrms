@@ -1,0 +1,12 @@
+CRITICAL - 2021-10-23 00:42:42 --> Undefined variable: educModel
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(430): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 430, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEligibility()
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-10-23 09:29:25 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`emp_work_experience_t`, CONSTRAINT `emp_work_experience_t_ibfk_1` FOREIGN KEY (`work_exp_emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-23 09:29:56 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`emp_work_experience_t`, CONSTRAINT `emp_work_experience_t_ibfk_1` FOREIGN KEY (`work_exp_emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-23 09:30:19 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`emp_work_experience_t`, CONSTRAINT `emp_work_experience_t_ibfk_1` FOREIGN KEY (`work_exp_emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2021-10-23 09:32:48 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`emp_work_experience_t`, CONSTRAINT `emp_work_experience_t_ibfk_1` FOREIGN KEY (`work_exp_emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE)

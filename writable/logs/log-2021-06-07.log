@@ -1,0 +1,333 @@
+CRITICAL - 2021-06-07 03:51:39 --> Undefined variable $loginModel
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-07 03:51:56 --> Undefined variable $LoginModel
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-07 03:52:17 --> Undefined variable $loginModel
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-07 03:52:31 --> Undefined constant "App\Controllers\App\Models\login_model"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-07 03:52:52 --> Class "App\Controllers\App\Models\login_model" not found
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-07 03:53:26 --> Class "App\Controllers\App\Models\Login_model" not found
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-07 03:54:12 --> Class "App\Controllers\App\Models\Login_model" not found
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-06-07 03:58:18 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:34 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:35 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:36 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:37 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:38 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:49 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:49 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:49 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:50 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:58:51 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:05 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:05 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:05 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:05 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:05 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:14 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:15 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:16 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:17 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:22 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:22 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:22 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:23 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:54 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 03:59:54 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:00:18 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:16:28 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:16:33 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:01 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:02 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:07 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:08 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:10 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:11 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:42 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:44 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:46 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 04:18:47 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:05:06 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:06:03 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:07:04 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:12:24 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:13:54 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:24:15 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:25:13 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:26:29 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-07 21:26:29 --> Undefined variable $query
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->save_registration()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-06-07 21:26:43 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:26:48 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:27:20 --> Table 'inhs_integrated.user_t' doesn't exist
+ERROR - 2021-06-07 21:29:18 --> Table 'inhs_integrated.user_t' doesn't exist

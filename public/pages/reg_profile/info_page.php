@@ -1,0 +1,444 @@
+
+<style media="screen">
+
+  .error{
+    color: red;
+  }
+
+  .btn-menu{
+    height: 5em;
+    width: 100%;
+    padding: 5%;
+  }
+
+@media (prefers-reduced-motion: reduce) {
+    .fade {
+        transition: none;
+    }
+}
+
+.faded{
+  opacity: .9;
+}
+
+
+.spiner-div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 45%;
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10, 10, 10, .5);
+}
+
+.btn-submit{
+  width: 100%;
+}
+
+.btn-gray{
+  background-color: gray;
+  color: white;
+  border-radius: 1em;
+}
+
+.basic-info{
+    background-color: gray;
+    color: white;
+    padding: .5em;
+    border-radius: .5em;
+    text-align: center;
+}
+.form-section, h1, p, h2, h3, h4, h5{
+  font-family: sans-serif;
+}
+
+</style>
+
+     <!--start-->
+<section class="form-section">
+   <div class="container py-5">
+     <div class="row justify-content-center">
+       <div class="col-10">
+         <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+           <div class="card-body p-4 p-md-5 div-content">
+             <form id="update_info_form">
+               <input type="hidden" name="admId" value="" id="admId">
+               <div class="row">
+                 <div class="col-md-12">
+                   <h1>Edit Profile</h1>
+                 </div>
+               </div><hr>
+
+               <div class="row">
+                 <div class="col-8 mb-4">
+                   <label class="form-label" for="firstname">First Name</label>
+                   <input type="text" id="firstname" name="firstname" class="form-control form-control-md" >
+                 </div>
+               </div>
+
+               <div class="row">
+                 <div class="col-8 mb-4">
+                     <label class="form-label" for="middlename">Middle Name <i>(Write na if not applicable)</i> </label>
+                     <input type="text" id="middlename" name="middlename" class="form-control form-control-md">
+                 </div>
+               </div>
+
+              <div class="row">
+                <div class="col-8 mb-4">
+                    <label class="form-label" for="lastname">Last Name</label>
+                    <input type="text" id="lastname" name="lastname" class="form-control form-control-md" >
+                </div>
+              </div>
+
+               <div class="row">
+                <div class="col-md-4 mb-4">
+                   <label class="form-label" for="birthdate">Birthday <i>(mm/dd/yyyy)</i> </label>
+                   <input type="date" id="birthdate" name="birthdate" class="form-control form-control-md">
+                </div>
+
+                <div class="col-md-4 mb-4">
+                   <label class="form-label" for="gender">Gender: </label>
+                   <select class="form-control form-control-md" name="gender" id="gender">
+                     <option value="---">---</option>
+                     <option value="Male">Male</option>
+                     <option value="Female">Female</option>
+                   </select>
+                   </div>
+                </div>
+
+               <div class="row">
+                 <div class="col-8 mb-4 ">
+                     <label class="form-label" for="phoneNumber">Phone Number</label>
+                     <input type="tel" id="phoneNumber" name="phoneNumber" class="form-control form-control-md">
+                 </div>
+               </div><hr>
+
+
+                <div class="row">
+                  <div class="col-md-12">
+                    <h4>Permanent Address</h4>
+                  </div>
+                </div><br>
+                <div class="row">
+                  <div class="col-md-4 mb-4">
+                    <label class="form-label" for="per_province">Province</label>
+                    <select class="form-control form-control-md" name="per_province" id="per_province">
+                    </select>
+                  </div>
+
+                  <div class="col-md-4 mb-4">
+                    <label class="form-label" for="per_city">Municipality/City</label>
+                    <select class="form-control form-control-md" name="per_city" id="per_city">
+                    </select>
+                  </div>
+
+                  <div class="col-md-4 mb-4">
+                    <label class="form-label" for="per_barangay">Barangay/District</label>
+                    <input type="text" id="per_barangay" name="per_barangay" class="form-control form-control-md">
+                  </div>
+
+                </div>
+
+               <div class="row">
+
+                 <div class="col-md-6 mb-4">
+                   <label class="form-label" for="per_subdivision">Compound/Subdivision/Village</label>
+                   <input type="text" id="per_subdivision" name="per_subdivision" class="form-control form-control-md">
+                 </div>
+                 <div class="col-md-6 mb-4">
+                   <label class="form-label" for="per_street">Bldg No./Blk. lot/Street</label>
+                   <input type="text" id="per_street" name="per_street" class="form-control form-control-md">
+                 </div>
+               </div>
+
+              <hr>
+
+
+               <div class="row">
+                 <div class="col-md-12">
+                   <h4>Present Address  </h4>
+                 </div>
+               </div>
+
+               <div class="row">
+                 <div class="col-md-4 mb-4">
+                   <label class="form-label" for="cur_province">Province</label>
+                   <select class="form-control form-control-md" name="cur_province" id="cur_province">
+                   </select>
+                 </div>
+
+                 <div class="col-md-4 mb-4">
+                   <label class="form-label" for="cur_city">Municipality/City</label>
+                   <select class="form-control form-control-md" name="cur_city" id="cur_city">
+                   </select>
+                 </div>
+
+                 <div class="col-md-4 mb-4">
+                   <label class="form-label" for="cur_barangay">Barangay/District</label>
+                   <input type="text" id="cur_barangay" name="cur_barangay" class="form-control form-control-md">
+                 </div>
+
+               </div>
+
+              <div class="row">
+
+                <div class="col-md-6 mb-4">
+                  <label class="form-label" for="cur_subdivision">Compound/Subdivision/Village</label>
+                  <input type="text" id="cur_subdivision" name="cur_subdivision" class="form-control form-control-md">
+                </div>
+                <div class="col-md-6 mb-4">
+                  <label class="form-label" for="cur_street">Bldg No./Blk. lot/Street</label>
+                  <input type="text" id="cur_street" name="cur_street" class="form-control form-control-md">
+                </div>
+              </div>
+
+               <hr>
+            <div class="row">
+              <div class="col-3"></div>
+              <div class="col-md-6 col-sm-4 col-xs-4">
+                <div class="mt-4 pt-2">
+                  <input class="btn btn-primary btn-lg btn-submit" type="submit" value="Update" >
+                </div>
+              </div>
+            </div>
+
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!--end-->
+  </div>
+<!-- MDB -->
+</form>
+
+
+<div class="spiner-div">
+  <img src="upload/system_file/logo_gif.gif" alt="logo_gif">
+</div>
+
+<script type="text/javascript" src="assets/MDB5-STANDARD-UI-KIT-Free-3.9.0/js/mdb.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+      //>>>>>>>> set the city and province selection >>>>>>>>>>
+      //getPerProvince();
+
+
+      $('#per_province').one('click', function(){
+        getPerProvince();
+      });
+
+      $('#cur_province').one('click', function(){
+          getCurProvince();
+      });
+
+
+
+      getPerMunicipality();
+
+      getCurMunicipality();
+
+      $('.spiner-div').hide();
+      $('.jhs_prog').hide();
+      $('.shs_prog').hide();
+
+
+
+    $('#update_info_form').submit(function(event){
+      event.preventDefault();
+        $.ajax({
+          type: 'post',
+          dataType: 'json',
+          url: 'admission/update_info',
+          data: new FormData(this),
+          contentType: false,
+          cache: false,
+          processData: false,
+          beforeSend: function(){
+            $('.spiner-div').show();
+            $('.div-main').addClass('faded');
+          },
+
+          complete: function(){
+            $('.spiner-div').hide();
+            $('.div-main').removeClass('faded');
+          },
+          success: function(response){
+              if (response.status == 0) {
+                errorToast(response.message);
+              }else if(response.status == 1) {
+                succToast(response.message);
+                window.location = "viewProfile";
+            }
+          }
+    });
+  });
+  });
+
+    function succToast(msg){
+      //resetToastPosition();
+      $.toast({
+        heading: 'Action Successful',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'success',
+        loderBg: '#f96868',
+        position: 'top-right',
+        hideAfter: 8000
+      });
+    }
+
+    function updateToast(msg){
+      //resetToastPosition();
+      $.toast({
+        heading: 'Data Updated Successfully',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'success',
+        loderBg: '#f96868',
+        position: 'top-right',
+        hideAfter: 5000
+      });
+    }
+
+    function errorToast(msg){
+      $.toast({
+        heading: 'Action Failed',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'error',
+        loderBg: '#f2a654',
+        position: 'top-right'
+      });
+    }
+
+    function captchaError(msg){
+      $.toast({
+        heading: 'Captcha Failed',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'info',
+        loderBg: '#f2a654',
+        position: 'top-right'
+      });
+    }
+
+    function agreementError(msg){
+      $.toast({
+        heading: 'Check Agreement',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'info',
+        loderBg: '#f96868',
+        position: 'top-right'
+      });
+    }
+
+    function dataExist(msg){
+      $.toast({
+        heading: 'Data Exist',
+        text: msg,
+        showHideTransition: 'slide',
+        icon: 'info',
+        loderBg: '#f96868',
+        position: 'top-right'
+      });
+    }
+
+function getPerProvince(){
+  var html_code = '<option value="">----</option>';
+  $('#per_province').html(html_code);
+  $.getJSON('JSON_FILES/provinces.json', function(data){
+    $.each(data, function(key, value){
+          html_code += '<option value="'+ value.key +'">'+ value.name +'</option>';
+    });
+    $('#per_province').html(html_code);
+  });
+}
+
+function getPerMunicipality(){
+  var html_code = '<option value="">----</option>';
+  $('#per_city').html(html_code);
+  $('#per_province').change(function(){
+
+    html_code = '<option value="">----</option>';
+    var prov = $(this).val();
+    $.getJSON('JSON_FILES/cities.json', function(data){
+      $.each(data, function(key, value){
+        if ( value.province == prov ) {
+          html_code += '<option value="'+ value.name +'">'+ value.name +'</option>';
+        }
+      });
+      $('#per_city').html(html_code);
+      $('#per_city').prop('disabled', false);
+    });
+  });
+}
+
+
+function getCurProvince(){
+  var html_code = '<option value="">----</option>';
+  $('#cur_province').html(html_code);
+  $.getJSON('JSON_FILES/provinces.json', function(data){
+    $.each(data, function(key, value){
+        html_code += '<option value="'+ value.key +'">'+ value.name +'</option>';
+    });
+    $('#cur_province').html(html_code);
+  });
+}
+
+function getCurMunicipality(){
+  var html_code = '<option value="">----</option>';
+  $('#cur_city').html(html_code);
+  $('#cur_province').change(function(){
+
+    html_code = '<option value="">----</option>';
+    var prov = $(this).val();
+    $.getJSON('JSON_FILES/cities.json', function(data){
+      $.each(data, function(key, value){
+        if ( value.province == prov ) {
+          html_code += '<option value="'+ value.name +'">'+ value.name +'</option>';
+        }
+      });
+      $('#cur_city').html(html_code);
+      $('#cur_city').prop('disabled', false);
+    });
+  });
+}
+
+function perAddressDisabled(status){
+  $('#per_barangay').prop('disabled', status);
+  $('#per_subdivision').prop('disabled', status);
+  $('#per_street').prop('disabled', status);
+}
+
+function curAddressDisabled(status){
+  $('#cur_barangay').prop('disabled', status);
+  $('#cur_subdivision').prop('disabled', status);
+  $('#cur_street').prop('disabled', status);
+}
+
+
+function copyAddress(){
+  $('#btnCopyAddress').click(function(){
+    curAddressDisabled(false);
+    $('#cur_city').prop('disabled', false);
+    var html = '<option  value="'+ $('#per_city').val() + '">'+ $('#per_city').val() +'</option>';
+    $('#cur_city').html(html);
+    $('#cur_province').val($('#per_province').val());
+    $('#cur_barangay').val($('#per_barangay').val());
+    $('#cur_subdivision').val($('#per_subdivision').val());
+    $('#cur_street').val($('#per_street').val());
+  });
+}
+
+
+
+
+
+</script>

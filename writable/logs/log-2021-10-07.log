@@ -1,0 +1,65 @@
+ERROR - 2021-10-07 00:47:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-10-07 00:47:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2021-10-07 02:10:54 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\Admin.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '')
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmp()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-07 02:15:13 --> The original file is not a valid file.
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\Admin.php(40): CodeIgniter\HTTP\Files\UploadedFile->move('upload/', '')
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmp()
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-07 03:44:38 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(248): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\Admin.php(134): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmpFamilyBg()
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-10-07 03:46:22 --> There is no primary key defined when trying to make insert.
+#0 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(248): CodeIgniter\Database\Exceptions\DataException::forEmptyPrimaryKey('insert')
+#1 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\app\Controllers\Admin.php(134): CodeIgniter\Model->insert(Array)
+#4 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmpFamilyBg()
+#5 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\NsoftDevNew\git_file\ci4\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-10-07 03:49:12 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:49:19 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:49:24 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:50:23 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:50:51 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:52:41 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:52:57 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:54:23 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:55:59 --> Column 'emp_id' cannot be null
+ERROR - 2021-10-07 03:57:01 --> Column 'emp_id' cannot be null

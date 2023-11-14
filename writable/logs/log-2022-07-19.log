@@ -1,0 +1,68 @@
+CRITICAL - 2022-07-19 05:14:53 --> Undefined variable $data
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 21)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-19 05:32:28 --> Undefined variable $admission
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\application_header.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 100)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(34): view('f_application/a...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-19 05:35:51 --> Undefined variable $admUsersModel
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 29)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-19 05:35:54 --> Undefined variable $admUsersModel
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 29)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-19 05:36:12 --> Undefined variable $admUsersModel
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 29)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#6 {main}
+CRITICAL - 2022-07-19 05:37:18 --> Undefined variable $user
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\application_header.php(101): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 101)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(50): view('f_application/a...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}
+CRITICAL - 2022-07-19 05:38:01 --> Undefined variable $username
+#0 G:\INHS WEBSITE\INHS_Integrated_v3\app\Views\f_application\application_header.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'G:\\INHS WEBSITE...', 104)
+#1 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(230): include('G:\\INHS WEBSITE...')
+#2 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_application/a...', Array, true)
+#4 G:\INHS WEBSITE\INHS_Integrated_v3\app\Controllers\Enrolment.php(51): view('f_application/a...', Array)
+#5 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Enrolment->shsEnrolmentForm()
+#6 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrolment))
+#7 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\INHS WEBSITE\INHS_Integrated_v3\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 G:\INHS WEBSITE\INHS_Integrated_v3\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('G:\\INHS WEBSITE...')
+#10 {main}

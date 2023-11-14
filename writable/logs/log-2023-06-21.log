@@ -1,0 +1,2 @@
+ERROR - 2023-06-21 18:37:22 --> Cannot add or update a child row: a foreign key constraint fails (`nasyo_integrated_2`.`enrollment_status_tbl`, CONSTRAINT `enrollment_status_tbl_ibfk_1` FOREIGN KEY (`en_id`) REFERENCES `enrollment_tbl` (`en_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-06-21 18:38:57 --> Column 'en_id' cannot be null

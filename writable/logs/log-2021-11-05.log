@@ -1,0 +1,4 @@
+ERROR - 2021-11-05 09:41:44 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-11-05 09:47:13 --> Maximum execution time of 60 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

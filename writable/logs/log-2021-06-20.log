@@ -1,0 +1,13 @@
+CRITICAL - 2021-06-20 23:15:45 --> Undefined array key "user_id"
+#0 C:\xampp\htdocs\NsoftDev\ci4new\app\Views\f_layout\default_layout.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\View\View.php(230): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('f_layout/defaul...', Array, true)
+#4 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_dashboard/ind...', Array, true)
+#5 C:\xampp\htdocs\NsoftDev\ci4new\app\Controllers\Dashboard.php(24): view('f_dashboard/ind...', Array)
+#6 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\NsoftDev\ci4new\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\NsoftDev\ci4new\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#11 {main}

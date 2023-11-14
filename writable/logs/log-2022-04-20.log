@@ -1,0 +1,264 @@
+CRITICAL - 2022-04-20 00:42:48 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 00:43:11 --> syntax error, unexpected 'echo' (T_ECHO)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 01:11:50 --> Class 'App\Controllers\ApplicationUpdateModel' not found
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2022-04-20 01:12:43 --> A non-numeric value encountered
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1026): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\yvesk\\...', 1026, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 02:53:48 --> A non-numeric value encountered
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1026): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\yvesk\\...', 1026, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 02:53:57 --> A non-numeric value encountered
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1026): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\Users\\yvesk\\...', 1026, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 02:59:40 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 03:00:51 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 03:00:54 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 03:01:00 --> syntax error, unexpected ';', expecting ')'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 03:01:39 --> Undefined variable: grade10_1st_q
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1032): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1032, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 03:01:43 --> Undefined variable: grade10_1st_q
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1032): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1032, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 03:03:41 --> Undefined variable: g7_science
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1045): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1045, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+ERROR - 2022-04-20 03:04:31 --> Table 'inhs_integrated.application_udate_t' doesn't exist
+CRITICAL - 2022-04-20 03:04:31 --> Table 'inhs_integrated.application_udate_t' doesn't exist
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1063): CodeIgniter\Model->insert(Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-20 03:05:15 --> Table 'inhs_integrated.application_udate_t' doesn't exist
+CRITICAL - 2022-04-20 03:05:15 --> Table 'inhs_integrated.application_udate_t' doesn't exist
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('INSERT INTO `ap...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ap...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ap...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2277): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ap...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(259): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(774): CodeIgniter\Model->doInsert(Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1063): CodeIgniter\Model->insert(Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+CRITICAL - 2022-04-20 03:45:31 --> Undefined variable: grade10_1st_q
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1038): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1038, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 03:45:36 --> Undefined variable: grade10_1st_q
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1038): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1038, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 03:45:48 --> Undefined variable: grade10_1st_q
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Application.php(1038): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\Users\\yvesk\\...', 1038, Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Application->updateAppStem()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Application))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 08:40:27 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 08:40:48 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 09:32:43 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 09:32:46 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 09:33:09 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 09:33:37 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-20 10:12:55 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\yvesk\\...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#9 {main}
+CRITICAL - 2022-04-20 10:13:46 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(392): CodeIgniter\Database\BaseBuilder->delete()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(1025): CodeIgniter\Model->doDelete(NULL, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(165): CodeIgniter\BaseModel->delete(NULL)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->removeAssign()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#8 {main}
+CRITICAL - 2022-04-20 22:25:45 --> The original file is not a valid file.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Admin.php(166): CodeIgniter\HTTP\Files\UploadedFile->move('upload/user_fil...', '')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmpPersonalInfo()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#7 {main}
+CRITICAL - 2022-04-20 22:25:51 --> The original file is not a valid file.
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\HTTP\Files\UploadedFile.php(143): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Admin.php(166): CodeIgniter\HTTP\Files\UploadedFile->move('upload/user_fil...', '')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEmpPersonalInfo()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#7 {main}

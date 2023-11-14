@@ -1,0 +1,7 @@
+{
+    "require": {
+        "snapappointments/bootstrap-select": "^1.13",
+        "rubix/ml": "^2.4",
+        "rubix/tensor": "^3.0"
+    }
+}

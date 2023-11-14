@@ -1,0 +1,43 @@
+CRITICAL - 2023-09-28 03:57:41 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\spark(45): require('C:\\Users\\ICT IN...')
+#2 {main}
+CRITICAL - 2023-09-28 03:58:09 --> Call to undefined function CodeIgniter\locale_set_default()
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\spark(45): require('C:\\Users\\ICT IN...')
+#2 {main}
+CRITICAL - 2023-09-28 10:01:15 --> Invalid file: f_news/index.php
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_news/index.ph...')
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_news/index', Array, true)
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Controllers\News.php(28): view('f_news/index', Array)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\News->index()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#8 {main}
+CRITICAL - 2023-09-28 10:03:25 --> Invalid file: f_news/index.php
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_news/index.ph...')
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_news/index', Array, true)
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Controllers\News.php(28): view('f_news/index', Array)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\News->index()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#5 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#8 {main}
+ERROR - 2023-09-28 20:45:33 --> Error connecting to the database: Unknown database 'nasyo_integrated'
+CRITICAL - 2023-09-28 20:45:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'nasyo_integrated'
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(570): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->find()
+#5 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Controllers\News.php(23): App\Models\NewsModel->getNews(10)
+#6 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\News->index()
+#7 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#11 {main}

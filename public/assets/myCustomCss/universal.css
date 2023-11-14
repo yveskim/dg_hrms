@@ -1,0 +1,101 @@
+.page-content {
+  padding: 0 2rem 0 2rem;
+}
+
+.content-header {
+  background-color: rgb(1, 0, 68);
+  padding: 0;
+}
+
+.full-size {
+  width: 100%;
+  margin: 0;
+}
+
+.spiner-div {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 45%;
+  padding-top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10, 10, 10, 0.5);
+  z-index: 1000;
+}
+
+.div-blur {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0;
+  background-color: lightslategray;
+  opacity: 0.5;
+  z-index: 100;
+}
+
+.modal-backdrop-blur {
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1 !important;
+}
+
+.blur-bg {
+  /* opacity: .8; */
+  background-color: rgb(0, 0, 0, 0.8);
+}
+
+.page-title-color {
+  color: rgb(59, 117, 156);
+}
+
+.solid-text {
+  color: darkcyan;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+}
+
+.fs-1 {
+  font-size: 1vw;
+}
+
+.input-minimal-disabled {
+  border: none;
+  border-bottom: 2px solid #bbbbbb;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.input-minimal-enabled {
+  border: none;
+  border-bottom: 2px solid #00ca22;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.bg-disabled {
+  border: 0.5rem solid rgb(219, 219, 219, 0.6);
+}
+
+.bg-enabled {
+  border: 0.5rem solid rgba(0, 155, 52, 0.6);
+}
+
+.border-green {
+  border: 1px solid #006d12;
+}
+
+.btn-xs {
+  /* font-size: 1rem; */
+  padding: unset;
+  margin: -1px;
+}
+
+.modal-title {
+  color: white;
+}
+

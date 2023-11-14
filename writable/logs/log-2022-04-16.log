@@ -1,0 +1,498 @@
+ERROR - 2022-04-16 07:29:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 07:29:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 07:29:08 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-04-16 07:29:08 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(197): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\NewsModel.php(16): CodeIgniter\BaseModel->findAll()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\News.php(17): App\Models\NewsModel->getNews()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\News->index()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\News))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 08:07:59 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+CRITICAL - 2022-04-16 08:07:59 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\AssigningModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(66): App\Models\AssigningModel->getAssignedData()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->viewAssigned()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 08:08:08 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+CRITICAL - 2022-04-16 08:08:08 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\AssigningModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(66): App\Models\AssigningModel->getAssignedData()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->viewAssigned()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 08:09:22 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+CRITICAL - 2022-04-16 08:09:22 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\AssigningModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(66): App\Models\AssigningModel->getAssignedData()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->viewAssigned()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 08:11:34 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+CRITICAL - 2022-04-16 08:11:34 --> Unknown column 'student_admission_t.assigned_admission_id' in 'on clause'
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Models\AssigningModel.php(42): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(66): App\Models\AssigningModel->getAssignedData()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->viewAssigned()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#11 {main}
+ERROR - 2022-04-16 09:01:44 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:01:44 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(93): CodeIgniter\Model->update('7', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-16 09:02:05 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:02:05 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(93): CodeIgniter\Model->update('6', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-16 09:05:26 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:05:26 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(127): CodeIgniter\Model->update('5', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-16 09:05:54 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:05:54 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(127): CodeIgniter\Model->update('5', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-16 09:06:25 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:06:25 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(127): CodeIgniter\Model->update('5', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+ERROR - 2022-04-16 09:06:32 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+CRITICAL - 2022-04-16 09:06:32 --> Cannot add or update a child row: a foreign key constraint fails (`inhs_integrated`.`assigned_admission_t`, CONSTRAINT `assigned_admission_t_ibfk_3` FOREIGN KEY (`assigned_program_id`) REFERENCES `student_program_t` (`sp_code`) ON DELETE CASCADE ON UPDATE CA)
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('UPDATE `assigne...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `assigne...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `assigne...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2482): CodeIgniter\Database\BaseConnection->query('UPDATE `assigne...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(326): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\BaseModel.php(917): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Model.php(718): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(127): CodeIgniter\Model->update('5', Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->updateAssignment()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#13 {main}
+CRITICAL - 2022-04-16 09:33:53 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:34:29 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:38:44 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:38:54 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:41:32 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:44:28 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:45:48 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:47:08 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:47:30 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:48:11 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:48:49 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:48:54 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:49:00 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:49:58 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:50:46 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:51:12 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:51:24 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:51:34 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:51:48 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:53:03 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:54:24 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:55:22 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:55:50 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:56:25 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:58:18 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:58:37 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:59:16 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:59:34 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 09:59:48 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:04:36 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:04:42 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:05:11 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:05:15 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:05:38 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:05:40 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:05:49 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:07:02 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:07:20 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}
+CRITICAL - 2022-04-16 10:07:23 --> Call to undefined method App\Models\StudentApplicationModel::getCustomFilter
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\app\Controllers\Assigning.php(74): CodeIgniter\Model->__call('getCustomFilter', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Assigning->loadCustomFilter()
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Assigning))
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\INHS WEBSITE\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\Users\\yvesk\\...')
+#6 {main}

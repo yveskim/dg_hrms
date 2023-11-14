@@ -1,0 +1,8 @@
+CRITICAL - 2023-11-13 13:03:28 --> Argument 1 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type string, null given, called in C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\app\Controllers\Enrollment.php on line 986
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\app\Controllers\Enrollment.php(986): CodeIgniter\HTTP\RedirectResponse->to(NULL)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Enrollment->generateEF()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Enrollment))
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#6 {main}

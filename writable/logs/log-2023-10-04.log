@@ -1,0 +1,57 @@
+CRITICAL - 2023-10-04 12:08:00 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-10-04 12:11:32 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-10-04 12:11:45 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-10-04 12:11:58 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-10-04 12:12:01 --> Class 'App\Models\SchoolYearMdl' not found
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getFacultyDetails()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#5 {main}
+CRITICAL - 2023-10-04 16:46:05 --> Undefined index: first_name
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Views\f_faculty\profile\fac_profile.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\Users\\ICT IN...', 29, Array)
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Controllers\Faculty.php(184): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+CRITICAL - 2023-10-04 16:48:06 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#2 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\app\Controllers\Faculty.php(184): view('f_faculty/profi...', Array)
+#3 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#4 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#5 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\ICT INHS\Desktop\GITHUB\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#8 {main}

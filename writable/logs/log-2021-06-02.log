@@ -1,0 +1,251 @@
+CRITICAL - 2021-06-02 00:15:42 --> Invalid file: f_templates/metro_header.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_templates/met...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_templates/met...', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(17): view('f_templates/met...', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-02 00:16:00 --> Invalid file: f_templates/metro_header.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_templates/met...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_templates/met...', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(17): view('f_templates/met...', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-02 00:17:13 --> Invalid file: f_templates/metro_header.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_templates/met...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_templates/met...', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(17): view('f_templates/met...', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-02 00:17:19 --> Invalid file: f_templates/metro_header.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('f_templates/met...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_templates/met...', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(17): view('f_templates/met...', Array)
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-02 00:23:40 --> Invalid file: login_layout.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_layout.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('login_layout', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#3 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(18): view('f_login/index', Array)
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-02 00:28:08 --> Invalid file: login_layout.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_layout.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('login_layout', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#3 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(18): view('f_login/index', Array)
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-02 00:28:09 --> Invalid file: login_layout.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_layout.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('login_layout', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#3 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(18): view('f_login/index', Array)
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-02 00:29:56 --> Undefined variable $data
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 00:30:11 --> Invalid file: login_layout.php
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login_layout.ph...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(246): CodeIgniter\View\View->render('login_layout', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#3 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-06-02 00:30:53 --> Undefined variable $data
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 00:31:09 --> Undefined variable $data
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Dashboard.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Dashboard->index()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:25:03 --> Undefined variable $request
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:26:49 --> Undefined variable $request
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:32:56 --> Undefined variable $request
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:49:05 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:49:15 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:51:21 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:52:17 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 22:55:07 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:55:15 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:55:17 --> syntax error, unexpected token "=", expecting "]"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Router\Router.php(169): CodeIgniter\Router\Router->autoRoute('Login')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(812): CodeIgniter\Router\Router->handle('Login')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(392): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 22:55:38 --> Attempt to read property "username" on array
+#0 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-06-02 23:13:23 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 23:13:58 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 23:14:00 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 23:14:35 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 23:14:47 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-02 23:15:03 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(64): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(28): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}

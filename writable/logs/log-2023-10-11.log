@@ -1,0 +1,12 @@
+CRITICAL - 2023-10-11 11:50:34 --> Trying to access array offset on value of type null
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\app\Views\f_faculty\profile\fac_profile.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\Users\\ICT IN...', 34, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_faculty/profi...', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\app\Controllers\Faculty.php(196): view('f_faculty/profi...', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->getProfile()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\GITHUB2\nasyo_integrated_2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}

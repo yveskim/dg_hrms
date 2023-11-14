@@ -1,0 +1,100 @@
+CRITICAL - 2021-10-27 01:02:33 --> Class "App\Controllers\EmpLearningDevelopmentModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadLearningAndDevelopment()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-27 01:02:38 --> There is no data to insert.
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(751): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Model.php(686): CodeIgniter\BaseModel->insert(Array, true)
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(336): CodeIgniter\Model->insert(Array)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertLearningAndDevelopment()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-27 01:02:51 --> Class "App\Controllers\EmpLearningDevelopmentModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadLearningAndDevelopment()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-27 01:08:15 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2021-10-27 03:58:52 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 03:58:54 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 03:58:59 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 03:59:36 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 03:59:37 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 04:06:09 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 04:06:10 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 04:06:15 --> Undefined variable $builder
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(391): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 391)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadWorkExperience()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-10-27 08:09:53 --> syntax error, unexpected 'application_form' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

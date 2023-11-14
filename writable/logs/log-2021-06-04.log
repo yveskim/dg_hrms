@@ -1,0 +1,250 @@
+CRITICAL - 2021-06-04 00:46:52 --> syntax error, unexpected token "return"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:27:46 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:29:06 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:29:20 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:29:21 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:29:27 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:29:41 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:30:30 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:30:37 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:30:46 --> syntax error, unexpected token "{"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:32:48 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:32:52 --> syntax error, unexpected token ":"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:32:57 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:37:09 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:37:12 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:37:17 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:37:38 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 01:37:45 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\View\View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Common.php(1250): CodeIgniter\View\View->render('f_login/index', Array, true)
+#2 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(16): view('f_login/index')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-06-04 02:16:41 --> Class "App\Controllers\Login_model" not found
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-06-04 02:34:59 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-06-04 02:34:59 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-06-04 02:35:32 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-04 02:35:32 --> Table 'inhs_integrated.user_t' doesn't exist
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(329): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(647): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Model.php(228): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#8 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2021-06-04 02:37:05 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-04 02:37:05 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(29): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-06-04 02:38:16 --> Table 'inhs_integrated.user_t' doesn't exist
+CRITICAL - 2021-06-04 02:38:16 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\BaseModel.php(644): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\gsoftdev\ci4\app\Controllers\Login.php(30): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#3 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-06-04 02:42:28 --> Cannot use object of type App\Models\Login_model as array
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-06-04 02:42:40 --> Cannot use object of type App\Models\Login_model as array
+#0 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Login->validation()
+#1 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\gsoftdev\ci4\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\gsoftdev\ci4\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}

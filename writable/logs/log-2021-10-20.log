@@ -1,0 +1,333 @@
+CRITICAL - 2021-10-20 00:27:58 --> syntax error, unexpected single-quoted string "educ_bg_emp_id", expecting "]"
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-20 00:27:58 --> syntax error, unexpected single-quoted string "educ_bg_emp_id", expecting "]"
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-20 00:27:59 --> syntax error, unexpected single-quoted string "educ_bg_emp_id", expecting "]"
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-20 00:28:13 --> syntax error, unexpected variable "$res"
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(282): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(247): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(888): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(424): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-10-20 00:30:28 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:30:30 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:09 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:09 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:10 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:10 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:10 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:34:10 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:35:12 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:35:13 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:35:13 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:35:13 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:49 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:50 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:50 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:53 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:53 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:36:53 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:41:24 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:41:25 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:41:25 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:41:25 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:41:25 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:27 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:28 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:28 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:28 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:29 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:29 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:29 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:29 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:42:29 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-10-20 00:43:53 --> Class "App\Controllers\EmpEducModel" not found
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->insertEducation()
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2021-10-20 01:26:57 --> Column 'educ_bg_emp_id' cannot be null
+ERROR - 2021-10-20 01:27:08 --> Column 'educ_bg_emp_id' cannot be null
+ERROR - 2021-10-20 01:28:40 --> Column 'educ_bg_emp_id' cannot be null
+ERROR - 2021-10-20 02:01:33 --> Unknown column 'emp_id' in 'where clause'
+CRITICAL - 2021-10-20 02:01:33 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(303): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEducation()
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-20 02:01:41 --> Unknown column 'emp_id' in 'where clause'
+CRITICAL - 2021-10-20 02:01:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(303): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEducation()
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-20 02:03:29 --> Unknown column 'emp_id' in 'where clause'
+CRITICAL - 2021-10-20 02:03:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(303): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEducation()
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-20 02:04:14 --> Unknown column 'emp_id' in 'where clause'
+CRITICAL - 2021-10-20 02:04:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(303): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEducation()
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-10-20 02:04:21 --> Unknown column 'emp_id' in 'where clause'
+CRITICAL - 2021-10-20 02:04:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\BaseModel.php(603): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\app\Controllers\Admin.php(303): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->loadEducation()
+#3 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\nasyoDevPractice\nasyoDevPractice\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-10-20 02:44:38 --> unlink(upload/492fc264ff994bf3bfc782fa751a2e18--avatar-goals.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/4...', 'C:\\xampp\\htdocs...', 262, Array)
+#1 C:\xampp\htdocs\INHS_Dev\git\inhsDev\app\Controllers\Admin.php(262): unlink('upload/492fc264...')
+#2 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(931): App\Controllers\Admin->deleteEmp()
+#3 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(439): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\CodeIgniter.php(339): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\INHS_Dev\git\inhsDev\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\INHS_Dev\git\inhsDev\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#7 {main}
