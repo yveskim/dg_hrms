@@ -131,12 +131,27 @@
                       }else{
                         $("#emp_designation").text("N/A");
                       }
+
+                      $.ajax({
+                          url:'upload/user_files/'+res.emp.emp_image,
+                          type:'HEAD',
+                          error: function()
+                          {
+                              $(".profile_pic").attr("src", 'upload/system_file/noimage.png');  
+                          },
+                          success: function()
+                          {
+                              $(".profile_pic").attr("src", 'upload/user_files/'+res.emp.emp_image);
+                          }
+                      });
                       
-                      if(res.emp.emp_image == ""){
-                        $(".profile_pic").attr("src", 'upload/system_file/noimage.png');  
-                      }else{
-                        $(".profile_pic").attr("src", 'upload/user_files/'+res.emp.emp_image);
-                      }
+                      // if(res.emp.emp_image == ""){
+                      //   $(".profile_pic").attr("src", 'upload/system_file/noimage.png');  
+                      // }else{
+                      //   $(".profile_pic").attr("src", 'upload/user_files/'+res.emp.emp_image);
+                      // }
+
+
 
                       $("#emp_id").val(res.emp.emp_id);
                       $("#emp_school_id").text(res.emp.emp_school_id);
