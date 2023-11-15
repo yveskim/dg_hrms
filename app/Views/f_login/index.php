@@ -142,29 +142,6 @@
               <h5>Administrator Login Form</h5>
               <hr>
               <form action="<?php echo base_url('validate'); ?>" enctype="multipart/form-data" method="post">
-                <!-- <div class="row">
-                  <h5>Login As:</h5>
-                </div> -->
-                <!-- <div class="row"> -->
-                  <!-- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-
-                  <!-- <fieldset class="radio-selection">
-                    <div class="radio-group">
-                      <div class="form-check">
-                        <input class="form-check-input login-type" type="radio" name="loginAs" id="radio-admin" value="admin">
-                        <label class="form-check-label" for="radio-admin">
-                          Admin
-                        </label>
-                      </div>&nbsp;&nbsp;&nbsp;
-                      <div class="form-check">
-                        <input class="form-check-input login-type" type="radio" name="loginAs" id="radio-temp" value="pre-registration">
-                        <label class="form-check-label" for="radio-temp">
-                          Student
-                        </label>
-                      </div>
-                    </div>
-                  </fieldset><hr> -->
-                <!-- </div> -->
 
                   <div class="form-group">
                     <label for="email" class="sr-only">Email</label>

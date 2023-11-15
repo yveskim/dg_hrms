@@ -87,7 +87,7 @@
 
 </style>
 
-<div id="crousel-item" class="carousel slide" data-ride="carousel">
+<!-- <div id="crousel-item" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#crousel-item" data-slide-to="0" class="active"></li>
     <li data-target="#crousel-item" data-slide-to="1"></li>
@@ -96,24 +96,15 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img class="d-block w-100" src="upload/system_file/WEBSITE BANNER JHS OFFERINGS 002.jpg" alt="First slide">
-      <!-- <div class="carousel-caption d-none d-md-block">
-        <h2>Junior High School Offerings S.Y. 2022-2023</h2>
-        <a class="btn btn-primary btn-lg" href="#">Read Details</a>
-      </div> -->
+
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="upload/system_file/WEBSITE BANNER SHS OFFERINGS.jpg" alt="Second slide">
-      <!-- <div class="carousel-caption d-none d-md-block">
-        <h2>Senior High School Offerings S.Y. 2022-2023</h2>
-          <a class="btn btn-primary btn-lg" href="#">Read Details</a>
-      </div> -->
+   
     </div>
     <div class="carousel-item">
       <img class="d-block w-100" src="upload/system_file/WEBSITE BANNER OPEN HIGH OFFERINGS.jpg" alt="Third slide">
-      <!-- <div class="carousel-caption d-none d-md-block">
-        <h2>Open High School Program S.Y 2022-2023</h2>
-          <a class="btn btn-primary btn-lg" href="#">Read Details</a>
-      </div> -->
+
     </div>
   </div>
   <a class="carousel-control-prev" href="#crousel-item" role="button" data-slide="prev">
@@ -124,12 +115,15 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div> -->
+
+<div>
+  <img src="upload/system_file/facade.jpg" alt="facade" style="height: auto;width:100%;object-fit: cover; ">
 </div>
+
+
 <!--- ignore the code below-->
 <?= $this->endSection() ?>
-
-
-
 
 <?= $this->section('content') ?>
 
@@ -167,7 +161,7 @@
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <strong><h2 id="news-header">NASYO ACADEMIC UPDATES</h2></strong>
+      <strong><h2 id="news-header">WHAT'S NEW</h2></strong>
     </div>
   </div>
   <hr class="hr-break">
@@ -281,7 +275,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <strong><h2 id="news-header">NEWS/MEMORANDUM</h2></strong>
+        <strong><h2 id="news-header">NEWS/UPDATES</h2></strong>
       </div>
     </div>
     <hr class="hr-break">

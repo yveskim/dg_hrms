@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name=”viewport” content=”width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no”>
-    <title>INHS Integrated</title>
+    <title>DEPED GUIMARAS | HRMS</title>
 
    
     <!-- Bootstrap -->
@@ -17,7 +17,7 @@
 
     <link href="jquery_lib/jquery-ui.min.css" rel="stylesheet">
     <link rel="stylesheet" href="icons-1.6.0/icons-1.6.0/font/bootstrap-icons.css">
-    <link rel="icon" href="upload/system_file/minerva.png" type="image/gif">
+    <link rel="icon" href="upload/system_file/logo-right.png" type="image/gif">
     <link rel="stylesheet" href="assets/bootstrap-footer-03/bootstrap-footer-03/css/style.css">
 
 
@@ -44,36 +44,36 @@
   }
 
   .logo img{
-    width: 12vw;
-    height: 12vw;
+    width: 10vw;
+    height: auto;
   }
 
-  .minerva img{
-    width: 20vw;
-    height: 18vw;
+  .logo-right img{
+    width: 10vw;
+    height: auto;
   }
 
-  .minerva-div{
+  .logo-right-div{
     position: absolute;
-    top: 0;
+    top: 2%;
     z-index: 10000;
-    left: 75%;
+    left: 80%;
   }
 
   .logo-div{
     position: absolute;
-    top: 3%;
+    top: 2%;
     z-index: 10000;
     left: 10%;
   }
 
   .footer-59391{
-    background-color: darkblue;
+    background-color: rgb(224, 193, 38);
     color: white;
   }
   .site-footer-image{
-    width: 35vw;
-    height: 25vw;
+    width: 100%;
+    height: auto;
   }
 
   .developer{
@@ -93,16 +93,16 @@
   nav a{
     /* font-weight: bold; */
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: darkblue !important;
+    color: #bd090d !important;
     border-right: 2px solid gray;
   }
 
   .title-bar{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 45%, rgba(9,9,121,1) 69%, rgba(0,212,255,1) 100%);
+    background: #F4EFD3;
+    background: linear-gradient(180deg, rgb(224, 179, 0) 30%, rgb(229, 204, 80) 70%);
     color: white; 
     width:100%;
-    padding-top: 5%;
+    padding-top: 2%;
   }
 
   .title-bar h1{
@@ -133,30 +133,30 @@
   }
 
   .navbar-nav a:hover{
-    background-color: darkblue;
-    color: #fff !important;
+    background-color: #d0af3c;
+    /* color: #fff !important; */
   }
 
 </style>
   </head>
   <body>
-    <div class="minerva-div">
-      <div class="minerva">
-          <img src="upload/system_file/minerva.png" alt="logo">
+    <div class="logo-right-div">
+      <div class="logo-right">
+          <img src="upload/system_file/deped_logo.png" alt="logo">
       </div>
     </div>
     <div class="logo-div">
       <div class="logo">
-          <img src="upload/system_file/logo.png" alt="logo">
+          <img src="upload/system_file/sdo.png" alt="logo">
       </div>
     </div>
 
     <div class="title-bar">
       <div class="row" >
         <div class="col-md-12">
-          <center><p id="page-title">Welcome to Iloilo National High School</p></center>
-          <center><p id="page-title-2">Secondary School</p></center>
-          <center><p id="page-title-3">Luna St., La Paz, Iloilo City, Iloilo City, Philippines, 5000</p></center>
+          <center><p id="page-title">WELCOME TO DEPED SCHOOLS DIVISION OFFICE </p></center>
+          <center><p id="page-title-2">DIVISION OF GUIMARAS</p></center>
+          <center><p id="page-title-3">Jordan, Guimaras, Philippines, 5045</p></center>
         </div>
       </div>
 
@@ -195,10 +195,12 @@
                   </a>
                   <div class="row dropdown-menu" aria-labelledby="drp_administration">
                     <div class="col-md-12">
-                      <a class="dropdown-item" href="schoolHeads">School Heads</a>
-                      <a class="dropdown-item" href="#">Program Heads</a>
-                      <a class="dropdown-item" href="#">Department Heads</a>
-                      <a class="dropdown-item" href="#">Faculty</a>
+                      <a class="dropdown-item" href="#">Division Superintendent</a>
+                      <a class="dropdown-item" href="#">Humar Resource</a>
+                      <a class="dropdown-item" href="#">Bids & Awards</a>
+                      <a class="dropdown-item" href="#">Accounting</a>
+                      <a class="dropdown-item" href="#">EPS</a>
+                      <a class="dropdown-item" href="#">ICT</a>
                       <a class="dropdown-item" href="#">Staff</a> 
                     </div>
                   </div>
@@ -211,18 +213,36 @@
                 </li>  -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="drp_programs" role="button" data-toggle="dropdown">
-                    Academics
+                    Transparency
                   </a>
                   <div class="row dropdown-menu" aria-labelledby="drp_programs">
                     <div class="col-md-12">
-                      <a class="dropdown-item" href="jhs_program">JHS Programs</a>
-                      <a class="dropdown-item" href="#">SHS Programs</a>
-                      <a class="dropdown-item" href="#">Faculty</a>
+                      <a class="dropdown-item" href="#">Bids and Awards</a>
+                      <a class="dropdown-item" href="#">vacant</a>
+                      <a class="dropdown-item" href="#">vacant</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="drp_programs" role="button" data-toggle="dropdown">
+                    Issuances
+                  </a>
+                  <div class="row dropdown-menu" aria-labelledby="drp_programs">
+                    <div class="col-md-12">
+                      <a class="dropdown-item" href="#">Division Memorandum</a>
+                      <a class="dropdown-item" href="#">Division Letter</a>
+                      <a class="dropdown-item" href="#">Division Order</a>
+                      <a class="dropdown-item" href="#">Division Advisory</a>
                     </div>
                   </div>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="login_student">LOGIN</a>
+                  <a class="nav-link" href="#" >
+                      Schools
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="login_admin">LOGIN</a>
                 </li>
               </ul>
        
@@ -253,30 +273,24 @@
 
     <div class="container">
 
-      <div class="row mb-1">
+      <div class="row">
 
-        <div class="col-md-12 text-md-right">
+        <div class="col-md-12 text-md-left">
           <ul class="list-unstyled social-icons">
-            <li><a href="https://www.facebook.com/Iloilonhs" class="fb"><span class="icon-facebook"></span></a></li>
-            <!-- <li><a href="#" class="tw"><span class="icon-twitter"></span></a></li>
+            <li><a href="#" class="fb"><span class="icon-facebook"></span></a></li>
+            <li><a href="#" class="tw"><span class="icon-twitter"></span></a></li>
             <li><a href="#" class="in"><span class="icon-instagram"></span></a></li>
-            <li><a href="#" class="yt"><span class="icon-play"></span></a></li> -->
+            <li><a href="#" class="yt"><span class="icon-play"></span></a></li>
           </ul>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-12">
           <div class="">
-            <img class="site-footer-image" src="upload/system_file/120th alumni.jpg" alt="alumni">
+            <img class="site-footer-image" src="upload/system_file/matatag.jpg" alt="matatag">
           </div>
         </div>
-
-        <div class="col-md-6">
-          <div class="">
-            <img class="site-footer-image" src="upload/system_file/alumni.jpg" alt="foundation">
-          </div>
-        </div>
-      </div><br>
+      </div>
 
       <div class="row">
         <div class="col-md-4">
@@ -294,7 +308,7 @@
       <div class="row">
         <div class="col ">
           <div class="copyright">
-            <p><small>Copyright 2022. All Rights Reserved, Iloilo National High School.</small></p>
+            <p><small>Copyright 2022. All Rights Reserved, Schools Division of Guimaras.</small></p>
           </div>
         </div>
       </div>
@@ -303,7 +317,7 @@
           <a href="#"><small>&copy; By: Yves Kim Cabanting</small></a>
         </div> -->
         <div class="col-md-12 ">
-          <a href="#" class="developer"><small>ICT Team</small></a>
+          <a href="#" class="developer"><small>ICT Team & Developer</small></a>
         </div>
       </div>
 

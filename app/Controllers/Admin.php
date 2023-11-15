@@ -10,18 +10,14 @@ use App\Models\EmpFamBgChildrenModel;
 use App\Models\EmpFamBgModel;
 use App\Models\EmpLearningDevelopmentModel;
 use App\Models\EmployeeCategoryModel;
-use App\Models\EmploymentStatusModel;
 use App\Models\EmployeeModel;
 use App\Models\EmpOthersModel;
 use App\Models\EmpProgramModel;
 use App\Models\EmpWorkExperienceModel;
 use App\Models\EmpWorkInvolvementModel;
-use App\Models\EnrollmentMdl;
 use App\Models\ProgramModel;
 use App\Models\SchoolYearModel;
 use App\Models\AdviseryModel;
-use App\Models\SemesterModel;
-use App\Models\StudentAccountModel;
 use App\Models\UsersModel;
 
 class Admin extends BaseController
@@ -473,39 +469,6 @@ class Admin extends BaseController
         return $this->response->setJSON($data);
     }
 
-    public function loadStudentAccount()
-    {
-        $acctMdl = new StudentAccountModel();
-        $data['user'] = $acctMdl
-            ->join('enrollment_tbl', 'enrollment_tbl.en_id = student_account_t.en_id', 'left')
-            ->findAll();
-        return $this->response->setJSON($data);
-    }
-
-    public function resetStudentAccount()
-    {
-        $acctMdl = new StudentAccountModel();
-        $s_account_id = $this->request->getGet('account_id');
-        $data = [
-            'password' => 'iloilonhs',
-            'is_new' => 1,
-            'is_dissabled' => 0,
-        ];
-        try {
-            $res = $acctMdl->set($data)->where('s_account_id', $s_account_id)->update();
-            if ($res) {
-                $result['status'] = 1;
-                echo json_encode($result);
-                die;
-            }
-        } catch (\Exception $e) {
-            $result['status'] = 0;
-            $result['message'] = $e->getMessage();
-            echo json_encode($result);
-            die;
-        }
-    }
-
     public function loadWorkExperience()
     {
         $workExpModel = new EmpWorkExperienceModel();
@@ -521,7 +484,6 @@ class Admin extends BaseController
     public function viewEachEmp()
     {
         $empModel = new EmployeeModel();
-        $statMdl = new EmploymentStatusModel();
         $deptMdl = new EmpDepartmentModel();
         $empCatMdl = new EmployeeCategoryModel();
         $progMdl = new EmpProgramModel();
@@ -529,11 +491,6 @@ class Admin extends BaseController
         $empId = $this->request->getGet('emp_id');
 
         $data['emp'] = $empModel->where('emp_id', $empId)->first();
-
-        $data['stat'] = $statMdl
-            ->join('plantilla_tbl', 'plantilla_tbl.plant_id = employment_status_tbl.plantilla_id', 'left')
-            // ->join('category_tbl', 'category_tbl.cat_id = employment_status_tbl.category_id', 'left')
-            ->where('employment_status_tbl.emp_id', $empId)->first();
 
         $data['cat'] = $empCatMdl
             ->join('employee_t', 'employee_t.emp_id = employee_category_tbl.emp_id', 'left')
@@ -581,28 +538,7 @@ class Admin extends BaseController
         return $this->response->setJSON($data);
     }
 
-    public function addEmpPosition()
-    {
-        $statMdl = new EmploymentStatusModel();
-        $data = [
-            'emp_id' => $this->request->getPost('emp_id'),
-            'plantilla_id' => $this->request->getPost('plantila'),
-            'step' => $this->request->getPost('step'),
-            'category_id' => $this->request->getPost('category'),
-            'date_assigned' => $this->request->getPost('date_assigned'),
-        ];
 
-        $res = $statMdl->insert($data);
-        if ($res) {
-            $result['status'] = 1;
-            echo json_encode($result);
-            die;
-        } else {
-            $result['status'] = 0;
-            echo json_encode($result);
-            die;
-        }
-    }
 
     public function setCategory()
     {
@@ -651,17 +587,6 @@ class Admin extends BaseController
         $data['cat'] = $catMdl
             ->join('category_tbl', 'category_tbl.cat_id = employee_category_tbl.cat_id', 'left')
             ->where('employee_category_tbl.emp_id', $emp_id)->first();
-        return $this->response->setJSON($data);
-    }
-
-    public function getEmpStatus()
-    {
-        $statMdl = new EmploymentStatusModel();
-        $emp_id = $this->request->getGet('emp_id');
-        $data['stat'] = $statMdl
-            ->join('plantilla_tbl', 'plantilla_tbl.plant_id = employment_status_tbl.plantilla_id', 'left')
-            ->join('category_tbl', 'category_tbl.cat_id = employment_status_tbl.category_id', 'left')
-            ->where('employment_status_tbl.emp_id', $emp_id)->find();
         return $this->response->setJSON($data);
     }
 
@@ -1118,21 +1043,6 @@ class Admin extends BaseController
         return $this->response->setJSON($data);
     }
 
-    public function updateCurrentPos()
-    {
-        $statMdl = new EmploymentStatusModel();
-        $pos_id = $this->request->getGet('pos_id');
-        $emp_id = $this->request->getGet('emp_id');
-
-        $res = $statMdl->set('is_current', false)->where('emp_id', $emp_id)->update();
-        $res = $statMdl->set('is_current', true)
-            ->where('emp_pos_id', $pos_id)->update();
-        if ($res) {
-            $rslt['status'] = 1;
-            echo json_encode($rslt);
-            die;
-        }
-    }
 
     public function updateCurrentDept()
     {

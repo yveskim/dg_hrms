@@ -15,8 +15,12 @@
 </style>
 
 
-<div class="content-div">
-   
+<div class="content-div" >
+   <div class="row">
+    <div class="col-md-12 bg-warning" style="font-weight: bold; text-align: center;">
+      <h1>Welcome to Schools Division Office <strong class="text-info">GUIMARAS</strong> Human Resource Management System</h1>
+    </div>
+   </div>
 </div>
 
 <script type="text/javascript">

@@ -179,6 +179,7 @@
                       <?php endif; ?>
                       <?php if (session()->get('userType') == "Admin") : ?>
                         <li><a class="g-menu" href="javascript:void(0)" id="getDepartments">Departments</a></li>
+                        <li><a class="g-menu" href="javascript:void(0)" id="getDepartments">Programs</a></li>
                         <li><a class="g-menu" href="javascript:void(0)" id="btnGetNews">News</a></li>
                       <?php endif; ?>
                   </ul>
@@ -197,9 +198,18 @@
                     <li><a class="g-menu" href="javascript:void(0)" id="getTrainings">Trainings</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getAwards">Awards & Recognition</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getDocuments">Documents</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getStations">Stations</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getSeparation">Separation</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getNbc">NBC</a></li>
                   </ul>
                 </li>
                 <?php endif; ?>
+
+                <li><a><i class="fa fa-money"></i> Accounting <span class="fa fa-chevron-down"></span></a>
+                  <ul class="nav child_menu">
+                    <li><a class="g-menu" href="javascript:void(0)" id="getMonthlyPayroll">Monthly Payroll</a></li>
+                  </ul>
+                </li>
 
               </ul>
 
