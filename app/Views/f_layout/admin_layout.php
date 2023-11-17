@@ -193,21 +193,19 @@
                     <li><a class="g-menu" href="javascript:void(0)" id="getPlantilla">Plantilla</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getIpcrf">IPCRF</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="leaveCredits">Leave Credits</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="getDtr">DTR</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="getPayslip">Payslip</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getTrainings">Trainings</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getAwards">Awards & Recognition</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="getDocuments">Documents</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getDocuments">E201 Files</a></li>
                     <li><a class="g-menu" href="javascript:void(0)" id="getStations">Stations</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="getSeparation">Separation</a></li>
-                    <li><a class="g-menu" href="javascript:void(0)" id="getNbc">NBC</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getSeparation">Separation/Retirement</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getNbc">Salary Schedule</a></li>
                   </ul>
                 </li>
                 <?php endif; ?>
 
                 <li><a><i class="fa fa-money"></i> Accounting <span class="fa fa-chevron-down"></span></a>
                   <ul class="nav child_menu">
-                    <li><a class="g-menu" href="javascript:void(0)" id="getMonthlyPayroll">Monthly Payroll</a></li>
+                    <li><a class="g-menu" href="javascript:void(0)" id="getMonthlyPayroll">Monthly Deductions</a></li>
                   </ul>
                 </li>
 

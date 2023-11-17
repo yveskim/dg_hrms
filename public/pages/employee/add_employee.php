@@ -81,11 +81,9 @@
                     <div class="col-md-8">
                       <select  class="form-control form-control-sm" name="job_description" id="job_description" form="addEmpForm" required>
                         <option value="">-</option>
-                        <option value="1">Administrator</option>
-                        <option value="2">Faculty</option>
+                        <option value="1">HRMO / Administrator</option>
+                        <option value="2">Division / Field Personnel</option>
                         <option value="3">Staff</option>
-                        <option value="4">Job Order</option>
-                        <option value="5">Contractor</option>
                       </select>
                     </div>
                   </div>
