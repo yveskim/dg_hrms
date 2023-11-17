@@ -12,25 +12,28 @@
     opacity: .9;
   }
 
-  .content-div{
-    background-image: url('upload/system_file/facade.jpg');
-    background-repeat: no-repeat;
-    background-size:cover;
-    width: 100%;
-    height: 100%;
-    position: absolute;
+  .dashboard-div img{
+    height:80vh;
+    width:100vw;
+   object-fit: cover;
+   display:block;
   }
 
 </style>
 
 
 <div class="content-div">
-   <div class="row">
-    <div class="col-md-12 bg-warning " style="font-weight: bold; text-align: center;">
-      <h1>Welcome to Schools Division Of <strong class="text-info">GUIMARAS</strong></h1>
-      <h3> Human Resource Management System</h3>
+  <div class="row dashboard-div">
+    <div class="col-md-12">
+      <div class="row">
+        <div class="col-md-12 bg-warning " style="font-weight: bold; text-align: center;">
+          <h1>Welcome to Schools Division Of <strong class="text-info">GUIMARAS</strong></h1>
+          <h3> Human Resource Management System</h3>
+        </div>
+      </div>
     </div>
-   </div>
+    <img src="upload/system_file/facade.jpg" alt="">
+  </div> 
 </div>
 
 <script type="text/javascript">
