@@ -13,8 +13,8 @@
   }
 
   .dashboard-div img{
-    height:80vh;
-    width:100vw;
+    height:100%;
+    width:100%;
    object-fit: cover;
    display:block;
   }
