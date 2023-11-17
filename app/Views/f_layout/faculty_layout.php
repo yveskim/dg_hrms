@@ -109,7 +109,7 @@
       <!-- References +++++++++++++++++++++++++++++++ -->
       <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
       <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
-      <input type="hidden" name="sy_ref" id="sy_ref" value="<?= $sy_id['sy_id'] ?>"><!--reference for javascript user id-->
+      <input type="hidden" name="year_id" id="year_id" value="<?= $year_id['year_id'] ?>"><!--reference for javascript user id-->
       <!-- References +++++++++++++++++++++++++++++++ -->
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
@@ -120,7 +120,7 @@
           <a class="d-block" style="cursor:default;" id="faculty_name"><?= $faculty['emp_fname'] . ' ' . $faculty['emp_lname'] ?></a>
           <a class="d-block" style="cursor:default;">User ID: <?= $user ?> </a>
           <a class="d-block" style="cursor:default;">Emp ID: <?= $faculty['emp_id'] ?> </a> 
-          <a class="d-block" style="cursor:default;">S.Y.  <?= $sy_id['school_year'] ?> </a> 
+          <a class="d-block" style="cursor:default;">Fiscal Year  <?= $year_id['fiscal_year'] ?> </a> 
         </div>
         <input type="hidden" id="emp_id" value="<?= $faculty['emp_id'] ?>">
       </div>
