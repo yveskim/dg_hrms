@@ -1,1 +1,0 @@
-__ci_last_regenerate|i:1692089271;_ci_previous_url|s:35:"http://localhost:8080/login_student";failed|s:30:"account not available for now.";__ci_vars|a:2:{s:6:"failed";s:3:"old";s:13:"_ci_old_input";s:3:"old";}_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:3:{s:12:"student_code";s:8:"23-04171";s:8:"password";s:8:"password";s:5:"login";s:5:"Login";}}
