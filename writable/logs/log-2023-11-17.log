@@ -242,3 +242,21 @@ CRITICAL - 2023-11-17 15:11:25 --> Table 'hrms.employment_status_tbl' doesn't ex
 #10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
 #11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
 #12 {main}
+CRITICAL - 2023-11-17 15:22:31 --> unlink(upload/user_files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/u...', 'C:\\Users\\ICT IN...', 84, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(84): unlink('upload/user_fil...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->updateProfile()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#7 {main}
+CRITICAL - 2023-11-17 15:27:04 --> unlink(upload/user_files/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(upload/u...', 'C:\\Users\\ICT IN...', 84, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\Faculty.php(84): unlink('upload/user_fil...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Faculty->updateProfile()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Faculty))
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#7 {main}

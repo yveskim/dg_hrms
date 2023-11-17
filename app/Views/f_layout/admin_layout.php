@@ -120,7 +120,7 @@
 <div class="div-blur"></div>
 
 <div class="spiner-div">
-  <img src="upload/system_file/logo_gif.gif" alt="logo_gif">
+  <img src="upload/system_file/sdo.png" alt="logo_gif">
 </div>
 
 

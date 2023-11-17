@@ -24,6 +24,11 @@
   z-index: 1000;
 }
 
+.spiner-div img{
+  width: 25rem;
+  height: auto;
+}
+
 .div-blur {
   position: absolute;
   width: 100%;
