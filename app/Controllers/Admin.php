@@ -16,7 +16,7 @@ use App\Models\EmpProgramModel;
 use App\Models\EmpWorkExperienceModel;
 use App\Models\EmpWorkInvolvementModel;
 use App\Models\ProgramModel;
-use App\Models\SchoolYearModel;
+use App\Models\FiscalYearModel;
 use App\Models\AdviseryModel;
 use App\Models\UsersModel;
 
@@ -30,7 +30,7 @@ class Admin extends BaseController
         }
         $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
-        $syMdl = new SchoolYearModel();
+        $fyMdl = new FiscalYearModel();
 
         $loggedAdminID = session()->get('loggedAdmin');
         // $userRestriction = session()->get('userRestriction');
@@ -39,13 +39,13 @@ class Admin extends BaseController
 
         $adminInfo = $empModel->where('emp_id', $emp_id)->first();
 
-        $sy_id = $syMdl->where('is_active', true)->first();
+        $fy_id = $fyMdl->where('is_active', true)->first();
 
         $data = [
             'title' => 'Admin',
             'admin' => $adminInfo,
             'user' => $loggedAdminID,
-            'sy_id' => $sy_id,
+            'year_id' => $fy_id,
 
             // 'user_restriction' => $userRestriction,
         ];
@@ -960,7 +960,7 @@ class Admin extends BaseController
             $data = [
                 'emp_id' => $emp_id,
                 'prog_id' => $this->request->getPost('program'),
-                'sy_id' => $this->request->getPost('sy_id'),
+                'year_id' => $this->request->getPost('year_id'),
             ];
 
             $res = $empProgMdl->insert($data);
@@ -977,31 +977,31 @@ class Admin extends BaseController
 
     }
 
-    public function updateEmpProg()
-    {
-        $empProgMdl = new EmpProgramModel();
+    // public function updateEmpProg()
+    // {
+    //     $empProgMdl = new EmpProgramModel();
 
-        $empemp_prog_id_id = $this->request->getGet('emp_prog_id');
+    //     $empemp_prog_id_id = $this->request->getGet('emp_prog_id');
 
-        $data = [
-            'prog_id' => $this->request->getGet('prog_id'),
-        ];
+    //     $data = [
+    //         'prog_id' => $this->request->getGet('prog_id'),
+    //     ];
 
-        try {
-            $result['pic'] = $progMdl->update($prog_id, $data);
-            if ($result) {
-                $result['status'] = 1;
-                $result['randomFileName'] = $randomFileName;
-                echo json_encode($result);
-                die;
-            }
-        } catch (\Exception $e) {
-            $result['status'] = 0;
-            $result['message'] = $e->getMessage();
-            echo json_encode($result);
-            die;
-        }
-    }
+    //     try {
+    //         $result['pic'] = $empProgMdl->update($prog_id, $data);
+    //         if ($result) {
+    //             $result['status'] = 1;
+    //             $result['randomFileName'] = $randomFileName;
+    //             echo json_encode($result);
+    //             die;
+    //         }
+    //     } catch (\Exception $e) {
+    //         $result['status'] = 0;
+    //         $result['message'] = $e->getMessage();
+    //         echo json_encode($result);
+    //         die;
+    //     }
+    // }
 
     public function deleteEmpProg()
     {
@@ -1023,25 +1023,25 @@ class Admin extends BaseController
         }
     }
 
-    public function getProgram()
-    {
-        $empProgMdl = new EmpProgramModel();
-        $progMdl = new ProgramModel();
-        $syMdl = new SchoolYearModel();
-        $data['sy'] = $syMdl->where('is_active', true)->find();
-        $emp_id = $this->request->getGet('emp_id');
-        $data['prog'] = $progMdl->findAll();
-        $data['emp_prog'] = $empProgMdl
-            ->join('program_tbl', 'program_tbl.prog_id = employee_program_tbl.prog_id', 'left')
-            ->join('category_tbl', 'category_tbl.cat_id = program_tbl.cat_id', 'left')
-            ->join('employee_t', 'employee_t.emp_id = employee_program_tbl.emp_id', 'left')
-            ->select('program_tbl.*')
-            ->select('employee_program_tbl.*')
-            ->select('category_tbl.cat_title')
-            ->where('employee_program_tbl.emp_id', $emp_id)->find();
+    // public function getProgram()
+    // {
+    //     $empProgMdl = new EmpProgramModel();
+    //     $progMdl = new ProgramModel();
+    //     $fyMdl = new FiscalYear();
+    //     $data['sy'] = $fyMdl->where('is_active', true)->find();
+    //     $emp_id = $this->request->getGet('emp_id');
+    //     $data['prog'] = $progMdl->findAll();
+    //     $data['emp_prog'] = $empProgMdl
+    //         ->join('program_tbl', 'program_tbl.prog_id = employee_program_tbl.prog_id', 'left')
+    //         ->join('category_tbl', 'category_tbl.cat_id = program_tbl.cat_id', 'left')
+    //         ->join('employee_t', 'employee_t.emp_id = employee_program_tbl.emp_id', 'left')
+    //         ->select('program_tbl.*')
+    //         ->select('employee_program_tbl.*')
+    //         ->select('category_tbl.cat_title')
+    //         ->where('employee_program_tbl.emp_id', $emp_id)->find();
 
-        return $this->response->setJSON($data);
-    }
+    //     return $this->response->setJSON($data);
+    // }
 
 
     public function updateCurrentDept()
@@ -1082,39 +1082,7 @@ class Admin extends BaseController
         }
     }
 
-    public function updateCurrentProg()
-    {
-        $empProgMdl = new EmpProgramModel();
-        $secMdl = new AdviseryModel();
-        $emp_prog_id = $this->request->getGet('emp_prog_id');
-        $emp_id = $this->request->getGet('emp_id');
-        $sy_id = $this->request->getGet('sy_id');
-
-        $check_advisery = $secMdl
-            ->where('adviser_id', $emp_id)
-            ->where('sy_id', $sy_id)
-            ->countAllResults();
-        if ($check_advisery > 0) {
-            $rslt['status'] = 2;
-            echo json_encode($rslt);
-            die;
-        } else {
-            $res = $empProgMdl->set('is_current', false)->where('emp_id', $emp_id)->update();
-            $res = $empProgMdl->set('is_current', true)
-                ->where('emp_prog_id', $emp_prog_id)->update();
-            if ($res) {
-                $rslt['status'] = 1;
-                echo json_encode($rslt);
-                die;
-            } else {
-                $rslt['status'] = 0;
-                echo json_encode($rslt);
-                die;
-            }
-
-        }
-
-    }
+   
 
     public function updateProgramHead()
     {
@@ -1146,9 +1114,5 @@ class Admin extends BaseController
 
     }
 
-    public function addPlantilla()
-    {
-
-    }
 
 }

@@ -4,16 +4,15 @@
 
 use CodeIgniter\Model;
 
-class SchoolYearModel extends Model
+class FiscalYearModel extends Model
 {
-  protected $table      = 'school_year_tbl';
-  protected $primaryKey = 'sy_id';
+  protected $table      = 'fiscal_year_tbl';
+  protected $primaryKey = 'year_id';
   protected $useAutoIncrement = true;
 // protected $returnType     = 'array';
 //   protected $useSoftDeletes = true;
   protected $allowedFields = [
-                            'sy_id',
-                            'school_year',
+                            'fiscal_year',
                             'is_active',
                           ];
 

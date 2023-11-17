@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Libraries\Hash;
+use App\Models\EmployeeModel;
 use App\Models\EmpModel;
 use App\Models\StudentAccountModel;
 use App\Models\UsersModel;
@@ -83,55 +84,55 @@ class Login extends BaseController
         }
     }
 
-    public function loginStudent($page = 'student_login')
-    {
-        if (!is_file(APPPATH . '/Views/f_login/' . $page . '.php')) {
-            // Whoops, we don't have a page for that!
-            throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
-        }
-        return view('f_login/' . $page);
-    }
+    // public function loginStudent($page = 'student_login')
+    // {
+    //     if (!is_file(APPPATH . '/Views/f_login/' . $page . '.php')) {
+    //         // Whoops, we don't have a page for that!
+    //         throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
+    //     }
+    //     return view('f_login/' . $page);
+    // }
 
-    public function validateStudent()
-    {
-        // $studMdl = new EnrollmentMdl();
-        $accountMdl = new StudentAccountModel();
+    // public function validateStudent()
+    // {
+    //     // $studMdl = new EnrollmentMdl();
+    //     $accountMdl = new StudentAccountModel();
 
-        $code = $this->request->getPost('student_code');
-        $password = $this->request->getPost('password');
+    //     $code = $this->request->getPost('student_code');
+    //     $password = $this->request->getPost('password');
 
-        // $student_info = $studMdl->where('user_name', $code)->first();
-        $user_info = $accountMdl->where('user_name', $code)->first();
+    //     // $student_info = $studMdl->where('user_name', $code)->first();
+    //     $user_info = $accountMdl->where('user_name', $code)->first();
 
-        if ($this->request->getMethod() === 'post' && $this->validate([
-            'student_code' => 'required',
-            'password' => 'required',
-        ])) {
-            if ($accountMdl->check_code($code) == true) { //check if the code is correct
-                if ($user_info['password'] == $password) {
-                    $is_dissabled = $user_info['is_dissabled'];
-                    if ($is_dissabled == false) {
-                        $user_id = $user_info['s_account_id'];
-                        session()->set('user_id', $user_id);
-                        session()->set('is_dissabled', $is_dissabled);
-                        return redirect()->route('student');
-                    } else {
-                        session()->setFlashData('failed', 'account not available for now.'); //return message if email is not in the database
-                        return redirect()->to('/login_student')->withInput();
-                    }
+    //     if ($this->request->getMethod() === 'post' && $this->validate([
+    //         'student_code' => 'required',
+    //         'password' => 'required',
+    //     ])) {
+    //         if ($accountMdl->check_code($code) == true) { //check if the code is correct
+    //             if ($user_info['password'] == $password) {
+    //                 $is_dissabled = $user_info['is_dissabled'];
+    //                 if ($is_dissabled == false) {
+    //                     $user_id = $user_info['s_account_id'];
+    //                     session()->set('user_id', $user_id);
+    //                     session()->set('is_dissabled', $is_dissabled);
+    //                     return redirect()->route('student');
+    //                 } else {
+    //                     session()->setFlashData('failed', 'account not available for now.'); //return message if email is not in the database
+    //                     return redirect()->to('/login_student')->withInput();
+    //                 }
 
-                } else {
-                    session()->setFlashData('failed', 'Password did not match, please try again!...');
-                    return redirect()->to('/login_student')->withInput();
-                }
-            } else {
-                session()->setFlashData('failed', 'student code not found, try again...'); //return message if email is not in the database
-                return redirect()->to('/login_student')->withInput();
-            }
-        } else {
-            return redirect()->to('/login_student')->withInput();
-        }
-    }
+    //             } else {
+    //                 session()->setFlashData('failed', 'Password did not match, please try again!...');
+    //                 return redirect()->to('/login_student')->withInput();
+    //             }
+    //         } else {
+    //             session()->setFlashData('failed', 'student code not found, try again...'); //return message if email is not in the database
+    //             return redirect()->to('/login_student')->withInput();
+    //         }
+    //     } else {
+    //         return redirect()->to('/login_student')->withInput();
+    //     }
+    // }
     // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -179,7 +180,7 @@ class Login extends BaseController
 
     public function getEmpData()
     {
-        $empModel = new EmpModel();
+        $empModel = new EmployeeModel();
 
         $data['emp'] = $empModel->findAll();
         return $this->response->setJSON($data);
@@ -190,33 +191,33 @@ class Login extends BaseController
         echo "This page is not yet available, please choose the pre-registration option for your login. thank you!";
     }
 
-    public function updateStudentPassword()
-    {
-        $accMdl = new StudentAccountModel();
-        if ($this->request->getMethod() === 'post' && $this->validate([
-            'new_password' => 'required|min_length[8]',
-            'confirm_new_password' => 'required|matches[new_password]',
-        ])) {
-            $userId = $this->request->getPost('user_id');
-            $newPass = $this->request->getPost('new_password');
+    // public function updateStudentPassword()
+    // {
+    //     $accMdl = new StudentAccountModel();
+    //     if ($this->request->getMethod() === 'post' && $this->validate([
+    //         'new_password' => 'required|min_length[8]',
+    //         'confirm_new_password' => 'required|matches[new_password]',
+    //     ])) {
+    //         $userId = $this->request->getPost('user_id');
+    //         $newPass = $this->request->getPost('new_password');
 
-            $data = [
-                'password' => $newPass,
-                'is_new' => false,
-            ];
+    //         $data = [
+    //             'password' => $newPass,
+    //             'is_new' => false,
+    //         ];
 
-            $res = $accMdl->update($userId, $data);
-            if ($res) {
-                //    session()->setFlashData('failed', 'email not found!...');
-                return redirect()->route('student');
-            }
-        } else {
-            //$errors = $validation->listErrors();
-            $valid = \Config\Services::validation();
-            // session()->destroy();
-            return redirect()->back()->withInput()->with('validation', $valid);
-            //    session()->setFlashData('error', 'password');
-            //    return redirect()->route('change_password');
-        }
-    }
+    //         $res = $accMdl->update($userId, $data);
+    //         if ($res) {
+    //             //    session()->setFlashData('failed', 'email not found!...');
+    //             return redirect()->route('student');
+    //         }
+    //     } else {
+    //         //$errors = $validation->listErrors();
+    //         $valid = \Config\Services::validation();
+    //         // session()->destroy();
+    //         return redirect()->back()->withInput()->with('validation', $valid);
+    //         //    session()->setFlashData('error', 'password');
+    //         //    return redirect()->route('change_password');
+    //     }
+    // }
 }

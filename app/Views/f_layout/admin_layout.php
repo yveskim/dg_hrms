@@ -151,7 +151,7 @@
                   
               <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
               <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
-              <input type="hidden" name="sy_ref" id="sy_ref" value="<?= $sy_id['sy_id'] ?>"><!--reference for javascript user id-->
+              <input type="hidden" name="fy_id" id="fy_id" value="<?= $year_id['fiscal_year'] ?>"><!--reference for javascript user id-->
 
               
             </div>
@@ -159,7 +159,7 @@
               <div>
                   <ul>
                       <li>
-                        <p class="p-info">SY: <span ><?= $sy_id['school_year'] ?></span> </p>
+                        <p class="p-info">SY: <span ><?= $year_id['fiscal_year'] ?></span> </p>
                       </li>
                   </ul>
               </div>
@@ -383,6 +383,12 @@
     $('#empMaster').click(function() {
         $('.content-div').load('pages/employee/employee_master_data.php');
     });
+
+    $('#serviceRecords').click(function() {
+        $('.content-div').load('pages/human_resource/service_record.php');
+    });
+
+    
 
     $('#usersList').click(function() {
         $('.content-div').load('pages/users/users_list.php');
