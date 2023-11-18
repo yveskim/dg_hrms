@@ -7,16 +7,15 @@ use CodeIgniter\Model;
 class PlantillaModel extends Model
 {
   protected $table      = 'plantilla_tbl';
-  protected $primaryKey = 'plant_id';
+  protected $primaryKey = 'plantilla_id';
   protected $useAutoIncrement = true;
 // protected $returnType     = 'array';
   // protected $useSoftDeletes = true;
-  protected $allowedFields = [
-                              'plant_id', 
-                              'plantilla_title',
+  protected $allowedFields = [ 
                               'plantilla_item_no',
+                              'position_title',
                               'salary_grade',
-                              'monthly_salary',
+                              'date_recieved',
                               'created_at',
                               'updated_at',
                             ];

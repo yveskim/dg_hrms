@@ -15,8 +15,8 @@
   .dashboard-div img{
     height:100%;
     width:100%;
-   object-fit: cover;
-   display:block;
+    object-fit: cover;
+    display:block;
   }
 
 </style>
@@ -24,13 +24,11 @@
 
 <div class="content-div">
   <div class="row dashboard-div">
-    <div class="col-md-12">
-      <div class="row">
-        <div class="col-md-12 bg-warning " style="font-weight: bold; text-align: center;">
-          <h1>Welcome to Schools Division Of <strong class="text-info">GUIMARAS</strong></h1>
-          <h3> Human Resource Management System</h3>
+    <div class="col-md-12" style="background-color: rgb(235, 218, 156);">
+        <div style="font-weight: bold; text-align: center; color: white;">
+          <h1 class="text-info">Welcome to Schools Division Of <strong>GUIMARAS</strong></h1>
+          <h1 class="text-danger"><strong> Human Resource Management System</strong></h1>
         </div>
-      </div>
     </div>
     <img src="upload/system_file/facade.jpg" alt="">
   </div> 

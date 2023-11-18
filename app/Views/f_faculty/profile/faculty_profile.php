@@ -55,7 +55,7 @@
 
 
   .user_profile_pic{
-    /* background-color: lightgray; */
+    background-color: white;
     max-height: 10rem;
     min-width: 100%;
     object-fit: contain;
@@ -71,7 +71,7 @@
         <div class="card card-widget widget-user">
           <!-- Add the bg color to the header using any of the bg-* classes -->
           <div class="widget-user-header text-blue"
-                style="background: url('upload/system_file/header2.jpg') center center; 
+                style="background: url('upload/system_file/facade.jpg') center center; 
                 background-repeat: 
                 no-repeat; background-size: cover;">
           </div>

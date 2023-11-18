@@ -25,7 +25,7 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-            <h4 style="color:midnightblue; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">SCHOOL CALENDAR</h4>
+            <h4 style="color:midnightblue; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-weight: bold;">DIVISION CALENDAR OF ACTIVITIES</h4>
           </div>
         </div>
         <div class="row">

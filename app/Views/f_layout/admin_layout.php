@@ -12,7 +12,7 @@
 
   <title><?= $title ?></title>
   
-  <link rel="icon" href="upload/system_file/minerva.png" type="image/gif">
+  <link rel="icon" href="upload/system_file/sdo.png" type="image/gif">
   <!-- <link rel="stylesheet" href="assets/bootstrap-select-1.13.14/dist/css/bootstrap-select.min.css"> -->
   <!-- Bootstrap -->
   <link href="assets/gentelella-master/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -27,9 +27,6 @@
   <!-- bootstrap-daterangepicker -->
   <link href="assets/gentelella-master/vendors/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 
-  <!-- Custom Theme Style -->
-  <link href="assets/gentelella-master/build/css/custom.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="jquery_toast/src/jquery.toast.css">
 
   <link href="cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
 
@@ -143,25 +140,32 @@
               <img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="no image" class="img-circle profile_img">
             </div>
             <div class="profile_info">
-              <span><?php if (session()->get('userRestriction') == 1) {
-                              echo session()->get('userType').'-'.session()->get('userRestriction').'-'.session()->get('userCategory');
-                            } else if (session()->get('userRestriction') == 2) {
-                              echo "Admin";
-                            } ?></span>
-              <h2><?= $admin['emp_fname'] . ' ' . $admin['emp_lname'] ?></h2>
-              <p class="p-info">User ID: <span ><?= $user ?></span> </p>
-                  
+              <h5>Welcome!</h5>
+              <h6><?= $admin['emp_fname'] . ' ' . $admin['emp_lname'] ?></h6>
+              
+              <br> 
               <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
               <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
               <input type="hidden" name="fy_id" id="fy_id" value="<?= $year_id['fiscal_year'] ?>"><!--reference for javascript user id-->
 
               
             </div>
+            
 
               <div>
                   <ul>
                       <li>
-                        <p class="p-info">SY: <span ><?= $year_id['fiscal_year'] ?></span> </p>
+                        <p class="p-info">FY: <span ><?= $year_id['fiscal_year'] ?></span> </p>
+                      </li>
+                      <li> <p class="p-info">User ID: <span ><?= $user ?></span> </p></li>
+                      <li>
+                         <span>
+                            <?php if (session()->get('userRestriction') == 1) {
+                                  echo session()->get('userType').'-'.session()->get('userRestriction').'-'.session()->get('userCategory');
+                            } else if (session()->get('userRestriction') == 2) {
+                              echo "Admin";
+                            } ?>
+                          </span>
                       </li>
                   </ul>
               </div>
@@ -205,11 +209,6 @@
                 </li>
                 <?php endif; ?>
 
-                <li><a><i class="fa fa-money"></i> Accounting <span class="fa fa-chevron-down"></span></a>
-                  <ul class="nav child_menu">
-                    <li><a class="g-menu" href="javascript:void(0)" id="getMonthlyPayroll">Monthly Deductions</a></li>
-                  </ul>
-                </li>
 
               </ul>
 

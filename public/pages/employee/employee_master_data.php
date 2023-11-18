@@ -20,12 +20,13 @@
         <thead>
           <tr>
             <th></th>
-            <th width="5%">School ID</th>
+            <th width="5%">View</th>
+            <th>DepEd ID</th>
             <th>First Name</th>
             <th>Middle Name</th>
             <th>Last Name</th>
             <th>Gender</th>
-            <th width="5%">Action</th>
+            <th width="5%">Del</th>
           </tr>
         </thead>
       </table>
@@ -79,9 +80,10 @@
            {
              "data": null,
              render: function(data, type, row) {
-             return '<button class="btn btn-info btn-xs view full-size" id="'+data.emp_id+'">'+data.emp_school_id+'</button>';
+             return '<button class="btn btn-warning btn-xs view full-size" id="'+data.emp_id+'"><i class="fa fa-search"></i></button>';
              }
            },
+           {"data": "emp_agency_employee_no"},
            {"data": "emp_fname"},
            {"data": "emp_mname"},
            {"data": "emp_lname"},
@@ -90,7 +92,7 @@
            {
              "data": null,
              render: function(data, type, row) {
-             return '<button type="button" class="btn btn-danger btn-xs full-size  delete " id='+data.emp_id+'><i class="fa fa-trash"></i>&nbsp;Del</button>';
+             return '<button type="button" class="btn btn-danger btn-xs full-size  delete " id='+data.emp_id+'><i class="fa fa-trash"></i></button>';
              }
            }
          ]

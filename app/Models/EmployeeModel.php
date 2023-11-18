@@ -13,7 +13,7 @@ class EmployeeModel extends Model
   protected $useSoftDeletes = true;
   protected $allowedFields = [
                               'job_description',
-                              'emp_school_id', 'emp_image', 'emp_fname',
+                              'emp_image', 'emp_fname',
                               'emp_mname', 'emp_lname',
                               'emp_gender', 'emp_marital_status',
                               'emp_citizenship', 'emp_citizen_by', 'emp_country',

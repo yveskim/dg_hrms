@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/login_page/login.css">
   <link rel="stylesheet" href="jquery_lib/jquery-ui.min.css">
-  <link rel="icon" href="upload/system_file/minerva.png" type="image/gif">
+  <link rel="icon" href="upload/system_file/sdo.png" type="image/gif">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
 
 
@@ -20,85 +20,6 @@
   <!-- NProgress -->
   <link href="assets/gentelella-master/vendors/nprogress/nprogress.css" rel="stylesheet">
 
-  <style media="screen">
-  fieldset {
-    overflow: hidden;
-    position: absolute;
-  }
-
-  .form-check{
-    display: inline-block;
-  }
-
-  .home-btn{
-    z-index: 100;
-    width: 100%;
-  }
-
-  .brand-wrapper{
-    background-color: darkblue;
-    width: 100%;
-    padding: 2%;
-    color: white;
-    position: absolute;
-    left: 0;
-    top: 0;
-  }
-
-  .error-div, .validation-div{
-    z-index: 10000;
-    position: relative;
-    margin-top: 5%;
-    margin-bottom: 0;
-    bottom: 0;
-    padding: 0;
-  }
-
-  .btn-inhs{
-    background-color: darkblue;
-    color: white;
-    border-bottom: .2em solid white;
-    border-right: .2em solid white;
-    border-radius: 0 0 1em 0;
-    margin: 0;
-    padding: 1em;
-    font-size: .8vw;
-    width: 100%;
-  }
-
-
-  .btn-inhs:hover{
-    color: white;
-    scale: 1.1;
-  }
-
-  .login-card{
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-  
-  .header_title{
-    vertical-align: middle; text-align: center; font-size: 1.2vw;
-  }
-
-  @media only screen and (max-width: 600px) {
-     .header_title{
-        vertical-align: middle; text-align: center;
-      }
-      .btn-inhs{
-        font-size: 2.5vw;
-      }
-  }
-
-  @media only screen and (max-width: 800px) {
-     .header_title{
-        vertical-align: middle; text-align: center; font-size: 2vw;
-      }
-
-      
-  }
-  </style>
 </head>
 <body>
     <?= csrf_field(); ?>
@@ -106,10 +27,10 @@
   <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
     <div class="container">
       <div class="card login-card">
+        <img src="upload/system_file/facade.jpg" alt="login" class="login-card-img">
         <div class="row no-gutters">
           
-          <div class="col-md-6">
-            <img src="upload/system_file/facade2.jpg" alt="login" class="login-card-img">
+          <div class="col-md-7">
 
             <div class="row home-btn">
               <div class="col-4">
@@ -119,7 +40,7 @@
             </div>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-5" style="border-left: 4px solid white; background-color: rgb(255,255,255,.9)">
 
             <div class="card-body">
               <?php if ( !empty(session()->getFlashData('failed')) ):?>
@@ -132,10 +53,10 @@
                 <div class="row">
                   <div class="col-8">
                     <br>
-                    <h2 class="header_title">ADMINISTRATOR</h2>
+                    <h2 class="header_title"><strong>ADMINISTRATOR</strong></h2>
                   </div>
                   <div class="col-4">
-                      <img src="upload/system_file/logo.png" alt="logo" class="logo" style="width: 60%; height: 100%;">
+                      <img src="upload/system_file/deped_logo.png" alt="logo" class="logo" style="width: 60%; height: 100%;">
                   </div>
                 </div>
               </div><br>

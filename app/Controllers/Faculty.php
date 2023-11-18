@@ -15,13 +15,12 @@ use App\Models\EmpWorkInvolvementModel;
 use App\Models\EnrollmentMdl;
 use App\Models\UsersModel;
 use App\Models\SemesterModel;
-use App\Models\SchoolYearModel;
+use App\Models\FiscalYearModel;
 use App\Models\StudentFamilyBgModel;
 use App\Models\EmpSkillsModel;
 use App\Models\ShsSectionAdviserModel;
 use App\Models\EmployeeCategoryModel;
 use App\Models\EmpReferenceModel;
-
 
 class Faculty extends BaseController
 {
@@ -33,7 +32,7 @@ class Faculty extends BaseController
         }
         $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
-        $syMdl = new SchoolYearModel();
+        $fsMdl = new FiscalYearModel();
 
         $loggedFaculty = session()->get('loggedAdmin');
 
@@ -41,14 +40,14 @@ class Faculty extends BaseController
 
         $faculty_info = $empModel->where('emp_id', $emp_id)->first();
 
-        $sy_id = $syMdl->where('is_active', true)->first();
+        $fs_id = $fsMdl->where('is_active', true)->first();
 
 
         $data = [
             'title' => 'Dashboard',
             'faculty' => $faculty_info,
             'user' => $loggedFaculty,
-            'sy_id' => $sy_id,
+            'fs_id' => $fs_id,
         ];
         return view('f_faculty/' . $page, $data);
 
@@ -121,17 +120,13 @@ class Faculty extends BaseController
             echo json_encode($result);
             die;
         }
-
-       
-
-		
 	
     }
 
     public function getSchoolYear()
     {
-        $syModel = new SchoolYearModel();
-        $data['sy'] = $syModel->findAll();
+        $fsMdl = new FiscalYearModel();
+        $data['sy'] = $fsMdl->findAll();
         return $this->response->setJSON($data);
     }
 
@@ -157,125 +152,15 @@ class Faculty extends BaseController
     public function getFacultyDetails()
     {
         $empMdl = new EmployeeModel();
-        $syModel = new SchoolYearModel();
-        $studAdvMdl = new AdviseryModel();
-        $advMdl = new AdviseryModel();
+        $syModel = new FiscalYearModel();
 
         $emp_id = $this->request->getGet('emp_id');
         $data['faculty'] = $empMdl->where('emp_id', $emp_id)->first();
-        $data['adv'] = $studAdvMdl
-            ->join('advisery_tbl', 'advisery_tbl.adv_id = student_advisery_tbl.adv_id', 'left')
-            ->join('employee_t', 'employee_t.emp_id = advisery_tbl.emp_id', 'left')
-            ->join('section_tbl', 'section_tbl.sec_id = advisery_tbl.sec_id', 'left')
-            ->join('program_tbl', 'program_tbl.prog_id = advisery_tbl.program_id', 'left')
-            ->join('category_tbl', 'category_tbl.cat_id = program_tbl.cat_id', 'left')
-            ->join('school_year_tbl', 'school_year_tbl.sy_id = advisery_tbl.sy', 'left')
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = section_tbl.grade_level_id', 'left')
-            ->join('enrollment_tbl', 'enrollment_tbl.en_id = student_advisery_tbl.en_id', 'left')
-            ->where('advisery_tbl.emp_id', $emp_id)
-            ->where('school_year_tbl.is_active', true)->findAll();
-        $data['sy'] = $syModel->findAll();
-        $data['adv_details'] = $advMdl
-            ->join('section_tbl', 'section_tbl.sec_id = advisery_tbl.sec_id', 'left')
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = section_tbl.grade_level_id', 'left')
-            ->join('program_tbl', 'program_tbl.prog_id = advisery_tbl.program_id', 'left')
-            ->join('category_tbl', 'category_tbl.cat_id = program_tbl.cat_id', 'left')
-            ->join('school_year_tbl', 'school_year_tbl.sy_id = advisery_tbl.sy', 'left')
-            ->where('advisery_tbl.emp_id', $emp_id)
-            ->where('school_year_tbl.is_active', true)->first();
+       
         return $this->response->setJSON($data);
     }
 
-    public function getAdvisery()
-    {
-        $empMdl = new EmployeeModel();
-        $data['adv'] = $empMdl->join('school_year_tbl', 'school_year_tbl.sy_id = enrollment_tbl.school_year_id', 'left')
-            ->select('enrollment_tbl.*')
-            ->select('school_year_tbl.*')
-            ->where('school_year_tbl.is_active', true)
-            ->findAll();
-        return $this->response->setJSON($data);
-    }
-
-    public function deleteFaculty()
-    {
-        $enModel = new EnrollmentMdl();
-        $en_id = $this->request->getGet('en_id');
-        $res = $enModel->where('en_id', $en_id)->delete();
-        if ($res) {
-            $rslt['status'] = 1;
-            $rslt['message'] = "Delete successfull.";
-            echo json_encode($rslt);
-            die;
-        } else {
-            $rslt['status'] = 0;
-            $rslt['message'] = "Data deletion was unsuccessfull.";
-            echo json_encode($rslt);
-            die;
-        }
-    }
-
-    function getAdviseryClass(){
-        $advMdl = new AdviseryModel();
-        $shsAdvMdl = new ShsSectionAdviserModel();
-        $empCatMdl = new EmployeeCategoryModel();
-
-        $adv_id = $this->request->getGet('emp_id');
-
-        $category = $empCatMdl->where('emp_id', $adv_id)->select('cat_id')->first();
-
-        if($category === 1){
-            $data['adv'] = $advMdl
-            ->join('section_details_tbl', 'section_details_tbl.sec_det_id = advisery_tbl.sec_det_id', 'left')    
-            ->join('student_section_tbl', 'student_section_tbl.sec_id = section_details_tbl.sec_det_id', 'left')    
-            ->join('enrollment_tbl', 'enrollment_tbl.en_id = student_section_tbl.en_id', 'left')    
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = section_details_tbl.grade_level_id', 'left')    
-            // ->join('enrollment_status_tbl', 'student_section_tbl.sec_id = section_details_tbl.sec_det_id', 'left')    
-            ->join('employee_t', 'employee_t.emp_id = advisery_tbl.adviser_id', 'left')    
-            ->where('adviser_id', $adv_id)->find();
     
-            $data['section'] = $advMdl
-            ->join('section_details_tbl', 'section_details_tbl.sec_det_id = advisery_tbl.sec_det_id', 'left')
-            ->select('section_details_tbl.sec_title')
-            ->where('advisery_tbl.adviser_id', $adv_id)->first(); 
-
-            $data['program'] = $advMdl
-            ->join('section_details_tbl', 'section_details_tbl.sec_det_id = advisery_tbl.sec_det_id', 'left')
-            ->join('program_tbl', 'program_tbl.prog_id = section_details_tbl.prog_id', 'left')
-            ->select('program_tbl.program_title')
-            ->where('advisery_tbl.adviser_id', $adv_id)->first(); 
-
-            $data['grade'] = $advMdl
-            ->join('section_details_tbl', 'section_details_tbl.sec_det_id = advisery_tbl.sec_det_id', 'left')
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = section_details_tbl.grade_level_id', 'left')
-            ->select('grade_level_tbl.grade_level')
-            ->where('advisery_tbl.adviser_id', $adv_id)->first(); 
-            
-        }else{
-            $data['shs_sec'] = $shsAdvMdl
-            ->join('shs_section_tbl', 'shs_section_tbl.shs_sec_id = shs_section_adviser_tbl.shs_adv_section_id', 'left')
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = shs_section_tbl.shs_grade_level', 'left')
-            ->join('strands_tbl', 'strands_tbl.strand_id = shs_section_tbl.strand_id', 'left')
-            ->where('shs_section_adviser_tbl.shs_adv_emp_id', $adv_id)->first(); 
-
-            $data['adv'] = $shsAdvMdl
-            ->join('shs_section_tbl', 'shs_section_tbl.shs_sec_id = shs_section_adviser_tbl.shs_adv_section_id', 'left')    
-            ->join('shs_student_section_tbl', 'shs_student_section_tbl.shs_sec_id = shs_section_tbl.shs_sec_id', 'left')    
-            ->join('enrollment_tbl', 'enrollment_tbl.en_id = shs_student_section_tbl.shs_stud_id', 'left')    
-            ->join('grade_level_tbl', 'grade_level_tbl.grade_level_id = shs_section_tbl.shs_grade_level', 'left')     
-            // ->join('employee_t', 'employee_t.emp_id = advisery_tbl.adviser_id', 'left')    
-            ->where('shs_section_adviser_tbl.shs_adv_emp_id', $adv_id)->find();
-        }
-
-
-
-      
-      
-
-      
-
-        return $this->response->setJSON($data);
-    }
 
     function getProfile($page = 'faculty_profile'){
         if (!is_file(APPPATH . '/Views/f_faculty/profile/' . $page . '.php')) {
@@ -284,7 +169,7 @@ class Faculty extends BaseController
         }
         $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
-        $syMdl = new SchoolYearModel();
+        $fsMdl = new FiscalYearModel();
 
         $loggedFaculty = session()->get('loggedAdmin');
 
@@ -292,13 +177,13 @@ class Faculty extends BaseController
 
         $faculty_info = $empModel->where('emp_id', $emp_id)->first();
 
-        $sy_id = $syMdl->where('is_active', true)->first();
+        $fs_id = $fsMdl->where('is_active', true)->first();
 
         $data = [
             'title' => 'Profile',
             'faculty' => $faculty_info,
             'user' => $loggedFaculty,
-            'sy_id' => $sy_id,
+            'fs_id' => $fs_id,
             
         ];
         return view('f_faculty/profile/' . $page, $data);

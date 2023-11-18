@@ -43,7 +43,7 @@
 
 
 <div class="spiner-div">
-  <img src="upload/system_file/logo_gif.gif" alt="logo_gif">
+  <img src="upload/system_file/sdo.png" alt="logo_gif">
 </div>
 
 <div class="wrapper">
@@ -52,7 +52,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="upload/system_file/minerva.png" alt="INHS Logo" height="220" width="220">
+    <img class="animation__shake" src="upload/system_file/sdo.png" alt="INHS Logo" height="220" width="220">
   </div>
 
   <!-- Navbar -->
@@ -100,8 +100,8 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="faculty" class="brand-link">
-      <img src="upload/system_file/logo.png" alt="Faculty Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">Faculty Dashboard</span>
+      <img src="upload/system_file/sdo.png" alt="Faculty Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">Employee Dashboard</span>
     </a>
 
     <!-- Sidebar -->
@@ -109,21 +109,26 @@
       <!-- References +++++++++++++++++++++++++++++++ -->
       <input type="hidden" value="<?=session()->get('userRestriction')?>" id="user_restriction">
       <input type="hidden" name="user_id" id="user" value="<?= $user ?>"><!--reference for javascript user id-->
-      <input type="hidden" name="year_id" id="year_id" value="<?= $year_id['year_id'] ?>"><!--reference for javascript user id-->
+      <input type="hidden" name="year_id" id="year_id" value="<?= $fs_id['year_id'] ?>"><!--reference for javascript user id-->
       <!-- References +++++++++++++++++++++++++++++++ -->
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?= 'upload/user_files/' . $faculty['emp_image'] ?>" class="img-circle elevation-2" alt="User Image">
+          <img src="<?= 'upload/user_files/' . $faculty['emp_image'] ?>" class="img-circle elevation-2" alt="User Image" style="width: 5rem; height: 5rem; object-fit: contain;">
         </div>
-        <div class="info">
-          <a class="d-block" style="cursor:default;" id="faculty_name"><?= $faculty['emp_fname'] . ' ' . $faculty['emp_lname'] ?></a>
-          <a class="d-block" style="cursor:default;">User ID: <?= $user ?> </a>
-          <a class="d-block" style="cursor:default;">Emp ID: <?= $faculty['emp_id'] ?> </a> 
-          <a class="d-block" style="cursor:default;">Fiscal Year  <?= $year_id['fiscal_year'] ?> </a> 
+        <div class="info" style="white-space: initial;">
+          <span style="color:white">Welcome</span>
+          <a class="d-block" style="cursor:default;" id=""><?= $faculty['emp_fname'] . ' ' . $faculty['emp_lname'] ?></a>
         </div>
+        
         <input type="hidden" id="emp_id" value="<?= $faculty['emp_id'] ?>">
       </div>
+       <div class="info" style="white-space: initial;">
+           <a class="d-block" style="cursor:default;">User ID: <?= $user ?> </a>
+          <a class="d-block" style="cursor:default;">Emp ID: <?= $faculty['emp_id'] ?> </a> 
+          <a class="d-block" style="cursor:default;">Fiscal Year  <?= $fs_id['fiscal_year'] ?> </a> 
+        </div>
+        <hr style="height: .2rem; background-color: white;">
 
       <!-- SidebarSearch Form -->
       <!-- <div class="form-inline">
@@ -150,23 +155,6 @@
                     <!-- <i class="right fas fa-angle-left"></i> -->
                   </p>
                 </a>
-              </li>
-              <li class="nav-item">
-                <a href="javascript:void(0)" class="nav-link" id="advisery_parent">
-                  <i class="nav-icon fas fa-address-card"></i>
-                  <p>
-                    ADVISERY
-                    <i class="right fas fa-angle-left"></i>
-                  </p>
-                </a>
-                <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                    <a href="javascript:void(0)" id="manage_advisery" class="nav-link">
-                      <i class="fa fa-solid fa-circle nav-icon"></i>
-                      <p>Manage Advisery</p>
-                    </a>
-                  </li>
-                </ul>
               </li>
               <li class="nav-item">
                 <a href="javascript:void(0)" class="nav-link">
