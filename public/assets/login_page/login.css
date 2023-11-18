@@ -170,7 +170,7 @@ fieldset {
 .header_title {
   vertical-align: middle;
   text-align: center;
-  font-size: 1.5vw;
+  font-size: 1.3vw;
 }
 
 @media only screen and (max-width: 600px) {

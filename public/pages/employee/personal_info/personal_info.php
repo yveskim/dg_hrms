@@ -21,17 +21,6 @@
     <div class="card-body ">
         <div class="row">
             <div class="col-lg-4">
-                <div class="form-group row">
-                    <label for="inputEmpSchoolId" class="col-sm-4 col-form-label">Employee ID:</label>
-                    <div class="col-sm-8">
-                        <input type="text" class="input-minimal-disabled full-size" id="inputEmpSchoolId" name="inputEmpSchoolId" readonly="true" form="edit-basic-form">
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <div class="row">
-            <div class="col-lg-4">
                  <div class="form-group row">
                     <label for="inputFirstName" class="col-sm-4 col-form-label">First Name:</label>
                     <div class="col-sm-8">
@@ -246,7 +235,7 @@
                     </div>
                     <div class="col-lg-12">
                         <div class="form-group row">
-                            <label for="inputAgency" class="col-lg-3 col-form-label">Agency Employee No.:</label>
+                            <label for="inputAgency" class="col-lg-3 col-form-label">Deped ID:</label>
                             <div class="col-lg-9">
                                 <input type="text" class="input-minimal-disabled full-size" id="inputAgency" name="inputAgency" readonly="true" form="other-form">
                             </div>

@@ -21,7 +21,7 @@
     }
 
     .emp_profile_pic{
-      min-height: 10rem;
+      min-height: 8rem;
       width: 100%;
       height: 100%;
       object-fit: contain;
@@ -71,9 +71,9 @@
               </div>
               <div class="col-md-8">
                 <div class="item form-group">
-                  <label class="col-form-label col-md-4" for="emp_school_id">Employee ID</label>
+                  <label class="col-form-label col-md-4" for="deped_id">DepEd Employee ID</label>
                   <div class="col-md-8">
-                      <input class="form-control form-control-sm" type="text" name="emp_school_id" id="emp_school_id" form="addEmpForm" required>
+                      <input class="form-control form-control-sm" type="text" name="deped_id" id="deped_id" form="addEmpForm" required>
                   </div>
                 </div>
                   <div class="item form-group">
@@ -107,9 +107,9 @@
                     </div>
                   </div>
                   <div class="item form-group">
-                    <label for="gender" class="col-form-label col-md-4">Sex</label>
+                    <label for="sex" class="col-form-label col-md-4">Sex</label>
                     <div class="col-md-8 ">
-                      <select class="form-control form-control-sm" name="gender" id="gender" form="addEmpForm" required>
+                      <select class="form-control form-control-sm" name="sex" id="sex" form="addEmpForm" required>
                         <option value="">-</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
@@ -119,380 +119,44 @@
                   <div class="item form-group">
                     <label class="col-form-label col-md-4" for="birthDate">Date Of Birth <span class="required">*</span></label>
                     <div class="col-md-6 ">
-                      <input class="date-picker form-control form-control-sm" id="birthDate" name="birthDate" type="date" required>
+                      <input class="date-picker form-control form-control-sm" id="birthDate" name="birthDate" type="date" form="addEmpForm" required>
                     </div>
                     <div class="col-md-2">
                       <input class="form-control form-control-sm" id="age" name="age" placeholder="Age" type="text" form="addEmpForm" readonly="true">
                     </div>
                   </div>
 
-
-                  <div class="item form-group">
-                    <label class="col-form-label col-md-4" for="placeOfBirth">Place of Birth</label>
-                    <div class="col-md-8">
-                      <input class="form-control form-control-sm" id="placeOfBirth" placeholder="ex. Jaro, Iloilo City" name="placeOfBirth" type="text" placeholder="" form="addEmpForm">
-                    </div>
-                  </div>
-
-                  <div class="item form-group">
-                      <label class="col-form-label col-md-4" for="maritalStatus">Marital Status</label>
-                      <div class="col-md-8">
-                        <select class="form-control form-control-sm form-select form-select-sm" name="maritalStatus" form="addEmpForm">
-                          <option>-</option>
-                          <option value="Single">Single</option>
-                          <option value="Married">Married</option>
-                          <option value="Widowed">Widowed</option>
-                          <option value="Separated">Separated</option>
-                          <option value="Divorced">Divorced</option>
-                        </select>
-                      </div>
-
-                    </div>
-                    <div class="item form-group">
-                      <label class="col-form-label col-md-4">Height</label>
-                      <div class="col-md-8">
-                        <select class="form-control form-control-sm" id="height" name="height" form="addEmpForm" onchange="if($(this).val()=='other'){$(this).hide().prop('disabled',true);$('input[name=height]').show().prop('disabled', false).focus();$(this).val(null);}">
-                          <option value="">-</option>
-                        </select>
-                      <input placeholder="please type" class="form-control form-control-sm" name="height" form="addEmpForm" style="display:none;" disabled="disabled" onblur="if($(this).val()==''){$(this).hide().prop('disabled',true);$('select[name=height]').show().prop('disabled', false).focus();}">
-                      </div>
-                    </div>
-                    <div class="item form-group">
-                      <label class="col-form-label col-md-4">Weight</label>
-                      <div class="col-md-8">
-                          <select class="form-control form-control-sm" id="weight" name="weight" form="addEmpForm" onchange="if($(this).val()=='other'){$(this).hide().prop('disabled',true);$('input[name=weight]').show().prop('disabled', false).focus();$(this).val(null);}">
-                            <option value="">-</option>
-                          </select>
-                          <input placeholder="please type" class="form-control form-control-sm" name="weight" form="addEmpForm" style="display:none;" disabled="disabled" onblur="if($(this).val()==''){$(this).hide().prop('disabled',true);$('select[name=weight]').show().prop('disabled', false).focus();}">
-                      </div>
-                    </div>
-
-                  <div class="item form-group">
-                  <label class="col-form-label col-md-4" for="bloodType">Blood Type</label>
+                   <div class="item form-group">
+                  <label class="col-form-label col-md-4">Phone No.</label>
                   <div class="col-md-8">
-                          <select class="form-control form-control-sm" name="bloodType" form="addEmpForm" onchange="if($(this).val()=='other'){$(this).hide().prop('disabled',true);$('input[name=bloodType]').show().prop('disabled', false).focus();$(this).val(null);}">
-                          <option value="">-</option>
-                          <option value="A+">A+</option>
-                          <option value="A-">A-</option>
-                          <option value="B+">B+</option>
-                          <option value="B-">B-</option>
-                          <option value="AB+">AB+</option>
-                          <option value="AB-">AB-</option>
-                          <option value="O+">O+</option>
-                          <option value="O-">O-</option>
-                          <option value="other">Other</option>
-                      </select>
-                      <input placeholder="please type" class="form-control form-control-sm" name="bloodType" form="addEmpForm" style="display:none;" disabled="disabled" onblur="if($(this).val()==''){$(this).hide().prop('disabled',true);$('select[name=bloodType]').show().prop('disabled', false).focus();}">
-                  </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-4" for="religion">Religion</label>
-                  <div class="col-md-8">
-                      <select class="form-control form-control-sm" name="religion" form="addEmpForm" onchange="if($(this).val()=='other'){$(this).hide().prop('disabled',true);$('input[name=religion]').show().prop('disabled', false).focus();$(this).val(null);}">
-                          <option value="">-</option>
-                          <option value="Christianity">Christianity</option>
-                          <option value="Indigenous">Indigenous</option>
-                          <option value="Islam">Islam</option>
-                          <option value="No Religion">No Religion</option>
-                          <option value="other">Other</option>
-                      </select>
-                      <input placeholder="please type" class="form-control form-control-sm" name="religion" form="addEmpForm" style="display:none;" disabled="disabled" onblur="if($(this).val()==''){$(this).hide().prop('disabled',true);$('select[name=religion]').show().prop('disabled', false).focus();}">
-                  </div>
-                </div>
-
-
-
-                <div class="form-group">
-                  <label class="col-form-label col-md-5">Citizenship</label>
-                  <div class="col-md-7 form-check filipino-chk-div">
-                    <input class="form-check-input" checked type="checkbox" value="Filipino" id="filipino-chk" name="citizenship_fil" form="addEmpForm">
-                    <label class="form-check-label" for="filipino-chk">Filipino</label>
-                  </div>
-                  <div class=" col-md-7 form-check dual-citizenship-div">
-                    <input class="form-check-input" type="checkbox" value="" id="dual-citizenship-chk" name="dual_citizenship" form="addEmpForm">
-                    <label class="form-check-label" for="dual-citizenship-chk">Dual Citizenship</label>
-                  </div>
-                </div>
-
-                <div class="form-group">
-                  <div class="col-md-5"></div>
-                  <div class="col-md-7 form-group dual-option">
-                    <div class="form-check birth-chk-div">
-                      <input class="form-check-input" type="checkbox" value="By Birth" id="by-birth" name="citizen_by[]" form="addEmpForm">
-                      <label class="form-check-label" for="by-birth">By Birth</label>
-                    </div>
-
-                    <div class="col-md-12 form-check naturalization-div">
-                      <input class="form-check-input" type="checkbox" value="By Naturalization" id="by-naturalization" name="citizen_by[]" form="addEmpForm">
-                      <label class="form-check-label" for="by-naturalization">By Naturalization</label>
-                    </div>
-                  </div>
-
-                  <div class="form-group country">
-                    <label class="col-form-label col-md-4">Indicate Country</label>
-                    <div class="col-md-8">
-                      <select class="form-control form-control-sm form-select form-select-sm" name="country" id="emp_country" form="addEmpForm">
-                        <option></option>
-                      </select>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Right -->
-    <!-- Right -->
-    <!-- Right -->
-    <!-- Right -->
-
-    <div class="col-md-6 col-sm-12  ">
-      <div class="x_panel">
-        <div class="x_title">
-          <h2>Other Information</h2>
-          <ul class="nav navbar-right panel_toolbox">
-          </ul>
-          <div class="clearfix"></div>
-        </div>
-        <div class="x_content">
-          <br />
-
-            <div class="col-md-12">
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">TIN #</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="tin" type="text" placeholder="" form="addEmpForm">
-                    </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">GSIS/UMID</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="gsis" type="text" placeholder="" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">SSS ID #</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="sss" type="text" placeholder="" form="addEmpForm">
-                    </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Pag-ibig #</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="pagibig" type="text" placeholder="" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Philhealth ID</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="philhealth" type="text" placeholder="" form="addEmpForm">
-                  </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Agcy. Emp. #</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="agency_employee_no" type="text" placeholder="Deped ID No." form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Tel. No.</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="telephone_no" type="text" form="addEmpForm">
-                  </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Phone No.</label>
-                  <div class="col-md-7">
                     <input class="form-control form-control-sm" name="mobile_no" type="text" form="addEmpForm">
                   </div>
                 </div>
                 <div class="item form-group">
-                  <label class="col-form-label col-md-3">Email Address</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="emailAddress" type="text" form="addEmpForm" required>
+                  <label class="col-form-label col-md-4">Email Address</label>
+                  <div class="col-md-8">
+                    <input class="form-control form-control-sm" name="emailAddress" type="email" form="addEmpForm" required>
                   </div>
                 </div>
+                
+              </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-md-6"></div>
+                <div class="col-md-3">
+                  <button class="btn btn-secondary full-size" id="clearForm" type="button">CLEAR</button>
+                </div>
+                <div class="col-md-3">
+                  <button class="btn btn-success full-size" type="submit" form="addEmpForm">SUBMIT</button>
+                </div>
+              </div>
 
             </div>
-          </div>
-
         </div>
       </div>
     </div>
-
-<!-- Permanent Address +++++++++++++++++++++ -->
-<!-- Permanent Address +++++++++++++++++++++ -->
-    <div class="col-md-6 col-sm-12  ">
-      <div class="x_panel">
-        <div class="x_title">
-          <h2>Permanent Address</h2>
-          <ul class="nav navbar-right panel_toolbox">
-          </ul>
-          <div class="clearfix"></div>
-        </div>
-        <div class="x_content">
-          <br />
-
-            <div class="col-md-12">
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">House/Block/Lot</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="perAddressHouse" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Street</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="perAddressStreet" type="text" form="addEmpForm">
-                  </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Subd./Village</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="perAddressSubdivision" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Barangay</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="perAddressBarangay" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Municipality</label>
-                   <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="perAddressMunicipality" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">City</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="perAddressCity" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Province</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="perAddressProvince" type="text" form="addEmpForm">
-                    </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Zip Code</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="perAddressZip" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- Current Address ++++++++++++++++++++ -->
-    <!-- Current Address ++++++++++++++++++++ -->
-
-    <div class="col-md-6 col-sm-12  ">
-      <div class="x_panel">
-        <div class="x_title">
-          <h2>Current Address</h2>
-          <ul class="nav navbar-right panel_toolbox">
-          </ul>
-          <div class="clearfix"></div>
-        </div>
-        <div class="x_content">
-          <br />
-
-            <div class="col-md-12">
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">House/Block/Lot</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="resAddressHouse" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Street</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="resAddressStreet" type="text" form="addEmpForm">
-                  </div>
-                </div>
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Subd./Village</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="resAddressSubdivision" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Barangay</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="resAddressBarangay" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Municipality</label>
-                   <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="resAddressMunicipality" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">City</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="resAddressCity" type="text" form="addEmpForm" >
-                    </div>
-                </div>
-
-                <div class="item form-group">
-                    <label class="col-form-label col-md-3">Province</label>
-                    <div class="col-md-7">
-                      <input class="form-control form-control-sm" name="resAddressProvince" type="text" form="addEmpForm">
-                    </div>
-                </div>
-
-                <div class="item form-group">
-                  <label class="col-form-label col-md-3">Zip Code</label>
-                  <div class="col-md-7">
-                    <input class="form-control form-control-sm" name="resAddressZip" type="text" form="addEmpForm">
-                  </div>
-                </div>
-
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-          <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-          <!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-      </div>
-      <div class="row">
-        <div class="col-md-8"></div>
-        <div class="col-md-3 d-flex justify-content-end">
-          <button class="btn btn-success full-size" type="submit" form="addEmpForm">SUBMIT</button>
-        </div>
-      </div>
-    </div>
-    <br><br><br><br>
-
+  </div>
 
 
 
@@ -529,6 +193,10 @@
     citizenAlgo();
 
   });
+
+  $('#clearForm').click(function(){
+    $('#addEmpForm')[0].reset();
+  })
 
   function citizenAlgo(){
     $('#filipino-chk').change(function(){
@@ -606,17 +274,31 @@ function savePersonalInfo(){
       contentType: false,
       cache: false,
       processData: false,
-      success: function(response){
+      success: function(res){
         //console.log(response);
-        if (response.status == 0) {
-          errorToast(response.message);
-        }else {
+        if (res.status == 1) {
+          Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Save Successfull",
+            text: "Record has been added",
+            showConfirmButton: true,
+          });
           $('#addEmpForm')[0].reset();
           let img = $('#img-container');
           img.attr('src', 'upload/system_file/noimage.png');
           window.scrollTo(0, 0);
           succToast(response.message);
-        }
+        } else {
+          Swal.fire({
+            position: "center",
+            icon: "error",
+            title: "Action Failed",
+            text: res.message,
+            showConfirmButton: true,
+          });
+        } //end ifelse
+
       }
     });
   });

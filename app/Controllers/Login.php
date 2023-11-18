@@ -55,9 +55,6 @@ class Login extends BaseController
                         $user_type = $user_info['user_type'];
                         session()->set('userType', $user_type);
 
-                        $user_category = $user_info['user_category'];
-                        session()->set('userCategory', $user_category);
-
                         if ($user_restriction == 1 || $user_restriction == 2) {
                             return redirect()->route('admin');
                         } else if ($user_restriction == 3) {
@@ -153,7 +150,6 @@ class Login extends BaseController
             'confirm_password' => 'required|matches[password]',
             'user_type' => 'required|max_length[255]',
             'restriction' => 'required',
-            'user_category' => 'required',
         ])) {
             $password = $this->request->getPost('password');
             $email = $this->request->getPost('email');
@@ -168,7 +164,6 @@ class Login extends BaseController
                     'user_password' => Hash::make($password),
                     'user_type' => $this->request->getPost('user_type'),
                     'user_restriction' => $this->request->getPost('restriction'),
-                    'user_category' => $this->request->getPost('user_category'),
                     'is_disabled' => 0,
                 ]);
                 return view('f_login/register', ['process' => 'success']);

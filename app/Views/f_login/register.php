@@ -115,21 +115,11 @@
                   <option value="">User Access</option>
                   <option value="1">Full Access</option>
                   <option value="2">Admin Access</option>
-                  <option value="3">Faculty Access</option>
-                  <option value="4">Utility Access</option>
+                  <option value="3">Field Access</option>
               </select>
             </div>
 
-            <div class="form-group">
-                <select data-role="select" name="user_category" data-role="input" placeholder="User Category"  data-append="<span class='mif-lock'>">
-                  <option value="">User Category</option>
-                  <option value="1">JHS</option>
-                  <option value="2">SHS</option>
-                  <option value="3">Hybrid</option>
-                  <option value="4">N/A</option>
-              </select>
-            </div>
-                  <hr>
+            <hr>
             <div class="form-group d-flex flex-align-center flex-justify-between">
                 <button class="button primary" type="submit" style="width: 100%;">REGISTER</button>
             </div>

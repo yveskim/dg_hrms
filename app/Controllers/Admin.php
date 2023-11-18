@@ -105,66 +105,33 @@ class Admin extends BaseController
             $empImage->move('upload/user_files/', $randomFileName); // move the image to upload folder
         }
 
-        $citizen_by = "";
+        // $citizen_by = "";
 
-        if (!empty($this->request->getPost('citizen_by'))) {
-            $citizen_by = $this->request->getPost('citizen_by');
-            foreach ($citizen_by as $cit) { //get the id of checkbox selected in citizen_by
-                $citizen_by = $cit;
-            }
-        }
+        // if (!empty($this->request->getPost('citizen_by'))) {
+        //     $citizen_by = $this->request->getPost('citizen_by');
+        //     foreach ($citizen_by as $cit) { //get the id of checkbox selected in citizen_by
+        //         $citizen_by = $cit;
+        //     }
+        // }
 
-        $citizen = $this->request->getPost('citizenship_fil');
-        if (!empty($citizen)) {
-            $citizen = "Filipino";
-        } else {
-            $citizen = "Dual Citizen";
-        }
+        // $citizen = $this->request->getPost('citizenship_fil');
+        // if (!empty($citizen)) {
+        //     $citizen = "Filipino";
+        // } else {
+        //     $citizen = "Dual Citizen";
+        // }
 
         $data = [
             'job_description' => $this->request->getPost('job_description'),
-            'emp_school_id' => $this->request->getPost('emp_school_id'),
+            'emp_agency_employee_no' => $this->request->getPost('deped_id'),
             'emp_image' => $randomFileName,
             'emp_fname' => $this->request->getPost('firstName'),
             'emp_mname' => $this->request->getPost('middleName'),
             'emp_lname' => $this->request->getPost('lastName'),
-            'emp_gender' => $this->request->getPost('gender'),
-            'emp_marital_status' => $this->request->getPost('maritalStatus'),
-            'emp_citizenship' => $citizen,
-            'emp_citizen_by' => $citizen_by,
-            'emp_country' => $this->request->getPost('country'),
-            'emp_age' => $this->request->getPost('age'),
+            'emp_gender' => $this->request->getPost('sex'),
             'emp_birthdate' => $this->request->getPost('birthDate'),
-            'emp_place_of_birth' => $this->request->getPost('placeOfBirth'),
-            'emp_religion' => $this->request->getPost('religion'),
-            'emp_blood_type' => $this->request->getPost('bloodType'),
-            'emp_height' => $this->request->getPost('height'),
-            'emp_weight' => $this->request->getPost('weight'),
-            'emp_tin' => $this->request->getPost('tin'),
-            'emp_sss' => $this->request->getPost('sss'),
-            'emp_gsis' => $this->request->getPost('gsis'),
-            'emp_pagibig' => $this->request->getPost('pagibig'),
             'emp_email' => $this->request->getPost('emailAddress'),
-            'emp_philhealth' => $this->request->getPost('philhealth'),
-            'emp_agency_employee_no' => $this->request->getPost('agency_employee_no'),
-            'emp_telephone_no' => $this->request->getPost('telephone_no'),
             'emp_mobile_no' => $this->request->getPost('mobile_no'),
-            'emp_p_add_house' => $this->request->getPost('perAddressHouse'),
-            'emp_p_add_street' => $this->request->getPost('perAddressStreet'),
-            'emp_p_add_subdivision' => $this->request->getPost('perAddressSubdivision'),
-            'emp_p_add_barangay' => $this->request->getPost('perAddressBarangay'),
-            'emp_p_add_municipality' => $this->request->getPost('perAddressMunicipality'),
-            'emp_p_add_city' => $this->request->getPost('perAddressCity'),
-            'emp_p_add_province' => $this->request->getPost('perAddressProvince'),
-            'emp_p_add_zip' => $this->request->getPost('perAddressZip'),
-            'emp_r_add_house' => $this->request->getPost('resAddressHouse'),
-            'emp_r_add_street' => $this->request->getPost('resAddressStreet'),
-            'emp_r_add_subdivision' => $this->request->getPost('resAddressSubdivision'),
-            'emp_r_add_barangay' => $this->request->getPost('resAddressBarangay'),
-            'emp_r_add_municipality' => $this->request->getPost('resAddressMunicipality'),
-            'emp_r_add_city' => $this->request->getPost('resAddressCity'),
-            'emp_r_add_province' => $this->request->getPost('resAddressProvince'),
-            'emp_r_add_zip' => $this->request->getPost('resAddressZip'),
         ];
 
         try {
