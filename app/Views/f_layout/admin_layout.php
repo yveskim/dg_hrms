@@ -390,6 +390,11 @@
     });
 
     
+    $('#getStations').click(function() {
+        $('.content-div').load('pages/stations/employee_stations.php');
+    });
+
+    
 
     $('#usersList').click(function() {
         $('.content-div').load('pages/users/users_list.php');

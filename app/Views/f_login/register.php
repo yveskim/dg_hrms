@@ -53,7 +53,7 @@
         <a href="login_admin" type="button" class="button yellow " name="button"><span class="mif-arrow-left mif-lg"></span>&nbsp;&nbsp;Back to Dashboard</a>
       </div>
         <div class="bg-white p-3">
-            <img src="<?= base_url('upload/system_file/logo.png') ?>" class="logo place-right mt-0-minus mr-0-minus">
+            <img src="<?= base_url('upload/system_file/sdo.png') ?>" class="logo place-right mt-0-minus mr-0-minus">
             <h1 class="mb-0">Register</h1><br>
             <div class="text-muted mb-4">
               <h6 class="<?php if ($process == "failed") {
@@ -96,26 +96,19 @@
 
             <div class="form-group">
               <select data-role="select" name="user_type" placeholder="User Type" data-append="<span class='mif-finder'>">
-                  <option value="">User Type</option>
-                  <option value="Admin">Admin</option>
-                  <option value="Registrar">Registrar</option>
+                  <option value="">---User Type---</option>
+                  <option value="Admin">Administrator</option>
                   <option value="HR">Human Resource</option>
                   <option value="Accounting">Accounting</option>
-                  <option value="BAC">BAC</option>
-                  <option value="Guidance">Guidance</option>
-                  <option value="Faculty">Faculty</option>
-                  <option value="Staff">Staff</option>
-                  <option value="Health">Health</option>
-                  <option value="Utility">Utility</option>
               </select>
             </div>
 
             <div class="form-group">
                 <select data-role="select" name="restriction" data-role="input" placeholder="User Access"  data-append="<span class='mif-lock'>">
-                  <option value="">User Access</option>
+                  <option value="">---User Access---</option>
                   <option value="1">Full Access</option>
-                  <option value="2">Admin Access</option>
-                  <option value="3">Field Access</option>
+                  <option value="2">SDO Personnel</option>
+                  <option value="3">Faculty / Field Personnel</option>
               </select>
             </div>
 

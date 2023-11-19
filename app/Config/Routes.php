@@ -249,6 +249,15 @@ $routes->post('setProgram', 'Settings::setProgram');
 $routes->post('setActiveSy', 'Settings::setActiveSy');
 $routes->post('setActiveSemester', 'Settings::setActiveSemester');
 
+
+
+// STATIONS ROUTE
+$routes->get('station/loadAllStations', 'Stations::loadAllStations');
+$routes->post('station/updateStation', 'Stations::updateStation');
+$routes->get('station/getStationDetails', 'Stations::getStationDetails');
+$routes->get('station/deleteStation', 'Stations::deleteStation');
+
+
 // ________________________________________________
 // ________________________________________________
 // ________________________________________________
