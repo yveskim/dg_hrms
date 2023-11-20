@@ -11,20 +11,20 @@
                             <a class="nav-link active" id="all-station-tab" data-toggle="tab" href="#allStations" role="tab" aria-controls="home" aria-selected="true">All Stations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="assigned-stations" data-toggle="tab" href="#assignedStations" role="tab" aria-controls="profile" aria-selected="false">Assigned Stations</a>
+                            <a class="nav-link" id="employee-stations" data-toggle="tab" href="#employeeStation" role="tab" aria-controls="profile" aria-selected="false">Employee Stations</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" id="unassigned-stations" data-toggle="tab" href="#unassignedStations" role="tab" aria-controls="contact" aria-selected="false">Unassigned Stations</a>
+                            <a class="nav-link" id="station-event" data-toggle="tab" href="#stationEvent" role="tab" aria-controls="contact" aria-selected="false">Stations Events</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
                         <div class="tab-pane show active" id="allStations" role="tabpanel" aria-labelledby="all-station-tab">
                             
                         </div>
-                        <div class="tab-pane" id="assignedStations" role="tabpanel" aria-labelledby="assigned-stations">
+                        <div class="tab-pane" id="employeeStation" role="tabpanel" aria-labelledby="employee-stations">
 
                         </div>
-                        <div class="tab-pane" id="unassignedStations" role="tabpanel" aria-labelledby="unassigned-stations">
+                        <div class="tab-pane" id="stationEvent" role="tabpanel" aria-labelledby="station-event">
                         </div>
                     </div>
                 </div>

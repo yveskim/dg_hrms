@@ -137,7 +137,7 @@
           <!-- menu profile quick info -->
           <div class="profile clearfix" style="border-top: 1px solid white; border-bottom: 1px solid white;">
             <div class="profile_pic">
-              <?php if($admin['emp_image'] == null || file_exists('upload/user_files/' . $admin['emp_image']) == false):?>
+              <?php if($admin['emp_image'] == null || file_exists('upload/user_files/' . $admin['emp_image']) == false ):?>
                 <img src="upload/system_file/noimage.png" alt="no image" class="img-circle profile_img">
               <?php else:?>
                 <img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="no image" class="img-circle profile_img">

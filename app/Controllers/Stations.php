@@ -6,6 +6,8 @@ use App\Models\EmployeeModel;;
 use App\Models\UsersModel;
 use App\Models\StationModel;
 use App\Models\FiscalYearModel;
+use App\Models\EmpStationModel;
+
 
 class Stations extends BaseController
 {
@@ -62,8 +64,6 @@ class Stations extends BaseController
        
     }
 
-    
-
     function getStationDetails(){
         $stMdl = new StationModel();
         $station_id = $this->request->getGet('station_id');
@@ -91,5 +91,36 @@ class Stations extends BaseController
             die;
         }
     }
+
+
+    // ----------------- employee stations ----------------------------------
+
+    function getStations(){
+        $stMdl = new StationModel();
+        $data['st'] = $stMdl->findAll();
+
+        return $this->response->setJSON($data);
+    }
+
+    function loadEmpInStation(){
+        $empStMdl = new EmpStationModel();
+        $stMdl = new StationModel();
+
+        $station_id = $this->request->getGet('station_id');
+        $data['st'] = $empStMdl
+        ->join('employee_t', 'employee_t.emp_id = emp_station_tbl.emp_id', 'left')
+        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
+        ->where('emp_station_tbl.station_id', $station_id)->find();
+
+        $data['title'] = $stMdl->select('st_title')->where('station_id', $station_id)->first();
+        $data['office_id'] = $stMdl->select('st_office_id')->where('station_id', $station_id)->first();
+        $data['address'] = $stMdl->select('st_office_address')->where('station_id', $station_id)->first();
+        $data['branch'] = $stMdl->select('st_branch')->where('station_id', $station_id)->first();
+
+        return $this->response->setJSON($data);
+    }
+
+
+    
 
 }
