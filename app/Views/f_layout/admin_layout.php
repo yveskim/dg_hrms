@@ -137,7 +137,11 @@
           <!-- menu profile quick info -->
           <div class="profile clearfix" style="border-top: 1px solid white; border-bottom: 1px solid white;">
             <div class="profile_pic">
-              <img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="no image" class="img-circle profile_img">
+              <?php if($admin['emp_image'] == null || file_exists('upload/user_files/' . $admin['emp_image']) == false):?>
+                <img src="upload/system_file/noimage.png" alt="no image" class="img-circle profile_img">
+              <?php else:?>
+                <img src="<?= 'upload/user_files/' . $admin['emp_image'] ?>" alt="no image" class="img-circle profile_img">
+              <?php endif;?>
             </div>
             <div class="profile_info">
               <h5>Welcome!</h5>
@@ -161,9 +165,9 @@
                       <li>
                          <span>
                             <?php if (session()->get('userRestriction') == 1) {
-                                  echo session()->get('userType').'-'.session()->get('userRestriction').'-'.session()->get('userCategory');
+                                  echo "Super Administrator";
                             } else if (session()->get('userRestriction') == 2) {
-                              echo "Admin";
+                                  echo "Administrator";
                             } ?>
                           </span>
                       </li>

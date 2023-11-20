@@ -104,7 +104,7 @@ $routes->post('setCategory', 'Admin::setCategory');
 $routes->get('resetStudentAccount', 'Admin::resetStudentAccount');
 
 //    FACULTY ROUTE
-$routes->get('faculty', 'Faculty::index', ['filter' => 'checkLoginAdmin']);
+$routes->get('employee_personnel', 'Faculty::index', ['filter' => 'checkLoginAdmin']);
 $routes->get('faculty_profile', 'Faculty::getProfile');
 $routes->get('advisery_class', 'Faculty::getAdviseryClass');
 $routes->get('employmentDetails', 'Faculty::getEmploymentDetails');
@@ -161,7 +161,6 @@ $routes->post('employee/updateProfile', 'Faculty::updateProfile');
 
 
 //EMPLOYEE ROUTE
-$routes->get('getAllActiveEmpNoPlantilla', 'Employee::getAllActiveEmpNoPlantilla');
 
 $routes->post('admin/addDepartment', 'Admin::addEmpDepartment');
 $routes->post('admin/addProgram', 'Admin::addEmpProgram');

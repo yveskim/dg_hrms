@@ -52,7 +52,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="upload/system_file/sdo.png" alt="INHS Logo" height="220" width="220">
+    <img class="animation__shake" src="upload/system_file/sdo.png" alt="SDO Logo" height="220" width="220">
   </div>
 
   <!-- Navbar -->
@@ -114,7 +114,12 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?= 'upload/user_files/' . $faculty['emp_image'] ?>" class="img-circle elevation-2" alt="User Image" style="width: 5rem; height: 5rem; object-fit: contain;">
+          <?php if($faculty['emp_image'] == null || file_exists('upload/user_files/' . $faculty['emp_image']) == false):?>
+            <img src="upload/system_file/noimage.png" class="img-circle elevation-2" alt="No image available" style="width: 5rem; height: 5rem; object-fit: contain;">
+          <?php else:?>
+            <img src="<?= 'upload/user_files/' . $faculty['emp_image'] ?>" class="img-circle elevation-2" alt="No image available" style="width: 5rem; height: 5rem; object-fit: contain;">
+          <?php endif;?>
+          
         </div>
         <div class="info" style="white-space: initial;">
           <span style="color:white">Welcome</span>

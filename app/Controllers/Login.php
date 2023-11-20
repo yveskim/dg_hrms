@@ -58,7 +58,7 @@ class Login extends BaseController
                         if ($user_restriction == 1 || $user_restriction == 2) {
                             return redirect()->route('admin');
                         } else if ($user_restriction == 3) {
-                            return redirect()->route('faculty');
+                            return redirect()->route('employee_personnel');
                         } else {
                             session()->setFlashData('failed', 'account not yet available'); //return message if email is not in the database
                             return redirect()->to('/login_admin')->withInput();
