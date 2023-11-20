@@ -80,7 +80,7 @@ class Faculty extends BaseController
             }
 
             if(file_exists($filePath)){//if image exist unlink it
-                unlink($filePath);
+                // unlink($filePath);
                 try{
                     $result['pic'] = $empModel->update($emp_id, $data);
                     if($result){
