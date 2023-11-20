@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Faculty | <?= $title; ?></title>
+  <title>Employee | <?= $title; ?></title>
 
     <link rel="icon" href="upload/system_file/minerva.png" type="image/gif">
 
@@ -63,10 +63,10 @@
         <a class="nav-link" data-widget="pushmenu" href="javascript:void(0)" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="faculty" class="nav-link">Home</a>
+        <a href="employee_personnel" class="nav-link">Home</a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="faculty_profile" class="nav-link" id="faculty_profile">Profile</a>
+        <a href="employee_profile" class="nav-link" id="employee_profile">Profile</a>
       </li>
     </ul>
 
@@ -99,8 +99,8 @@
   <!-- Main Sidebar Container -->
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
-    <a href="faculty" class="brand-link">
-      <img src="upload/system_file/sdo.png" alt="Faculty Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <a href="employee_personnel" class="brand-link">
+      <img src="upload/system_file/sdo.png" alt="No image found" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">Employee Dashboard</span>
     </a>
 
@@ -153,7 +153,7 @@
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
               <li class="nav-item">
-                <a href="faculty" class="nav-link active" id="menu-dashboard">
+                <a href="employee_personnel" class="nav-link active" id="menu-dashboard">
                   <i class="nav-icon fas fa-tachometer-alt"></i>
                   <p>
                     DASHBOARD

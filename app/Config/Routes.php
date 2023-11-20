@@ -105,7 +105,7 @@ $routes->get('resetStudentAccount', 'Admin::resetStudentAccount');
 
 //    FACULTY ROUTE
 $routes->get('employee_personnel', 'Faculty::index', ['filter' => 'checkLoginAdmin']);
-$routes->get('faculty_profile', 'Faculty::getProfile');
+$routes->get('employee_profile', 'Faculty::getProfile');
 $routes->get('advisery_class', 'Faculty::getAdviseryClass');
 $routes->get('employmentDetails', 'Faculty::getEmploymentDetails');
 $routes->get('employee/personalInfo', 'Faculty::getEmploymentPersonalInfo');

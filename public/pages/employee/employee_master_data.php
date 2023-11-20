@@ -108,6 +108,10 @@
                 data: {emp_id: emp_id},
                 success: function(res){
                   $('.content-div').load('pages/employee/each_employee.php', function(){
+
+                      $('html, body').animate({
+                          scrollTop: $(".content-div").offset().top
+                      }, 500);
       
                       $("#fullname").text(res.emp.emp_fname+" "+ res.emp.emp_mname +" "+ res.emp.emp_lname);
                       if(res.stat != null){
@@ -115,6 +119,8 @@
                       }else{
                         $("#emp_position").text("N/A");
                       }
+
+                      // TODO: Add station
 
                       if(res.cat != null){
                         $("#emp_category").text(res.cat.cat_title);
@@ -133,7 +139,8 @@
                       }else{
                         $("#emp_designation").text("N/A");
                       }
-
+                      
+                      // Checking if image exist
                       $.ajax({
                           url:'upload/user_files/'+res.emp.emp_image,
                           type:'HEAD',
@@ -147,16 +154,7 @@
                           }
                       });
                       
-                      // if(res.emp.emp_image == ""){
-                      //   $(".profile_pic").attr("src", 'upload/system_file/noimage.png');  
-                      // }else{
-                      //   $(".profile_pic").attr("src", 'upload/user_files/'+res.emp.emp_image);
-                      // }
-
-
-
-                      $("#emp_id").val(res.emp.emp_id);
-                      $("#emp_school_id").text(res.emp.emp_school_id);
+                      $("#emp_id").val(res.emp.emp_id);//!Reference ID do not remove or delete line 
                      
                     });
 
