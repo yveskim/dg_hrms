@@ -120,6 +120,21 @@ class Stations extends BaseController
         return $this->response->setJSON($data);
     }
 
+    function getEmpNoStation(){
+        $empmdl = new EmployeeModel();
+        $data['emp'] = $empmdl
+        ->join('emp_station_tbl', 'emp_station_tbl.emp_id = employee_t.emp_id', 'left')
+        ->select('employee_t.emp_id')
+        ->select('employee_t.emp_lname')
+        ->select('employee_t.emp_fname')
+        ->select('employee_t.emp_mname')
+        ->select('employee_t.emp_agency_employee_no')
+        ->where('emp_station_tbl.emp_station_id', null)
+        ->find();
+
+        return $this->response->setJSON($data);
+    }
+
 
     
 

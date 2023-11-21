@@ -257,7 +257,7 @@ $routes->get('station/getStationDetails', 'Stations::getStationDetails');
 $routes->get('station/deleteStation', 'Stations::deleteStation');
 $routes->get('station/getStations', 'Stations::getStations');
 $routes->get('station/loadEmpInStation', 'Stations::loadEmpInStation');
-
+$routes->get('station/getEmpNoStation', 'Stations::getEmpNoStation');
 
 
 // ________________________________________________

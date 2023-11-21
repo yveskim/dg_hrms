@@ -1,5 +1,5 @@
 $(document).ready(() => {
-  $('.station-div').hide();
+  $(".station-div").hide();
   $(".btn-update").hide();
   $(".spiner-div").hide();
   $(".div-blur").hide();
@@ -8,48 +8,46 @@ $(document).ready(() => {
   getStations();
 });
 
-
-function getStations(){
+function getStations() {
   $.ajax({
     url: "station/getStations",
     method: "get",
     dataType: "json",
-    success: function(data){
-
-      $.each(data.st, function(index, val){
-        $('#station_list').append(
-          '<option value="'+val.station_id+'">'+val.st_title+'</option>'
-        )
-      })
-       
-    }
+    success: function (data) {
+      $.each(data.st, function (index, val) {
+        $("#station_list").append(
+          '<option value="' + val.station_id + '">' + val.st_title + "</option>"
+        );
+      });
+    },
   });
 }
 
-
-$('#loadEmpInStation').click(function(){
-    let station_id = $('#station_list').val();
-    loadAllStations(station_id);
-})
-// TODO: load all stations according to id
-function loadAllStations(station_id){
+$("#loadEmpInStation").click(function () {
+  let station_id = $("#station_list").val();
+  if (station_id == null || station_id == undefined || station_id == "") {
+    alert("Please select station");
+  } else {
+    loadAllEmpStations(station_id);
+  }
+});
+function loadAllEmpStations(station_id) {
   $.ajax({
     url: "station/loadEmpInStation",
     method: "get",
     dataType: "json",
-    data: {station_id: station_id},
+    data: { station_id: station_id },
     beforeSend: function () {
       $(".spiner-div").show();
       $(".div-blur").show();
     },
     success: function (data) {
-      $('#station_title').text(data.title.st_title);
-      $('#_office_id').text(data.office_id.st_office_id);
-      $('#station_address').text(data.address.st_office_address);
-      $('#station_branch').text(data.branch.st_branch);
+      $("#station_title").text(data.title.st_title);
+      $("#_office_id").text(data.office_id.st_office_id);
+      $("#station_address").text(data.address.st_office_address);
+      $("#station_branch").text(data.branch.st_branch);
 
-
-      $('.station-div').show();
+      $(".station-div").show();
       $(".table-emp-station").off();
       $(".table-emp-station").DataTable().clear().destroy();
       $(".table-emp-station").DataTable({
@@ -147,7 +145,7 @@ function loadAllStations(station_id){
                     text: "Record has been deleted",
                     showConfirmButton: true,
                   });
-                  loadAllStations();
+                  loadAllEmpStations();
                 } else {
                   Swal.fire({
                     position: "center",
@@ -168,7 +166,7 @@ function loadAllStations(station_id){
       $(".spiner-div").hide();
       $(".div-blur").hide();
     },
-  })
+  });
 }
 
 function resetEditForm() {
@@ -180,9 +178,53 @@ function resetEditForm() {
 
   $("#modalSelectEmployee").on("show.bs.modal", function () {
     $(".form-type").text("(ADD)");
-    // TODO: ajax get employee without station
   });
 }
+
+$(".btn-add-emp").click(function () {
+  $.ajax({
+    url: "station/getEmpNoStation",
+    method: "get",
+    dataType: "json",
+    success: function (data) {
+      $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
+      $(".table-select-employee").show();
+      $(".table-select-employee").off();
+      $(".table-select-employee").DataTable().clear().destroy();
+      $(".table-select-employee").DataTable({
+        data: data.emp,
+        responsive: false,
+        scrollX: true,
+        autoWidth: true,
+        destroy: true,
+        searching: true,
+        paging: true,
+        columns: [
+          {
+            data: null,
+            render: function (data, type, row) {
+              return (
+                '<input type="checkbox" id="' +
+                data.emp_id +
+                '" class="select-emp" style="font-size: 1.2rem;">'
+              );
+            },
+          },
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              return meta.row + meta.settings._iDisplayStart + 1;
+            },
+          },
+          { data: "emp_agency_employee_no" },
+          { data: "emp_lname" },
+          { data: "emp_fname" },
+          { data: "emp_mname" },
+        ],
+      }); //end of datatable
+    },
+  });
+});
 
 function submitStationForm() {
   $("#stationForm").submit(function (event) {
@@ -212,7 +254,7 @@ function submitStationForm() {
           });
           $("#modalSelectEmployee").modal("toggle");
           $("#stationForm")[0].reset();
-          loadAllStations();
+          loadAllEmpStations();
         } else {
           Swal.fire({
             position: "center",

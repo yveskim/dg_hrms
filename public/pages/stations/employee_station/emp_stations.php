@@ -1,3 +1,9 @@
+<style>
+    .station-details{
+        border-left: 2px solid lightgray;
+    }
+</style>
+
 <hr>
 <div class="row">
     <div class="col-md-4">
@@ -14,23 +20,23 @@
 <div class="row station-div">
     <div class="col-md-10">
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-4 station-details">
                 <h6 >Station Title: <span class="text-warning" id="station_title"></span></h6>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 station-details">
                 <h6>Station ID: <span class="text-warning" id="_office_id"></span></h6>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 station-details">
                 <h6 >Address: <span class="text-warning" id="station_address"></span></h6>
             </div>
-            <div class="col-md-2">
+            <div class="col-md-2 station-details">
                 <h6 >Branch: <span class="text-warning" id="station_branch"></span></h6>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-2">
-                <button class="btn btn-primary" data-toggle="modal" data-target="#modalSelectEmployee">Add Employee</button>
+                <button class="btn btn-primary btn-add-emp" data-toggle="modal" data-target="#modalSelectEmployee">Add Employee</button>
             </div>
         </div><br>
         <div class="row">
@@ -74,17 +80,18 @@
           <form id="selectEmpForm">
             <div class="row mb-4">
                 <div class="col-md-12">
-                    <table class="table table-bordered table-hover table-select-employee full-size table-sm" style="width: 100%; white-space: nowrap;">
+                    <table class="table table-bordered table-hover table-select-employee full-size table-sm" style="width: 100%; white-space: nowrap;  overflow:auto;">
                         <thead>
                             <tr>
-                                <th></th>
                                 <th>Sel.</th>
+                                <th>#</th>
                                 <th>Emp ID</th>
                                 <th>Last Name</th>
                                 <th>First Name</th>
                                 <th>Middle Name</th>
                             </tr>
                         </thead>
+                        <tbody></tbody>
                     </table>
                 </div>
             </div>

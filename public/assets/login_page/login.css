@@ -170,7 +170,7 @@ fieldset {
 .header_title {
   vertical-align: middle;
   text-align: center;
-  font-size: 1.3vw;
+  font-size: 3vmin;
 }
 
 @media only screen and (max-width: 600px) {
@@ -179,7 +179,7 @@ fieldset {
     text-align: center;
   }
   .btn-inhs {
-    font-size: 2.5vw;
+    font-size: 3vmin;
   }
 }
 
@@ -187,7 +187,7 @@ fieldset {
   .header_title {
     vertical-align: middle;
     text-align: center;
-    font-size: 2vw;
+    font-size: 3vmin;
   }
 }
 /*# sourceMappingURL=login.css.map */
