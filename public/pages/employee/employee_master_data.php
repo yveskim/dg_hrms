@@ -16,7 +16,7 @@
 <div class="x_content">
   <div class="row">
     <div class="col-md-10">
-      <table class="table table-bordered table-hover tableEmp table-sm table-compact" style="white-space: nowrap; width: 100%;">
+      <table class="table table-bordered table-hover tableEmp table-sm" style="white-space: nowrap; width: 100%;" >
         <thead>
           <tr>
             <th></th>
@@ -29,6 +29,7 @@
             <th width="5%">Del</th>
           </tr>
         </thead>
+        <tbody></tbody>
       </table>
     </div>
   </div>
@@ -80,7 +81,7 @@
            {
              "data": null,
              render: function(data, type, row) {
-             return '<button class="btn btn-warning btn-xs view full-size" id="'+data.emp_id+'"><i class="fa fa-search"></i></button>';
+             return '<button class="btn btn-success btn-xs view full-size" id="'+data.emp_id+'" title="view"><i class="fa fa-folder-open"></i></button>';
              }
            },
            {"data": "emp_agency_employee_no"},

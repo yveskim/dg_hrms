@@ -28,3 +28,18 @@ CRITICAL - 2023-11-21 13:00:08 --> Table 'hrms.employment_status_tbl' doesn't ex
 #10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
 #11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
 #12 {main}
+ERROR - 2023-11-21 20:18:43 --> Table 'hrms.employment_status_tbl' doesn't exist
+CRITICAL - 2023-11-21 20:18:43 --> Table 'hrms.employment_status_tbl' doesn't exist
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\app\Controllers\Plantilla.php(31): CodeIgniter\BaseModel->find()
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Plantilla->getAllPlantilla()
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Plantilla))
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#12 {main}

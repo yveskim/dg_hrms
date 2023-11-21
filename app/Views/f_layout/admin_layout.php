@@ -106,7 +106,6 @@
   }
 
 
-
   </style>
 
 
@@ -259,8 +258,15 @@
         <?php $this->renderSection('content') ?>
       </div>
       <!-- /page content -->
-
+       
     </div>
+    
+   <footer>
+          <div class="pull-right">
+            Developed by: YKC&CM
+          </div>
+          <div class="clearfix"></div>
+        </footer>
   </div>
 	<script src="assets/gentelella-master/vendors/bootstrap-wysiwyg/js/bootstrap-wysiwyg.min.js"></script>
 	<script src="assets/gentelella-master/vendors/jquery.hotkeys/jquery.hotkeys.js"></script>

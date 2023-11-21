@@ -1,151 +1,4 @@
-$(document).ready(() => {
-  $(".btn-update").hide();
-  $(".spiner-div").hide();
-  $(".div-blur").hide();
-  loadAllStations();
-  submitStationForm();
-  resetEditForm();
-});
-
-function loadAllStations() {
-  $.ajax({
-    url: "station/loadAllStations",
-    method: "get",
-    dataType: "json",
-    beforeSend: function () {
-      $(".spiner-div").show();
-      $(".div-blur").show();
-    },
-    success: function (data) {
-      $(".table-stations").off();
-      $(".table-stations").DataTable().clear().destroy();
-      $(".table-stations").DataTable({
-        data: data.st,
-        responsive: false,
-        scrollX: true,
-        autoWidth: false,
-        destroy: true,
-        searching: true,
-        paging: true,
-        columns: [
-          {
-            data: null,
-            render: function (data, type, row, meta) {
-              return meta.row + meta.settings._iDisplayStart + 1;
-            },
-          },
-          {
-            data: null,
-            render: function (data, type, row) {
-              return (
-                '<button type="button" id="' +
-                data.station_id +
-                '" class="mr-1 btn col-md-6 btn-success btn-sm btn-xs full-size _view" title="view details"><i class="fa fa-folder-open "></i></button>' +
-                '<button type="button" id="' +
-                data.station_id +
-                '" class=" col-md-5 btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i></button>'
-              );
-            },
-          },
-          { data: "st_title" },
-          { data: "st_office_id" },
-          { data: "st_office_address" },
-          { data: "st_branch" },
-          {
-            data: null,
-            render: function (data, type, row) {
-              return (
-                '<button type="button" id="' +
-                data.station_id +
-                '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i></button>'
-              );
-            },
-          },
-        ],
-      }); //end of datatable
-      // edit child +++++++++++++++++++
-      $(".table-stations").on("click", "._view", function () {
-        let station_id = $(this).prop("id");
-        $("#allStations").load(
-          "pages/stations/each_station/each_stations.php",
-          function () {
-            loadAllEmpStations(station_id);
-          }
-        );
-      });
-
-      $(".table-stations").on("click", "._edit", function () {
-        $("#modalStation").modal("toggle");
-        let station_id = $(this).prop("id");
-        $.ajax({
-          url: "station/getStationDetails",
-          method: "get",
-          dataType: "json",
-          data: { station_id: station_id },
-          success: function (data) {
-            $("#is_edit").val(1);
-            $("#station_id").val(station_id);
-            $(".form-type").text("(EDIT)");
-            $("#st_title").val(data.st.st_title);
-            $("#st_id").val(data.st.st_office_id);
-            $("#st_address").val(data.st.st_office_address);
-            $("#st_branch").val(data.st.st_branch);
-          },
-        });
-      });
-      //end edit child ===================
-
-      // delete child ++++++++++++++++++++++++
-      $(".table-stations").on("click", "._delete", function () {
-        // console.log($(this).prop("id"));
-        let station_id = $(this).prop("id");
-
-        Swal.fire({
-          title: "Confirm Delete",
-          showDenyButton: false,
-          showCancelButton: true,
-          confirmButtonText: "Delete",
-          denyButtonText: "Cancel",
-        }).then((result) => {
-          /* Read more about isConfirmed, isDenied below */
-          if (result.isConfirmed) {
-            $.ajax({
-              url: "station/deleteStation",
-              method: "get",
-              dataType: "json",
-              data: { station_id: station_id },
-              success: function (res) {
-                if (res.status == 1) {
-                  Swal.fire({
-                    position: "center",
-                    icon: "success",
-                    title: "Delete Successfull",
-                    text: "Record has been deleted",
-                    showConfirmButton: true,
-                  });
-                  loadAllStations();
-                } else {
-                  Swal.fire({
-                    position: "center",
-                    icon: "error",
-                    title: "Action Failed",
-                    text: res.message,
-                    showConfirmButton: true,
-                  });
-                } //end ifelse
-              },
-            });
-          }
-        });
-      });
-      // end delete child =====================
-    },
-    complete: function () {
-      $(".spiner-div").hide();
-      $(".div-blur").hide();
-    },
-  });
-}
+$(document).ready(() => {});
 
 function loadAllEmpStations(station_id) {
   $.ajax({
@@ -286,16 +139,65 @@ function loadAllEmpStations(station_id) {
 }
 
 function resetEditForm() {
-  $("#modalStation").on("hidden.bs.modal", function () {
+  $("#modalSelectEmployee").on("hidden.bs.modal", function () {
     $("#is_edit").val(0);
     $("#station_id").val(null);
     $("#stationForm")[0].reset();
   });
 
-  $("#modalStation").on("show.bs.modal", function () {
+  $("#modalSelectEmployee").on("show.bs.modal", function () {
     $(".form-type").text("(ADD)");
   });
 }
+
+$("#modalSelectEmployee").on("shown.bs.modal", function (e) {
+  $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust(); //align table header
+});
+
+$(".btn-add-emp").click(function () {
+  $.ajax({
+    url: "station/getEmpNoStation",
+    method: "get",
+    dataType: "json",
+    success: function (data) {
+      $(".table-select-employee").show();
+      $(".table-select-employee").off();
+      $(".table-select-employee").DataTable().clear().destroy();
+      $(".table-select-employee").DataTable({
+        data: data.emp,
+        responsive: false,
+        scrollX: true,
+        autoWidth: false,
+        destroy: true,
+        searching: true,
+        paging: true,
+        ordering: true,
+        columns: [
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              return meta.row + meta.settings._iDisplayStart + 1;
+            },
+          },
+          {
+            data: null,
+            render: function (data, type, row) {
+              return (
+                '<input type="checkbox" id="' +
+                data.emp_id +
+                '" class="select-emp" style="transform: scale(1.5);">'
+              );
+            },
+          },
+          { data: "emp_agency_employee_no" },
+          { data: "emp_lname" },
+          { data: "emp_fname" },
+          { data: "emp_mname" },
+        ],
+      }); //end of datatable
+    },
+  });
+});
 
 function submitStationForm() {
   $("#stationForm").submit(function (event) {
@@ -323,9 +225,9 @@ function submitStationForm() {
             text: "Record changes is successfuly made",
             showConfirmButton: true,
           });
-          $("#modalStation").modal("toggle");
+          $("#modalSelectEmployee").modal("toggle");
           $("#stationForm")[0].reset();
-          loadAllStations();
+          loadAllEmpStations();
         } else {
           Swal.fire({
             position: "center",
