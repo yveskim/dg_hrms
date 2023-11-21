@@ -80,7 +80,7 @@
           <form id="selectEmpForm">
             <div class="row mb-4">
                 <div class="col-md-12">
-                    <table class="table table-bordered table-hover table-select-employee full-size table-sm" style="width: 100%; white-space: nowrap;  overflow:auto;">
+                    <table class="table table-bordered table-hover table-select-employee full-size table-sm" style="width: 100%; white-space: nowrap; ">
                         <thead>
                             <tr>
                                 <th>Sel.</th>
@@ -96,15 +96,15 @@
                 </div>
             </div>
           
-
+            <hr>
             <div class="row mb-2">
-                <div class="col-md-6 mb-2">
+                <div class="col-md-3 mb-2">
                     <label for="date_started" class="form-label">Date Started</label>
-                    <input type="text" class="form-control form-control-sm" id="date_started" name="date_started" form="selectEmpForm">
+                    <input type="date" class="form-control form-control-sm" id="date_started" name="date_started" form="selectEmpForm">
                 </div>
-                <div class="col-md-6 mb-2">
+                <div class="col-md-3 mb-2">
                     <label for="date_ended" class="form-label">Date End</label>
-                    <input type="text" class="form-control form-control-sm" id="date_ended" name="date_ended" form="selectEmpForm">
+                    <input type="date" class="form-control form-control-sm" id="date_ended" name="date_ended" form="selectEmpForm">
                 </div>
             </div>
             <hr class="bg-success">
@@ -112,7 +112,7 @@
             <div class="row mb-2">
                 <div class="col-md-8"></div>
                 <div class="col-md-4">
-                    <button type="submit" class="btn btn-success full-size" form="selectEmpForm">SUBMIT</button>
+                    <button type="submit" class="btn btn-success full-size" form="selectEmpForm">ADD</button>
                 </div>
             </div>
           </form>

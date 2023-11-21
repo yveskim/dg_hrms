@@ -181,13 +181,16 @@ function resetEditForm() {
   });
 }
 
+$('#modalSelectEmployee').on('shown.bs.modal', function (e) {
+  $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();//align table header
+});
+
 $(".btn-add-emp").click(function () {
   $.ajax({
     url: "station/getEmpNoStation",
     method: "get",
     dataType: "json",
     success: function (data) {
-      $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
       $(".table-select-employee").show();
       $(".table-select-employee").off();
       $(".table-select-employee").DataTable().clear().destroy();
@@ -195,10 +198,13 @@ $(".btn-add-emp").click(function () {
         data: data.emp,
         responsive: false,
         scrollX: true,
-        autoWidth: true,
+        autoWidth: false,
         destroy: true,
         searching: true,
         paging: true,
+        ordering: false,
+        info: false,
+        lengthChange: false,
         columns: [
           {
             data: null,
@@ -224,6 +230,8 @@ $(".btn-add-emp").click(function () {
       }); //end of datatable
     },
   });
+
+
 });
 
 function submitStationForm() {
