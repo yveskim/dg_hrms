@@ -1,0 +1,63 @@
+CRITICAL - 2023-11-22 10:40:54 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 10:41:10 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 11:02:36 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:19:45 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:21:25 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:22:59 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:23:27 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:23:49 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}
+CRITICAL - 2023-11-22 12:23:57 --> Your zlib.output_compression ini directive is turned on. This will not work well with output buffers.
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Config\Events.php(30): CodeIgniter\Exceptions\FrameworkException::forEnabledZlibOutputCompression()
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(299): CodeIgniter\Events\Events::trigger('pre_system')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\spark(64): CodeIgniter\CLI\Console->run()
+#5 {main}

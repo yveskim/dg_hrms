@@ -1,6 +1,7 @@
 $(document).ready(function () {
   let station_id = $("#station_id").val();
   loadAllEmpStations(station_id);
+  submitStationForm();
 });
 
 $("#station_employees").click(function () {
@@ -70,7 +71,7 @@ function loadAllEmpStations(station_id) {
               return (
                 '<button type="button" id="' +
                 data.emp_station_id +
-                '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i></button>'
+                '" class="btn btn-danger btn-sm btn-xs _delete full-size"  title="delete entry"><i class="fa fa-trash"></i></button>'
               );
             },
           },
@@ -166,6 +167,8 @@ $("#modalSelectEmployee").on("shown.bs.modal", function (e) {
   $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust(); //align table header
 });
 
+
+
 $(".btn-add-emp").click(function () {
   $.ajax({
     url: "station/getEmpNoStation",
@@ -197,7 +200,7 @@ $(".btn-add-emp").click(function () {
               return (
                 '<input type="checkbox" id="' +
                 data.emp_id +
-                '" class="select-emp" style="transform: scale(1.5);">'
+                '" class="select-emp" name="emp_id[]" style="transform: scale(1.5);" form="selectEmpForm">'
               );
             },
           },
@@ -206,54 +209,66 @@ $(".btn-add-emp").click(function () {
           { data: "emp_fname" },
           { data: "emp_mname" },
         ],
+        
       }); //end of datatable
+       
     },
+  
   });
 });
 
 function submitStationForm() {
-  $("#stationForm").submit(function (event) {
+  $("#selectEmpForm").submit(function (event) {
     event.preventDefault();
     let formData = new FormData(this);
     formData.append("user_id", $("#user").val());
-    $.ajax({
-      url: "station/updateStation",
-      method: "post",
-      dataType: "json",
-      data: formData,
-      contentType: false,
-      cache: false,
-      processData: false,
-      beforeSend: function () {
-        $(".spiner-div").show();
-        $(".div-blur").show();
-      },
-      success: function (res) {
-        if (res.status == 1) {
-          Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Process Successfull",
-            text: "Record changes is successfuly made",
-            showConfirmButton: true,
-          });
-          $("#modalSelectEmployee").modal("toggle");
-          $("#stationForm")[0].reset();
-          loadAllEmpStations();
-        } else {
-          Swal.fire({
-            position: "center",
-            icon: "error",
-            title: "Action Failed",
-            text: res.message,
-            showConfirmButton: true,
-          });
-        } //end ifelse
-      },
-      complete: function () {
-        $(".spiner-div").hide();
-        $(".div-blur").hide();
-      },
+    
+    var selectedIds = $(".table-emp-station").columns().checkboxes.selected()[0];
+    console.log(selectedIds)
+ 
+    selectedIds.forEach(function(selectedId) {
+        alert(selectedId);
     });
+
+
+    // $.ajax({
+    //   url: "station/updateStation",
+    //   method: "post",
+    //   dataType: "json",
+    //   data: formData,
+    //   contentType: false,
+    //   cache: false,
+    //   processData: false,
+    //   beforeSend: function () {
+    //     $(".spiner-div").show();
+    //     $(".div-blur").show();
+    //   },
+    //   success: function (res) {
+    //     if (res.status == 1) {
+    //       Swal.fire({
+    //         position: "center",
+    //         icon: "success",
+    //         title: "Process Successfull",
+    //         text: "Record changes is successfuly made",
+    //         showConfirmButton: true,
+    //       });
+    //       $("#modalSelectEmployee").modal("toggle");
+    //       $("#stationForm")[0].reset();
+    //       loadAllEmpStations();
+    //     } else {
+    //       Swal.fire({
+    //         position: "center",
+    //         icon: "error",
+    //         title: "Action Failed",
+    //         text: res.message,
+    //         showConfirmButton: true,
+    //       });
+    //     } //end ifelse
+    //   },
+    //   complete: function () {
+    //     $(".spiner-div").hide();
+    //     $(".div-blur").hide();
+    //   },
+    // });
   });
 }
