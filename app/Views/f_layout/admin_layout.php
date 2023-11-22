@@ -392,56 +392,35 @@
     });
 
     $('#empMaster').click(function() {
+      scrollTop();
         $('.content-div').load('pages/employee/employee_master_data.php');
     });
 
     $('#serviceRecords').click(function() {
+      scrollTop();
         $('.content-div').load('pages/human_resource/service_record.php');
     });
 
     
     $('#getStations').click(function() {
+        scrollTop();
         $('.content-div').load('pages/stations/employee_stations.php');
+        
     });
 
     
 
     $('#usersList').click(function() {
+      scrollTop();
         $('.content-div').load('pages/users/users_list.php');
     });
 
     $('#studentUsers').click(function() {
+      scrollTop();
         $('.content-div').load('pages/student_account/users_list.php');
     });
 
     
-
-    $('#pre_registration_data').click(function() {
-      // if (!$.fn.DataTable.isDataTable('.tableApplication')) { //method to check if datatable is already loaded. if not load the ajax
-        //  $('.tableApplication').clear.destroy();
-        $('.content-div').load('pages/pre_registration/pre_registration_data.php');
-      // }
-    });
-    
-    $('#validated_data').click(function() {
-      // if (!$.fn.DataTable.isDataTable('.tableApplication')) { //method to check if datatable is already loaded. if not load the ajax
-        $('.content-div').load('pages/pre_registration/validated_pre_registration.php');
-   
-    });
-
-    $('#admission_data').click(function() {
-      if (!$.fn.DataTable.isDataTable('.tableAdmission')) { //method to check if datatable is already loaded. if not load the ajax
-        $('.content-div').load('pages/admission/admission_data.php');
-      }
-    });
-
-    $('#encode_student').click(function() {
-      $('.content-div').load('pages/enrollment/encode_student.php');
-    });
-
-    $('#enrollment_data').click(function() {
-      $('.content-div').load('pages/enrollment/enrollment_data.php');
-    });
 
     $('#faculty').click(function() {
       $('.content-div').load('pages/faculty/faculty_data.php');
@@ -463,25 +442,14 @@
         $('.content-div').load('pages/department/view_department.php');
     })
 
-    
-
     $('#getPlantilla').click(function(){
         $('.content-div').load('pages/plantilla/view_plantilla.php');
     })
-
-    
 
     $('#homePage').click(function() {
       $('.content-div').load('pages/home/homepage.php');
     })
 
-    $('#subject_group').click(function() {
-      $('.content-div').load('pages/subject_group/sg_data.php');
-    })
-
-    $('#track_strand').click(function() {
-      $('.content-div').load('pages/track_strand/track_data.php');
-    })
     
 
     
@@ -492,5 +460,12 @@
     });
 
   })
+
+
+  function scrollTop(){
+        $('html, body').animate({
+            scrollTop: $(".content-div").offset().top
+        }, 500);
+  }
 
 </script>

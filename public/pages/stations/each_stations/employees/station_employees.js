@@ -1,25 +1,37 @@
-$(document).ready(() => {
-  $(".btn-update").hide();
-  $(".spiner-div").hide();
-  $(".div-blur").hide();
-  loadAllStations();
-  submitStationForm();
-  resetEditForm();
+$(document).ready(function () {
+  let station_id = $("#station_id").val();
+  loadAllEmpStations(station_id);
 });
 
-function loadAllStations() {
+$("#station_employees").click(function () {
+  $("#stationEmpTab").load(
+    "pages/stations/each_stations/employees/station_employees.php",
+    function () {
+      loadAllEmpStations(station_id);
+    }
+  );
+});
+
+function loadAllEmpStations(station_id) {
   $.ajax({
-    url: "station/loadAllStations",
+    url: "station/loadEmpInStation",
     method: "get",
     dataType: "json",
+    data: { station_id: station_id },
     beforeSend: function () {
       $(".spiner-div").show();
       $(".div-blur").show();
     },
     success: function (data) {
-      $(".table-stations").off();
-      $(".table-stations").DataTable().clear().destroy();
-      $(".table-stations").DataTable({
+      $("#station_title").text(data.title.st_title);
+      $("#_office_id").text(data.office_id.st_office_id);
+      $("#station_address").text(data.address.st_office_address);
+      $("#station_branch").text(data.branch.st_branch);
+
+      $(".station-div").show();
+      $(".table-emp-station").off();
+      $(".table-emp-station").DataTable().clear().destroy();
+      $(".table-emp-station").DataTable({
         data: data.st,
         responsive: false,
         scrollX: true,
@@ -39,24 +51,25 @@ function loadAllStations() {
             render: function (data, type, row) {
               return (
                 '<button type="button" id="' +
-                data.station_id +
-                '" class="mr-1 btn col-md-6 btn-success btn-sm btn-xs full-size _view" title="view details"><i class="fa fa-folder-open "></i></button>' +
-                '<button type="button" id="' +
-                data.station_id +
-                '" class=" col-md-5 btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i></button>'
+                data.emp_station_id +
+                '" class="btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i></button>'
               );
             },
           },
-          { data: "st_title" },
-          { data: "st_office_id" },
-          { data: "st_office_address" },
-          { data: "st_branch" },
+          { data: "emp_agency_employee_no" },
+          { data: "emp_lname" },
+          { data: "emp_fname" },
+          { data: "emp_mname" },
+          { data: "emp_gender" },
+          { data: "date_started" },
+          { data: "date_end" },
+          { data: "assigned_by" },
           {
             data: null,
             render: function (data, type, row) {
               return (
                 '<button type="button" id="' +
-                data.station_id +
+                data.emp_station_id +
                 '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i></button>'
               );
             },
@@ -64,18 +77,8 @@ function loadAllStations() {
         ],
       }); //end of datatable
       // edit child +++++++++++++++++++
-      $(".table-stations").on("click", "._view", function () {
-        let station_id = $(this).prop("id");
-        $("#allStations").load(
-          "pages/stations/each_stations/each_stations.php",
-          function () {
-            $("#station_id").val(station_id);
-          }
-        );
-      });
-
-      $(".table-stations").on("click", "._edit", function () {
-        $("#modalStation").modal("toggle");
+      $(".table-emp-station").on("click", "._edit", function () {
+        $("#modalSelectEmployee").modal("toggle");
         let station_id = $(this).prop("id");
         $.ajax({
           url: "station/getStationDetails",
@@ -96,7 +99,7 @@ function loadAllStations() {
       //end edit child ===================
 
       // delete child ++++++++++++++++++++++++
-      $(".table-stations").on("click", "._delete", function () {
+      $(".table-emp-station").on("click", "._delete", function () {
         // console.log($(this).prop("id"));
         let station_id = $(this).prop("id");
 
@@ -123,7 +126,7 @@ function loadAllStations() {
                     text: "Record has been deleted",
                     showConfirmButton: true,
                   });
-                  loadAllStations();
+                  loadAllEmpStations();
                 } else {
                   Swal.fire({
                     position: "center",
@@ -148,16 +151,65 @@ function loadAllStations() {
 }
 
 function resetEditForm() {
-  $("#modalStation").on("hidden.bs.modal", function () {
+  $("#modalSelectEmployee").on("hidden.bs.modal", function () {
     $("#is_edit").val(0);
     $("#station_id").val(null);
     $("#stationForm")[0].reset();
   });
 
-  $("#modalStation").on("show.bs.modal", function () {
+  $("#modalSelectEmployee").on("show.bs.modal", function () {
     $(".form-type").text("(ADD)");
   });
 }
+
+$("#modalSelectEmployee").on("shown.bs.modal", function (e) {
+  $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust(); //align table header
+});
+
+$(".btn-add-emp").click(function () {
+  $.ajax({
+    url: "station/getEmpNoStation",
+    method: "get",
+    dataType: "json",
+    success: function (data) {
+      $(".table-select-employee").show();
+      $(".table-select-employee").off();
+      $(".table-select-employee").DataTable().clear().destroy();
+      $(".table-select-employee").DataTable({
+        data: data.emp,
+        responsive: false,
+        scrollX: true,
+        autoWidth: false,
+        destroy: true,
+        searching: true,
+        paging: true,
+        ordering: true,
+        columns: [
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              return meta.row + meta.settings._iDisplayStart + 1;
+            },
+          },
+          {
+            data: null,
+            render: function (data, type, row) {
+              return (
+                '<input type="checkbox" id="' +
+                data.emp_id +
+                '" class="select-emp" style="transform: scale(1.5);">'
+              );
+            },
+          },
+          { data: "emp_agency_employee_no" },
+          { data: "emp_lname" },
+          { data: "emp_fname" },
+          { data: "emp_mname" },
+        ],
+      }); //end of datatable
+    },
+  });
+});
 
 function submitStationForm() {
   $("#stationForm").submit(function (event) {
@@ -185,9 +237,9 @@ function submitStationForm() {
             text: "Record changes is successfuly made",
             showConfirmButton: true,
           });
-          $("#modalStation").modal("toggle");
+          $("#modalSelectEmployee").modal("toggle");
           $("#stationForm")[0].reset();
-          loadAllStations();
+          loadAllEmpStations();
         } else {
           Swal.fire({
             position: "center",

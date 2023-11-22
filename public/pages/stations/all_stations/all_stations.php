@@ -1,8 +1,7 @@
-<hr>
 
 
 <div class="row">
-    <div class="col-md-9">
+    <div class="col-md-12">
         <div class="row">
             <div class="col-md-2">
                 <button class="btn btn-primary btn-sm full-size fs-1" data-toggle="modal" data-target="#modalStation"><i class="fa fa-plus"></i>&nbsp;Add Station</button>
@@ -10,7 +9,7 @@
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-10">
                 <table class="table table-bordered table-hover table-stations full-size table-sm" style="width: 100%; white-space: nowrap;">
                     <thead class="bg-info">
                         <tr>
