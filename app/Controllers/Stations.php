@@ -112,7 +112,7 @@ class Stations extends BaseController
         ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
         ->where('emp_station_tbl.station_id', $station_id)->find();
 
-        $data['title'] = $stMdl->select('st_title')->where('station_id', $station_id)->first();
+        $data['title'] = $stMdl->where('station_id', $station_id)->first();
         $data['office_id'] = $stMdl->select('st_office_id')->where('station_id', $station_id)->first();
         $data['address'] = $stMdl->select('st_office_address')->where('station_id', $station_id)->first();
         $data['branch'] = $stMdl->select('st_branch')->where('station_id', $station_id)->first();
@@ -135,7 +135,44 @@ class Stations extends BaseController
         return $this->response->setJSON($data);
     }
 
+    function setEmployeeStation(){
+        $emStMdl = new EmpStationModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp = explode(',',$this->request->getPost('employee'));  
+        $date_started = $this->request->getPost('date_started');  
+        $date_ended = $this->request->getPost('date_ended');  
+        $station_id = $this->request->getPost('station_id');  
+        
+        // $data['count'] = $emp;
+        foreach($emp as $value){
+            $data = [
+                'emp_id' => $value,
+                'station_id' => $station_id,
+                'date_started' => $date_started,
+                'date_end' => $date_ended,
+                'assigned_by' => $user_id
+            ]; 
+            $res = $emStMdl->save($data);
+        }
 
+            try {
+                if($res){
+                    $result['status'] = 1;
+                    echo json_encode($result);
+                    die;
+                }
+            } catch (\Exception $e) {
+                $result['status'] = 0;
+                $result['message'] = $e->getMessage();
+                echo json_encode($result);
+                die;
+            }
+        // return $this->response->setJSON($data);
+        
+        
+        
+        
+    }
     
 
 }

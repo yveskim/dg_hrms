@@ -1,8 +1,9 @@
 $(document).ready(function () {
   let station_id = $("#station_id").val();
   loadAllEmpStations(station_id);
-  submitStationForm();
 });
+
+let station_id = $("#station_id").val();
 
 $("#station_employees").click(function () {
   $("#stationEmpTab").load(
@@ -127,7 +128,7 @@ function loadAllEmpStations(station_id) {
                     text: "Record has been deleted",
                     showConfirmButton: true,
                   });
-                  loadAllEmpStations();
+                  loadAllEmpStations(station_id);
                 } else {
                   Swal.fire({
                     position: "center",
@@ -166,8 +167,6 @@ function resetEditForm() {
 $("#modalSelectEmployee").on("shown.bs.modal", function (e) {
   $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust(); //align table header
 });
-
-
 
 $(".btn-add-emp").click(function () {
   $.ajax({
@@ -209,66 +208,72 @@ $(".btn-add-emp").click(function () {
           { data: "emp_fname" },
           { data: "emp_mname" },
         ],
-        
       }); //end of datatable
-       
+
+      $(".table-select-employee").on("change", ".select-emp", function () {
+        $("tr .select-emp").each(function () {
+          if (this.checked) {
+            $(this).closest("tr").addClass("bg-warning");
+          } else {
+            $(this).closest("tr").removeClass("bg-warning");
+          }
+        });
+      });
     },
-  
   });
 });
 
-function submitStationForm() {
-  $("#selectEmpForm").submit(function (event) {
-    event.preventDefault();
-    let formData = new FormData(this);
-    formData.append("user_id", $("#user").val());
-    
-    var selectedIds = $(".table-emp-station").columns().checkboxes.selected()[0];
-    console.log(selectedIds)
- 
-    selectedIds.forEach(function(selectedId) {
-        alert(selectedId);
-    });
+$("#selectEmpForm").submit(function (event) {
+  event.preventDefault();
+  let formData = new FormData(this);
+  formData.append("user_id", $("#user").val());
+  formData.append("station_id", $("#station_id").val());
 
-
-    // $.ajax({
-    //   url: "station/updateStation",
-    //   method: "post",
-    //   dataType: "json",
-    //   data: formData,
-    //   contentType: false,
-    //   cache: false,
-    //   processData: false,
-    //   beforeSend: function () {
-    //     $(".spiner-div").show();
-    //     $(".div-blur").show();
-    //   },
-    //   success: function (res) {
-    //     if (res.status == 1) {
-    //       Swal.fire({
-    //         position: "center",
-    //         icon: "success",
-    //         title: "Process Successfull",
-    //         text: "Record changes is successfuly made",
-    //         showConfirmButton: true,
-    //       });
-    //       $("#modalSelectEmployee").modal("toggle");
-    //       $("#stationForm")[0].reset();
-    //       loadAllEmpStations();
-    //     } else {
-    //       Swal.fire({
-    //         position: "center",
-    //         icon: "error",
-    //         title: "Action Failed",
-    //         text: res.message,
-    //         showConfirmButton: true,
-    //       });
-    //     } //end ifelse
-    //   },
-    //   complete: function () {
-    //     $(".spiner-div").hide();
-    //     $(".div-blur").hide();
-    //   },
-    // });
+  let employee = new Array();
+  $("input[name='emp_id[]']:checked").each(function () {
+    employee.push($(this).prop("id"));
   });
-}
+
+  formData.append("employee", employee);
+
+  $.ajax({
+    url: "station/setEmployeeStation",
+    method: "post",
+    dataType: "json",
+    data: formData,
+    contentType: false,
+    cache: false,
+    processData: false,
+    beforeSend: function () {
+      $(".spiner-div").show();
+      $(".div-blur").show();
+    },
+    success: function (res) {
+      // console.log(res);
+      if (res.status == 1) {
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Process Successfull",
+          text: "employees are successfuly added to station",
+          showConfirmButton: true,
+        });
+        $("#modalSelectEmployee").modal("toggle");
+        $("#selectEmpForm")[0].reset();
+        loadAllEmpStations(station_id);
+      } else {
+        Swal.fire({
+          position: "center",
+          icon: "error",
+          title: "Action Failed",
+          text: res.message,
+          showConfirmButton: true,
+        });
+      } //end ifelse
+    },
+    complete: function () {
+      $(".spiner-div").hide();
+      $(".div-blur").hide();
+    },
+  });
+});

@@ -28,14 +28,19 @@
             <a class="nav-link active" id="station_employees" data-toggle="tab" href="#stationEmpTab" role="tab" aria-controls="home" aria-selected="true">Station Employees</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" id="station-event" data-toggle="tab" href="#stationEvent" role="tab" aria-controls="contact" aria-selected="false">Stations Events</a>
+            <a class="nav-link" id="station-details" data-toggle="tab" href="#stationDetailsTab" role="tab" aria-controls="contact" aria-selected="false">Stations Details</a>
+        </li>
+                <li class="nav-item">
+            <a class="nav-link" id="station-events" data-toggle="tab" href="#stationEventsTab" role="tab" aria-controls="contact" aria-selected="false">Stations Events</a>
         </li>
     </ul>
     <div class="tab-content" id="myTabContent">
         <div class="tab-pane show active" id="stationEmpTab" role="tabpanel" aria-labelledby="station_employees">
             
         </div>
-        <div class="tab-pane" id="stationEvent" role="tabpanel" aria-labelledby="station-event">
+        <div class="tab-pane" id="stationDetailsTab" role="tabpanel" aria-labelledby="station-details">
+        </div>
+        <div class="tab-pane" id="stationEventsTab" role="tabpanel" aria-labelledby="station-events">
         </div>
     </div>
 </div>
@@ -46,6 +51,10 @@ $(document).ready(() => {
     "pages/stations/each_stations/employees/station_employees.php"
     );
 });
+
+$('#station-details').click(function(){
+    $('#stationDetailsTab').load('pages/stations/each_stations/station_details/station_details.php');
+})
 
 
 </script>

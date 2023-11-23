@@ -54,7 +54,7 @@
                         <thead>
                             <tr>
                                 <th>#</th>
-                                <th><input type="checkbox"> All</th>
+                                <th>Chk</th>
                                 <th>Emp ID</th>
                                 <th>Last Name</th>
                                 <th>First Name</th>
@@ -70,7 +70,7 @@
             <div class="row mb-2">
                 <div class="col-md-3 mb-2">
                     <label for="date_started" class="form-label">Date Started</label>
-                    <input type="date" class="form-control form-control-sm" id="date_started" required name="date_started" form="selectEmpForm">
+                    <input type="date" class="form-control form-control-sm" id="date_started" name="date_started" required form="selectEmpForm">
                 </div>
                 <div class="col-md-3 mb-2">
                     <label for="date_ended" class="form-label">Date End</label>
