@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 23, 2023 at 02:37 AM
+-- Generation Time: Nov 19, 2023 at 02:10 PM
 -- Server version: 10.4.25-MariaDB
 -- PHP Version: 7.4.30
 
@@ -369,7 +369,7 @@ INSERT INTO `employee_t` (`emp_id`, `job_description`, `emp_fname`, `emp_mname`,
 (3328, 2, 'Junenalyn Grace', 'Cerveza', 'Delfin', '', 'Female', '', 'Filipino', '', '', '1980-06-13', 'Iloilo City', '', '', 0, 0, '', '', '', '', '', '', 'jgcerveza@gmail.com', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 13:11:47', '2023-07-24 13:11:47', NULL),
 (3329, 2, 'Lorelee', 'Ganancial', 'Solis', '', 'Female', '', 'Filipino', '', '', '1976-05-30', 'Iloilo City', '', '', 0, 0, '', '', '', '', '', '', 'loreleesolis123@gmail.com', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 13:15:17', '2023-07-24 13:15:17', NULL),
 (3330, 2, 'Cynthia', 'Querubin', 'Pardorla', '', 'Female', 'Married', 'Filipino', '', '', '1985-10-24', '', '', '', 0, 0, '', '', '', '', '', '', 'cynthia.pardorla@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09983088390', '2023-07-24 13:40:34', '2023-07-24 13:40:34', NULL),
-(3331, 2, 'AL JOHN', 'DE LA CERNA', 'ARTACHO', '', 'Male', 'Single', 'Filipino', '', 'Philippines', '1991-10-27', 'BACOLOD CITY', 'Roman Catholic', '', 0, 0, '', '', '', '', '', '123456', 'aljohnartacho@iloilonhs.edu.ph', '', '', '', 'Tentay', '', 'Iloilo City', 'Iloilo', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 14:28:05', '2023-11-22 10:21:53', NULL),
+(3331, 2, 'AL JOHN', 'DE LA CERNA', 'ARTACHO', '', 'Male', 'Single', 'Filipino', '', 'Philippines', '1991-10-27', 'BACOLOD CITY', 'Roman Catholic', '', 0, 0, '', '', '', '', '', '', 'aljohnartacho@iloilonhs.edu.ph', '', '', '', 'Tentay', '', 'Iloilo City', 'Iloilo', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 14:28:05', '2023-08-10 11:55:55', NULL),
 (3332, 2, 'NIKKIE', 'BERBEGAL', 'SOROPIA', '', 'Female', '', 'Filipino', '', '', '1989-09-10', 'CABATUAN, ILOILO', '', '', 0, 0, '', '', '', '', '', '', 'nikkie.soropia@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 14:43:06', '2023-07-24 14:43:06', NULL),
 (3333, 2, 'Roel ', 'Suaberon', 'Palmaira', '', 'Male', 'Married', 'Filipino', '', '', '1987-08-10', 'Iloilo City', 'Roman Catholic', 'A+', 0, 0, '', '', '', '', '', '', 'roel.palmaira@deped.gov.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 14:45:36', '2023-07-24 14:45:36', NULL),
 (3334, 3, 'Marnel', 'G', 'Gonzales', '1690185575_24e11fe6b4e734161c11.jpg', 'Male', '', 'Filipino', '', '', '', '', '', '', 0, 0, '', '', '', '', '', '', 'marnel.gonzales@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 15:59:35', '2023-07-24 15:59:35', NULL),
@@ -531,49 +531,6 @@ CREATE TABLE `emp_station_tbl` (
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
-
---
--- Dumping data for table `emp_station_tbl`
---
-
-INSERT INTO `emp_station_tbl` (`emp_station_id`, `emp_id`, `station_id`, `date_started`, `date_end`, `assigned_by`, `created_at`, `updated_at`) VALUES
-(31, 3317, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(32, 3318, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(33, 3319, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(34, 3323, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(35, 3324, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(36, 3322, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(37, 3325, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(38, 3327, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(39, 3311, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(40, 3294, 5, '0000-00-00', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(41, 3328, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(42, 3329, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(43, 3330, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(44, 3321, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(45, 3331, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(46, 3333, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(47, 3336, 3, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(48, 3320, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(49, 3326, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(50, 3332, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(51, 3334, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(52, 3335, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(53, 3359, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(54, 3360, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(55, 3361, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(56, 3362, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(57, 3363, 7, '2023-11-01', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(58, 3364, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(59, 3365, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(60, 3366, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(61, 3367, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(62, 3368, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(63, 3369, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(64, 3370, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(65, 3371, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(66, 3372, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23'),
-(67, 3373, 7, '2023-11-09', '0000-00-00', 2, '2023-11-23', '2023-11-23');
 
 -- --------------------------------------------------------
 
@@ -858,6 +815,7 @@ CREATE TABLE `service_record_tbl` (
   `sr_nbc_id` int(11) NOT NULL,
   `sr_plantilla_id` smallint(6) NOT NULL,
   `sr_step` int(11) NOT NULL,
+  `sr_station_id` int(11) NOT NULL,
   `sr_status` varchar(60) NOT NULL,
   `sr_is_separated` tinyint(1) NOT NULL,
   `sr_seperation_date` date DEFAULT NULL,
@@ -893,9 +851,7 @@ CREATE TABLE `station_tbl` (
 --
 
 INSERT INTO `station_tbl` (`station_id`, `st_title`, `st_office_id`, `st_office_address`, `st_branch`, `st_created_by`, `created_at`, `updated_at`) VALUES
-(3, 'TVC. Sta. Teresa National High School', '302438', 'Jordan, Guimaras', 'National', 2, '2023-11-19', '2023-11-19'),
-(5, 'SDO', '131', 'Jordan, Guimaras', 'National', 2, '2023-11-21', '2023-11-21'),
-(7, 'Sibunag National High School', '099232', 'Sibunag, Guimaras', 'National', 2, '2023-11-21', '2023-11-21');
+(3, 'TVC. Sta. Teresa National High School', '302438', 'Jordan, Guimaras', 'National', 2, '2023-11-19', '2023-11-19');
 
 -- --------------------------------------------------------
 
@@ -1123,6 +1079,7 @@ ALTER TABLE `service_record_tbl`
   ADD KEY `sr_emp_id` (`sr_emp_id`),
   ADD KEY `sr_nbc_id` (`sr_nbc_id`),
   ADD KEY `sr_plantilla_id` (`sr_plantilla_id`),
+  ADD KEY `sr_station_id` (`sr_station_id`),
   ADD KEY `sr_status_id` (`sr_status`),
   ADD KEY `sr_processed_by` (`sr_processed_by`);
 
@@ -1232,7 +1189,7 @@ ALTER TABLE `emp_reference_tbl`
 -- AUTO_INCREMENT for table `emp_station_tbl`
 --
 ALTER TABLE `emp_station_tbl`
-  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `emp_work_experience_t`
@@ -1298,7 +1255,7 @@ ALTER TABLE `service_record_tbl`
 -- AUTO_INCREMENT for table `station_tbl`
 --
 ALTER TABLE `station_tbl`
-  MODIFY `station_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `station_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `users`
