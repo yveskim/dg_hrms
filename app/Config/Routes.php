@@ -259,6 +259,9 @@ $routes->get('station/getStations', 'Stations::getStations');
 $routes->get('station/loadEmpInStation', 'Stations::loadEmpInStation');
 $routes->get('station/getEmpNoStation', 'Stations::getEmpNoStation');
 $routes->post('station/setEmployeeStation', 'Stations::setEmployeeStation');
+$routes->get('station/getEmpStationDetails', 'Stations::getEmpStationDetails');
+$routes->post('station/updateEmployeeStationDate', 'Stations::updateEmployeeStationDate');
+$routes->get('station/deleteEmpStation', 'Stations::deleteEmpStation');
 
 
 // ________________________________________________

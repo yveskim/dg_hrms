@@ -54,7 +54,7 @@ function loadAllEmpStations(station_id) {
               return (
                 '<button type="button" id="' +
                 data.emp_station_id +
-                '" class="btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i></button>'
+                '" class="btn btn-primary btn-sm btn-xs full-size _edit" title="edit date"><i class="fa fa-edit"></i></button>'
               );
             },
           },
@@ -80,21 +80,19 @@ function loadAllEmpStations(station_id) {
       }); //end of datatable
       // edit child +++++++++++++++++++
       $(".table-emp-station").on("click", "._edit", function () {
-        $("#modalSelectEmployee").modal("toggle");
-        let station_id = $(this).prop("id");
+        $("#modalEditDate").modal("toggle");
+        let emp_station_id = $(this).prop("id");
         $.ajax({
-          url: "station/getStationDetails",
+          url: "station/getEmpStationDetails",
           method: "get",
           dataType: "json",
-          data: { station_id: station_id },
+          data: { emp_station_id: emp_station_id },
           success: function (data) {
-            $("#is_edit").val(1);
-            $("#station_id").val(station_id);
-            $(".form-type").text("(EDIT)");
-            $("#st_title").val(data.st.st_title);
-            $("#st_id").val(data.st.st_office_id);
-            $("#st_address").val(data.st.st_office_address);
-            $("#st_branch").val(data.st.st_branch);
+            console.log(data);
+            $("#emp_name").text(data.emp_st.emp_lname +', '+ data.emp_st.emp_fname+' '+data.emp_st.emp_mname);
+            $("#edit_date_started").val(data.emp_st.date_started);
+            $("#edit_date_ended").val(data.emp_st.date_end);
+            $("#emp_station_id").val(data.emp_st.emp_station_id);
           },
         });
       });
@@ -103,7 +101,7 @@ function loadAllEmpStations(station_id) {
       // delete child ++++++++++++++++++++++++
       $(".table-emp-station").on("click", "._delete", function () {
         // console.log($(this).prop("id"));
-        let station_id = $(this).prop("id");
+        let emp_station_id = $(this).prop("id");
 
         Swal.fire({
           title: "Confirm Delete",
@@ -115,10 +113,10 @@ function loadAllEmpStations(station_id) {
           /* Read more about isConfirmed, isDenied below */
           if (result.isConfirmed) {
             $.ajax({
-              url: "station/deleteStation",
+              url: "station/deleteEmpStation",
               method: "get",
               dataType: "json",
-              data: { station_id: station_id },
+              data: { emp_station_id: emp_station_id },
               success: function (res) {
                 if (res.status == 1) {
                   Swal.fire({
@@ -260,6 +258,56 @@ $("#selectEmpForm").submit(function (event) {
         });
         $("#modalSelectEmployee").modal("toggle");
         $("#selectEmpForm")[0].reset();
+        loadAllEmpStations(station_id);
+      } else {
+        Swal.fire({
+          position: "center",
+          icon: "error",
+          title: "Action Failed",
+          text: res.message,
+          showConfirmButton: true,
+        });
+      } //end ifelse
+    },
+    complete: function () {
+      $(".spiner-div").hide();
+      $(".div-blur").hide();
+    },
+  });
+});
+
+
+// update emp form
+
+
+$("#updateDateForm").submit(function (event) {
+  event.preventDefault();
+  let formData = new FormData(this);
+  formData.append("user_id", $("#user").val());
+
+  $.ajax({
+    url: "station/updateEmployeeStationDate",
+    method: "post",
+    dataType: "json",
+    data: formData,
+    contentType: false,
+    cache: false,
+    processData: false,
+    beforeSend: function () {
+      $(".spiner-div").show();
+      $(".div-blur").show();
+    },
+    success: function (res) {
+      if (res.status == 1) {
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Process Successfull",
+          text: "Date Successfully Updated",
+          showConfirmButton: true,
+        });
+        $("#modalEditDate").modal("toggle");
+        $("#updateDateForm")[0].reset();
         loadAllEmpStations(station_id);
       } else {
         Swal.fire({

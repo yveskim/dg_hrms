@@ -169,10 +169,63 @@ class Stations extends BaseController
             }
         // return $this->response->setJSON($data);
         
-        
-        
-        
+    }
+
+    function getEmpStationDetails(){
+        $emStMdl = new EmpStationModel();
+
+        $emp_station_id = $this->request->getGet('emp_station_id');  
+
+        $data['emp_st'] = $emStMdl
+        ->join('employee_t', 'employee_t.emp_id = emp_station_tbl.emp_id', 'left')
+        ->where('emp_station_id', $emp_station_id)->first();
+
+        return $this->response->setJSON($data);
     }
     
+
+    function updateEmployeeStationDate(){
+        $emStMdl = new EmpStationModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_station_id = $this->request->getPost('emp_station_id');
+        
+       
+        $data = [
+            'date_started' => $this->request->getPost('edit_date_started'),
+            'date_end' => $this->request->getPost('edit_date_ended')
+        ];
+        
+        try {
+            $res = $emStMdl->set($data)->where('emp_station_id', $emp_station_id)->update();
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
+    }
+
+    function deleteEmpStation(){
+        $emStMdl = new EmpStationModel();
+        $emp_station_id = $this->request->getGet('emp_station_id');
+        try {
+            $res = $emStMdl->where('emp_station_id', $emp_station_id)->delete();
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
+    }
 
 }

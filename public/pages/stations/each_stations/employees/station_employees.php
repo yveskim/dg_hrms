@@ -2,7 +2,7 @@
 <br>
 <br>
 <div class="row station-div">
-    <div class="col-md-10">
+    <div class="col-md-12">
         
         <div class="row">
             <div class="col-md-4">
@@ -87,6 +87,46 @@
     </div>
   </div>
 </div>
+
+
+<div class="modal fade mb-4" id="modalEditDate">
+    <div class="modal-dialog modal-md  modal-dialog-centered">
+      <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header bg-primary">
+          <h4 class="modal-title">Edit Date <span class="text-warning" id="emp_name"></span></h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" >
+          <!-- ----------------------------- -->
+          <form id="updateDateForm">
+            <input type="hidden" id="emp_station_id" name="emp_station_id" form="updateDateForm"> <!--id reference in update-->
+            <div class="row mb-2">
+                <div class="col-md-6 mb-2">
+                    <label for="edit_date_started" class="form-label">Date Started</label>
+                    <input type="date" class="form-control form-control-sm" id="edit_date_started" name="edit_date_started" required form="updateDateForm">
+                </div>
+                <div class="col-md-6 mb-2">
+                    <label for="edit_date_ended" class="form-label">Date End</label>
+                    <input type="date" class="form-control form-control-sm" id="edit_date_ended" name="edit_date_ended" form="updateDateForm">
+                </div>
+              
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary full-size" form="updateDateForm">Update</button>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+  </div>
+</div>
+
 
 
 <script src="pages/stations/each_stations/employees/station_employees.js"></script>
