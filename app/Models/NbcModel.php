@@ -13,14 +13,17 @@ class NbcModel extends Model
 //   protected $useSoftDeletes = true;
   protected $allowedFields = [
                             'nbc_no',
-                            'sal_grade',
-                            'step',
-                            'amount',
+                            'nbc_title',
+                            'tranche',
+                            'effectivity_date',
+                            'processed_by',
+                            'created_at',
+                            'updated_at',
                           ];
 
-  // protected $useTimestamps = true;
-  // protected $createdField  = 'created_at';
-  // protected $updatedField  = 'updated_at';
+  protected $useTimestamps = true;
+  protected $createdField  = 'created_at';
+  protected $updatedField  = 'updated_at';
 //   protected $deletedField  = 'deleted_at';
 
 //   protected $validationRules    = [];

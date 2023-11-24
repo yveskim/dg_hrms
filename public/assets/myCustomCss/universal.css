@@ -103,3 +103,20 @@
 .modal-title {
   color: white;
 }
+
+.btn-edit{
+  width: 5rem;
+  padding: 0;
+}
+
+.btn-delete{
+  width: 5rem;
+  padding: 0;
+}
+
+.btn-view{
+  width: 5rem;
+  padding: 0;
+}
+
+

@@ -426,6 +426,13 @@
       $('.content-div').load('pages/faculty/faculty_data.php');
     });
 
+    $('#getNbc').click(function() {
+      
+      $('.content-div').load('pages/nbc/nbc_list.php');
+      scrollTop();
+    });
+
+
     $('#school_program').click(function() {
       $('.content-div').load('pages/program/program_data.php');
     });

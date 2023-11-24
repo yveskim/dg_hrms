@@ -263,6 +263,15 @@ $routes->get('station/getEmpStationDetails', 'Stations::getEmpStationDetails');
 $routes->post('station/updateEmployeeStationDate', 'Stations::updateEmployeeStationDate');
 $routes->get('station/deleteEmpStation', 'Stations::deleteEmpStation');
 
+//++++++++++++++++++++++++++++NBC++++++++++++++++++++++++++++++
+
+$routes->get('nbc/getNbc', 'Nbc::getNbc');
+$routes->post('nbc/updateNbc', 'Nbc::updateNbc');
+$routes->get('nbc/getNbcDetails', 'Nbc::getNbcDetails');
+$routes->get('nbc/deleteNbc', 'Nbc::deleteNbc');
+$routes->get('nbc/viewNbc', 'Nbc::viewNbc');
+$routes->get('nbc/loadSalaryGradeDetails', 'Nbc::loadSalaryGradeDetails');
+
 
 // ________________________________________________
 // ________________________________________________
