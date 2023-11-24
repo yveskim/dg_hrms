@@ -14,7 +14,9 @@ class Nbc extends BaseController
     function getNbc()
     {
         $nbcMdl = new NbcModel();
-        $data['nbc'] = $nbcMdl->findAll();
+        $data['nbc'] = $nbcMdl
+        ->orderBy('nbc_no')
+        ->findAll();
         return $this->response->setJSON($data);
     }
 
@@ -112,12 +114,14 @@ class Nbc extends BaseController
             $data['nbc'] = $nbcMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
             ->where('salary_schedule_tbl.nbc_id', $nbc_id)
+            ->orderBy('salary_schedule_tbl.amount')
             ->find();
         }else{
             $data['nbc'] = $nbcMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
             ->where('salary_schedule_tbl.nbc_id', $nbc_id)
             ->where('salary_schedule_tbl.salary_grade', $sal_grade)
+            ->orderBy('salary_schedule_tbl.amount')
             ->find();
         }
         

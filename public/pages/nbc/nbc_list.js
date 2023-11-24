@@ -76,6 +76,7 @@ function loadNbc() {
             $("#nbc_no").val(data.nbc.nbc_no);
             $("#nbc_title").val(data.nbc.nbc_title);
             $("#tranche").val(data.nbc.tranche);
+            $("#effectivity_date").val(data.nbc.effectivity_date);
           },
         });
       });

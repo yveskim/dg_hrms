@@ -29,7 +29,7 @@
                 <h6>Tranche Table</h6>
             </div>
             <div class="card-body">
-                <div class="row">
+                <div class="row bg-warning">
                     <div class="col-md-3">
                         <select class="form-control full-size" name="" id="btn-sal-grade">
                             <option value="">--Salary Grade--</option>
@@ -76,7 +76,7 @@
                     <div class="col-md-12">
                         <div class="row mb-4">
                             <div class="col-md-2">
-                                <button class="btn btn-primary full-size">Add Step</button>
+                                <button class="btn btn-primary full-size" data-toggle="modal" data-target="#modalAddStep">Add Step</button>
                             </div>
                         </div>
                         <div class="row">
@@ -98,6 +98,54 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade mb-4" id="modalAddStep">
+    <div class="modal-dialog modal-md  modal-dialog-centered">
+    <div class="modal-content">
+        <!-- Modal Header -->
+        <div class="modal-header bg-primary">
+        <h4 class="modal-title">Add Step <span class="form-type text-warning"></span></h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body" >
+        <!-- ----------------------------- -->
+        <form id="salForm">
+            <div class="row mb-2">
+                <div class="col-md-6 mb-2">
+                    <label for="_step" class="form-label">Step</label>
+                    <select class="form-control form-control-sm" name="_step" id="_step" form="salForm">
+                        <option value=""></option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                    </select>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <label for="_amount" class="form-label">Amount</label>
+                    <input type="number" class="form-control form-control-sm" id="_amount" name="_amount" form="salForm">
+                </div>
+            </div>
+        
+            <hr class="bg-success">
+            <br>
+            <div class="row mb-2">
+                <div class="col-md-8"></div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-success full-size" form="salForm">ADD/SAVE</button>
+                </div>
+            </div>
+        </form>
         </div>
     </div>
 </div>
