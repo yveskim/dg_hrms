@@ -263,6 +263,8 @@ $routes->get('station/getEmpStationDetails', 'Stations::getEmpStationDetails');
 $routes->post('station/updateEmployeeStationDate', 'Stations::updateEmployeeStationDate');
 $routes->get('station/deleteEmpStation', 'Stations::deleteEmpStation');
 
+
+
 //++++++++++++++++++++++++++++NBC++++++++++++++++++++++++++++++
 
 $routes->get('nbc/getNbc', 'Nbc::getNbc');
@@ -271,8 +273,8 @@ $routes->get('nbc/getNbcDetails', 'Nbc::getNbcDetails');
 $routes->get('nbc/deleteNbc', 'Nbc::deleteNbc');
 $routes->get('nbc/viewNbc', 'Nbc::viewNbc');
 $routes->get('nbc/loadSalaryGradeDetails', 'Nbc::loadSalaryGradeDetails');
-
-
+$routes->get('nbc/getExistingStep', 'Nbc::getExistingStep');
+$routes->post('nbc/setStep', 'Stations::setStep');
 // ________________________________________________
 // ________________________________________________
 // ________________________________________________

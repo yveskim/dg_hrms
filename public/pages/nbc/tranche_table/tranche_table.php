@@ -76,7 +76,12 @@
                     <div class="col-md-12">
                         <div class="row mb-4">
                             <div class="col-md-2">
-                                <button class="btn btn-primary full-size" data-toggle="modal" data-target="#modalAddStep">Add Step</button>
+                                <button class="btn btn-primary full-size" id="btnAddStep" data-toggle="modal" data-target="#modalAddStep">Add Step</button>
+                            </div>
+                        </div>
+                        <div class="row mb-2" >
+                            <div class="col-md-12">
+                                <h5 id="allSGText"></h5>
                             </div>
                         </div>
                         <div class="row">
@@ -108,7 +113,7 @@
     <div class="modal-content">
         <!-- Modal Header -->
         <div class="modal-header bg-primary">
-        <h4 class="modal-title">Add Step <span class="form-type text-warning"></span></h4>
+        <h4 class="modal-title">Salary Grade: <span class="sal_grade_det text-warning"></span></h4>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
         
@@ -116,6 +121,8 @@
         <div class="modal-body" >
         <!-- ----------------------------- -->
         <form id="salForm">
+            <input type="text" id="is_edit" value="0">
+            <input type="text" id="sal_sched_id">
             <div class="row mb-2">
                 <div class="col-md-6 mb-2">
                     <label for="_step" class="form-label">Step</label>
@@ -154,7 +161,6 @@
     $(document).ready(function(){
         $('.salary-grade-div').hide();
 
-
         setTimeout(function(){
             getNbcDetails();
         }, 10)
@@ -185,6 +191,15 @@
           dataType: "json",
           data: { nbc_id: nbc_id, sal_grade: sal_grade },
           success: function (data) {
+            // console.log();
+            if(sal_grade == 0){
+                $('#btnAddStep').hide();
+                $('#allSGText').text("Salary Grade List (All)");
+            }else{
+                $('#allSGText').text("");
+                $('#btnAddStep').show();
+                $('.sal_grade_det').text($('#btn-sal-grade').val());
+            }
             $('.salary-grade-div').show();
             $(".table-tranche").off();
             $(".table-tranche").DataTable().clear().destroy();
@@ -225,11 +240,81 @@
                 
           },
         });
-        
-
     })
 
-    function loadTrancheTable(){
-        
-    }
+    $('#modalAddStep').on('show.bs.modal', function(){
+        // console.log('modal open');
+        let sal_grade = $('#btn-sal-grade').val();
+        let nbc_id = $('#nbc_id').val();
+        $.ajax({
+          url: "nbc/getExistingStep",
+          method: "get",
+          dataType: "json",
+          data: { sal_grade: sal_grade, nbc_id: nbc_id },
+          success: function (data) {
+            console.log(data);
+                if(data.steps == null || data.steps == ""){
+                    console.log("array empty");
+                   $('#_step').empty().append('<option value=""></option>');
+                    for(let i = 1; i<=8; i++){
+                        $('#_step').append('<option value="'+i+'">'+i+'</option>');
+                    }
+                }else{
+                     $.each(data.steps, function(key, val){
+                        $('#_step option[value='+val.step+']').each(function(){
+                            $(this).remove();
+                        })
+                    })
+                    
+                }
+            
+          },
+        });
+    })
+
+    $('#salForm').submit(function(event){
+        event.preventDefault();
+        let formData = new FormData(this);
+        formData.append('sal_grade', $('#btn-sal-grade').val())
+        formData.append('nbc_id', $('#nbc_id').val())
+        $.ajax({
+            url: "nbc/setStep",
+            method: "post",
+            dataType: "json",
+            data: formData,
+            contentType: false,
+            cache: false,
+            processData: false,
+            beforeSend: function () {
+            $(".spiner-div").show();
+            $(".div-blur").show();
+            },
+            success: function (res) {
+            if (res.status == 1) {
+                Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Process Successfull",
+                text: "Record added/changed successfuly",
+                showConfirmButton: true,
+                });
+                $("#modalAddNbc").modal("toggle");
+                $("#nbcForm")[0].reset();
+                loadNbc();
+            } else {
+                Swal.fire({
+                position: "center",
+                icon: "error",
+                title: "Action Failed",
+                text: res.message,
+                showConfirmButton: true,
+                });
+            } //end ifelse
+            },
+            complete: function () {
+            $(".spiner-div").hide();
+            $(".div-blur").hide();
+            },
+        });
+    })
 </script>

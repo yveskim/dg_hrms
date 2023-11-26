@@ -104,19 +104,20 @@
   color: white;
 }
 
-.btn-edit{
+.btn-edit {
   width: 5rem;
   padding: 0;
+  font-size: 1vw;
 }
 
-.btn-delete{
+.btn-delete {
   width: 5rem;
   padding: 0;
+  font-size: 1vw;
 }
 
-.btn-view{
+.btn-view {
   width: 5rem;
   padding: 0;
+  font-size: 1vw;
 }
-
-
