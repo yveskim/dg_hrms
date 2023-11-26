@@ -274,7 +274,7 @@ $routes->get('nbc/deleteNbc', 'Nbc::deleteNbc');
 $routes->get('nbc/viewNbc', 'Nbc::viewNbc');
 $routes->get('nbc/loadSalaryGradeDetails', 'Nbc::loadSalaryGradeDetails');
 $routes->get('nbc/getExistingStep', 'Nbc::getExistingStep');
-$routes->post('nbc/setStep', 'Stations::setStep');
+$routes->post('nbc/setStep', 'Nbc::setStep');
 // ________________________________________________
 // ________________________________________________
 // ________________________________________________

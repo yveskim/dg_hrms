@@ -115,14 +115,15 @@ class Nbc extends BaseController
             $data['nbc'] = $nbcMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
             ->where('salary_schedule_tbl.nbc_id', $nbc_id)
-            ->orderBy('salary_schedule_tbl.amount')
+            ->orderBy('salary_schedule_tbl.salary_grade')
+            ->orderBy('salary_schedule_tbl.step')
             ->find();
         }else{
             $data['nbc'] = $nbcMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
             ->where('salary_schedule_tbl.nbc_id', $nbc_id)
             ->where('salary_schedule_tbl.salary_grade', $sal_grade)
-            ->orderBy('salary_schedule_tbl.amount')
+            ->orderBy('salary_schedule_tbl.step')
             ->find();
         }
         
@@ -135,8 +136,9 @@ class Nbc extends BaseController
         $is_edit = $this->request->getPost('is_edit');
         $step = $this->request->getPost('_step');
         $sal_grade = $this->request->getPost('sal_grade');
+        $nbc_id = $this->request->getPost('nbc_id');
          $data = [
-            'nbc_id' => $this->request->getPost('nbc_id'),
+            'nbc_id' => $nbc_id,
             'salary_grade' => $sal_grade,
             'step' => $step,
             'amount' => $this->request->getPost('_amount'),
@@ -158,7 +160,13 @@ class Nbc extends BaseController
                 die;
             }
         }else{
-            $checkStep = $salSchedMdl->select('step')->where('salary_grade', $sal_grade)->countAllResults();
+            $step = $this->request->getPost('_step');
+            $checkStep = $salSchedMdl
+            ->select('step')
+            ->where('nbc_id', $nbc_id)
+            ->where('salary_grade', $sal_grade)
+            ->where('step', $step)
+            ->countAllResults();
             if($checkStep > 0){
                 $result['status'] = 0;
                 $result['message'] = "Step already exist, check on the table for steps that don't exist.";

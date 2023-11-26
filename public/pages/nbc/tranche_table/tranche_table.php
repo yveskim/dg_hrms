@@ -182,17 +182,16 @@
         });
     }
 
-    $('#btn-sal-grade').change(function(){
+    function loadSalarySchedule(sal_grade_data){
         let nbc_id = $('#nbc_id').val();
-        let sal_grade = $(this).val();
         $.ajax({
           url: "nbc/loadSalaryGradeDetails",
           method: "get",
           dataType: "json",
-          data: { nbc_id: nbc_id, sal_grade: sal_grade },
+          data: { nbc_id: nbc_id, sal_grade: sal_grade_data },
           success: function (data) {
             // console.log();
-            if(sal_grade == 0){
+            if(sal_grade_data == 0){
                 $('#btnAddStep').hide();
                 $('#allSGText').text("Salary Grade List (All)");
             }else{
@@ -240,6 +239,11 @@
                 
           },
         });
+    }
+
+    $('#btn-sal-grade').change(function(){
+        let sal_grade = $(this).val();
+        loadSalarySchedule(sal_grade)
     })
 
     $('#modalAddStep').on('show.bs.modal', function(){
@@ -252,7 +256,7 @@
           dataType: "json",
           data: { sal_grade: sal_grade, nbc_id: nbc_id },
           success: function (data) {
-            console.log(data);
+            // console.log(data);
                 if(data.steps == null || data.steps == ""){
                     console.log("array empty");
                    $('#_step').empty().append('<option value=""></option>');
@@ -274,9 +278,11 @@
 
     $('#salForm').submit(function(event){
         event.preventDefault();
+        let sal_grade = $('#btn-sal-grade').val();
+        let nbc_id = $('#nbc_id').val();
         let formData = new FormData(this);
-        formData.append('sal_grade', $('#btn-sal-grade').val())
-        formData.append('nbc_id', $('#nbc_id').val())
+        formData.append('sal_grade', sal_grade);
+        formData.append('nbc_id', nbc_id);
         $.ajax({
             url: "nbc/setStep",
             method: "post",
@@ -298,9 +304,9 @@
                 text: "Record added/changed successfuly",
                 showConfirmButton: true,
                 });
-                $("#modalAddNbc").modal("toggle");
-                $("#nbcForm")[0].reset();
-                loadNbc();
+                $("#modalAddStep").modal("toggle");
+                $("#salForm")[0].reset();
+                loadSalarySchedule($('#btn-sal-grade').val());
             } else {
                 Swal.fire({
                 position: "center",
