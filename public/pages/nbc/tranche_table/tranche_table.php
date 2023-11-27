@@ -29,6 +29,7 @@
                 <h6>Tranche Table</h6>
             </div>
             <div class="card-body">
+                
                 <div class="row bg-warning">
                     <div class="col-md-3">
                         <select class="form-control full-size" name="" id="btn-sal-grade">
@@ -73,10 +74,16 @@
                 </div>
                 <hr>
                 <div class="row salary-grade-div">
+               
                     <div class="col-md-12">
                         <div class="row mb-4">
                             <div class="col-md-2">
                                 <button class="btn btn-primary full-size" id="btnAddStep" data-toggle="modal" data-target="#modalAddStep">Add Step</button>
+                            </div>
+                            <div class="col-md-4"></div>
+                            <form id="stepForm"></form>
+                            <div class="col-md-2">
+                                <button type="submit" class="btn btn-danger full-size" id="delStep" form="stepForm">Delete</button>
                             </div>
                         </div>
                         <div class="row mb-2" >
@@ -120,9 +127,10 @@
         <!-- Modal body -->
         <div class="modal-body" >
         <!-- ----------------------------- -->
+
         <form id="salForm">
-            <input type="text" id="is_edit" value="0">
-            <input type="text" id="sal_sched_id">
+            <input type="hidden" id="is_edit" value="0">
+            <input type="hidden" id="sal_sched_id">
             <div class="row mb-2">
                 <div class="col-md-6 mb-2">
                     <label for="_step" class="form-label">Step</label>
@@ -208,8 +216,8 @@
                 scrollX: true,
                 autoWidth: false,
                 destroy: true,
-                searching: true,
-                paging: true,
+                searching: false,
+                paging: false,
                 columns: [
                 {
                     data: null,
@@ -217,7 +225,7 @@
                     return (
                         '<input type="checkbox" id="' +
                         data.sal_sched_id +
-                        '" class="select-step" name="sal_sched_id[]" style="transform: scale(1.5);" form="salSchedForm">'
+                        '" class="select-step" name="sal_sched_id[]" style="transform: scale(1.5);" form="stepForm">'
                     );
                     },
                 },
@@ -226,6 +234,55 @@
                 { data: "amount" },
                 ],
             }); //end of datatable
+                // TODO: Delete steps
+            $('#stepForm').submit(function(event){
+                event.preventDefault();
+                let formData = new FormData(this);
+                let steps = new Array();
+                $("input[name='sal_sched_id[]']:checked").each(function () {
+                    steps.push($(this).prop("id"));
+                });
+
+                formData.append("sal_sched_id", steps);
+                $.ajax({
+                    url: "nbc/deleteSteps",
+                    method: "get",
+                    dataType: "json",
+                    data: formData,
+                    beforeSend: function () {
+                    $(".spiner-div").show();
+                    $(".div-blur").show();
+                    },
+                    success: function (res) {
+                    // console.log(res);
+                    if (res.status == 1) {
+                        Swal.fire({
+                        position: "center",
+                        icon: "success",
+                        title: "Process Successfull",
+                        text: "Steps successfully deleted",
+                        showConfirmButton: true,
+                        });
+                        let sal_grade = $(this).val();
+                        loadSalarySchedule(sal_grade);
+                    } else {
+                        Swal.fire({
+                        position: "center",
+                        icon: "error",
+                        title: "Action Failed",
+                        text: res.message,
+                        showConfirmButton: true,
+                        });
+                    } //end ifelse
+                    },
+                    complete: function () {
+                    $(".spiner-div").hide();
+                    $(".div-blur").hide();
+                    },
+                });
+            })
+
+
 
             $(".table-tranche").on("change", ".select-step", function () {
                 $("tr .select-step").each(function () {
@@ -258,12 +315,15 @@
           success: function (data) {
             // console.log(data);
                 if(data.steps == null || data.steps == ""){
-                    console.log("array empty");
                    $('#_step').empty().append('<option value=""></option>');
                     for(let i = 1; i<=8; i++){
                         $('#_step').append('<option value="'+i+'">'+i+'</option>');
                     }
                 }else{
+                    $('#_step').empty().append('<option value=""></option>');
+                    for(let i = 1; i<=8; i++){
+                        $('#_step').append('<option value="'+i+'">'+i+'</option>');
+                    }
                      $.each(data.steps, function(key, val){
                         $('#_step option[value='+val.step+']').each(function(){
                             $(this).remove();

@@ -205,5 +205,26 @@ class Nbc extends BaseController
         return $this->response->setJSON($data);
     }
 
+    function deleteSteps(){
+        $salSchedMdl = new SalaryScheduleModel();
+        $sal_sched_id = explode(',',$this->request->getGet('sal_sched_id'));  
+
+        foreach($sal_sched_id as $value){
+            $res = $salSchedMdl->where('sal_sched_id', $value)->delete();
+        }
+
+        try {
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
+    }
 
 }

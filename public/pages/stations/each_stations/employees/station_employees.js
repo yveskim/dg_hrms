@@ -89,7 +89,13 @@ function loadAllEmpStations(station_id) {
           data: { emp_station_id: emp_station_id },
           success: function (data) {
             console.log(data);
-            $("#emp_name").text(data.emp_st.emp_lname +', '+ data.emp_st.emp_fname+' '+data.emp_st.emp_mname);
+            $("#emp_name").text(
+              data.emp_st.emp_lname +
+                ", " +
+                data.emp_st.emp_fname +
+                " " +
+                data.emp_st.emp_mname
+            );
             $("#edit_date_started").val(data.emp_st.date_started);
             $("#edit_date_ended").val(data.emp_st.date_end);
             $("#emp_station_id").val(data.emp_st.emp_station_id);
@@ -276,9 +282,7 @@ $("#selectEmpForm").submit(function (event) {
   });
 });
 
-
 // update emp form
-
 
 $("#updateDateForm").submit(function (event) {
   event.preventDefault();
