@@ -205,37 +205,7 @@
                     </div>
                   </div>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link" href="registrar">REGISTRAR & ADMISSION</a>
-                </li> -->
-                 <!-- <li class="nav-item">
-                  <a class="nav-link" href="#">Research & Publication</a>
-                </li>  -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="drp_programs" role="button" data-toggle="dropdown">
-                    Transparency
-                  </a>
-                  <div class="row dropdown-menu" aria-labelledby="drp_programs">
-                    <div class="col-md-12">
-                      <a class="dropdown-item" href="#">Bids and Awards</a>
-                      <a class="dropdown-item" href="#">vacant</a>
-                      <a class="dropdown-item" href="#">vacant</a>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="drp_programs" role="button" data-toggle="dropdown">
-                    Issuances
-                  </a>
-                  <div class="row dropdown-menu" aria-labelledby="drp_programs">
-                    <div class="col-md-12">
-                      <a class="dropdown-item" href="#">Division Memorandum</a>
-                      <a class="dropdown-item" href="#">Division Letter</a>
-                      <a class="dropdown-item" href="#">Division Order</a>
-                      <a class="dropdown-item" href="#">Division Advisory</a>
-                    </div>
-                  </div>
-                </li>
+               
                 <li class="nav-item">
                   <a class="nav-link" href="#" >
                       Schools

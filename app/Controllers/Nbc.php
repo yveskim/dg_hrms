@@ -207,7 +207,7 @@ class Nbc extends BaseController
 
     function deleteSteps(){
         $salSchedMdl = new SalaryScheduleModel();
-        $sal_sched_id = explode(',',$this->request->getGet('sal_sched_id'));  
+        $sal_sched_id = explode(',',$this->request->getPost('sal_sched_id'));//seperate the array to access in foreach  
 
         foreach($sal_sched_id as $value){
             $res = $salSchedMdl->where('sal_sched_id', $value)->delete();

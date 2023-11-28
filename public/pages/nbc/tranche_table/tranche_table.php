@@ -216,7 +216,7 @@
                 scrollX: true,
                 autoWidth: false,
                 destroy: true,
-                searching: false,
+                searching: true,
                 paging: false,
                 columns: [
                 {
@@ -234,7 +234,7 @@
                 { data: "amount" },
                 ],
             }); //end of datatable
-                // TODO: Delete steps
+
             $('#stepForm').submit(function(event){
                 event.preventDefault();
                 let formData = new FormData(this);
@@ -244,42 +244,58 @@
                 });
 
                 formData.append("sal_sched_id", steps);
-                $.ajax({
-                    url: "nbc/deleteSteps",
-                    method: "get",
-                    dataType: "json",
-                    data: formData,
-                    beforeSend: function () {
-                    $(".spiner-div").show();
-                    $(".div-blur").show();
-                    },
-                    success: function (res) {
-                    // console.log(res);
-                    if (res.status == 1) {
-                        Swal.fire({
-                        position: "center",
-                        icon: "success",
-                        title: "Process Successfull",
-                        text: "Steps successfully deleted",
-                        showConfirmButton: true,
-                        });
-                        let sal_grade = $(this).val();
-                        loadSalarySchedule(sal_grade);
-                    } else {
-                        Swal.fire({
-                        position: "center",
-                        icon: "error",
-                        title: "Action Failed",
-                        text: res.message,
-                        showConfirmButton: true,
-                        });
-                    } //end ifelse
-                    },
-                    complete: function () {
-                    $(".spiner-div").hide();
-                    $(".div-blur").hide();
-                    },
+
+                Swal.fire({
+                title: "Confirm Delete",
+                showDenyButton: false,
+                showCancelButton: true,
+                confirmButtonText: "Delete",
+                denyButtonText: "Cancel",
+                }).then((result) => {
+                /* Read more about isConfirmed, isDenied below */
+                    if (result.isConfirmed) {
+                        $.ajax({
+                        url: "nbc/deleteSteps",
+                        method: "post",
+                        dataType: "json",
+                        data: formData,
+                        contentType: false,
+                        cache: false,
+                        processData: false,
+                        beforeSend: function () {
+                            $(".spiner-div").show();
+                            $(".div-blur").show();
+                        },
+                        success: function (res) {
+                            if (res.status == 1) {
+                                Swal.fire({
+                                position: "center",
+                                icon: "success",
+                                title: "Process Successfull",
+                                text: "Steps successfully deleted",
+                                showConfirmButton: true,
+                                });
+                                let sal_grade = $('#btn-sal-grade').val();
+                                loadSalarySchedule(sal_grade);
+                            } else {
+                                Swal.fire({
+                                position: "center",
+                                icon: "error",
+                                title: "Action Failed",
+                                text: res.message,
+                                showConfirmButton: true,
+                                });
+                            } //end ifelse
+                        },
+                        complete: function () {
+                            $(".spiner-div").hide();
+                            $(".div-blur").hide();
+                        },
+                    });
+                }
                 });
+
+                
             })
 
 
