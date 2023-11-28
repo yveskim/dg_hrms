@@ -278,6 +278,11 @@ $routes->post('nbc/setStep', 'Nbc::setStep');
 
 $routes->post('nbc/deleteSteps', 'Nbc::deleteSteps');
 
+// ++++++++++++++++++++++++++Plantilla++++++++++++++++++++++++++++++++++
+$routes->get('plantilla/getPlantilla', 'Plantilla::getPlantilla');
+$routes->post('plantilla/updatePlantilla', 'Plantilla::updatePlantilla');
+
+
 // ________________________________________________
 // ________________________________________________
 // ________________________________________________
