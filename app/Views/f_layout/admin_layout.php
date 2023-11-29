@@ -402,7 +402,7 @@
 
     $('#serviceRecords').click(function() {
       scrollTop();
-        $('.content-div').load('pages/human_resource/service_record.php');
+        $('.content-div').load('pages/service_record/service_record_master.php');
     });
 
     

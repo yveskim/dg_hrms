@@ -8,7 +8,7 @@ use App\Models\PlantillaModel;
 use App\Models\FiscalYearModel;
 
 
-class Plantilla extends BaseController
+class ServiceRecord extends BaseController
 {
     function getPlantilla()
     {
