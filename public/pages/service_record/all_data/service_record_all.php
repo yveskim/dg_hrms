@@ -17,16 +17,21 @@
         <hr> -->
         <div class="row">
             <div class="col-md-12">
-                <table class="table table-bordered table-hover table-plantilla table-sm full-size" style=" white-space: nowrap;">
+                <table class="table table-bordered table-hover table-service-record table-sm full-size" style=" white-space: nowrap;">
                     <thead class="bg-info">
                         <tr>
                             <th>-</th>
-                            <th>Action</th>
-                            <th>Plantilla Item No.</th>
-                            <th>Postion/Title</th>
-                            <th>SG</th>
-                            <th>Date Recieved</th>
-                            <th>Del</th>
+                            <th>Date Start</th>
+                            <th>Date End</th>
+                            <th>Emp ID</th>
+                            <th>NBC no.</th>
+                            <th>Plantilla Item no.</th>
+                            <th>Step</th>
+                            <th>Seperated</th>
+                            <th>Seperation Date</th>
+                            <th>Cause</th>
+                            <th>LOA w/o Pay</th>
+                            <th>Remarks</th>
                         </tr>
                     </thead>
                     <tbody>

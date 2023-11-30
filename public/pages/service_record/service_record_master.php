@@ -12,7 +12,7 @@
                                 <button class="btn btn-success btn-sm full-size fs-1 btn-large" id="loadAll">Load All Data</button>
                             </div>
                             <div class="col-md-2 mb-1">
-                                <button class="btn btn-primary btn-sm full-size fs-1 btn-large" id="chooseEmp">Choose Employee</button>
+                                <button class="btn btn-primary btn-sm full-size fs-1 btn-large" id="chooseEmp" data-toggle="modal" data-target="#modalChooseEmp">Choose Employee</button>
                             </div>
                             <div class="col-md-2 mb-1">
                                 <button class="btn btn-warning btn-sm full-size fs-1 btn-large" id="generateReport">Generate Report</button>
@@ -33,7 +33,23 @@
     </div>
 </div>
 
-
+<div class="modal fade mb-4" id="modalChooseEmp">
+    <div class="modal-dialog modal-lg  modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header bg-primary">
+                <h4 class="modal-title">Select Employee</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body" >
+                
+            </div>
+        </div>
+    </div>
+</div>
+                  
 
 <script>
     $('#loadAll').click(function(){

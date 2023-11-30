@@ -4,21 +4,28 @@ namespace App\Controllers;
 
 use App\Models\EmployeeModel;;
 use App\Models\UsersModel;
-use App\Models\PlantillaModel;
+use App\Models\ServiceRecordModel;
 use App\Models\FiscalYearModel;
 
 
 class ServiceRecord extends BaseController
 {
-    function getPlantilla()
+    function getServiceRecord()
     {
-        $plntMdl = new PlantillaModel();
-        $data['plant'] = $plntMdl->findAll();
+        $serviceMdl = new ServiceRecordModel();
+        $data['sr'] = $serviceMdl
+        ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
+        ->join('emp_station_tbl', 'emp_station_tbl.emp_id = employee_t.emp_id', 'left')
+        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
+        ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
+        ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
+        ->find();
         return $this->response->setJSON($data);
     }
 
     function updatePlantilla(){
-        $plntMdl = new PlantillaModel();
+        $serviceMdl = new ServiceRecordModel();
         $user_id = $this->request->getPost('user_id');
         $is_edit = $this->request->getPost('is_edit');
 
@@ -33,7 +40,7 @@ class ServiceRecord extends BaseController
         if($is_edit == true){
             $plantilla_id = $this->request->getPost('plantilla_id');
             try {
-                $res = $plntMdl->set($data)->where('plantilla_id', $plantilla_id)->update();
+                $res = $serviceMdl->set($data)->where('plantilla_id', $plantilla_id)->update();
                 if($res){
                     $result['status'] = 1;
                     echo json_encode($result);
@@ -47,7 +54,7 @@ class ServiceRecord extends BaseController
             }
         }else{
             try {
-                $res = $plntMdl->save($data);
+                $res = $serviceMdl->save($data);
                 if($res){
                     $result['status'] = 1;
                     echo json_encode($result);
@@ -64,20 +71,20 @@ class ServiceRecord extends BaseController
     }
 
     function getPlantillaDetails(){
-        $plntMdl = new PlantillaModel();
+        $serviceMdl = new ServiceRecordModel();
         $plantilla_id = $this->request->getGet('plantilla_id');
    
-        $data['plant'] = $plntMdl->where('plantilla_id', $plantilla_id)->first();
+        $data['plant'] = $serviceMdl->where('plantilla_id', $plantilla_id)->first();
 
         return $this->response->setJSON($data);
     }
 
 
     function deletePlantilla(){
-        $plntMdl = new PlantillaModel();
+        $serviceMdl = new ServiceRecordModel();
         $plantilla_id = $this->request->getGet('plantilla_id');
         try {
-            $res = $plntMdl->where('plantilla_id', $plantilla_id)->delete();
+            $res = $serviceMdl->where('plantilla_id', $plantilla_id)->delete();
             if($res){
                 $result['status'] = 1;
                 echo json_encode($result);
@@ -95,27 +102,27 @@ class ServiceRecord extends BaseController
     // ----------------- employee stations ----------------------------------
 
     function viewplant(){
-        $plntMdl = new PlantillaModel();
+        $serviceMdl = new ServiceRecordModel();
         $plant_id = $this->request->getGet('plant_id');
-        $data['plant'] = $plntMdl->where('plant_id', $plant_id)->first();
+        $data['plant'] = $serviceMdl->where('plant_id', $plant_id)->first();
 
         return $this->response->setJSON($data);
     }
 
     function loadSalaryGradeDetails(){
-        $plntMdl = new PlantillaModel();
+        $serviceMdl = new ServiceRecordModel();
         $plant_id = $this->request->getGet('plant_id');
         $sal_grade = $this->request->getGet('sal_grade');
 
         if($sal_grade == 0){
-            $data['plant'] = $plntMdl
+            $data['plant'] = $serviceMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.plant_id = plant_tbl.plant_id', 'left')
             ->where('salary_schedule_tbl.plant_id', $plant_id)
             ->orderBy('salary_schedule_tbl.salary_grade')
             ->orderBy('salary_schedule_tbl.step')
             ->find();
         }else{
-            $data['plant'] = $plntMdl
+            $data['plant'] = $serviceMdl
             ->join('salary_schedule_tbl', 'salary_schedule_tbl.plant_id = plant_tbl.plant_id', 'left')
             ->where('salary_schedule_tbl.plant_id', $plant_id)
             ->where('salary_schedule_tbl.salary_grade', $sal_grade)

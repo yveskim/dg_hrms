@@ -285,7 +285,12 @@ $routes->get('plantilla/getPlantillaDetails', 'Plantilla::getPlantillaDetails');
 $routes->get('plantilla/deletePlantilla', 'Plantilla::deletePlantilla');
 
 
-// ________________________________________________
+// +++++++++++++++++++++++++++Service Record+++++++++++++++++++++++++++++
+$routes->get('service/getServiceRecord', 'ServiceRecord::getServiceRecord');
+
+
+
+// _______________________________________________
 // ________________________________________________
 // ________________________________________________
 $routes->get('(:any)', 'Pages::view/$1');
