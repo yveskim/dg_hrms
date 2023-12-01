@@ -287,6 +287,7 @@ $routes->get('plantilla/deletePlantilla', 'Plantilla::deletePlantilla');
 
 // +++++++++++++++++++++++++++Service Record+++++++++++++++++++++++++++++
 $routes->get('service/getServiceRecord', 'ServiceRecord::getServiceRecord');
+$routes->get('service/selectEmployeeSr', 'ServiceRecord::selectEmployeeSr');
 
 
 

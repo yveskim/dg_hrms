@@ -34,18 +34,17 @@ function loadServiceRecord() {
           { data: "sr_date_started" },
           { data: "sr_date_end" },
           { data: "emp_agency_employee_no" },
-          { data: "nbc_no" },
-          { data: "plantilla_item_no" },
-          { data: "sr_step" },
+          { data: "position_title" },
+          { data: "sr_status" },
+          { data: "st_title" },
+          { data: "st_branch" },
           { data: "sr_is_seperated" },
           { data: "sr_seperation_date" },
           { data: "sr_seperation_cause" },
-          { data: "leave_absense_wo_pay" },
+          { data: "nbc_no" },
           { data: "sr_remarks" },
         ],
       }); //end of datatable
-
-   
     },
     complete: function () {
       $(".spiner-div").hide();

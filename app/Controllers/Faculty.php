@@ -79,7 +79,6 @@ class Faculty extends BaseController
             }
 
             if(file_exists($currentImage) == true && $currentImage != null){//if image exist unlink it
-                 
                 try{
                     $result['pic'] = $empModel->update($emp_id, $data);
                     if($result){

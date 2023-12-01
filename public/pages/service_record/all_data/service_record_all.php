@@ -1,7 +1,10 @@
 
 <div class="row">
-    <div class="col-md-12">
-        <h4>All Data</h4>
+    <div class="col-md-10">
+        <h4>Service Record (All Data)</h4>
+    </div>
+    <div class="col-md-2">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalFilter">Filter by Date</button>
     </div>
 </div>
 <hr>
@@ -24,13 +27,14 @@
                             <th>Date Start</th>
                             <th>Date End</th>
                             <th>Emp ID</th>
-                            <th>NBC no.</th>
-                            <th>Plantilla Item no.</th>
-                            <th>Step</th>
+                            <th>Designation</th>
+                            <th>Status</th>
+                            <th>Station</th>
+                            <th>Branch</th>
                             <th>Seperated</th>
                             <th>Seperation Date</th>
                             <th>Cause</th>
-                            <th>LOA w/o Pay</th>
+                            <th>NBC no.</th>
                             <th>Remarks</th>
                         </tr>
                     </thead>
@@ -43,5 +47,5 @@
 </div>
 
 
-
+<!-- TODO: create modal for date filter -->
 <script type="text/javascript" src="pages/service_record/all_data/service_record_all.js"></script>

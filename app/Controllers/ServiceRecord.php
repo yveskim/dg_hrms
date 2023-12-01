@@ -21,6 +21,13 @@ class ServiceRecord extends BaseController
         ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
         ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
         ->find();
+
+        return $this->response->setJSON($data);
+    }
+
+    function selectEmployeeSr(){
+        $empMdl = new EmployeeModel();
+        $data['emp'] = $empMdl->findAll();
         return $this->response->setJSON($data);
     }
 
