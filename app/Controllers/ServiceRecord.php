@@ -31,6 +31,24 @@ class ServiceRecord extends BaseController
         return $this->response->setJSON($data);
     }
 
+    function getEmpServiceRecord(){
+        $serviceMdl = new ServiceRecordModel();
+        $empMdl = new EmployeeModel();
+        $emp_id = $this->request->getGet('emp_id');
+        $data['sr'] = $serviceMdl
+        ->where('sr_emp_id', $emp_id)
+        ->find();
+
+        $data['emp'] = $empMdl
+        ->where('emp_id', $emp_id)
+        ->first();
+
+
+        return $this->response->setJSON($data);
+    }
+
+    
+
     function updatePlantilla(){
         $serviceMdl = new ServiceRecordModel();
         $user_id = $this->request->getPost('user_id');

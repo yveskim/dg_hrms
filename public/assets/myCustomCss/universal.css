@@ -138,3 +138,8 @@
 .selected-button:focus{
   box-shadow: 0 0 5px 2px orange;
 }
+
+.emphasis{
+  color: rgb(0, 111, 155);
+  font-weight: bolder;
+}
