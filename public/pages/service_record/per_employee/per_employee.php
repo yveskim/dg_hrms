@@ -41,6 +41,12 @@
             <strong><h5 style="font-weight: blod">SERVICE RECORD</h5></strong>
         </div>
     </div>
+    <br>
+    <div class="row mb-4">
+        <div class="col-md-2">
+            <button class="btn btn-primary full-size">ADD NEW</button>
+        </div>
+    </div>
 
     <div class="row">
         <div class="col-md-12">
