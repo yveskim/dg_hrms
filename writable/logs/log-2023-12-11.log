@@ -1,0 +1,39 @@
+ERROR - 2023-12-11 09:41:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2023-12-11 09:41:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n        selec...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Models\ServiceRecordModel.php(53): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\ServiceRecord.php(67): App\Models\ServiceRecordModel->getServiceRecord()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-11 09:41:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2023-12-11 09:41:54 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n        selec...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Models\ServiceRecordModel.php(53): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\ServiceRecord.php(67): App\Models\ServiceRecordModel->getServiceRecord()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-11 09:42:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2023-12-11 09:42:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n        selec...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n        selec...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n        selec...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Models\ServiceRecordModel.php(53): CodeIgniter\Database\BaseConnection->query('\r\n        selec...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\app\Controllers\ServiceRecord.php(67): App\Models\ServiceRecordModel->getServiceRecord()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\HRMS\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
