@@ -23,6 +23,7 @@ class ServiceRecord extends BaseController
         ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
         ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
         ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
+        ->groupBy('service_record_tbl.sr_id')
         ->find();
 
         return $this->response->setJSON($data);
