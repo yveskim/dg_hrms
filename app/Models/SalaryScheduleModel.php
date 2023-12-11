@@ -30,7 +30,6 @@ class SalaryScheduleModel extends Model
 
 
 
-
 }
 
 
