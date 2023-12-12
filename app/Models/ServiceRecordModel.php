@@ -25,6 +25,7 @@ class ServiceRecordModel extends Model
                               'sr_date_end',
                               'sr_remarks',
                               'sr_processed_by',
+                              'is_active',
                               'created_at',
                               'updated_at',
                             ];
@@ -55,6 +56,16 @@ class ServiceRecordModel extends Model
 
       return $this->db->query($sql)->getResultArray();
 
+    }
+
+    function getLastSr($emp_id){
+        $sql = '
+        SELECT * FROM service_record_tbl
+        WHERE sr_emp_id = '.$emp_id.'
+        ORDER BY sr_id DESC LIMIT 1;
+      ';
+
+      return $this->db->query($sql)->getResultArray();
     }
 }
 

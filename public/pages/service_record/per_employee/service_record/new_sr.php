@@ -1,12 +1,14 @@
+<div class="row bg-warning text-light" style="padding-top: .4rem">
+    <div class="col-md-12">
+        <h4>Newly Hired Form</h4>
+    </div>
+</div>
+<hr>
 <form id="newServiceRecordForm">
     <div class="row">
             <div class="col-md-6 mb-4">
                 <label for="date_started">Date Started</label>
                 <input type="date" class="form-control form-control-sm full-size" name="date_started" id="date_started" form="newServiceRecordForm">
-            </div>
-            <div class="col-md-6 mb-4">
-                <label for="date_end">Date End</label>
-                <input type="date" class="form-control form-control-sm full-size" name="date_end" id="date_end" form="newServiceRecordForm">
             </div>
         </div>
         <div class="row">
@@ -61,7 +63,7 @@
                         <div class="input-group mb-3">
                             <input type="text" readonly required class="form-control form-control-sm full-size" name="current_station" id="current_station" >
                             <div class="input-group-append">
-                                <button class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modalUpdateStation">Update</button>
+                                <button type="button" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#modalUpdateStation">Update</button>
                             </div>
                         </div>
                     </div>
@@ -75,50 +77,6 @@
         </div>
         <hr>
 
-        <!-- <div class="row">
-            <div class="col-md-12">
-                <div class="row mb-4">
-                    <div class="col-md-12">
-                        Leave of Absence w/o Pay
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 mb-4">
-                        <label for="loa_date_from">Date From</label>
-                        <input type="date" class="form-control form-control-sm full-size" name="loa_date_from" id="loa_date_from" form="newServiceRecordForm">
-                    </div>
-                    <div class="col-md-6 mb-4">
-                        <label for="loa_date_to">Date To</label>
-                        <input type="date" class="form-control form-control-sm full-size" name="loa_date_to" id="loa_date_to" form="newServiceRecordForm">
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6">
-                        <label for="loa_total_deduction">Total Deductions</label>
-                        <input type="text" class="form-control form-control-sm full-size" name="loa_total_deduction" id="loa_total_deduction" form="newServiceRecordForm">
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- <hr>
-        <div class="row">
-            <div class="col-md-2 mb-4">
-                <label for="is_seperated">Seperated</label>
-                <select name="is_seperated" id="is_seperated" class="form-control form-control-sm full-size" form="newServiceRecordForm">
-                    <option value=""></option>
-                    <option value="0">No</option>
-                    <option value="1">Yes</option>
-                </select>
-            </div>
-            <div class="col-md-5 mb-4">
-                <label for="seperation_cause">Seperation Cause</label>
-                <input type="text" class="form-control form-control-sm full-size" name="seperation_cause" id="seperation_cause" form="newServiceRecordForm">
-            </div>
-            <div class="col-md-5">
-                <label for="seperation_date">Seperation Date</label>
-                <input type="date" class="form-control form-control-sm full-size" name="seperation_date" id="seperation_date" form="newServiceRecordForm">
-            </div>
-        </div> -->
         <div class="row">
             <div class="col-md-12 mb-4">
                 <label for="remarks">Remarks</label>
@@ -136,6 +94,30 @@
         </div>
     </div>
 </form>
+
+
+
+<div class="modal fade mb-4" id="modalUpdateStation">
+    <div class="modal-dialog modal-md  modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header bg-primary">
+                <h4 class="modal-title">Update Station</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script>
     $(document).ready(function(){
@@ -156,7 +138,7 @@
             success: function (data) {
                 $('#pantilla_no').append('<option value="">-</option>');
                 $.each(data.plant, function (key, val){
-                    $('#pantilla_no').append('<option value="'+val.plantilla_id+'">'+val.plantilla_item_no+'</option>');
+                    $('#pantilla_no').append('<option value="'+val.plantilla_id+'">'+val.plantilla_item_no+ "-"+val.position_title+'</option>');
                 })
 
             
@@ -198,30 +180,31 @@ $('#newServiceRecordForm').submit(function(event){
         cache: false,
         processData: false,
         beforeSend: function () {
-        $(".spiner-div").show();
-        $(".div-blur").show();
+            $(".spiner-div").show();
+            $(".div-blur").show();
         },
         success: function (res) {
-        if (res.status == 1) {
-            Swal.fire({
-            position: "center",
-            icon: "success",
-            title: "Process Successfull",
-            text: "Date Successfully Updated",
-            showConfirmButton: true,
-            });
-            $("#modalUpdateServiceRecord").modal("toggle");
-            $("#newServiceRecordForm")[0].reset();
-            loadeEmpServiceRecord($('#emp_id_ref').val());
-        } else {
-            Swal.fire({
-            position: "center",
-            icon: "error",
-            title: "Action Failed",
-            text: res.message,
-            showConfirmButton: true,
-            });
-        } //end ifelse
+            console.log(res);
+            if (res.status == 1) {
+                Swal.fire({
+                position: "center",
+                icon: "success",
+                title: "Process Successfull",
+                text: "Date Successfully Updated",
+                showConfirmButton: true,
+                });
+                $("#modalUpdateServiceRecord").modal("toggle");
+                $("#newServiceRecordForm")[0].reset();
+                loadeEmpServiceRecord($('#emp_id_ref').val());
+            } else {
+                Swal.fire({
+                position: "center",
+                icon: "error",
+                title: "Action Failed",
+                text: res.message,
+                showConfirmButton: true,
+                });
+            } //end ifelse
         },
         complete: function () {
         $(".spiner-div").hide();
@@ -229,5 +212,10 @@ $('#newServiceRecordForm').submit(function(event){
         },
     });
 
+})
+
+
+$('#modalUpdateStation').on('show.bs.modal', function(){
+    
 })
 </script>

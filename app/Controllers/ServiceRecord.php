@@ -319,32 +319,12 @@ class ServiceRecord extends BaseController
         ->first();
 
         $data['plant'] = $plantMdl
-        ->join('service_record_tbl', 'service_record_tbl.sr_plantilla_id = plantilla_tbl.plantilla_id', 'left')
-        ->where('service_record_tbl.sr_plantilla_id', null)
+        // ->join('service_record_tbl', 'service_record_tbl.sr_plantilla_id = plantilla_tbl.plantilla_id', 'left')
+        // ->where('service_record_tbl.sr_plantilla_id', null)
+        ->where('is_assigned', 0)
         ->find();
 
         $data['nbc'] = $nbcMdl->findAll();
-
-        // $countSr = $serviceRecMdl->where('sr_emp_id', $emp_id)->countAllResults();
-       
-        // if($countSr > 0){
-        //     $data['new_record'] = false;
-        //     $data['sr'] = $serviceRecMdl
-        //     ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
-        //     ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
-        //     ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
-        //     ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
-        //     ->join('emp_station_tbl', 'emp_station_tbl.emp_id = employee_t.emp_id', 'left')
-        //     ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
-        //     ->where('sr_emp_id', $emp_id)
-        //     ->orderBy('DESC')
-        //     ->limit(1);      
-        // }else{
-        //     $data['new_record'] = true;
-
-        // }
-
-        // $data['new_record'] = true;
 
         return $this->response->setJSON($data);
     }
@@ -353,34 +333,97 @@ class ServiceRecord extends BaseController
 
     function newServiceRecord(){
         $serviceMdl = new ServiceRecordModel();
+        $plantMdl = new PlantillaModel();
         $user_id = $this->request->getPost('user_id');
         $emp_id = $this->request->getPost('emp_id');
+        $plantilla_id = $this->request->getPost('pantilla_no');
 
         $data = [
             'sr_emp_id' => $emp_id,
             'sr_nbc_id' => $this->request->getPost('nbc_ref'),
-            'sr_plantilla_id' => $this->request->getPost('pantilla_no'),
+            'sr_plantilla_id' => $plantilla_id,
             'sr_step' => $this->request->getPost('step'),
             'sr_status' => $this->request->getPost('app_status'),
             'sr_date_started' => $this->request->getPost('date_started'),
             'sr_date_end' => $this->request->getPost('date_end'),
             'sr_remarks' => $this->request->getPost('remarks'),
+            'is_active' => 1,
             'sr_processed_by' => $user_id,
         ];
-        
-        try {
-            $res = $serviceMdl->save($data);
-            if($res){
-                $result['status'] = 1;
+        $checkIfNew = $serviceMdl->where('sr_emp_id', $emp_id)->countAllResults();//check if this is the first data of service reord
+        if($checkIfNew > 0){
+            try {
+                $lastSr = $serviceMdl->getLastSr($emp_id);//find the last service record id
+                $last_plantilla_id = "";
+                foreach($lastSr as $sr){
+                    $lastSr = $sr['sr_id'];
+                    $last_plantilla_id = $sr['sr_plantilla_id'];
+                }
+
+                $updateData = [
+                    'is_active' => 0
+                ];
+
+                $res = $serviceMdl->set($updateData)->where('sr_id', $lastSr)->update();
+                if($res){
+                    try {
+                        $res2 = $serviceMdl->save($data);
+                        if($res2){
+                            $plantMdl->set('is_assigned', 0)->where('plantilla_id', $last_plantilla_id)->update();//remove assigned plantilla
+                            try {
+                                $res3 = $plantMdl->set('is_assigned', 1)->where('plantilla_id', $plantilla_id)->update();
+                                if($res3){
+                                    $result['status'] = 1;
+                                    echo json_encode($result);
+                                    die;
+                                }
+                            } catch (\Exception $e) {
+                                $result['status'] = 0;
+                                $result['message'] = $e->getMessage();
+                                echo json_encode($result);
+                                die;
+                            }
+                        }
+                    } catch (\Exception $e) {
+                        $result['status'] = 0;
+                        $result['message'] = $e->getMessage();
+                        echo json_encode($result);
+                        die;
+                    }
+                }
+            } catch (\Exception $e) {
+                $result['status'] = 0;
+                $result['message'] = $e->getMessage();
                 echo json_encode($result);
                 die;
             }
-        } catch (\Exception $e) {
-            $result['status'] = 0;
-            $result['message'] = $e->getMessage();
-            echo json_encode($result);
-            die;
+            
+        }else{
+            try {
+                $res = $serviceMdl->save($data);
+                if($res){
+                    try {
+                        $res2 = $plantMdl->set('is_assigned', 1)->where('plantilla_id', $plantilla_id)->update();
+                        if($res2){
+                            $result['status'] = 1;
+                            echo json_encode($result);
+                            die;
+                        }
+                    } catch (\Exception $e) {
+                        $result['status'] = 0;
+                        $result['message'] = $e->getMessage();
+                        echo json_encode($result);
+                        die;
+                    }
+                }
+            } catch (\Exception $e) {
+                $result['status'] = 0;
+                $result['message'] = $e->getMessage();
+                echo json_encode($result);
+                die;
+            }
         }
+        
     }
 
 

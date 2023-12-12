@@ -1,0 +1,87 @@
+CRITICAL - 2023-12-12 12:01:41 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('UPDATE `service...', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `service...', Array)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\app\Controllers\ServiceRecord.php(384): CodeIgniter\Model->update()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#14 {main}
+ERROR - 2023-12-12 12:08:23 --> Unknown column 'DESC' in 'order clause'
+CRITICAL - 2023-12-12 12:10:04 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(328): strtr('UPDATE `service...', Array)
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(302): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `service...', Array)
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\Query->getQuery()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1875): CodeIgniter\Database\BaseConnection->query('UPDATE `service...', Array, false)
+#5 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Model.php(298): CodeIgniter\Database\BaseBuilder->update()
+#6 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(865): CodeIgniter\Model->doUpdate(NULL, Array)
+#7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Model.php(646): CodeIgniter\BaseModel->update(NULL, Array)
+#8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\app\Controllers\ServiceRecord.php(384): CodeIgniter\Model->update()
+#9 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#10 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#11 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#13 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#14 {main}
+ERROR - 2023-12-12 12:38:02 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+CRITICAL - 2023-12-12 12:54:28 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 12:54:36 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 13:00:19 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 13:04:16 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 13:18:59 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 13:19:28 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+CRITICAL - 2023-12-12 13:20:51 --> Object of class App\Models\ServiceRecordModel could not be converted to string
+#0 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->newServiceRecord()
+#1 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#2 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
+#5 {main}
+ERROR - 2023-12-12 13:37:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr_emp_id = 3294
+        ORDER BY sr_id DESC LIMIT 1' at line 2
+ERROR - 2023-12-12 14:53:10 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-12-12 14:53:30 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)

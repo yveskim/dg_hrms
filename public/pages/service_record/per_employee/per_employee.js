@@ -79,7 +79,7 @@ function loadeEmpServiceRecord(emp_id) {
       $(".div-blur").hide();
     },
     success: function (data) {
-      console.log(data);
+      // console.log(data);
       let house = data.emp.emp_p_add_house;
       if (house == null || house == "") {
         house = "";
@@ -160,6 +160,16 @@ function loadeEmpServiceRecord(emp_id) {
               data: null,
               render: function (data, type, row, meta) {
                 return meta.row + meta.settings._iDisplayStart + 1;
+              },
+            },
+            {
+              data: null,
+              render: function (data, type, row, meta) {
+                if (data.is_active == true) {
+                  return '<div class="bg-success text-light" style="text-align: center;">active</div>';
+                } else {
+                  return '<div class="bg-danger text-light" style="text-align: center;">ended</div>';
+                }
               },
             },
             { data: "sr_date_started" },

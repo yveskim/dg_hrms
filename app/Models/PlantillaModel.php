@@ -16,6 +16,7 @@ class PlantillaModel extends Model
                               'position_title',
                               'salary_grade',
                               'date_recieved',
+                              'is_assigned',
                               'created_by',
                               'created_at',
                               'updated_at',

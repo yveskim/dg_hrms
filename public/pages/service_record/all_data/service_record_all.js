@@ -31,6 +31,16 @@ function loadServiceRecord() {
               return meta.row + meta.settings._iDisplayStart + 1;
             },
           },
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              if (data.is_active == true) {
+                return '<div class="bg-success text-light" style="text-align: center;">active</div>';
+              } else {
+                return '<div class="bg-danger text-light" style="text-align: center;">ended</div>';
+              }
+            },
+          },
           { data: "sr_date_started" },
           { data: "sr_date_end" },
           { data: "emp_agency_employee_no" },

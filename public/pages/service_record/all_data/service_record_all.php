@@ -24,6 +24,7 @@
                     <thead class="bg-info">
                         <tr>
                             <th>-</th>
+                            <th>Status</th>
                             <th>Date Start</th>
                             <th>Date End</th>
                             <th>Emp ID</th>
