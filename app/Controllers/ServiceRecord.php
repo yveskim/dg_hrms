@@ -26,6 +26,7 @@ class ServiceRecord extends BaseController
         ->groupBy('service_record_tbl.sr_id')
         ->find();
 
+
         return $this->response->setJSON($data);
     }
 
@@ -38,34 +39,10 @@ class ServiceRecord extends BaseController
     function getEmpServiceRecord(){
         $serviceMdl = new ServiceRecordModel();
         $salSchedMdl = new SalaryScheduleModel();
+        $empStMdl = new EmpStationModel();
         $empMdl = new EmployeeModel();
+        $plMdl = new PlantillaModel();
         $emp_id = $this->request->getGet('emp_id');
-
-        // $getSalary = $SalaryScheduleModel->where()
-
-
-
-
-
-        // $subquery = $salSchedMdl
-        // ->where('nbc_id',  'service_record_tbl.sr_nbc_id')
-        // ->where('salary_grade',  'plantilla_tbl.salary_grade')
-        // ->where('step',  'service_record_tbl.sr_step')
-        // ->select('amount')
-        // ->first();
-
-        // $data['sr'] = $serviceMdl
-        // ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
-        // ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
-        // ->join('emp_station_tbl', 'emp_station_tbl.emp_id = employee_t.emp_id', 'left')
-        // ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
-        // ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
-        // ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
-        // ->fromSubquery($subquery, 'salary')
-        // ->where('sr_emp_id', $emp_id)
-        // ->groupBy('service_record_tbl.sr_id')
-        // ->find();
-
 
         try {
            $data['sr'] = $serviceMdl->getServiceRecord($emp_id);
@@ -73,30 +50,26 @@ class ServiceRecord extends BaseController
             $data['error'] = $e->getMessage();
         }
         
-
-
         $data['emp'] = $empMdl
         ->where('emp_id', $emp_id)
         ->first();
 
+        $data['st'] = $empStMdl
+        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
+        ->where('emp_station_tbl.emp_id', $emp_id)
+        ->where('emp_station_tbl.is_current', true)
+        ->first();
+
+        $data['pl'] = $serviceMdl
+        ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
+        ->where('service_record_tbl.sr_emp_id', $emp_id)
+        ->where('plantilla_tbl.is_assigned', true)
+        ->first();
+
+
+
         return $this->response->setJSON($data);
-    }
-
-    // function getEmpSalary(){
-    //     $salSchedMdl = new SalaryScheduleModel();
-    //     $nbc_id = $this->request->getGet('nbc_id');
-    //     $step = $this->request->getGet('step');
-    //     $grade = $this->request->getGet('grade');
-
-    //     $data['salary'] = $salSchedMdl
-    //     ->where('nbc_id', $nbc_id)
-    //     ->where('salary_grade', $grade)
-    //     ->where('step', $step)
-    //     ->first();
-    //     return $this->response->setJSON($data);
-    // }
-
-    
+    }    
 
     function updatePlantilla(){
         $serviceMdl = new ServiceRecordModel();

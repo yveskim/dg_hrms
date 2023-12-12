@@ -35,6 +35,17 @@
         </div>
     </div>
     <hr>
+    <div class="row">
+        <div class="col-md-4">
+            <h6>Current Station: <span class="emphasis" id="station"></span> <span id="spanSet"></span></h6>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-8">
+            <h6>Plantilla Item No.: <span class="emphasis" id="plantilla_item"></span></h6>
+        </div>
+    </div>
     <hr class="bg-primary" style="height: .4vw;">
 
     <div class="row mb-4">

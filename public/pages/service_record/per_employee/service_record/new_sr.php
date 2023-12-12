@@ -55,7 +55,7 @@
             </div>
         </div>
         <hr>
-        <div class="row bg-info text-light" style="padding: .4rem;">
+        <!-- <div class="row bg-info text-light" style="padding: .4rem;">
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-8">
@@ -74,7 +74,7 @@
                 </div>
                 
             </div>
-        </div>
+        </div> -->
         <hr>
 
         <div class="row">
@@ -95,18 +95,16 @@
     </div>
 </form>
 
-
+<!-- 
 
 <div class="modal fade mb-4" id="modalUpdateStation">
     <div class="modal-dialog modal-md  modal-dialog-centered">
         <div class="modal-content">
-            <!-- Modal Header -->
             <div class="modal-header bg-primary">
                 <h4 class="modal-title">Update Station</h4>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close-modal-station">&times;</button>
             </div>
             
-            <!-- Modal body -->
             <div class="modal-body">
                 <div class="row">
                     <div class="col-md">
@@ -116,7 +114,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 <script>
@@ -215,7 +213,4 @@ $('#newServiceRecordForm').submit(function(event){
 })
 
 
-$('#modalUpdateStation').on('show.bs.modal', function(){
-    
-})
 </script>

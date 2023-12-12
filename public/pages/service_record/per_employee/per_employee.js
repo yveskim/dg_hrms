@@ -79,7 +79,7 @@ function loadeEmpServiceRecord(emp_id) {
       $(".div-blur").hide();
     },
     success: function (data) {
-      // console.log(data);
+      console.log(data);
       let house = data.emp.emp_p_add_house;
       if (house == null || house == "") {
         house = "";
@@ -143,6 +143,26 @@ function loadeEmpServiceRecord(emp_id) {
           province +
           zip
       );
+
+      if (data.st == null) {
+        $("#station").html("<span class='text-warning'>station not set</span>");
+        $("#spanSet").html(
+          '<button class="btn btn-primary btn-sm" id="btnSet">Set/Change</button>'
+        );
+      } else {
+        $("#station").text(data.st.st_title);
+        $("#btnSet").hide();
+      }
+
+      if (data.pl == null) {
+        $("#plantilla_item").html(
+          "<span class='text-warning'>plantilla not set</span>"
+        );
+      } else {
+        $("#plantilla_item").text(
+          data.pl.plantilla_item_no + " - " + data.pl.position_title
+        );
+      }
 
       $(".sr-details-div").show(function () {
         $(".table-service-record").off();

@@ -122,24 +122,24 @@
   font-size: 1vw;
 }
 
-.btn-large{
+.btn-large {
   height: 5vw;
 }
 
-.btn-medium{
+.btn-medium {
   height: 3vw;
 }
 
-.selected-button{
-  border-bottom: .5vw solid orange !important;
+.selected-button {
+  border-bottom: 0.5vw solid orange !important;
   box-shadow: 0 0 5px 2px orange;
 }
 
-.selected-button:focus{
+.selected-button:focus {
   box-shadow: 0 0 5px 2px orange;
 }
 
-.emphasis{
+.emphasis {
   color: rgb(0, 111, 155);
   font-weight: bolder;
 }
