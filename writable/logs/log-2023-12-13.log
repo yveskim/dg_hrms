@@ -20,3 +20,8 @@ CRITICAL - 2023-12-13 10:43:08 --> syntax error, unexpected ','
 #7 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
 #8 C:\Users\yvesk\OneDrive - iloilonhs.edu.ph\Desktop\HRMS - DEPED\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\yvesk\\...')
 #9 {main}
+ERROR - 2023-12-13 13:52:22 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-12-13 14:33:25 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-12-13 14:33:57 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-12-13 14:34:00 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)
+ERROR - 2023-12-13 14:57:58 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)

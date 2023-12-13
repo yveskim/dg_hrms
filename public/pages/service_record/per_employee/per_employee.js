@@ -341,11 +341,10 @@ $("#modalUpdateServiceRecord").on("hidden.bs.modal", function (e) {
   $("#transaction_type").val($("#transaction_type option:first").val());
 });
 
-$("#transaction_type").change(function () {
-  if ($(this).val() == 1) {
-    $("#updateServiceRecordForm").load(
-      "pages/service_record/per_employee/service_record/new_sr.php"
-    );
+$("#btnSetSr").click(function () {
+  if ($("#transaction_type").val() == 1) {
+    $("#modalNewServiceRecord").modal("toggle");
+    $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
   } else if ($(this).val() == 2) {
   } else if ($(this).val() == 3) {
   } else if ($(this).val() == 4) {
