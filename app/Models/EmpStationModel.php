@@ -17,6 +17,7 @@ class EmpStationModel extends Model
                             'date_started',
                             'date_end',
                             'assigned_by', 
+                            'is_current', 
                             'created_at',
                             'updated_at',
                           ];

@@ -147,7 +147,7 @@ function loadeEmpServiceRecord(emp_id) {
       if (data.st == null) {
         $("#station").html("<span class='text-warning'>station not set</span>");
         $("#spanSet").html(
-          '<button class="btn btn-primary btn-sm" id="btnSet">Set/Change</button>'
+          '<button class="btn btn-primary btn-sm" id="btnSet" data-toggle="modal" data-target="#modalSetStation">Set/Change</button>'
         );
       } else {
         $("#station").text(data.st.st_title);
@@ -220,8 +220,119 @@ function loadeEmpServiceRecord(emp_id) {
     },
   });
 }
+// ++++++++++++++++++++++++++++++
 
-$("#modalUpdateServiceRecord").on("shown.bs.modal", function (e) {});
+$("#modalSetStation").on("shown.bs.modal", function () {
+  $.ajax({
+    url: "station/getStations",
+    method: "get",
+    dataType: "json",
+    success: function (data) {
+      $(".table-station").off();
+      $(".table-station").DataTable().clear().destroy();
+      $(".table-station").DataTable({
+        data: data.st,
+        responsive: false,
+        scrollX: true,
+        autoWidth: false,
+        destroy: true,
+        searching: true,
+        paging: false,
+        columns: [
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              return meta.row + meta.settings._iDisplayStart + 1;
+            },
+          },
+          { data: "st_title" },
+          { data: "st_office_id" },
+          { data: "st_office_address" },
+          { data: "st_branch" },
+          {
+            data: null,
+            render: function (data, type, row, meta) {
+              return (
+                "<button type='button' class='btn btn-sm btn-success full-size _set' name='st_id' " +
+                "id='" +
+                data.station_id +
+                "'>Set</button>"
+              );
+            },
+          },
+        ],
+      }); //end of datatable
+      $(".table-station").on("click", "._set", function () {
+        $("#modalSubmitStation").modal("toggle");
+        $("#modalSubmitStation").addClass("modal-backdrop-blur");
+
+        let station_id = $(this).prop("id");
+        $.ajax({
+          url: "station/getStationDetails",
+          method: "get",
+          dataType: "json",
+          data: { station_id: station_id },
+          success: function (data) {
+            $("#station_title").val(data.st.st_title);
+            $("#station_id").val(data.st.station_id);
+          },
+        });
+      });
+    },
+  });
+});
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+$("#setStationForm").submit(function (event) {
+  event.preventDefault();
+  let formData = new FormData(this);
+  let emp_id_ref = $("#emp_id_ref").val();
+  formData.append("user_id", $("#user").val());
+  formData.append("emp_id", emp_id_ref);
+
+  $.ajax({
+    url: "station/setEmpStation",
+    method: "post",
+    dataType: "json",
+    data: formData,
+    contentType: false,
+    cache: false,
+    processData: false,
+    beforeSend: function () {
+      $(".spiner-div").show();
+      $(".div-blur").show();
+    },
+    success: function (res) {
+      // console.log(res);
+      if (res.status == 1) {
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Process Successfull",
+          text: "Date Successfully Updated",
+          showConfirmButton: true,
+        });
+        $("#modalSetStation").modal("toggle");
+        $("#modalSubmitStation").modal("toggle");
+        $("#setStationForm")[0].reset();
+        loadeEmpServiceRecord($("#emp_id_ref").val());
+      } else {
+        Swal.fire({
+          position: "center",
+          icon: "error",
+          title: "Action Failed",
+          text: res.message,
+          showConfirmButton: true,
+        });
+      } //end ifelse
+    },
+    complete: function () {
+      $(".spiner-div").hide();
+      $(".div-blur").hide();
+    },
+  });
+});
+// ++++++++++++++++++++++++++++++++++++++++++++
 
 $("#modalUpdateServiceRecord").on("hidden.bs.modal", function (e) {
   $("#pantilla_no").empty();

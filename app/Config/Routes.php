@@ -264,6 +264,9 @@ $routes->post('station/updateEmployeeStationDate', 'Stations::updateEmployeeStat
 $routes->get('station/deleteEmpStation', 'Stations::deleteEmpStation');
 
 
+$routes->post('station/setEmpStation', 'Stations::setEmpStation');
+
+
 
 //++++++++++++++++++++++++++++NBC++++++++++++++++++++++++++++++
 

@@ -150,7 +150,8 @@ class Stations extends BaseController
                 'station_id' => $station_id,
                 'date_started' => $date_started,
                 'date_end' => $date_ended,
-                'assigned_by' => $user_id
+                'assigned_by' => $user_id,
+                'is_current' => true
             ]; 
             $res = $emStMdl->save($data);
         }
@@ -227,5 +228,36 @@ class Stations extends BaseController
             die;
         }
     }
+
+
+
+    function setEmpStation(){
+        $empStMdl = new EmpStationModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_id = $this->request->getPost('emp_id');
+
+        $data = [
+            'emp_id' => $emp_id,
+            'station_id' => $this->request->getPost('station_id'),
+            'date_started' => $this->request->getPost('date_started'),
+            'is_current' => true,
+            'assigned_by' => $user_id,
+        ];
+        
+        try {
+            $res = $empStMdl->save($data);
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
+    }
+
 
 }
