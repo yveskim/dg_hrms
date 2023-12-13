@@ -309,7 +309,7 @@ class ServiceRecord extends BaseController
         $plantMdl = new PlantillaModel();
         $user_id = $this->request->getPost('user_id');
         $emp_id = $this->request->getPost('emp_id');
-        $plantilla_id = $this->request->getPost('pantilla_no');
+        $plantilla_id = $this->request->getPost('pantilla_id');
 
         $data = [
             'sr_emp_id' => $emp_id,

@@ -8,9 +8,10 @@
         </div>
         <div class="row">
             <div class="col-md-6">
+                <input type="hidden" name="pantilla_id" id="pantilla_id" form="newServiceRecordForm">
                 <label for="pantilla_no">Plantilla Item no.</label>
                 <div class="input-group">
-                <input type="text" class="form-control form-control-sm" name="pantilla_no" id="pantilla_no" form="newServiceRecordForm">
+                <input type="text" class="form-control form-control-sm" name="pantilla_no" id="pantilla_no">
                 <div class="input-group-append">
                     <button class="btn btn-success btn-sm" type="button" data-toggle="modal" data-target="#getPlantillaModal">Select</button>
                 </div>
@@ -91,9 +92,11 @@
                             <thead class="bg-info">
                                 <tr>
                                     <th>-</th>
+                                    <th>status</th>
                                     <th>Plantilla No</th>
                                     <th>Position</th>
                                     <th>Salary Grade</th>
+                                    <th>Date Recieved</th>
                                     <th>Action</th>
                                 </tr>
                             </thead>
@@ -150,9 +153,93 @@
     })
 
 $('#getPlantillaModal').on('show.bs.modal', function(){
-
+    $(this).addClass('modal-backdrop-blur');
+    $.ajax({
+        url: "plantilla/getPlantilla",
+        method: "get",
+        dataType: "json",
+        beforeSend: function () {
+            $(".spiner-div").show();
+            $(".div-blur").show();
+        },
+        complete: function () {
+            $(".spiner-div").hide();
+            $(".div-blur").hide();
+        },
+        success: function (data) {
+            $(".table-plantilla").off();
+            $(".table-plantilla").DataTable().clear().destroy();
+            $(".table-plantilla").DataTable({
+                data: data.plant,
+                responsive: false,
+                scrollX: true,
+                autoWidth: false,
+                destroy: true,
+                searching: true,
+                paging: false,
+                columns: [
+                {
+                    data: null,
+                    render: function (data, type, row, meta) {
+                    return meta.row + meta.settings._iDisplayStart + 1;
+                    },
+                },
+                {
+                    data: null,
+                    render: function (data, type, row, meta) {
+                        if(data.is_assigned == true){
+                            return '<div class="bg-warning full-size text-center text-light" style="padding: .1rem; width: 100%">occupied</div>';
+                        }else{
+                            return '<div class="bg-success full-size text-center text-light" style="padding: .1rem; width: 100%">vacant</div>';
+                        }
+                    
+                    
+                    },
+                },
+                { data: "plantilla_item_no" },
+                { data: "position_title" },
+                { data: "salary_grade" },
+                { data: "date_recieved" },
+                {
+                    data: null,
+                    render: function (data, type, row, meta) {
+                        if(data.is_assigned == false){
+                            return (
+                                "<button type='button' class='btn btn-sm btn-success full-size _set' name='st_id' " +
+                                "id='" +
+                                data.plantilla_id +
+                                "'>Set</button>"
+                            );
+                        }else{
+                            return '<span class="text-danger">not available</span>';
+                        }
+                    
+                    },
+                },
+                ],
+            }); //end of datatable
+            $(".table-plantilla").on("click", "._set", function () {
+                $("#getPlantillaModal").modal("toggle");
+                let plantilla_id = $(this).prop("id");
+                $.ajax({
+                    url: "plantilla/getPlantillaDetails",
+                    method: "get",
+                    dataType: "json",
+                    data: {plantilla_id: plantilla_id},
+                    success: function (data) {
+                        $('#pantilla_id').val(data.plant.plantilla_id);
+                        $('#pantilla_no').val(data.plant.plantilla_item_no +" - "+ data.plant.position_title);
+                    }
+                })
+                
+            });
+        }
+    })
 })
 
+$('.close_plantilla_modal').click(function(){
+    $('#getPlantillaModal').modal('toggle');
+})
     
 $('#newServiceRecordForm').submit(function(event){
     event.preventDefault();
@@ -185,7 +272,9 @@ $('#newServiceRecordForm').submit(function(event){
                 text: "Date Successfully Updated",
                 showConfirmButton: true,
                 });
-                $("#modalUpdateServiceRecord").modal("toggle");
+                $("#modalNewServiceRecord").hide();
+                $('.modal-backdrop').remove();
+                // $("#modalUpdateServiceRecord").modal("toggle");
                 $("#newServiceRecordForm")[0].reset();
                 loadeEmpServiceRecord($('#emp_id_ref').val());
             } else {
