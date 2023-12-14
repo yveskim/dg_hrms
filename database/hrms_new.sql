@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 12, 2023 at 10:10 AM
--- Server version: 10.4.25-MariaDB
--- PHP Version: 7.4.30
+-- Generation Time: Dec 14, 2023 at 03:58 AM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 7.4.33
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -31,7 +31,7 @@ CREATE TABLE `calendar_tbl` (
   `cal_id` smallint(6) NOT NULL,
   `cal_month` varchar(60) NOT NULL,
   `total_days` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `calendar_tbl`
@@ -61,7 +61,7 @@ CREATE TABLE `category_tbl` (
   `cat_id` smallint(6) NOT NULL,
   `cat_title` varchar(60) NOT NULL,
   `description` varchar(50) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `category_tbl`
@@ -86,7 +86,7 @@ CREATE TABLE `department_head_tbl` (
   `memo_no` varchar(30) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
 
@@ -99,7 +99,7 @@ CREATE TABLE `department_tbl` (
   `dept_title` varchar(60) NOT NULL,
   `dept_location` varchar(160) NOT NULL,
   `dept_category` smallint(6) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `department_tbl`
@@ -129,7 +129,7 @@ CREATE TABLE `educational_bg_t` (
   `educ_bg_year_graduated` varchar(20) DEFAULT NULL,
   `educ_bg_scholarship_honors` varchar(100) DEFAULT NULL,
   `educ_bg_emp_id` int(11) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `educational_bg_t`
@@ -155,7 +155,7 @@ CREATE TABLE `eligibility_t` (
   `elig_exam_place` varchar(200) NOT NULL,
   `elig_license_no` varchar(100) NOT NULL,
   `elig_license_date_valid` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `eligibility_t`
@@ -174,7 +174,7 @@ CREATE TABLE `employee_category_tbl` (
   `emp_cat_id` int(11) NOT NULL,
   `cat_id` smallint(6) NOT NULL,
   `emp_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `employee_category_tbl`
@@ -231,7 +231,7 @@ CREATE TABLE `employee_children_t` (
   `child_name` varchar(120) NOT NULL,
   `child_birthdate` date NOT NULL,
   `emp_id` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `employee_children_t`
@@ -253,7 +253,7 @@ CREATE TABLE `employee_department_tbl` (
   `sy_id` int(11) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 -- --------------------------------------------------------
 
@@ -269,7 +269,7 @@ CREATE TABLE `employee_program_tbl` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `deleted_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `employee_program_tbl`
@@ -292,7 +292,7 @@ CREATE TABLE `employee_skills_tbl` (
   `special_skills_hobbies` varchar(200) NOT NULL,
   `non_academic_distinctions` varchar(200) NOT NULL,
   `skills_organization` varchar(200) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
 
@@ -346,7 +346,7 @@ CREATE TABLE `employee_t` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `deleted_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `employee_t`
@@ -484,7 +484,7 @@ CREATE TABLE `emp_others_t` (
   `is_pwd_details` varchar(100) DEFAULT NULL,
   `is_solo_parent` tinyint(1) DEFAULT NULL,
   `solo_parent_details` varchar(100) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `emp_others_t`
@@ -506,7 +506,7 @@ CREATE TABLE `emp_reference_tbl` (
   `ref_name` varchar(60) NOT NULL,
   `ref_address` varchar(150) NOT NULL,
   `ref_contact` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `emp_reference_tbl`
@@ -531,7 +531,7 @@ CREATE TABLE `emp_station_tbl` (
   `assigned_by` int(11) NOT NULL,
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `emp_station_tbl`
@@ -568,7 +568,9 @@ INSERT INTO `emp_station_tbl` (`emp_station_id`, `emp_id`, `station_id`, `date_s
 (66, 3372, 7, '2023-11-09', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (67, 3373, 7, '2023-11-09', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (68, 3374, 7, '2023-11-01', '2023-11-22', 0, 2, '2023-11-23', '2023-11-23'),
-(74, 3294, 5, '2023-12-01', '0000-00-00', 1, 2, '2023-12-08', '2023-12-08');
+(74, 3294, 5, '2023-12-01', '0000-00-00', 1, 2, '2023-12-08', '2023-12-08'),
+(75, 3311, 3, '2023-12-01', NULL, 1, 2, '2023-12-14', '2023-12-14'),
+(76, 3322, 7, '2023-12-01', NULL, 1, 2, '2023-12-14', '2023-12-14');
 
 -- --------------------------------------------------------
 
@@ -587,7 +589,7 @@ CREATE TABLE `emp_work_experience_t` (
   `work_exp_salary_grade` varchar(50) DEFAULT NULL,
   `work_exp_appointment_status` varchar(60) DEFAULT NULL,
   `work_exp_gov_service` tinyint(1) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
 
@@ -603,7 +605,7 @@ CREATE TABLE `emp_work_involvement_t` (
   `work_inv_date_to` date NOT NULL,
   `work_inv_hours` varchar(20) NOT NULL,
   `work_inv_position` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
 
@@ -627,7 +629,7 @@ CREATE TABLE `family_bg_t` (
   `mother_surname` varchar(60) DEFAULT NULL,
   `mother_firstname` varchar(60) DEFAULT NULL,
   `mother_middlename` varchar(60) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `family_bg_t`
@@ -647,7 +649,7 @@ CREATE TABLE `fiscal_year_tbl` (
   `year_id` int(11) NOT NULL,
   `fiscal_year` varchar(25) NOT NULL,
   `is_active` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `fiscal_year_tbl`
@@ -673,7 +675,7 @@ CREATE TABLE `learning_development_t` (
   `ld_total_hours` int(11) NOT NULL,
   `ld_type` varchar(60) NOT NULL,
   `ld_conducted_by` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `learning_development_t`
@@ -697,7 +699,7 @@ CREATE TABLE `nbc_tbl` (
   `processed_by` int(11) NOT NULL,
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `nbc_tbl`
@@ -730,7 +732,7 @@ CREATE TABLE `news` (
   `deleted_by` varchar(50) DEFAULT NULL,
   `delete_time_stamp` timestamp NULL DEFAULT NULL,
   `is_deleted` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 -- --------------------------------------------------------
 
@@ -748,18 +750,19 @@ CREATE TABLE `plantilla_tbl` (
   `created_by` int(11) NOT NULL,
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `plantilla_tbl`
 --
 
 INSERT INTO `plantilla_tbl` (`plantilla_id`, `plantilla_item_no`, `position_title`, `salary_grade`, `date_recieved`, `is_assigned`, `created_by`, `created_at`, `updated_at`) VALUES
-(16, '234545432', 'Teacher III', 4, '2023-11-01', 0, 2, '2023-11-28 12:16:03', '2023-12-08 12:54:33'),
+(16, '234545432', 'Teacher III', 4, '2023-11-01', 1, 2, '2023-11-28 12:16:03', '2023-12-14 10:52:41'),
 (18, '544543456', 'Teacher II', 3, '2023-12-01', 1, 2, '2023-12-05 10:24:22', '2023-12-12 14:41:57'),
 (19, '3434543543', 'Teacher I', 2, '2023-12-01', 1, 2, '2023-12-08 12:20:36', '2023-12-12 15:00:41'),
-(20, '436653', 'Master Teacher I', 18, '2023-12-01', 0, 2, '2023-12-12 10:50:58', '2023-12-12 10:50:58'),
-(21, '3424234', 'Master Teacher II', 19, '2023-12-01', 0, 2, '2023-12-12 13:39:07', '2023-12-12 13:39:07');
+(20, '436653', 'Master Teacher I', 18, '2023-12-01', 1, 2, '2023-12-12 10:50:58', '2023-12-14 10:54:43'),
+(21, '3424234', 'Master Teacher II', 19, '2023-12-01', 1, 2, '2023-12-12 13:39:07', '2023-12-14 10:57:43'),
+(22, '423423432', 'Teacher I', 14, '2023-12-01', 0, 2, '2023-12-14 09:32:59', '2023-12-14 10:57:43');
 
 -- --------------------------------------------------------
 
@@ -776,7 +779,7 @@ CREATE TABLE `program_head_tbl` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `deleted_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `program_head_tbl`
@@ -806,7 +809,7 @@ CREATE TABLE `program_tbl` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL,
   `deleted_at` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `program_tbl`
@@ -838,7 +841,7 @@ CREATE TABLE `salary_schedule_tbl` (
   `salary_grade` int(11) NOT NULL,
   `step` int(11) NOT NULL,
   `amount` decimal(10,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `salary_schedule_tbl`
@@ -876,7 +879,8 @@ INSERT INTO `salary_schedule_tbl` (`sal_sched_id`, `nbc_id`, `salary_grade`, `st
 (52, 22, 18, 1, '45000.00'),
 (53, 22, 18, 2, '45500.00'),
 (54, 22, 19, 1, '51000.00'),
-(55, 22, 19, 2, '51500.00');
+(55, 22, 19, 2, '51500.00'),
+(56, 22, 14, 1, '30500.00');
 
 -- --------------------------------------------------------
 
@@ -888,7 +892,7 @@ CREATE TABLE `semester_tbl` (
   `sem_id` smallint(6) NOT NULL,
   `sem_title` varchar(30) NOT NULL,
   `is_active` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
 
 --
 -- Dumping data for table `semester_tbl`
@@ -911,6 +915,7 @@ CREATE TABLE `service_record_tbl` (
   `sr_plantilla_id` smallint(6) NOT NULL,
   `sr_step` int(11) NOT NULL,
   `sr_status` varchar(60) NOT NULL,
+  `sr_emp_station_id` bigint(20) NOT NULL,
   `sr_is_seperated` tinyint(1) NOT NULL,
   `sr_seperation_date` date DEFAULT NULL,
   `sr_seperation_cause` varchar(150) DEFAULT NULL,
@@ -924,14 +929,17 @@ CREATE TABLE `service_record_tbl` (
   `is_active` tinyint(1) NOT NULL,
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `service_record_tbl`
 --
 
-INSERT INTO `service_record_tbl` (`sr_id`, `sr_emp_id`, `sr_nbc_id`, `sr_plantilla_id`, `sr_step`, `sr_status`, `sr_is_seperated`, `sr_seperation_date`, `sr_seperation_cause`, `loa_wo_pay_date_from`, `loa_wo_pay_date_to`, `total_deductions`, `sr_date_started`, `sr_date_end`, `sr_remarks`, `sr_processed_by`, `is_active`, `created_at`, `updated_at`) VALUES
-(32, 3294, 22, 19, 1, 'permanent', 0, NULL, NULL, NULL, NULL, NULL, '2019-01-01', NULL, '', 2, 1, '2023-12-12', '2023-12-12');
+INSERT INTO `service_record_tbl` (`sr_id`, `sr_emp_id`, `sr_nbc_id`, `sr_plantilla_id`, `sr_step`, `sr_status`, `sr_emp_station_id`, `sr_is_seperated`, `sr_seperation_date`, `sr_seperation_cause`, `loa_wo_pay_date_from`, `loa_wo_pay_date_to`, `total_deductions`, `sr_date_started`, `sr_date_end`, `sr_remarks`, `sr_processed_by`, `is_active`, `created_at`, `updated_at`) VALUES
+(34, 3294, 22, 22, 1, 'permanent', 74, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-15', 'new', 2, 0, '2023-12-14', '2023-12-14'),
+(37, 3294, 22, 20, 1, 'permanent', 74, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-16', NULL, 'promoted', 2, 1, '2023-12-14', '2023-12-14'),
+(38, 3311, 22, 22, 1, 'permanent', 75, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-15', 'new', 2, 0, '2023-12-14', '2023-12-14'),
+(39, 3311, 22, 21, 1, 'permanent', 75, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-16', NULL, 'promoted', 2, 1, '2023-12-14', '2023-12-14');
 
 -- --------------------------------------------------------
 
@@ -948,7 +956,7 @@ CREATE TABLE `station_tbl` (
   `st_created_by` int(11) NOT NULL,
   `created_at` date NOT NULL,
   `updated_at` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `station_tbl`
@@ -973,7 +981,7 @@ CREATE TABLE `users` (
   `user_type` varchar(150) NOT NULL,
   `user_restriction` varchar(150) NOT NULL,
   `is_disabled` tinyint(1) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
 
 --
 -- Dumping data for table `users`
@@ -1195,7 +1203,8 @@ ALTER TABLE `service_record_tbl`
   ADD KEY `sr_nbc_id` (`sr_nbc_id`),
   ADD KEY `sr_plantilla_id` (`sr_plantilla_id`),
   ADD KEY `sr_status_id` (`sr_status`),
-  ADD KEY `sr_processed_by` (`sr_processed_by`);
+  ADD KEY `sr_processed_by` (`sr_processed_by`),
+  ADD KEY `sr_emp_station_id` (`sr_emp_station_id`);
 
 --
 -- Indexes for table `station_tbl`
@@ -1303,7 +1312,7 @@ ALTER TABLE `emp_reference_tbl`
 -- AUTO_INCREMENT for table `emp_station_tbl`
 --
 ALTER TABLE `emp_station_tbl`
-  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=75;
+  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
 
 --
 -- AUTO_INCREMENT for table `emp_work_experience_t`
@@ -1345,7 +1354,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `plantilla_tbl`
 --
 ALTER TABLE `plantilla_tbl`
-  MODIFY `plantilla_id` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+  MODIFY `plantilla_id` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
 -- AUTO_INCREMENT for table `program_head_tbl`
@@ -1363,13 +1372,13 @@ ALTER TABLE `program_tbl`
 -- AUTO_INCREMENT for table `salary_schedule_tbl`
 --
 ALTER TABLE `salary_schedule_tbl`
-  MODIFY `sal_sched_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=56;
+  MODIFY `sal_sched_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
 
 --
 -- AUTO_INCREMENT for table `service_record_tbl`
 --
 ALTER TABLE `service_record_tbl`
-  MODIFY `sr_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=33;
+  MODIFY `sr_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
 
 --
 -- AUTO_INCREMENT for table `station_tbl`
@@ -1492,7 +1501,8 @@ ALTER TABLE `service_record_tbl`
   ADD CONSTRAINT `service_record_tbl_ibfk_1` FOREIGN KEY (`sr_emp_id`) REFERENCES `employee_t` (`emp_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `service_record_tbl_ibfk_2` FOREIGN KEY (`sr_plantilla_id`) REFERENCES `plantilla_tbl` (`plantilla_id`) ON DELETE CASCADE ON UPDATE CASCADE,
   ADD CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `service_record_tbl_ibfk_4` FOREIGN KEY (`sr_processed_by`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE;
+  ADD CONSTRAINT `service_record_tbl_ibfk_4` FOREIGN KEY (`sr_processed_by`) REFERENCES `users` (`user_id`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `service_record_tbl_ibfk_5` FOREIGN KEY (`sr_emp_station_id`) REFERENCES `emp_station_tbl` (`emp_station_id`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `users`
