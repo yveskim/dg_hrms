@@ -294,6 +294,7 @@ $routes->get('service/selectEmployeeSr', 'ServiceRecord::selectEmployeeSr');
 $routes->get('service/getEmpServiceRecord', 'ServiceRecord::getEmpServiceRecord');
 $routes->get('service/getNewServiceRecordDetails', 'ServiceRecord::getNewServiceRecordDetails');
 $routes->post('service/newServiceRecord', 'ServiceRecord::newServiceRecord');
+$routes->post('service/promotionServiceRecord', 'ServiceRecord::promotionServiceRecord');
 
 
 

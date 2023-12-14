@@ -1,9 +1,14 @@
-
+<div class="row">
+    <div class="col-md-12 bg-success pt-2 text-light">
+        <h5>New Service Record</h5>
+    </div>
+</div>
+<hr>
 <form id="newServiceRecordForm">
     <div class="row">
             <div class="col-md-6 mb-4">
                 <label for="date_started">Date Started</label>
-                <input type="date" class="form-control form-control-sm full-size" name="date_started" id="date_started" form="newServiceRecordForm">
+                <input type="date" class="form-control form-control-sm full-size" name="date_started" id="date_started" form="newServiceRecordForm" required>
             </div>
         </div>
         <div class="row">
@@ -11,7 +16,7 @@
                 <input type="hidden" name="pantilla_id" id="pantilla_id" form="newServiceRecordForm">
                 <label for="pantilla_no">Plantilla Item no.</label>
                 <div class="input-group">
-                <input type="text" class="form-control form-control-sm" name="pantilla_no" id="pantilla_no">
+                <input type="text" readonly class="form-control form-control-sm" name="pantilla_no" id="pantilla_no" form="newServiceRecordForm" required>
                 <div class="input-group-append">
                     <button class="btn btn-success btn-sm" type="button" data-toggle="modal" data-target="#getPlantillaModal">Select</button>
                 </div>
@@ -19,7 +24,7 @@
             </div>
             <div class="col-md-6">
                 <label for="app_status">Appointment Status</label>
-                <select class="form-control form-control-sm full-size" name="app_status" id="app_status" form="newServiceRecordForm">
+                <select class="form-control form-control-sm full-size" name="app_status" id="app_status" form="newServiceRecordForm" required>
                     <option value="">-</option>
                     <option value="permanent">permanent</option>
                     <option value="temporary">temporary</option>
@@ -35,12 +40,12 @@
         <div class="row">
             <div class="col-md-6 mb-4">
                 <label for="nbc_ref">NBC No.</label>
-                <select class="form-control form-control-sm full-size" name="nbc_ref" id="nbc_ref" form="newServiceRecordForm">
+                <select class="form-control form-control-sm full-size" name="nbc_ref" id="nbc_ref" form="newServiceRecordForm" required>
                 </select>
             </div>
             <div class="col-md-6">
                 <label for="step">Step</label>
-                <select class="form-control form-control-sm full-size" name="step" id="step" form="newServiceRecordForm">
+                <select class="form-control form-control-sm full-size" name="step" id="step" form="newServiceRecordForm" required>
                     <option value="">-</option>
                     <option value="1">1</option>
                     <option value="2">2</option>
@@ -56,24 +61,24 @@
         <hr>
 
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-6">
                 <label for="remarks">Remarks</label>
                 <input type="text" class="form-control form-control-sm full-size" name="remarks" id="remarks" form="newServiceRecordForm">
             </div>
         </div>
         <hr>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6"></div>
+            <div class="col-md-3">
                 <button type="button" class="btn btn-secondary full-size" data-dismiss="modal">Cancel</button>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-3">
                 <button type="submit" class="btn btn-success full-size" >Submit</button>
             </div>
         </div>
     </div>
 </form>
 
-<!-- TODO: show plantilla -->
 
 <div class="modal fade mb-4" id="getPlantillaModal">
     <div class="modal-dialog modal-lg  modal-dialog-centered">
@@ -129,11 +134,6 @@
                 $(".div-blur").hide();
             },
             success: function (data) {
-                // $('#pantilla_no').append('<option value="">-</option>');
-                // $.each(data.plant, function (key, val){
-                //     $('#pantilla_no').append('<option value="'+val.plantilla_id+'">'+val.plantilla_item_no+ "-"+val.position_title+'</option>');
-                // })
-
                 $('#nbc_ref').append('<option value="">-</option>');
                 $.each(data.nbc, function (key, val){
                     $('#nbc_ref').append('<option value="'+val.nbc_id+'">'+val.nbc_no+'</option>');
@@ -237,6 +237,13 @@ $('#getPlantillaModal').on('show.bs.modal', function(){
     })
 })
 
+$('#getPlantillaModal').on('shown.bs.modal', function (e) {
+    setInterval(function () {
+        $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();
+    }, -100000);
+    
+});
+
 $('.close_plantilla_modal').click(function(){
     $('#getPlantillaModal').modal('toggle');
 })
@@ -244,11 +251,12 @@ $('.close_plantilla_modal').click(function(){
 $('#newServiceRecordForm').submit(function(event){
     event.preventDefault();
     let formData = new FormData(this);
-    let transaction_type = $('#transaction_type').val();
     let emp_id_ref = $('#emp_id_ref').val();
+    let emp_station_id = $('#emp_station_id').val();
+    
     formData.append("user_id", $("#user").val());
-    formData.append("transaction_type", transaction_type);
     formData.append("emp_id", emp_id_ref);
+    formData.append("emp_station_id", emp_station_id);
 
     $.ajax({
         url: "service/newServiceRecord",

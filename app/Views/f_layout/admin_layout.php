@@ -454,7 +454,7 @@
     })
 
     $('#getPlantilla').click(function(){
-        $('.content-div').load('pages/platilla/plantilla_list.php');
+        $('.content-div').load('pages/plantilla/plantilla_list.php');
     })
 
     $('#homePage').click(function() {

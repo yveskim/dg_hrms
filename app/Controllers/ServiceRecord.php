@@ -317,6 +317,7 @@ class ServiceRecord extends BaseController
             'sr_plantilla_id' => $plantilla_id,
             'sr_step' => $this->request->getPost('step'),
             'sr_status' => $this->request->getPost('app_status'),
+            'sr_emp_station_id' => $this->request->getPost('emp_station_id'),
             'sr_date_started' => $this->request->getPost('date_started'),
             'sr_date_end' => $this->request->getPost('date_end'),
             'sr_remarks' => $this->request->getPost('remarks'),
@@ -326,10 +327,10 @@ class ServiceRecord extends BaseController
         $checkIfNew = $serviceMdl->where('sr_emp_id', $emp_id)->countAllResults();//check if this is the first data of service reord
         if($checkIfNew > 0){
             try {
-                $lastSr = $serviceMdl->getLastSr($emp_id);//find the last service record id
+                $activeSr = $serviceMdl->getActiveSr($emp_id);//find the last service record id
                 $last_plantilla_id = "";
-                foreach($lastSr as $sr){
-                    $lastSr = $sr['sr_id'];
+                foreach($activeSr as $sr){
+                    $activeSr = $sr['sr_id'];
                     $last_plantilla_id = $sr['sr_plantilla_id'];
                 }
 
@@ -337,7 +338,7 @@ class ServiceRecord extends BaseController
                     'is_active' => 0
                 ];
 
-                $res = $serviceMdl->set($updateData)->where('sr_id', $lastSr)->update();
+                $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
                 if($res){
                     try {
                         $res2 = $serviceMdl->save($data);
@@ -398,6 +399,88 @@ class ServiceRecord extends BaseController
         }
         
     }
+    //++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+    function promotionServiceRecord(){
+        $serviceMdl = new ServiceRecordModel();
+        $plantMdl = new PlantillaModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_id = $this->request->getPost('emp_id');
+        $plantilla_id = $this->request->getPost('pantilla_id');
+
+        //set the details of active sr
+        $activeSr = $serviceMdl->getActiveSr($emp_id);//find the last service record id
+        $last_plantilla_id = "";
+        $nbc_id = "";
+        $step = "";
+        $status = "";
+        $emp_station_id = "";
+        foreach($activeSr as $sr){
+            $activeSr = $sr['sr_id'];
+            $last_plantilla_id = $sr['sr_plantilla_id'];
+            $nbc_id = $sr['sr_nbc_id'];
+            $step = $sr['sr_step'];
+            $status = $sr['sr_status'];
+            $emp_station_id = $sr['sr_emp_station_id'];
+        }
+
+        $data = [
+            'sr_emp_id' => $emp_id,
+            'sr_nbc_id' => $nbc_id,
+            'sr_plantilla_id' => $plantilla_id,
+            'sr_step' => $step,
+            'sr_status' => $status,
+            'sr_emp_station_id' => $emp_station_id,
+            'sr_date_started' => $this->request->getPost('date_started'),
+            'sr_remarks' => $this->request->getPost('remarks'),
+            'is_active' => 1,
+            'sr_processed_by' => $user_id,
+        ];
+        
+        try {
+            $updateData = [
+                'is_active' => 0,
+                'sr_date_end' => $this->request->getPost('date_current_record_end')
+            ];
+            $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
+            if($res){
+                try {
+                    $res2 = $serviceMdl->save($data);
+                    if($res2){
+                        $plantMdl->set('is_assigned', 0)->where('plantilla_id', $last_plantilla_id)->update();//remove assigned plantilla
+                        try {
+                            $res3 = $plantMdl->set('is_assigned', 1)->where('plantilla_id', $plantilla_id)->update();
+                            if($res3){
+                                $result['status'] = 1;
+                                echo json_encode($result);
+                                die;
+                            }
+                        } catch (\Exception $e) {
+                            $result['status'] = 0;
+                            $result['message'] = $e->getMessage();
+                            echo json_encode($result);
+                            die;
+                        }
+                    }
+                } catch (\Exception $e) {
+                    $result['status'] = 0;
+                    $result['message'] = $e->getMessage();
+                    echo json_encode($result);
+                    die;
+                }
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
+        
+ 
+        
+    }
+
 
 
 

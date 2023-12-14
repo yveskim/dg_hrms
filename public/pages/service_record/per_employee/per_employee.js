@@ -3,7 +3,9 @@ $(document).ready(function () {
 });
 
 $("#modalChooseEmp").on("shown.bs.modal", function (e) {
-  $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
+  setInterval(function () {
+      $.fn.dataTable.tables({ visible: true, api: true }).columns.adjust();
+  }, -10000);
 });
 
 $("#modalChooseEmp").on("show.bs.modal", function () {
@@ -149,8 +151,11 @@ function loadeEmpServiceRecord(emp_id) {
         $("#spanSet").html(
           '<button class="btn btn-primary btn-sm" id="btnSet" data-toggle="modal" data-target="#modalSetStation">Set/Change</button>'
         );
+        $("#emp_station_id").val('');
       } else {
         $("#station").text(data.st.st_title);
+        $("#emp_station_id").val(data.st.emp_station_id);
+        
         $("#btnSet").hide();
       }
 
@@ -342,16 +347,23 @@ $("#modalUpdateServiceRecord").on("hidden.bs.modal", function (e) {
 });
 
 $("#btnSetSr").click(function () {
-  if ($("#transaction_type").val() == 1) {
-    $("#modalNewServiceRecord").modal("toggle");
-    $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
-  } else if ($(this).val() == 2) {
-  } else if ($(this).val() == 3) {
-  } else if ($(this).val() == 4) {
-  } else if ($(this).val() == 5) {
-  } else if ($(this).val() == 6) {
-  } else if ($(this).val() == 7) {
-  } else if ($(this).val() == 8) {
-  } else if ($(this).val() == 9) {
+  if($('#emp_station_id').val() == "" || $('#emp_station_id').val() == null){
+    alert("Station Not Set, Please Set Station to Proceed");
+  }else{
+    if ($("#transaction_type").val() == 1) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
+    } else if ($(this).val() == 2) {
+    } else if ($(this).val() == 3) {
+    } else if ($(this).val() == 4) {
+    } else if ($(this).val() == 5) {
+    } else if ($("#transaction_type").val() == 6) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/promotion.php');
+    } else if ($(this).val() == 7) {
+    } else if ($(this).val() == 8) {
+    } else if ($(this).val() == 9) {
+    }
   }
+  
 });

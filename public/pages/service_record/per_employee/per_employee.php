@@ -37,6 +37,7 @@
     <hr>
     <div class="row">
         <div class="col-md-12">
+            <input type="hidden" id="emp_station_id">
             <h6>Current Station: <span class="emphasis" id="station"></span> <span id="spanSet"></span></h6>
         </div>
     </div>
@@ -233,7 +234,7 @@
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header bg-primary">
-                <h4 class="modal-title">New Service Record</h4>
+                <h4 class="modal-title">Service Record Transaction Form</h4>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             
