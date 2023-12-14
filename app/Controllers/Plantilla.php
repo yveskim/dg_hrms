@@ -6,6 +6,7 @@ use App\Models\EmployeeModel;;
 use App\Models\UsersModel;
 use App\Models\PlantillaModel;
 use App\Models\FiscalYearModel;
+use App\Models\SalaryScheduleModel;
 
 
 class Plantilla extends BaseController
@@ -14,6 +15,12 @@ class Plantilla extends BaseController
     {
         $plntMdl = new PlantillaModel();
         $data['plant'] = $plntMdl->findAll();
+        return $this->response->setJSON($data);
+    }
+
+    function getAvailablePlantilla(){
+        $plntMdl = new PlantillaModel();
+        $data['plant'] = $plntMdl->where('is_assigned', false)->find();
         return $this->response->setJSON($data);
     }
 

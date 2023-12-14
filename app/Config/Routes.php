@@ -174,6 +174,8 @@ $routes->post('setEmpStatus', 'Employee::setEmpStatus');
 
 //PLANTILLA ROUTE
 $routes->post('addPlantilla', 'Plantilla::addPlantilla');
+$routes->get('plantilla/getAvailablePlantilla', 'Plantilla::getAvailablePlantilla');
+
 
 //edit delete form
 $routes->post('admin/deleteEducation', 'Admin::deleteEducation');
@@ -296,6 +298,7 @@ $routes->get('service/getNewServiceRecordDetails', 'ServiceRecord::getNewService
 $routes->post('service/newServiceRecord', 'ServiceRecord::newServiceRecord');
 $routes->post('service/promotionServiceRecord', 'ServiceRecord::promotionServiceRecord');
 
+$routes->get('service/getTeachersForStepIncrease', 'ServiceRecord::getTeachersForStepIncrease');
 
 
 // _______________________________________________

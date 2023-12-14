@@ -19,6 +19,7 @@ use App\Models\ProgramModel;
 use App\Models\FiscalYearModel;
 use App\Models\AdviseryModel;
 use App\Models\UsersModel;
+use App\Models\PlantillaModel;
 
 class Admin extends BaseController
 {
@@ -31,6 +32,8 @@ class Admin extends BaseController
         $empModel = new EmployeeModel();
         $usersModel = new UsersModel();
         $fyMdl = new FiscalYearModel();
+
+        
 
         $loggedAdminID = session()->get('loggedAdmin');
         // $userRestriction = session()->get('userRestriction');
@@ -49,6 +52,7 @@ class Admin extends BaseController
 
             // 'user_restriction' => $userRestriction,
         ];
+ 
         return view('f_admin/' . $page, $data);
 
     }

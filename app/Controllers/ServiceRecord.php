@@ -482,6 +482,21 @@ class ServiceRecord extends BaseController
     }
 
 
+    function getTeachersForStepIncrease(){
+        $serviceMdl = new ServiceRecordModel();
+        
+        $dateMinus3 = date('Y-m-d', strtotime('-3 years')); //minus 3 years to date
+        // TODO: wrong query. query needs to return employee with morethan 3 years of working from date started
+        $data['sr'] = $serviceMdl
+        ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
+        ->where('service_record_tbl.is_active', 1)
+        ->where('service_record_tbl.sr_date_started <=', $dateMinus3)
+        ->find();
+
+        return $this->response->setJSON($data);
+    }
+
 
 
 

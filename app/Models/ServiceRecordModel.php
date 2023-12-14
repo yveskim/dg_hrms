@@ -78,6 +78,13 @@ class ServiceRecordModel extends Model
 
     return $this->db->query($sql)->getResultArray();
   }
+
+
+ 
+
+
+
+
 }
 
 

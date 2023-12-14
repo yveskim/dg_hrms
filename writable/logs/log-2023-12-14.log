@@ -1,3 +1,67 @@
 ERROR - 2023-12-14 09:34:09 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_5` FOREIGN KEY (`sr_emp_station_id`) REFERENCES `emp_station_tbl` (`emp_station_id`) ON DELETE CASCADE ON UPDATE CASCADE)
 ERROR - 2023-12-14 10:26:05 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_5` FOREIGN KEY (`sr_emp_station_id`) REFERENCES `emp_station_tbl` (`emp_station_id`) ON DELETE CASCADE ON UPDATE CASCADE)
 ERROR - 2023-12-14 10:53:28 --> Column 'sr_nbc_id' cannot be null
+CRITICAL - 2023-12-14 15:25:41 --> Array to string conversion
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Views\f_admin\index.php(180): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\Users\\ICT IN...', 180, Array)
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\Users\\ICT IN...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('f_admin/index', Array, true)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\Admin.php(58): view('f_admin/index', Array)
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Admin->index()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-14 16:55:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE YEAR(sr.sr_date_started) >= YEAR(curdate()) - 3' at line 5
+CRITICAL - 2023-12-14 16:55:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE YEAR(sr.sr_date_started) >= YEAR(curdate()) - 3' at line 5
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n    SELECT * ...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT * ...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT * ...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Models\ServiceRecordModel.php(93): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT * ...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(491): App\Models\ServiceRecordModel->getDateIntervalOf3Years()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getTeachersForStepIncrease()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-14 16:57:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started >= curdate() - 3' at line 5
+CRITICAL - 2023-12-14 16:57:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started >= curdate() - 3' at line 5
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n    SELECT * ...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT * ...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT * ...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Models\ServiceRecordModel.php(93): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT * ...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(491): App\Models\ServiceRecordModel->getDateIntervalOf3Years()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getTeachersForStepIncrease()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-14 17:02:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started between sr.sr_date_started and  ADDDATE(sr.sr_date_s...' at line 5
+CRITICAL - 2023-12-14 17:02:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started between sr.sr_date_started and  ADDDATE(sr.sr_date_s...' at line 5
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n    SELECT * ...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT * ...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT * ...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Models\ServiceRecordModel.php(93): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT * ...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(491): App\Models\ServiceRecordModel->getDateIntervalOf3Years()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getTeachersForStepIncrease()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
+ERROR - 2023-12-14 17:04:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started between sr.sr_date_started and  DATE_ADD(sr.sr_date_...' at line 5
+CRITICAL - 2023-12-14 17:04:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'WHERE sr.sr_date_started between sr.sr_date_started and  DATE_ADD(sr.sr_date_...' at line 5
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('\r\n    SELECT * ...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('\r\n    SELECT * ...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('\r\n    SELECT * ...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Models\ServiceRecordModel.php(93): CodeIgniter\Database\BaseConnection->query('\r\n    SELECT * ...')
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(491): App\Models\ServiceRecordModel->getDateIntervalOf3Years()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getTeachersForStepIncrease()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#10 {main}
