@@ -2,6 +2,7 @@ $(document).ready(() => {
   $(".spiner-div").hide();
   $(".div-blur").hide();
   loadPlantilla();
+  loadPositions();
 });
 
 function loadPlantilla() {
@@ -47,6 +48,16 @@ function loadPlantilla() {
           { data: "plantilla_item_no" },
           { data: "position_title" },
           { data: "salary_grade" },
+          {
+            data: null,
+            render: function (data, type, row) {
+              if(data.is_assigned == true) {
+                return '<div class="full-size bg-warning text-light text-center">assigned</div>'
+              }else{
+                return '<div class="full-size bg-success text-light text-center">vacant</div>'
+              }
+            },
+          },
           { data: "date_recieved" },
           {
             data: null,
@@ -198,3 +209,22 @@ $("#plantillaForm").submit(function (event) {
     },
   });
 });
+
+
+function loadPositions(){
+  $.ajax({
+    url: "settings/getPositions",
+    method: "get",
+    dataType: "json",
+    beforeSend: function () {
+      $(".spiner-div").show();
+      $(".div-blur").show();
+    },
+    success: function (res) {
+      $('#position_title').append('<option value="">-select-</option>')
+        $.each(res.pos, function(key, val){
+          $('#position_title').append('<option value="'+val.pos_title+'">'+val.pos_title+'</option>')
+        })
+    }
+  })
+}

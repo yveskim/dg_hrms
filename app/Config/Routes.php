@@ -245,10 +245,10 @@ $routes->get('getAllPlantilla', 'Plantilla::getAllPlantilla');
 
 // SETTINGS
 $routes->get('settings', 'Settings::index');
-$routes->get('getPrograms', 'Settings::getPrograms');
-$routes->post('setProgram', 'Settings::setProgram');
-$routes->post('setActiveSy', 'Settings::setActiveSy');
-$routes->post('setActiveSemester', 'Settings::setActiveSemester');
+$routes->get('settings/getPositions', 'Settings::getPositions');
+$routes->post('settings/setPosition', 'Settings::setPosition');
+$routes->get('settings/getPositionsDetails', 'Settings::getPositionsDetails');
+$routes->get('settings/deletePosition', 'Settings::deletePosition');
 
 
 
@@ -299,6 +299,8 @@ $routes->post('service/newServiceRecord', 'ServiceRecord::newServiceRecord');
 $routes->post('service/promotionServiceRecord', 'ServiceRecord::promotionServiceRecord');
 
 $routes->get('service/getTeachersForStepIncrease', 'ServiceRecord::getTeachersForStepIncrease');
+$routes->get('service/getTeachersLoyalty10Years', 'ServiceRecord::getTeachersLoyalty10Years');
+$routes->get('service/getTeachersLoyalty5YearsSucceeding10Years', 'ServiceRecord::getTeachersLoyalty5YearsSucceeding10Years');
 
 
 // _______________________________________________

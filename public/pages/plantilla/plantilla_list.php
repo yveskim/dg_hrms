@@ -23,6 +23,7 @@
                                             <th>Plantilla Item No.</th>
                                             <th>Postion/Title</th>
                                             <th>SG</th>
+                                            <th>Status</th>
                                             <th>Date Recieved</th>
                                             <th>Del</th>
                                         </tr>
@@ -58,27 +59,7 @@
                                     <div class="col-md-6 mb-2">
                                         <label for="position_title" class="form-label">Position/Title</label>
                                         <select class="form-control form-control-sm" id="position_title" name="position_title" form="plantillaForm">
-                                            <option value="">-select-</option>
-                                            <option value="Teacher I">Teacher I</option>
-                                            <option value="Teacher II">Teacher II</option>
-                                            <option value="Teacher III">Teacher III</option>
-                                            <option value="Head Teacher I">Head Teacher I</option>
-                                            <option value="Head Teacher II">Head Teacher II</option>
-                                            <option value="Head Teacher III">Head Teacher III</option>
-                                            <option value="Head Teacher IV">Head Teacher IV</option>
-                                            <option value="Head Teacher V">Head Teacher V</option>
-                                            <option value="Head Teacher VI">Head Teacher VI</option>
-                                            <option value="Master Teacher I">Master Teacher I</option>
-                                            <option value="Master Teacher II">Master Teacher II</option>
-                                            <option value="Master Teacher III">Master Teacher III</option>
-                                            <option value="Principal I">Principal I</option>
-                                            <option value="Principal II">Principal II</option>
-                                            <option value="Principal III">Principal III</option>
-                                            <option value="Admin Officer I">Admin Officer I</option>
-                                            <option value="Admin Officer II">Admin Officer II</option>
-                                            <option value="Admin Officer III">Admin Officer III</option>
-                                            <option value="Admin Officer IV">Admin Officer IV</option>
-                                            <option value="Admin Officer V">Admin Officer V</option>
+                                        
                                         </select>
                                     </div>
                                 </div>

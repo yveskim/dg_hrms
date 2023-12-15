@@ -44,8 +44,8 @@
           <!-- ----------------------------- -->
           <form id="skillsForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="skills_id" id="skills_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="skillsForm">
+                <input type="hidden" name="skills_id" id="skills_id" form="skillsForm">
                 <div class="col-md-12 mb-2">
                     <label for="special_skills" class="form-label">Special Skills/Hobbies</label>
                     <input type="text" class="form-control form-control-sm" id="special_skills" name="special_skills" form="skillsForm">

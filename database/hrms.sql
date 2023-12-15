@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2023 at 03:58 AM
+-- Generation Time: Dec 15, 2023 at 09:07 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -162,7 +162,8 @@ CREATE TABLE `eligibility_t` (
 --
 
 INSERT INTO `eligibility_t` (`elig_id`, `elig_emp_id`, `elig_board_bar`, `elig_rating`, `elig_exam_date`, `elig_exam_place`, `elig_license_no`, `elig_license_date_valid`) VALUES
-(14, 3398, 'CSC SUBPROFESSIONAL', '83.127', '2023-03-26', 'ISAT - U', '', '0000-00-00');
+(14, 3398, 'CSC SUBPROFESSIONAL', '83.127', '2023-03-26', 'ISAT - U', '', '0000-00-00'),
+(15, 3294, 'sdfsdgfdsfds', 'fdsfdsdsfsdfds', '2023-12-01', 'sdffds', 'sdf3453dsr', '2023-12-19');
 
 -- --------------------------------------------------------
 
@@ -294,6 +295,13 @@ CREATE TABLE `employee_skills_tbl` (
   `skills_organization` varchar(200) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
+--
+-- Dumping data for table `employee_skills_tbl`
+--
+
+INSERT INTO `employee_skills_tbl` (`skills_id`, `skills_emp_id`, `special_skills_hobbies`, `non_academic_distinctions`, `skills_organization`) VALUES
+(3, 3294, 'skills 1', 'asdsa', 'asdas');
+
 -- --------------------------------------------------------
 
 --
@@ -355,12 +363,12 @@ CREATE TABLE `employee_t` (
 INSERT INTO `employee_t` (`emp_id`, `job_description`, `emp_fname`, `emp_mname`, `emp_lname`, `emp_image`, `emp_gender`, `emp_marital_status`, `emp_citizenship`, `emp_citizen_by`, `emp_country`, `emp_birthdate`, `emp_place_of_birth`, `emp_religion`, `emp_blood_type`, `emp_height`, `emp_weight`, `emp_tin`, `emp_sss`, `emp_gsis`, `emp_pagibig`, `emp_philhealth`, `emp_agency_employee_no`, `emp_email`, `emp_p_add_house`, `emp_p_add_street`, `emp_p_add_subdivision`, `emp_p_add_barangay`, `emp_p_add_municipality`, `emp_p_add_city`, `emp_p_add_province`, `emp_p_add_zip`, `emp_r_add_house`, `emp_r_add_street`, `emp_r_add_subdivision`, `emp_r_add_barangay`, `emp_r_add_municipality`, `emp_r_add_city`, `emp_r_add_province`, `emp_r_add_zip`, `emp_telephone_no`, `emp_mobile_no`, `created_at`, `updated_at`, `deleted_at`) VALUES
 (3294, 2, 'Yves Kim', 'Casido', 'Cabanting', '1700280456_b08f4c18eee77a7ca103.jpg', 'Male', 'Married', 'Filipino', 'Single', '', '1990-08-27', 'Leon, Iloilo', 'dsf', '', 0, 0, 'sdfds', '', '', '', '', '6391704', 'yveskim.cabanting@iloilonhs.edu.ph', 'sdf', 'Earth Street', 'sdfds', '', '', 'Oton, Iloilo', 'Rehiyon ng Kanlurang Bisaya', '', 'dsf', '', '', '', '', '', '', '', '993455345', '344355345dsf', '2023-04-23 14:25:19', '2023-11-18 12:07:36', NULL),
 (3311, 2, 'Johanna Thea ', 'Belandres', 'Lupo', '1700287659_740087022b6d88ff7d97.jpg', 'Female', 'Single', 'Filipino', 'Single', 'sdf', '', 'afsdfdsf', 'sdf', 'sdf', 34, 45, '342', '4656', '324', '4564545', '2354356', '54645', 'johannathea.lupo@iloilonhs.edu.ph', '34sdfsdfds', 'street', 'sybgbsdfs', 'b araragdfg', 'mdgfytdxva', 'cytawsfsdfg', 'usrasfas', '5463456', '43ertreter', 'ertwesg', 'dfgdfgdf', 'sdfgdsg', 'sfgfdh', 'fghgfddf', 'sdfdsfsd', '235253453', '34576575', '3452', '2023-07-10 11:32:05', '2023-11-18 14:14:59', NULL),
-(3317, 2, 'Lory Gene', 'Altamira', 'Umadhay', '', 'Female', 'Single', 'Filipino', '', '', '1977-01-12', '', '', '', 0, 0, '', '', '', '', '', '', 'lorygene.umadhay@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09338684476', '2023-07-19 13:46:10', '2023-07-19 13:46:10', NULL),
-(3318, 2, 'Christine', 'Barlas', 'Marin', '', 'Female', 'Married', 'Filipino', '', '', '1977-12-25', '', '', '', 0, 0, '', '', '', '', '', '', 'christine.marin@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09096828473', '2023-07-19 13:52:18', '2023-07-19 13:52:18', NULL),
-(3319, 2, 'Joy', 'Montaño', 'Arenga', '', 'Female', '', 'Filipino', '', '', '', '', '', '', 0, 0, '', '', '', '', '', '', 'joy.arenga@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09474186141', '2023-07-21 17:47:47', '2023-07-22 19:18:56', NULL),
+(3317, 2, 'Lory Gene', 'Altamira', 'Umadhay', '', 'Female', 'Single', 'Filipino', '', '', '1977-01-12', '', '', '', 0, 0, '', '', '', '', '', '455687', 'lorygene.umadhay@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09338684476', '2023-07-19 13:46:10', '2023-12-15 12:52:23', NULL),
+(3318, 2, 'Christine', 'Barlas', 'Marin', '', 'Female', 'Married', 'Filipino', '', '', '1977-12-25', '', '', '', 0, 0, '', '', '', '', '', '345764', 'christine.marin@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09096828473', '2023-07-19 13:52:18', '2023-12-15 12:52:33', NULL),
+(3319, 2, 'Joy', 'Montaño', 'Arenga', '', 'Female', '', 'Filipino', '', '', '', '', '', '', 0, 0, '', '', '', '', '', '4345659', 'joy.arenga@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '09474186141', '2023-07-21 17:47:47', '2023-12-15 12:56:18', NULL),
 (3320, 2, 'Jo-An', 'Rosal', 'Pet', '', 'Female', 'Married', 'Filipino', '', '', '1981-02-27', '', '', 'O+', 0, 0, '', '', '', '', '', '', 'joan.pet@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-22 23:32:05', '2023-08-29 11:14:07', NULL),
 (3321, 2, 'Jory Vince', 'Bargo', 'Bebing', '', 'Male', 'Single', 'Filipino', '', '', '1998-11-23', 'Pototan, Iloilo', '', 'B', 0, 0, '', '', '', '', '', '', 'joryvince.bebing@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-23 08:51:23', '2023-07-23 08:51:23', NULL),
-(3322, 2, 'Bernadette ', 'Reymundo', 'Albiso', '', 'Female', 'Married', 'Filipino', '', '', '1989-04-16', 'Manila', 'Roman Catholic', 'B+', 0, 0, '', '', '', '', '', '', 'bernadette.albiso@gmail.com', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-23 08:53:24', '2023-11-08 11:28:56', NULL),
+(3322, 2, 'Bernadette ', 'Reymundo', 'Albiso', '1702614913_182806b41f54a5132dce.jpg', 'Female', 'Married', 'Filipino', '', '', '1989-04-16', 'Manila', 'Roman Catholic', 'B+', 0, 0, '', '', '', '', '', '639156', 'bernadette.albiso@gmail.com', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-23 08:53:24', '2023-12-15 13:48:00', NULL),
 (3323, 2, 'Portia', 'Justalero', 'Estorque', '', 'Female', 'Married', 'Filipino', '', '', '1975-07-14', 'Iloilo City', '', 'A', 0, 0, '', '', '', '', '', '', 'portia.estorque@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-23 09:56:06', '2023-07-23 09:56:06', NULL),
 (3324, 2, 'JUDISAH MARIE', 'GARCENIEGO', 'CABIOS', '', 'Female', '', 'Filipino', '', '', '1997-09-19', 'Metro Manila', '', 'AB', 0, 0, '', '', '', '', '', '', 'isahmariecabios@gmail.com', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-23 09:57:20', '2023-07-23 09:57:20', NULL),
 (3325, 2, 'Irene Vee', 'Jaromahom', 'Carmona', '', 'Female', '', 'Filipino', '', '', '1995-01-04', 'Iloilo City', '', '', 0, 0, '', '', '', '', '', '', 'irenevee.carmona@iloilonhs.edu.ph', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '2023-07-24 12:52:09', '2023-07-24 12:52:09', NULL),
@@ -453,6 +461,43 @@ INSERT INTO `employee_t` (`emp_id`, `job_description`, `emp_fname`, `emp_mname`,
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `employment_position_tbl`
+--
+
+CREATE TABLE `employment_position_tbl` (
+  `emp_pos_id` int(11) NOT NULL,
+  `pos_title` varchar(60) NOT NULL,
+  `category` varchar(60) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `employment_position_tbl`
+--
+
+INSERT INTO `employment_position_tbl` (`emp_pos_id`, `pos_title`, `category`) VALUES
+(1, 'Teacher I', 'Teaching'),
+(2, 'Teacher II', 'Teaching'),
+(3, 'Teacher III', 'Teaching'),
+(4, 'Head Teacher I', 'Administrative'),
+(7, 'Heade Teacher IV', 'Administrative'),
+(8, 'Heade Teacher V', 'Administrative'),
+(9, 'Master Teacher I', 'Teaching'),
+(10, 'Master Teacher II', 'Teaching'),
+(11, 'Master Teacher III', 'Teaching'),
+(12, 'Principal I', 'Administrative'),
+(13, 'Principal II', 'Administrative'),
+(14, 'Principal III', 'Administrative'),
+(15, 'Principal IV', 'Administrative'),
+(16, 'Teacher IV', 'Teaching'),
+(17, 'Teacher V', 'Teaching'),
+(18, 'Teacher VI', 'Teaching'),
+(19, 'Teacher VII', 'Teaching'),
+(20, 'Head Teacher II', 'Administrative'),
+(21, 'Head Teacher III', 'Administrative');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `emp_others_t`
 --
 
@@ -492,7 +537,8 @@ CREATE TABLE `emp_others_t` (
 
 INSERT INTO `emp_others_t` (`others_id`, `others_emp_id`, `consanguinity_3rd_degree`, `consanguinity_3rd_degree_details`, `consanguinity_4th_degree`, `consanguinity_4th_degree_details`, `admin_offence`, `admin_offence_details`, `criminal_charge`, `criminal_charge_date`, `criminal_charge_details`, `is_convicted`, `convicted_details`, `seperated_from_service`, `seperated_from_service_details`, `election_candidate`, `election_candidate_details`, `resigned_3months_period`, `resigned_3months_period_details`, `immigrant_status`, `immigrant_status_details`, `is_ip`, `is_ip_details`, `is_pwd`, `is_pwd_details`, `is_solo_parent`, `solo_parent_details`) VALUES
 (17, 3311, 0, '', 0, '', 0, '', 0, '', '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, ''),
-(18, 3322, 1, 'dafds', 1, 'fsdfsd', 1, 'dfsdfds', 1, 'dsfsd', 'dsfsd', 1, 'sdfdsfds', 1, 'dsfdsf', 1, 'dsfsd', 1, 'dsfdsf', 1, 'sdfds', 1, 'dsfds', 1, 'dsfdsfsd', 1, 'dsasfdsfsd');
+(18, 3322, 1, 'dafds', 1, 'fsdfsd', 1, 'dfsdfds', 1, 'dsfsd', 'dsfsd', 1, 'sdfdsfds', 1, 'dsfdsf', 1, 'dsfsd', 1, 'dsfdsf', 1, 'sdfds', 1, 'dsfds', 1, 'dsfdsfsd', 1, 'dsasfdsfsd'),
+(19, 3294, 0, '', 0, '', 0, '', 0, '', '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '', 0, '');
 
 -- --------------------------------------------------------
 
@@ -543,7 +589,6 @@ INSERT INTO `emp_station_tbl` (`emp_station_id`, `emp_id`, `station_id`, `date_s
 (33, 3319, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (34, 3323, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (35, 3324, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
-(36, 3322, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (37, 3325, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (38, 3327, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
 (39, 3311, 5, '0000-00-00', '0000-00-00', 0, 2, '2023-11-23', '2023-11-23'),
@@ -570,7 +615,8 @@ INSERT INTO `emp_station_tbl` (`emp_station_id`, `emp_id`, `station_id`, `date_s
 (68, 3374, 7, '2023-11-01', '2023-11-22', 0, 2, '2023-11-23', '2023-11-23'),
 (74, 3294, 5, '2023-12-01', '0000-00-00', 1, 2, '2023-12-08', '2023-12-08'),
 (75, 3311, 3, '2023-12-01', NULL, 1, 2, '2023-12-14', '2023-12-14'),
-(76, 3322, 7, '2023-12-01', NULL, 1, 2, '2023-12-14', '2023-12-14');
+(77, 3321, 3, '2023-12-01', NULL, 1, 2, '2023-12-14', '2023-12-14'),
+(78, 3322, 8, '2023-12-01', NULL, 1, 2, '2023-12-15', '2023-12-15');
 
 -- --------------------------------------------------------
 
@@ -590,6 +636,13 @@ CREATE TABLE `emp_work_experience_t` (
   `work_exp_appointment_status` varchar(60) DEFAULT NULL,
   `work_exp_gov_service` tinyint(1) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+
+--
+-- Dumping data for table `emp_work_experience_t`
+--
+
+INSERT INTO `emp_work_experience_t` (`work_exp_id`, `work_exp_emp_id`, `work_exp_date_from`, `work_exp_date_to`, `work_exp_position`, `work_exp_company`, `work_exp_monthly_sal`, `work_exp_salary_grade`, `work_exp_appointment_status`, `work_exp_gov_service`) VALUES
+(19, 3294, '0000-00-00', '0000-00-00', 'sdsdf', 'sdfsdfds', '', '', '', 0);
 
 -- --------------------------------------------------------
 
@@ -757,12 +810,14 @@ CREATE TABLE `plantilla_tbl` (
 --
 
 INSERT INTO `plantilla_tbl` (`plantilla_id`, `plantilla_item_no`, `position_title`, `salary_grade`, `date_recieved`, `is_assigned`, `created_by`, `created_at`, `updated_at`) VALUES
-(16, '234545432', 'Teacher III', 4, '2023-11-01', 1, 2, '2023-11-28 12:16:03', '2023-12-14 10:52:41'),
-(18, '544543456', 'Teacher II', 3, '2023-12-01', 1, 2, '2023-12-05 10:24:22', '2023-12-12 14:41:57'),
-(19, '3434543543', 'Teacher I', 2, '2023-12-01', 1, 2, '2023-12-08 12:20:36', '2023-12-12 15:00:41'),
-(20, '436653', 'Master Teacher I', 18, '2023-12-01', 1, 2, '2023-12-12 10:50:58', '2023-12-14 10:54:43'),
-(21, '3424234', 'Master Teacher II', 19, '2023-12-01', 1, 2, '2023-12-12 13:39:07', '2023-12-14 10:57:43'),
-(22, '423423432', 'Teacher I', 14, '2023-12-01', 0, 2, '2023-12-14 09:32:59', '2023-12-14 10:57:43');
+(16, '234545432', 'Teacher III', 13, '2023-11-01', 0, 2, '2023-11-28 12:16:03', '2023-12-15 10:37:03'),
+(18, '544543456', 'Teacher II', 12, '2023-12-01', 0, 2, '2023-12-05 10:24:22', '2023-12-15 10:37:11'),
+(19, '3434543543', 'Teacher I', 11, '2023-12-01', 0, 2, '2023-12-08 12:20:36', '2023-12-15 10:37:17'),
+(20, '436653', 'Master Teacher I', 18, '2023-12-01', 0, 2, '2023-12-12 10:50:58', '2023-12-14 17:42:12'),
+(21, '3424234', 'Master Teacher II', 19, '2023-12-01', 0, 2, '2023-12-12 13:39:07', '2023-12-14 10:57:43'),
+(22, '423423432', 'Teacher I', 11, '2023-12-01', 0, 2, '2023-12-14 09:32:59', '2023-12-15 10:37:27'),
+(23, '4344445433', 'Teacher II', 12, '2023-12-15', 1, 2, '2023-12-14 15:34:22', '2023-12-15 13:44:53'),
+(24, '677578998', 'Teacher I', 11, '2023-12-01', 1, 2, '2023-12-15 13:40:18', '2023-12-15 13:46:45');
 
 -- --------------------------------------------------------
 
@@ -880,7 +935,16 @@ INSERT INTO `salary_schedule_tbl` (`sal_sched_id`, `nbc_id`, `salary_grade`, `st
 (53, 22, 18, 2, '45500.00'),
 (54, 22, 19, 1, '51000.00'),
 (55, 22, 19, 2, '51500.00'),
-(56, 22, 14, 1, '30500.00');
+(56, 22, 14, 1, '30500.00'),
+(57, 22, 11, 1, '22000.00'),
+(58, 22, 11, 2, '22400.00'),
+(59, 22, 11, 3, '22600.00'),
+(60, 22, 12, 1, '26000.00'),
+(61, 22, 12, 2, '26400.00'),
+(62, 22, 12, 3, '26600.00'),
+(63, 22, 13, 1, '28000.00'),
+(64, 22, 13, 2, '28400.00'),
+(65, 26, 11, 1, '25000.00');
 
 -- --------------------------------------------------------
 
@@ -936,10 +1000,9 @@ CREATE TABLE `service_record_tbl` (
 --
 
 INSERT INTO `service_record_tbl` (`sr_id`, `sr_emp_id`, `sr_nbc_id`, `sr_plantilla_id`, `sr_step`, `sr_status`, `sr_emp_station_id`, `sr_is_seperated`, `sr_seperation_date`, `sr_seperation_cause`, `loa_wo_pay_date_from`, `loa_wo_pay_date_to`, `total_deductions`, `sr_date_started`, `sr_date_end`, `sr_remarks`, `sr_processed_by`, `is_active`, `created_at`, `updated_at`) VALUES
-(34, 3294, 22, 22, 1, 'permanent', 74, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-15', 'new', 2, 0, '2023-12-14', '2023-12-14'),
-(37, 3294, 22, 20, 1, 'permanent', 74, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-16', NULL, 'promoted', 2, 1, '2023-12-14', '2023-12-14'),
-(38, 3311, 22, 22, 1, 'permanent', 75, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-15', 'new', 2, 0, '2023-12-14', '2023-12-14'),
-(39, 3311, 22, 21, 1, 'permanent', 75, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-16', NULL, 'promoted', 2, 1, '2023-12-14', '2023-12-14');
+(43, 3322, 22, 24, 1, 'permanent', 78, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-01', '2023-12-14', 'new hire', 2, 0, '2023-12-15', '2023-12-15'),
+(44, 3322, 22, 23, 1, 'permanent', 78, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-15', NULL, 'Promoted', 2, 1, '2023-12-15', '2023-12-15'),
+(45, 3311, 26, 24, 1, 'permanent', 75, 0, NULL, NULL, NULL, NULL, NULL, '2023-12-16', NULL, 'new hire', 2, 1, '2023-12-15', '2023-12-15');
 
 -- --------------------------------------------------------
 
@@ -965,7 +1028,8 @@ CREATE TABLE `station_tbl` (
 INSERT INTO `station_tbl` (`station_id`, `st_title`, `st_office_id`, `st_office_address`, `st_branch`, `st_created_by`, `created_at`, `updated_at`) VALUES
 (3, 'TVC. Sta. Teresa National High School', '302438', 'Jordan, Guimaras', 'National', 2, '2023-11-19', '2023-11-19'),
 (5, 'SDO', '131', 'Jordan, Guimaras', 'National', 2, '2023-11-21', '2023-11-21'),
-(7, 'Sibunag National High School', '099232', 'Sibunag, Guimaras', 'National', 2, '2023-11-21', '2023-11-21');
+(7, 'Sibunag National High School', '099232', 'Sibunag, Guimaras', 'National', 2, '2023-11-21', '2023-11-21'),
+(8, 'Iloilo National High School', '302509', 'Luna St., La Paz, Iloilo City', 'National', 2, '2023-12-15', '2023-12-15');
 
 -- --------------------------------------------------------
 
@@ -990,7 +1054,8 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`user_id`, `emp_id`, `user_email`, `user_password`, `user_type`, `user_restriction`, `is_disabled`) VALUES
 (2, 3294, 'yveskim.cabanting@iloilonhs.edu.ph', '$2y$10$Fkep9Q2qTj8oE8NMqk2ncupQvSS8ZtBjbimZXXXrjRqxfF2vxraau', 'Admin', '1', 0),
 (3, 3311, 'johannathea.lupo@iloilonhs.edu.ph', '$2y$10$OATlrqHmmJe7ktdZgi8rjOp6r/vuMduk2RDD9OZBMtwPq47u3vUn2', 'Admin', '3', 0),
-(4, 3435, 'cliven.martizano@deped.gov.ph', '$2y$10$UpOO3oeMsZTWDztwhqT40uTqD9fWX12YEFStaxk1UKNW5DPctKYam', 'Admin', '1', 0);
+(4, 3435, 'cliven.martizano@deped.gov.ph', '$2y$10$UpOO3oeMsZTWDztwhqT40uTqD9fWX12YEFStaxk1UKNW5DPctKYam', 'Admin', '1', 0),
+(5, 3322, 'bernadette.albiso@gmail.com', '$2y$10$0jLhFPFNguepJ7KIBBYXUuNsOkpVDD.KsEYtO2TyLwrOlTDQdfz3e', 'Admin', '3', 0);
 
 --
 -- Indexes for dumped tables
@@ -1083,6 +1148,12 @@ ALTER TABLE `employee_skills_tbl`
 --
 ALTER TABLE `employee_t`
   ADD PRIMARY KEY (`emp_id`);
+
+--
+-- Indexes for table `employment_position_tbl`
+--
+ALTER TABLE `employment_position_tbl`
+  ADD PRIMARY KEY (`emp_pos_id`);
 
 --
 -- Indexes for table `emp_others_t`
@@ -1252,13 +1323,13 @@ ALTER TABLE `department_tbl`
 -- AUTO_INCREMENT for table `educational_bg_t`
 --
 ALTER TABLE `educational_bg_t`
-  MODIFY `educ_bg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=49;
+  MODIFY `educ_bg_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=50;
 
 --
 -- AUTO_INCREMENT for table `eligibility_t`
 --
 ALTER TABLE `eligibility_t`
-  MODIFY `elig_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `elig_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `employee_category_tbl`
@@ -1288,7 +1359,7 @@ ALTER TABLE `employee_program_tbl`
 -- AUTO_INCREMENT for table `employee_skills_tbl`
 --
 ALTER TABLE `employee_skills_tbl`
-  MODIFY `skills_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `skills_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `employee_t`
@@ -1297,10 +1368,16 @@ ALTER TABLE `employee_t`
   MODIFY `emp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3436;
 
 --
+-- AUTO_INCREMENT for table `employment_position_tbl`
+--
+ALTER TABLE `employment_position_tbl`
+  MODIFY `emp_pos_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
+
+--
 -- AUTO_INCREMENT for table `emp_others_t`
 --
 ALTER TABLE `emp_others_t`
-  MODIFY `others_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `others_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `emp_reference_tbl`
@@ -1312,19 +1389,19 @@ ALTER TABLE `emp_reference_tbl`
 -- AUTO_INCREMENT for table `emp_station_tbl`
 --
 ALTER TABLE `emp_station_tbl`
-  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `emp_station_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT for table `emp_work_experience_t`
 --
 ALTER TABLE `emp_work_experience_t`
-  MODIFY `work_exp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `work_exp_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `emp_work_involvement_t`
 --
 ALTER TABLE `emp_work_involvement_t`
-  MODIFY `work_inv_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `work_inv_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `family_bg_t`
@@ -1336,7 +1413,7 @@ ALTER TABLE `family_bg_t`
 -- AUTO_INCREMENT for table `learning_development_t`
 --
 ALTER TABLE `learning_development_t`
-  MODIFY `ld_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ld_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- AUTO_INCREMENT for table `nbc_tbl`
@@ -1354,7 +1431,7 @@ ALTER TABLE `news`
 -- AUTO_INCREMENT for table `plantilla_tbl`
 --
 ALTER TABLE `plantilla_tbl`
-  MODIFY `plantilla_id` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
+  MODIFY `plantilla_id` smallint(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT for table `program_head_tbl`
@@ -1372,25 +1449,25 @@ ALTER TABLE `program_tbl`
 -- AUTO_INCREMENT for table `salary_schedule_tbl`
 --
 ALTER TABLE `salary_schedule_tbl`
-  MODIFY `sal_sched_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+  MODIFY `sal_sched_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 
 --
 -- AUTO_INCREMENT for table `service_record_tbl`
 --
 ALTER TABLE `service_record_tbl`
-  MODIFY `sr_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `sr_id` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=46;
 
 --
 -- AUTO_INCREMENT for table `station_tbl`
 --
 ALTER TABLE `station_tbl`
-  MODIFY `station_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `station_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- Constraints for dumped tables

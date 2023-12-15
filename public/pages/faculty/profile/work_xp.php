@@ -57,8 +57,8 @@
           <!-- ----------------------------- -->
           <form id="workXpForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="work_exp_id" id="work_exp_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="workXpForm">
+                <input type="hidden" name="work_exp_id" id="work_exp_id" form="workXpForm">
                 <div class="col-md-6 mb-2">
                     <label for="agency_company" class="form-label">Agency/Company</label>
                     <input type="text" class="form-control form-control-sm" id="agency_company" name="agency_company" form="workXpForm">

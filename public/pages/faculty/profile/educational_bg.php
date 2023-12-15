@@ -59,8 +59,8 @@
           <!-- ----------------------------- -->
           <form id="addEducBgForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="educ_bg_id" id="educ_bg_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="addEducBgForm">
+                <input type="hidden" name="educ_bg_id" id="educ_bg_id" form="addEducBgForm">
                 <div class="col-md-6 mb-2">
                     <label for="educ_level" class="form-label">Education Level</label>
                     <select name="educ_level" id="educ_level" class="form-control form-control-sm" form="addEducBgForm">

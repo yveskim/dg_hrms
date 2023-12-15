@@ -486,7 +486,6 @@ class ServiceRecord extends BaseController
         $serviceMdl = new ServiceRecordModel();
         
         $dateMinus3 = date('Y-m-d', strtotime('-3 years')); //minus 3 years to date
-        // TODO: wrong query. query needs to return employee with morethan 3 years of working from date started
         $data['sr'] = $serviceMdl
         ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
         ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
@@ -496,6 +495,40 @@ class ServiceRecord extends BaseController
 
         return $this->response->setJSON($data);
     }
+
+
+    function getTeachersLoyalty10Years(){
+        $serviceMdl = new ServiceRecordModel();
+        
+        $dateMinus5 = date('Y-m-d', strtotime('-5 years')); //minus 3 years to date
+        $dateMinus10 = date('Y-m-d', strtotime('-10 years')); //minus 3 years to date
+        $data['sr'] = $serviceMdl
+        ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
+        ->where('service_record_tbl.is_active', 1)
+        ->where('service_record_tbl.sr_date_started <=', $dateMinus10)
+        // TODO: add awarded table
+        // ->where('service_record_tbl.sr_date_started <=', $dateMinus5)
+        ->find();
+        return $this->response->setJSON($data);
+    }
+
+    function getTeachersLoyalty5YearsSucceeding10Years(){
+        // $serviceMdl = new ServiceRecordModel();
+        // TODO: set the date start after recieving an award
+        // $dateMinus10 = date('Y-m-d', strtotime('-10 years')); //minus 3 years to date
+        // $dateMinus5 = date('Y-m-d', strtotime('-5 years')); //minus 3 years to date
+        // $data['sr'] = $serviceMdl
+        // ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        // ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
+        // ->where('service_record_tbl.is_active', 1)
+        // ->where('service_record_tbl.sr_date_started <=', $dateMinus10)
+        // ->where('service_record_tbl.sr_date_started >=', $dateMinus5)
+        // ->find();
+
+        // return $this->response->setJSON($data);
+    }
+
 
 
 

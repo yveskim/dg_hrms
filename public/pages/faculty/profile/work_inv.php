@@ -69,8 +69,8 @@
           <!-- ----------------------------- -->
           <form id="workInvForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="work_inv_id" id="work_inv_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="workInvForm">
+                <input type="hidden" name="work_inv_id" id="work_inv_id" form="workInvForm">
                 <div class="col-md-12 mb-2">
                     <label for="name_address" class="form-label">Name and Address of Org.</label>
                     <input type="text" class="form-control form-control-sm" id="name_address" name="name_address" form="workInvForm">

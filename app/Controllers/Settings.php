@@ -7,7 +7,7 @@ use App\Models\UsersModel;
 use App\Models\ProgramHeadModel;
 use App\Models\DepartmentModel;
 use App\Models\ProgramModel;
-use App\Models\SchoolYearModel;
+use App\Models\EmployeePositionsModel;
 use App\Models\SemesterModel;
 
 class Settings extends BaseController
@@ -28,110 +28,84 @@ class Settings extends BaseController
 		return $this->response->setJSON($data);
 	}
 
-	function getPrograms(){	
-		$progMdl = new ProgramModel();	
-		$data['prog'] = $progMdl
-						->join('program_head_tbl', 'program_head_tbl.p_id = program_tbl.prog_id', 'left')
-						->join('employee_t', 'employee_t.emp_id = program_head_tbl.ph_emp_id', 'left')
-						->join('category_tbl', 'category_tbl.cat_id = program_tbl.cat_id', 'left')->find();
+	function getPositions(){	
+		$empPosMdl = new EmployeePositionsModel();	
+		$data['pos'] = $empPosMdl->orderBy('pos_title')->findAll();
 		return $this->response->setJSON($data);
 	}
 
-	function setProgram()
+	function setPosition()
 	{
-		$progMdl = new ProgramModel();
-		// $logo = $this->request->getPost('prog_logo');
-		$image = $this->request->getFile('prog_logo');
-		// $customName = $this->request->getPost('profile_image');
-		$imageName = $image->getName();
-		$imageSize = $image->getSize();
-		$randomFileName = $image->getRandomName();
-		$imageExtension = $image->getExtension();
-
-		if (!empty($imageName)) {
-			if ($image->isValid() && !$image->hasMoved()) { //check if image is valid and has not moved
-				$image->move('upload/program logo/program_profile/', $randomFileName); // move the image to upload folder
-			}
-		}
-
+		$empPosMdl = new EmployeePositionsModel();
+	
 		$data = [
-			'program_title' => $this->request->getPost('prog_title'),
-			'description' => $this->request->getPost('description'),
-			'cat_id' => $this->request->getPost('cat_id'),
-			'program_logo' => $randomFileName,
+			'pos_title' => $this->request->getPost('pos_title'),
+			'category' => $this->request->getPost('_category'),
 		];
 
-		$res = $progMdl->insert($data);
-		if ($res) {
-			$result['status'] = 1;
-			echo json_encode($result);
-			die;
-		} else {
-			$result['status'] = 0;
-			echo json_encode($result);
-			die;
-		}
-
-	}
+		$is_edit = $this->request->getPost('is_edit');
+		$pos_id = $this->request->getPost('pos_id');
 
 
-	function setActiveSy(){
-		$syMdl = new SchoolYearModel();	
-		$sy_id = $this->request->getPost('sy_id');
 
-		try {
-			$res = $syMdl->set('is_active', false)->update();
-			if ($res) {
-				$res2 = $syMdl->set('is_active', true)->where('sy_id', $sy_id)->update();
-				if($res2){
-					$rslt['status'] = 1;
-					echo json_encode($rslt);
+		if($is_edit == true){
+			try {
+				$res = $empPosMdl->set($data)->where('emp_pos_id', $pos_id)->update();
+				if ($res) {
+					$result['status'] = 1;
+					echo json_encode($result);
 					die;
 				}
+			} catch (\Exception $e) {
+				$result['status'] = 0;
+				$result['message'] = $e->getMessage();
+				echo json_encode($result);
+				die;
 			}
-		} catch (\Exception $e) {
-			$result['status'] = 0;
-			$result['message'] = $e->getMessage();
-			echo json_encode($result);
-			die;
+		}else{
+			try {
+				$res = $empPosMdl->insert($data);
+				if ($res) {
+					$result['status'] = 1;
+					echo json_encode($result);
+					die;
+				}
+			} catch (\Exception $e) {
+				$result['status'] = 0;
+				$result['message'] = $e->getMessage();
+				echo json_encode($result);
+				die;
+			}
 		}
+		
+		
 
 	}
 
 
-	function getSemester(){
-		$semMdl = new SemesterModel();	
-		$data['sem'] = $semMdl->findAll();
+	function getPositionsDetails(){	
+		$empPosMdl = new EmployeePositionsModel();	
+		$pos_id = $this->request->getGet('pos_id');
+		$data['pos'] = $empPosMdl->where('emp_pos_id', $pos_id)->first();
 		return $this->response->setJSON($data);
 	}
 
-	
-	function setActiveSemester(){
-		$semMdl = new SemesterModel();	
-		$sem_id = $this->request->getPost('sem_id');
-
-		try {
-			$res = $semMdl->set('is_active', false)->update();
-			if ($res) {
-				$res2 = $semMdl->set('is_active', true)->where('sem_id', $sem_id)->update();
-				if($res2){
-					$rslt['status'] = 1;
-					echo json_encode($rslt);
-					die;
-				}
-			}
-		} catch (\Exception $e) {
-			$result['status'] = 0;
-			$result['message'] = $e->getMessage();
-			echo json_encode($result);
-			die;
-		}
-
+	function deletePosition(){
+		$empPosMdl = new EmployeePositionsModel();	
+		$pos_id = $this->request->getGet('pos_id');
+        try {
+            $res = $empPosMdl->where('emp_pos_id', $pos_id)->delete();
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
 	}
-
-
-
-
-
 
 }

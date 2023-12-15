@@ -188,7 +188,6 @@
                       <?php endif; ?>
                       <?php if (session()->get('userType') == "Admin") : ?>
                         <li><a class="g-menu" href="javascript:void(0)" id="getDepartments">Departments</a></li>
-                        <li><a class="g-menu" href="javascript:void(0)" id="getDepartments">Programs</a></li>
                         <li><a class="g-menu" href="javascript:void(0)" id="btnGetNews">News</a></li>
                       <?php endif; ?>
                   </ul>

@@ -123,13 +123,12 @@
                 <h3>SETTINGS</h3>
                 <ul class="nav side-menu">
                   <li><a href="admin"><i class="fa fa-arrow-left"></i> Back to Admin Page</a></li>
-                  <li><a href="javascript:void(0)"><i class="fa fa-institution"></i> School Details</a></li>
-                  <li><a href="javascript:void(0)"><i class="fa fa-building"></i> Department</a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-institution"></i> Division Details</a></li>
+                  <li><a href="javascript:void(0)"><i class="fa fa-building"></i> Departments</a></li>
+                  <li><a href="javascript:void(0)" id="positions"><i class="fa fa-users"></i> Positions</a></li>
                   
                   <!-- <li><a href="javascript:void(0)"><i class="fa fa-laptop"></i> Sections</a></li> -->
-                  <li><a href="javascript:void(0)" id="school_year_menu"><i class="fa fa-calendar"></i> School Year</a></li>
-                  <li><a href="javascript:void(0)" id="semester_menu"><i class="fa fa-wrench"></i> Semester</a></li>
-                  <li><a href="javascript:void(0)"><i class="fa fa-money"></i> Plantilla</a></li>
+                  <li><a href="javascript:void(0)" id="school_year_menu"><i class="fa fa-calendar"></i> Fiscal Year</a></li>
                   <li><a href="javascript:void(0)"><i class="fa fa-user"></i> Users</a></li>
                 </ul>
               </div>
@@ -147,9 +146,9 @@
           <img src="upload/system_file/logo_gif.gif" alt="logo_gif">
         </div>
 
-          <div class="row">
-            <div class="col-md-12">
-                <h3>Settings Module</h3>
+          <div class="row bg-warning">
+            <div class="col-md-12 pt-2 text-dark">
+                <h5>Settings Module</h5>
             </div>
           </div>
 
@@ -270,8 +269,8 @@
     });
 
 
-    $('#semester_menu').click(function() {
-        $('.content-div').load('pages/settings/school_year/semester.php');
+    $('#positions').click(function() {
+        $('.content-div').load('pages/settings/positions/positions.php');
     });
 
 

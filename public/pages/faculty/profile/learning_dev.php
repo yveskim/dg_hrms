@@ -70,8 +70,8 @@
           <!-- ----------------------------- -->
           <form id="learningDevForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="ld_id" id="ld_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="learningDevForm">
+                <input type="hidden" name="ld_id" id="ld_id" form="learningDevForm">
                 <div class="col-md-12 mb-2">
                     <label for="training_program" class="form-label">Training Program</label>
                     <input type="text" class="form-control form-control-sm" id="training_program" name="training_program" form="learningDevForm">

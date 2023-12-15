@@ -1,17 +1,4 @@
-<!-- <div class="card">
-    <div class="card-header p-2">
 
-    </div>
-    <div class="card-body">
-
-    </div>
-</div> -->
-
-<!-- <div class="row">
-    <div class="col-lg-3">
-
-    </div>
-</div> -->
 
 <div class="row">
     <div class="col-md-8">
@@ -70,8 +57,8 @@
           <!-- ----------------------------- -->
           <form id="eligibilityForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="elig_id" id="elig_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="eligibilityForm">
+                <input type="hidden" name="elig_id" id="elig_id" form="eligibilityForm">
                 <div class="col-md-6 mb-2">
                     <label for="board_bar" class="form-label">Board(Bar)/CES/CSEE</label>
                     <input type="text" class="form-control form-control-sm" id="board_bar" name="board_bar" form="eligibilityForm" required>

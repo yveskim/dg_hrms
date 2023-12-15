@@ -28,6 +28,9 @@
     overflow-y: scroll;
   }
 
+  table.dataTable td {
+      padding: 0;
+  }
 
 
 </style>
@@ -50,7 +53,7 @@
           <h6>Teachers Available for Step Increase</h6>
         </div>
         <div class="card-body" >
-            <table class="table table-bordered table-stripped table-hover table-employee full-size table-dark table-sm" style="white-space: nowrap;">
+            <table class="table table-bordered table-stripped table-hover table-employee full-size table-dark table-sm " style="white-space: nowrap; ">
               <thead>
                 <tr>
                   <th>-</th>
@@ -95,32 +98,22 @@
     <div class="col-md-6">
       <div class="card text-dark  charts-div" >
         <div class="card-header bg-info text-light">
-          <h6>5 Years Loyalty Awardee</h6>
+          <h6>10 Years Loyalty Awardee</h6>
         </div>
         <div class="card-body">
-            <table class="table table-bordered table-stripped table-hover table-loyalty-5 full-size table-dark table-sm" style="white-space: nowrap;">
+            <table class="table table-bordered table-stripped table-hover table-loyalty-10 full-size table-dark table-sm" style="white-space: nowrap;">
               <thead>
                 <tr>
                   <th>-</th>
+                  <th>Emp ID</th>
                   <th>Sur Name</th>
                   <th>First Name</th>
                   <th>Middle Name</th>
-                  <th>Yrs. in Service</th>
                   <th>Plantilla Item</th>
+                  <th>Date Started</th>
                   <th>Current Step</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                </tr>
-              </tbody>
             </table>
         </div>
       </div>
@@ -129,26 +122,22 @@
     <div class="col-md-6">
       <div class="card text-dark charts-div">
         <div class="card-header bg-info text-light">
-          <h6>10 Years Loyalty Awardee</h6>
+          <h6>5 Years Succeeding 10 Years Loyalty Awardee</h6>
         </div>
         <div class="card-body">
-            <table class="table table-bordered table-stripped table-hover table-loyalty-10 full-size table-dark table-sm" style="white-space: nowrap;">
+            <table class="table table-bordered table-stripped table-hover table-loyalty-5-after-10 full-size table-dark table-sm display compact nowrap" style="white-space: nowrap;">
               <thead>
                 <tr>
-                  <th>-</th>
-                  <th>Plantilla Item No</th>
-                  <th>Position</th>
-                  <th>SG</th>
+                <th>-</th>
+                  <th>Emp ID</th>
+                  <th>Sur Name</th>
+                  <th>First Name</th>
+                  <th>Middle Name</th>
+                  <th>Plantilla Item</th>
+                  <th>Date Started</th>
+                  <th>Current Step</th>
                 </tr>
               </thead>
-              <tbody>
-                <tr>
-                  <td>1</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                  <td>sdfsdf</td>
-                </tr>
-              </tbody>
             </table>
         </div>
       </div>
@@ -166,6 +155,8 @@
     $('.div-blur').hide();
     loadPlantilla();
     loadTeachersForStepIncrease();
+    loadTeachersLoyalty5Years();
+    loadTeachersLoyalty10Years();
   });
 
 
@@ -223,6 +214,7 @@
           destroy: true,
           searching: false,
           paging: false,
+          
           columns: [
             {
               data: null,
@@ -233,6 +225,91 @@
             { data: "plantilla_item_no" },
             { data: "position_title" },
             { data: "salary_grade" }
+          ],
+        }); //end of datatable
+        // end delete child =====================
+      },
+    });
+  }
+
+
+
+  function loadTeachersLoyalty5Years() {
+    $.ajax({
+      url: "service/getTeachersLoyalty5YearsSucceeding10Years",
+      method: "get",
+      dataType: "json",
+      success: function (data) {
+        $(".table-loyalty-5-after-10").off();
+        $(".table-loyalty-5-after-10").DataTable().clear().destroy();
+        $(".table-loyalty-5-after-10").DataTable({
+          data: data.sr,
+          responsive: false,
+          scrollX: true,
+          autoWidth: false,
+          destroy: true,
+          searching: false,
+          paging: false,
+          columns: [
+            {
+              data: null,
+              render: function (data, type, row, meta) {
+                return meta.row + meta.settings._iDisplayStart + 1;
+              },
+            },
+            { data: "emp_agency_employee_no" },
+            { data: "emp_lname" },
+            { data: "emp_fname" },
+            { data: "emp_mname" },
+            { data: "plantilla_item_no" },
+            { data: "sr_date_started" },
+            { data: "sr_step" },
+          ],
+        }); //end of datatable
+        // end delete child =====================
+      },
+    });
+  }
+
+
+  function loadTeachersLoyalty10Years() {
+    $.ajax({
+      url: "service/getTeachersLoyalty10Years",
+      method: "get",
+      dataType: "json",
+      success: function (data) {
+        $(".table-loyalty-10").off();
+        $(".table-loyalty-10").DataTable().clear().destroy();
+        $(".table-loyalty-10").DataTable({
+          data: data.sr,
+          responsive: false,
+          scrollX: true,
+          autoWidth: false,
+          destroy: true,
+          searching: false,
+          paging: false,
+          columnDefs: [ {
+            targets: 3,
+            createdCell: function (td, cellData, rowData, row, col) {
+              if ( cellData < 1 ) {
+                $(td).css('color', 'red')
+              }
+            }
+          } ],
+          columns: [
+            {
+              data: null,
+              render: function (data, type, row, meta) {
+                return meta.row + meta.settings._iDisplayStart + 1;
+              },
+            },
+            { data: "emp_agency_employee_no" },
+            { data: "emp_lname" },
+            { data: "emp_fname" },
+            { data: "emp_mname" },
+            { data: "plantilla_item_no" },
+            { data: "sr_date_started" },
+            { data: "sr_step" },
           ],
         }); //end of datatable
         // end delete child =====================

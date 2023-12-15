@@ -52,8 +52,8 @@
           <!-- ----------------------------- -->
           <form id="refForm">
             <div class="row mb-2">
-                <input type="hidden" value="0" name="is_edit" id="is_edit">
-                <input type="hidden" name="ref_id" id="ref_id">
+                <input type="hidden" value="0" name="is_edit" id="is_edit" form="refForm">
+                <input type="hidden" name="ref_id" id="ref_id" form="refForm">
                 <div class="col-md-12 mb-2">
                     <label for="ref_name" class="form-label">Reference Name</label>
                     <input type="text" class="form-control form-control-sm" id="ref_name" name="ref_name" form="refForm">

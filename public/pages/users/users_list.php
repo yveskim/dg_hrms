@@ -6,7 +6,7 @@
 <div class="">
   <a type="button" href="register" class="btn btn-info" id="add_user">Add New User</a>
 </div><hr>
-<table class="table table-bordered stripe tableUser compact sm">
+<table class="table table-hover table-bordered table-striped tableUser table-sm">
   <thead>
     <tr>
       <th>User ID</th>
