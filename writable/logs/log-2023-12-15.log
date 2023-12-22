@@ -1,1 +1,17 @@
 ERROR - 2023-12-15 13:19:19 --> Column 'pos_title' cannot be null
+ERROR - 2023-12-15 18:01:04 --> Table 'hrms.emp_station_tbl' doesn't exist
+ERROR - 2023-12-15 18:01:04 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-15 18:01:04 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(61): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}

@@ -148,15 +148,16 @@ function loadeEmpServiceRecord(emp_id) {
 
       if (data.st == null) {
         $("#station").html("<span class='text-warning'>station not set</span>");
-        $("#spanSet").html(
-          '<button class="btn btn-primary btn-sm" id="btnSet" data-toggle="modal" data-target="#modalSetStation">Set/Change</button>'
-        );
-        $("#emp_station_id").val('');
+        // $("#spanSet").html(
+        //   '<button class="btn btn-primary btn-sm" id="btnSet" data-toggle="modal" data-target="#modalSetStation">Set/Change</button>'
+        // );
+        // $("#emp_station_id").val('');
       } else {
+        // console.log(data.st);
         $("#station").text(data.st.st_title);
-        $("#emp_station_id").val(data.st.emp_station_id);
+        // $("#emp_station_id").val(data.st.emp_station_id);
         
-        $("#btnSet").hide();
+        // $("#btnSet").hide();
       }
 
       if (data.pl == null) {
@@ -347,13 +348,15 @@ $("#modalUpdateServiceRecord").on("hidden.bs.modal", function (e) {
 });
 
 $("#btnSetSr").click(function () {
-  if($('#emp_station_id').val() == "" || $('#emp_station_id').val() == null){
-    alert("Station Not Set, Please Set Station to Proceed");
-  }else{
+  // if($('#emp_station_id').val() == "" || $('#emp_station_id').val() == null){
+  //   alert("Station Not Set, Please Set Station to Proceed");
+  // }else{
     if ($("#transaction_type").val() == 1) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
-    } else if ($(this).val() == 2) {
+    } else if ($("#transaction_type").val() == 2) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/transfer_station.php');
     } else if ($(this).val() == 3) {
     } else if ($(this).val() == 4) {
     } else if ($(this).val() == 5) {
@@ -364,6 +367,6 @@ $("#btnSetSr").click(function () {
     } else if ($(this).val() == 8) {
     } else if ($(this).val() == 9) {
     }
-  }
+  // }
   
 });

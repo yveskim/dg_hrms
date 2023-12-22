@@ -19,8 +19,7 @@ class ServiceRecord extends BaseController
         $data['sr'] = $serviceMdl
         ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
         ->join('plantilla_tbl', 'plantilla_tbl.plantilla_id = service_record_tbl.sr_plantilla_id', 'left')
-        ->join('emp_station_tbl', 'emp_station_tbl.emp_id = employee_t.emp_id', 'left')
-        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
+        ->join('station_tbl', 'station_tbl.station_id = service_record_tbl.sr_station_id', 'left')
         ->join('nbc_tbl', 'nbc_tbl.nbc_id = service_record_tbl.sr_nbc_id', 'left')
         ->join('salary_schedule_tbl', 'salary_schedule_tbl.nbc_id = nbc_tbl.nbc_id', 'left')
         ->groupBy('service_record_tbl.sr_id')
@@ -39,7 +38,6 @@ class ServiceRecord extends BaseController
     function getEmpServiceRecord(){
         $serviceMdl = new ServiceRecordModel();
         $salSchedMdl = new SalaryScheduleModel();
-        $empStMdl = new EmpStationModel();
         $empMdl = new EmployeeModel();
         $plMdl = new PlantillaModel();
         $emp_id = $this->request->getGet('emp_id');
@@ -54,10 +52,10 @@ class ServiceRecord extends BaseController
         ->where('emp_id', $emp_id)
         ->first();
 
-        $data['st'] = $empStMdl
-        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
-        ->where('emp_station_tbl.emp_id', $emp_id)
-        ->where('emp_station_tbl.is_current', true)
+        $data['st'] = $serviceMdl
+        ->join('station_tbl', 'station_tbl.station_id = service_record_tbl.sr_station_id', 'left')
+        ->where('service_record_tbl.sr_emp_id', $emp_id)
+        ->where('service_record_tbl.is_active', true)
         ->first();
 
         $data['pl'] = $serviceMdl
@@ -285,10 +283,10 @@ class ServiceRecord extends BaseController
 
         $emp_id = $this->request->getGet('emp_id');
        
-        $data['st'] = $empStMdl
-        ->join('employee_t', 'employee_t.emp_id = emp_station_tbl.emp_id', 'left')
-        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
-        ->where('emp_station_tbl.emp_id', $emp_id)
+        $data['st'] = $serviceRecMdl
+        ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        ->join('station_tbl', 'station_tbl.station_id = service_record_tbl.sr_station_id', 'left')
+        ->where('service_record_tbl.sr_emp_id', $emp_id)
         ->first();
 
         $data['plant'] = $plantMdl
@@ -317,7 +315,7 @@ class ServiceRecord extends BaseController
             'sr_plantilla_id' => $plantilla_id,
             'sr_step' => $this->request->getPost('step'),
             'sr_status' => $this->request->getPost('app_status'),
-            'sr_emp_station_id' => $this->request->getPost('emp_station_id'),
+            'sr_station_id' => $this->request->getPost('station_id'),
             'sr_date_started' => $this->request->getPost('date_started'),
             'sr_date_end' => $this->request->getPost('date_end'),
             'sr_remarks' => $this->request->getPost('remarks'),
@@ -415,14 +413,14 @@ class ServiceRecord extends BaseController
         $nbc_id = "";
         $step = "";
         $status = "";
-        $emp_station_id = "";
+        $station_id = "";
         foreach($activeSr as $sr){
             $activeSr = $sr['sr_id'];
             $last_plantilla_id = $sr['sr_plantilla_id'];
             $nbc_id = $sr['sr_nbc_id'];
             $step = $sr['sr_step'];
             $status = $sr['sr_status'];
-            $emp_station_id = $sr['sr_emp_station_id'];
+            $station_id = $sr['sr_station_id'];
         }
 
         $data = [
@@ -431,7 +429,7 @@ class ServiceRecord extends BaseController
             'sr_plantilla_id' => $plantilla_id,
             'sr_step' => $step,
             'sr_status' => $status,
-            'sr_emp_station_id' => $emp_station_id,
+            'sr_station_id' => $station_id,
             'sr_date_started' => $this->request->getPost('date_started'),
             'sr_remarks' => $this->request->getPost('remarks'),
             'is_active' => 1,
@@ -477,9 +475,78 @@ class ServiceRecord extends BaseController
             die;
         }
         
- 
+    }
+
+
+    // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+    function transferServiceRecord(){
+        $serviceMdl = new ServiceRecordModel();
+        $plantMdl = new PlantillaModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_id = $this->request->getPost('emp_id');
+        $station_id = $this->request->getPost('station_id');
+
+        //set the details of active sr
+        $activeSr = $serviceMdl->getActiveSr($emp_id);//find the last service record id
+        $last_plantilla_id = "";
+        $nbc_id = "";
+        $step = "";
+        $status = "";
+        $plantilla_id = "";
+        foreach($activeSr as $sr){
+            $activeSr = $sr['sr_id'];
+            $last_plantilla_id = $sr['sr_plantilla_id'];
+            $nbc_id = $sr['sr_nbc_id'];
+            $step = $sr['sr_step'];
+            $status = $sr['sr_status'];
+            $plantilla_id = $sr['sr_plantilla_id'];
+        }
+
+        $data = [
+            'sr_emp_id' => $emp_id,
+            'sr_nbc_id' => $nbc_id,
+            'sr_plantilla_id' => $plantilla_id,
+            'sr_step' => $step,
+            'sr_status' => $status,
+            'sr_station_id' => $station_id,
+            'sr_date_started' => $this->request->getPost('date_started'),
+            'sr_remarks' => $this->request->getPost('remarks'),
+            'is_active' => 1,
+            'sr_processed_by' => $user_id,
+        ];
+        
+        try {
+            $updateData = [
+                'is_active' => 0,
+                'sr_date_end' => $this->request->getPost('date_current_service_end')
+            ];
+            $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
+            if($res){
+                try {
+                    $res2 = $serviceMdl->save($data);
+                    if($res2){
+                        $result['status'] = 1;
+                        echo json_encode($result);
+                        die;
+                    }
+                } catch (\Exception $e) {
+                    $result['status'] = 0;
+                    $result['message'] = $e->getMessage();
+                    echo json_encode($result);
+                    die;
+                }
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            echo json_encode($result);
+            die;
+        }
         
     }
+
+
+    
 
 
     function getTeachersForStepIncrease(){

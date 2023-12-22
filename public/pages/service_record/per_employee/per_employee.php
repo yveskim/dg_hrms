@@ -37,7 +37,7 @@
     <hr>
     <div class="row">
         <div class="col-md-12">
-            <input type="hidden" id="emp_station_id">
+            <!-- <input type="hidden" id="emp_station_id"> -->
             <h6>Current Station: <span class="emphasis" id="station"></span> <span id="spanSet"></span></h6>
         </div>
     </div>

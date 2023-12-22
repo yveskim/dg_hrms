@@ -1,0 +1,570 @@
+ERROR - 2023-12-22 10:41:32 --> Table 'hrms.emp_station_tbl' doesn't exist
+ERROR - 2023-12-22 10:41:32 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 10:41:32 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(61): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 10:41:36 --> Table 'hrms.emp_station_tbl' doesn't exist
+ERROR - 2023-12-22 10:41:36 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 10:41:36 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(61): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 10:42:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+ERROR - 2023-12-22 11:12:41 --> Unknown column 'emp_st.station_id' in 'on clause'
+ERROR - 2023-12-22 11:13:51 --> Unknown column 'emp_st.station_id' in 'on clause'
+ERROR - 2023-12-22 11:13:54 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:13:54 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:14:08 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:14:08 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\Stations.php(113): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Stations->loadEmpInStation()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stations))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:14:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:14:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\Stations.php(113): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Stations->loadEmpInStation()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stations))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:14:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:14:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT `employe...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `employe...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `employe...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT `employe...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\Stations.php(133): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Stations->getEmpNoStation()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stations))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:14:34 --> Unknown column 'emp_st.station_id' in 'on clause'
+ERROR - 2023-12-22 11:15:06 --> Unknown column 'emp_st.station_id' in 'on clause'
+ERROR - 2023-12-22 11:16:53 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:16:53 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:28:03 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:28:06 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:28:06 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:28:46 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:28:48 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:28:48 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:30:18 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:30:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:30:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:30:58 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:30:58 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:31:25 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:31:27 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:31:27 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:56:49 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:56:51 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:56:51 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:58:30 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:58:32 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:58:32 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 11:58:49 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 11:58:58 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 11:58:58 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:00:30 --> Unknown column 'sr.station_id' in 'on clause'
+ERROR - 2023-12-22 12:02:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:02:20 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:03:42 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:03:42 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:03:53 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:03:53 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:04:38 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:04:38 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:46:31 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:46:31 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:48:39 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:48:39 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:49:31 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:49:31 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:49:57 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:49:57 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:51:36 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:51:36 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:52:26 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:52:26 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:52:59 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:52:59 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 12:53:08 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 12:53:08 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:00:30 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:00:30 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:01:24 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:01:24 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:02:28 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:02:28 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(292): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getNewServiceRecordDetails()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:09:24 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:09:24 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(27): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:09:30 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:09:30 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(27): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:10:13 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:10:13 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(27): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:10:16 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:10:16 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(27): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:21:46 --> Unknown column 'station_tbl.is_active' in 'where clause'
+CRITICAL - 2023-12-22 13:21:46 --> Unknown column 'station_tbl.is_active' in 'where clause'
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(59): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:21:56 --> Unknown column 'station_tbl.is_active' in 'where clause'
+CRITICAL - 2023-12-22 13:21:56 --> Unknown column 'station_tbl.is_active' in 'where clause'
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\ServiceRecord.php(59): CodeIgniter\BaseModel->first()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\ServiceRecord->getEmpServiceRecord()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ServiceRecord))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
+ERROR - 2023-12-22 13:34:16 --> Table 'hrms.emp_station_tbl' doesn't exist
+CRITICAL - 2023-12-22 13:34:16 --> Table 'hrms.emp_station_tbl' doesn't exist
+#0 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Model.php(145): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\app\Controllers\Stations.php(113): CodeIgniter\BaseModel->find()
+#7 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Stations->loadEmpInStation()
+#8 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Stations))
+#9 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
+#12 {main}
