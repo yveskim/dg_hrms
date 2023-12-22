@@ -213,6 +213,14 @@ function loadeEmpServiceRecord(emp_id) {
             { data: "sr_seperation_date" },
             { data: "nbc_no" },
             { data: "sr_remarks" },
+            {
+              data: null,
+              render: function (data, type, row, meta) {
+                return '<div class="display-block"><button type="button" id="' +
+                  data.sr_id +
+                  '" class="mb-1 mr-1 col-md-6 btn btn-primary btn-sm btn-xs btn-edit _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>';
+              },
+            },
           ],
         }); //end of datatable
       });
@@ -358,7 +366,9 @@ $("#btnSetSr").click(function () {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/transfer_station.php');
     } else if ($(this).val() == 3) {
-    } else if ($(this).val() == 4) {
+    } else if ($("#transaction_type").val() == 4) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/new_nbc.php');
     } else if ($(this).val() == 5) {
     } else if ($("#transaction_type").val() == 6) {
       $("#modalNewServiceRecord").modal("toggle");

@@ -542,10 +542,82 @@ class ServiceRecord extends BaseController
             echo json_encode($result);
             die;
         }
-        
     }
 
+    // ++++++++++++++++++++++++++++++++++++++++++++++++
+    
+    function newSalarySchedule(){
+        $serviceMdl = new ServiceRecordModel();
+        // $plantMdl = new PlantillaModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_id = $this->request->getPost('emp_id');
+        $new_nbc_id = $this->request->getPost('nbc_ref');
 
+        //set the details of active sr
+        $activeSr = $serviceMdl->getActiveSr($emp_id);//find the last service record id
+        $step = "";
+        $status = "";
+        $plantilla_id = "";
+        $station_id = "";
+        $prev_nbc_id = "";
+        foreach($activeSr as $sr){
+            $activeSr = $sr['sr_id'];
+            $prev_nbc_id = $sr['sr_nbc_id'];
+            $step = $sr['sr_step'];
+            $status = $sr['sr_status'];
+            $plantilla_id = $sr['sr_plantilla_id'];
+            $station_id = $sr['sr_station_id'];
+        }
+
+        $data = [
+            'sr_emp_id' => $emp_id,
+            'sr_nbc_id' => $new_nbc_id,
+            'sr_plantilla_id' => $plantilla_id,
+            'sr_step' => $step,
+            'sr_status' => $status,
+            'sr_station_id' => $station_id,
+            'sr_date_started' => $this->request->getPost('date_started'),
+            'sr_remarks' => $this->request->getPost('remarks'),
+            'is_active' => 1,
+            'sr_processed_by' => $user_id,
+        ];
+
+        if($prev_nbc_id == $new_nbc_id){
+            $result['status'] = 3;
+            $result['message'] = "Please Select New Salary Schedule";
+            echo json_encode($result);
+        }else{
+            try {
+                $updateData = [
+                    'is_active' => 0,
+                    'sr_date_end' => $this->request->getPost('date_current_service_end')
+                ];
+                $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
+                if($res){
+                    try {
+                        $res2 = $serviceMdl->save($data);
+                        if($res2){
+                            $result['status'] = 1;
+                            echo json_encode($result);
+                            die;
+                        }
+                    } catch (\Exception $e) {
+                        $result['status'] = 0;
+                        $result['message'] = $e->getMessage();
+                        echo json_encode($result);
+                        die;
+                    }
+                }
+            } catch (\Exception $e) {
+                $result['status'] = 0;
+                $result['message'] = $e->getMessage();
+                echo json_encode($result);
+                die;
+            }
+        }
+        
+        
+    }
     
 
 

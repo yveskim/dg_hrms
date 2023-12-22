@@ -110,6 +110,7 @@
                         <th>Seperation Date</th>
                         <th>NBC no.</th>
                         <th>Remarks</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
             </table>

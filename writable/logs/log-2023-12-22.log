@@ -568,3 +568,14 @@ CRITICAL - 2023-12-22 13:34:16 --> Table 'hrms.emp_station_tbl' doesn't exist
 #10 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\public\index.php(36): CodeIgniter\CodeIgniter->run()
 #11 C:\Users\ICT INHS\OneDrive - Department of Education\Desktop\dg_hrms\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ICT IN...')
 #12 {main}
+ERROR - 2023-12-22 16:45:05 --> Column 'sr_date_started' cannot be null
+ERROR - 2023-12-22 16:46:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:46:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:47:46 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:47:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:51:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:52:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:52:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:53:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:57:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
+ERROR - 2023-12-22 16:57:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 2
