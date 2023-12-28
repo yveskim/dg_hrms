@@ -48,34 +48,44 @@ function loadAllEmpStations(station_id) {
               return meta.row + meta.settings._iDisplayStart + 1;
             },
           },
-          {
-            data: null,
-            render: function (data, type, row) {
-              return (
-                '<button type="button" id="' +
-                data.emp_station_id +
-                '" class="btn btn-primary btn-sm btn-xs full-size _edit" title="edit date"><i class="fa fa-edit"></i></button>'
-              );
-            },
-          },
+          // {
+          //   data: null,
+          //   render: function (data, type, row) {
+          //     return (
+          //       '<button type="button" id="' +
+          //       data.emp_station_id +
+          //       '" class="btn btn-primary btn-sm btn-xs full-size _edit" title="edit date"><i class="fa fa-edit"></i></button>'
+          //     );
+          //   },
+          // },
           { data: "emp_agency_employee_no" },
           { data: "emp_lname" },
           { data: "emp_fname" },
           { data: "emp_mname" },
           { data: "emp_gender" },
-          { data: "date_started" },
-          { data: "date_end" },
-          { data: "assigned_by" },
+          { data: "sr_date_started" },
+          { data: "sr_date_end" },
           {
             data: null,
             render: function (data, type, row) {
-              return (
-                '<button type="button" id="' +
-                data.emp_station_id +
-                '" class="btn btn-danger btn-sm btn-xs _delete full-size"  title="delete entry"><i class="fa fa-trash"></i></button>'
-              );
+              if(data.sr_is_seperated == true){
+                return '<span class="col-md-12 bg-danger full-size text-light text-center">Seperated</span>';
+              }else{
+                return '<span class="col-md-12 bg-success full-size text-light text-center">Active</span>';
+              }
             },
           },
+          { data: "sr_processed_by" },
+          // {
+          //   data: null,
+          //   render: function (data, type, row) {
+          //     return (
+          //       '<button type="button" id="' +
+          //       data.emp_station_id +
+          //       '" class="btn btn-danger btn-sm btn-xs _delete full-size"  title="delete entry"><i class="fa fa-trash"></i></button>'
+          //     );
+          //   },
+          // },
         ],
       }); //end of datatable
       // edit child +++++++++++++++++++

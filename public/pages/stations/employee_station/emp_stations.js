@@ -31,6 +31,7 @@ $("#loadEmpInStation").click(function () {
     loadAllEmpStations(station_id);
   }
 });
+
 function loadAllEmpStations(station_id) {
   $.ajax({
     url: "station/loadEmpInStation",

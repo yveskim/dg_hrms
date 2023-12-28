@@ -7,7 +7,7 @@ use App\Models\UsersModel;
 use App\Models\StationModel;
 use App\Models\FiscalYearModel;
 use App\Models\EmpStationModel;
-
+use App\Models\ServiceRecordModel;
 
 class Stations extends BaseController
 {
@@ -103,14 +103,17 @@ class Stations extends BaseController
     }
 
     function loadEmpInStation(){
-        $empStMdl = new EmpStationModel();
+        $srMdl = new ServiceRecordModel();
         $stMdl = new StationModel();
 
         $station_id = $this->request->getGet('station_id');
-        $data['st'] = $empStMdl
-        ->join('employee_t', 'employee_t.emp_id = emp_station_tbl.emp_id', 'left')
-        ->join('station_tbl', 'station_tbl.station_id = emp_station_tbl.station_id', 'left')
-        ->where('emp_station_tbl.station_id', $station_id)->find();
+        $data['st'] = $srMdl
+        ->join('station_tbl', 'station_tbl.station_id = service_record_tbl.sr_station_id', 'left')
+        ->join('employee_t', 'employee_t.emp_id = service_record_tbl.sr_emp_id', 'left')
+        ->where('service_record_tbl.sr_station_id', $station_id)
+        ->where('service_record_tbl.is_active', true)
+        // ->where('service_record_tbl.sr_is_seperated', false)
+        ->find();
 
         $data['title'] = $stMdl->where('station_id', $station_id)->first();
         $data['office_id'] = $stMdl->select('st_office_id')->where('station_id', $station_id)->first();

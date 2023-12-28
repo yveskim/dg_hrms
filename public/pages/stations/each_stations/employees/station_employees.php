@@ -4,18 +4,18 @@
 <div class="row station-div">
     <div class="col-md-12">
         
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-4">
                 <button class="btn btn-primary btn-add-emp" data-toggle="modal" data-target="#modalSelectEmployee">Assign Employee To Station</button>
             </div>
-        </div><br>
+        </div><br> -->
         <div class="row">
             <div class="col-md-12">
                 <table class="table table-bordered table-hover table-emp-station full-size table-sm" style="width: 100%; white-space: nowrap;">
                     <thead class="bg-info">
                         <tr>
                             <th width="5%"></th>
-                            <th width="5%">Edit</th>
+                            <!-- <th width="5%">Edit</th> -->
                             <th>Emp ID</th>
                             <th>Last Name</th>
                             <th>First Name</th>
@@ -23,8 +23,9 @@
                             <th>Sex</th>
                             <th>Date Started</th>
                             <th>Date Ended</th>
-                            <th>Assigned By</th>
-                            <th width="5%">Del</th>
+                            <th>Status</th>
+                            <th>Asg. by</th>
+                            <!-- <th width="5%">Del</th> -->
                         </tr>
                     </thead>
                     <tbody>

@@ -74,15 +74,19 @@ class Faculty extends BaseController
 
             // remove existing image in the folder 
             $currentImage = $empModel->where('emp_id', $emp_id)->select('emp_image')->find();
+            $isImage_exist = null;
             foreach($currentImage as $img){
                 $currentImage = 'upload/user_files/' . $img['emp_image'];
+                $isImage_exist = $img['emp_image'];
             }
 
-            if(file_exists($currentImage) == true && $currentImage != null){//if image exist unlink it
+            if(file_exists($currentImage)){//if image exist unlink it
                 try{
                     $result['pic'] = $empModel->update($emp_id, $data);
                     if($result){
-                        unlink($currentImage);
+                        if($isImage_exist != null){
+                            unlink($currentImage);
+                        }
                         $result['status'] = 1;
                         $result['randomFileName'] = $randomFileName;
                         echo json_encode($result);
