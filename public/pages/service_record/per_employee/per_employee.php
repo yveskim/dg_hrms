@@ -98,6 +98,7 @@
                         <th>Date Start</th>
                         <th>Date End</th>
                         <th>Designation</th>
+                        <th>Step</th>
                         <th>Appt. Status</th>
                         <th>Salary</th>
                         <th>Station/Office</th>
@@ -105,8 +106,7 @@
                         <th>LOA w/o Pay From</th>
                         <th>LOA w/o Pay To</th>
                         <th>LOA Deductions</th>
-                        <th>Seperated</th>
-                        <th>Cause</th>
+                        <th>Seperation Cause</th>
                         <th>Seperation Date</th>
                         <th>NBC no.</th>
                         <th>Remarks</th>

@@ -100,6 +100,10 @@
   margin: -1px;
 }
 
+.fs-small{
+  font-size: .8vw;
+}
+
 .modal-title {
   color: white;
 }

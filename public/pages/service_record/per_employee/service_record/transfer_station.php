@@ -247,7 +247,7 @@ $('#transferStationForm').submit(function(event){
                 Swal.fire({
                 position: "center",
                 icon: "error",
-                title: "Action Failed",
+                title: "Station failed to change",
                 text: res.message,
                 showConfirmButton: true,
                 });

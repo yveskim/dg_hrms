@@ -363,8 +363,9 @@
 
 <script type="text/javascript">
 
-    $(document).ready(function() {
- 
+  $(document).ready(function() {
+    $("html, body").animate({ scrollTop: 0 }, "slow");
+    
     $(".g-menu").click(function() {
       //alert('ok');
       $(".nav .child_menu").find(".active").removeClass("active");

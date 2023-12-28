@@ -1,30 +1,39 @@
 <div class="row">
     <div class="col-md-12 bg-success pt-2 text-light">
-        <h5>New Salary Schedule (NBC)</h5>
+        <h5>Step Increment</h5>
     </div>
 </div>
 <hr>
-<form id="newSalaryScheduleForm">
+<form id="stepIncrementForm">
     <div class="row">
             <div class="col-md-6 mb-4">
                 <label for="date_current_service_end">Date Current Service End</label>
-                <input type="date" class="form-control form-control-sm full-size" name="date_current_service_end" id="date_current_service_end" form="newSalaryScheduleForm" required>
+                <input type="date" class="form-control form-control-sm full-size" name="date_current_service_end" id="date_current_service_end" form="stepIncrementForm" required>
             </div>
             <div class="col-md-6 mb-4">
                 <label for="date_started">Date New Service Start</label>
-                <input type="date" class="form-control form-control-sm full-size" name="date_started" id="date_started" form="newSalaryScheduleForm" required>
+                <input type="date" class="form-control form-control-sm full-size" name="date_started" id="date_started" form="stepIncrementForm" required>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-6 mb-4">
-                <label for="nbc_ref">NBC No.</label>
-                <select class="form-control form-control-sm full-size" name="nbc_ref" id="nbc_ref" form="newSalaryScheduleForm" required>
+                <label for="new_step">Step</label>
+                <select class="form-control form-control-sm full-size" name="new_step" id="new_step" form="stepIncrementForm" required>
+                    <option value=""></option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
                 </select>
             </div>
             <div class="col-md-6">
                 <label for="remarks">Remarks</label>
-                <input type="text" class="form-control form-control-sm full-size" name="remarks" id="remarks" form="newSalaryScheduleForm">
+                <input type="text" class="form-control form-control-sm full-size" name="remarks" id="remarks" form="stepIncrementForm">
             </div>
         </div>
         <hr>
@@ -57,17 +66,11 @@
                 $(".div-blur").hide();
             },
             success: function (data) {
-                $('#nbc_ref').append('<option value="">-</option>');
-                $.each(data.nbc, function (key, val){
-                    $('#nbc_ref').append('<option value="'+val.nbc_id+'">'+val.nbc_no+'</option>');
-                })
 
                 if(data.st == null){
-                    $('#current_station').val("");
-                    $('#branch').val("");
+                    $('#new_step').val("");
                 }else{
-                    $('#current_station').val(data.st.st_title);
-                    $('#branch').val(data.st.st_branch);
+                    $('#new_step').val(data.st.sr_step);
                 }
                     
             
@@ -82,7 +85,7 @@
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
     
-$('#newSalaryScheduleForm').submit(function(event){
+$('#stepIncrementForm').submit(function(event){
     event.preventDefault();
     let formData = new FormData(this);
     let emp_id_ref = $('#emp_id_ref').val();
@@ -91,7 +94,7 @@ $('#newSalaryScheduleForm').submit(function(event){
     formData.append("emp_id", emp_id_ref);
 
     $.ajax({
-        url: "service/newSalarySchedule",
+        url: "service/stepIncrement",
         method: "post",
         dataType: "json",
         data: formData,
@@ -115,13 +118,13 @@ $('#newSalaryScheduleForm').submit(function(event){
                 $("#modalNewServiceRecord").hide();
                 $('.modal-backdrop').remove();
                 // $("#modalUpdateServiceRecord").modal("toggle");
-                $("#newSalaryScheduleForm")[0].reset();
+                $("#stepIncrementForm")[0].reset();
                 loadeEmpServiceRecord($('#emp_id_ref').val());
             }else if(res.status == 3){
                 Swal.fire({
                 position: "center",
                 icon: "info",
-                title: "Salary Schedule failed to change.",
+                title: "Step failed to change.",
                 text: res.message,
                 showConfirmButton: true,
                 });

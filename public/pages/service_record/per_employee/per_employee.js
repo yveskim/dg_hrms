@@ -191,16 +191,19 @@ function loadeEmpServiceRecord(emp_id) {
             {
               data: null,
               render: function (data, type, row, meta) {
-                if (data.is_active == true) {
+                if (data.is_active == true && data.sr_is_seperated == false) {
                   return '<div class="bg-success text-light" style="text-align: center;">active</div>';
-                } else {
-                  return '<div class="bg-danger text-light" style="text-align: center;">ended</div>';
+                }else if (data.is_active == true && data.sr_is_seperated == true) {
+                  return '<div class="bg-danger text-light" style="text-align: center;">seperated</div>';
+                }else {
+                  return '<div class="bg-warning text-dark" style="text-align: center;">ended</div>';
                 }
               },
             },
             { data: "sr_date_started" },
             { data: "sr_date_end" },
             { data: "position_title" },
+            { data: "sr_step" },
             { data: "sr_status" },
             { data: "salary" },
             { data: "st_title" },
@@ -208,7 +211,6 @@ function loadeEmpServiceRecord(emp_id) {
             { data: "loa_wo_pay_date_from" },
             { data: "loa_wo_pay_date_to" },
             { data: "total_deductions" },
-            { data: "sr_is_seperated" },
             { data: "sr_seperation_cause" },
             { data: "sr_seperation_date" },
             { data: "nbc_no" },
@@ -216,9 +218,12 @@ function loadeEmpServiceRecord(emp_id) {
             {
               data: null,
               render: function (data, type, row, meta) {
-                return '<div class="display-block"><button type="button" id="' +
+                return '<button type="button" id="' +
                   data.sr_id +
-                  '" class="mb-1 mr-1 col-md-6 btn btn-primary btn-sm btn-xs btn-edit _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>';
+                  '" class="p-0 fs-small ml-1 btn btn-primary btn-sm _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>'+
+                  '<button type="button" id="' +
+                  data.sr_id +
+                  '" class="p-0 fs-small ml-1 btn btn-warning btn-sm _loa" title="loa details"><i class="fa fa-calendar-plus-o"></i>&nbsp;LOA</button>';
               },
             },
           ],
@@ -365,17 +370,23 @@ $("#btnSetSr").click(function () {
     } else if ($("#transaction_type").val() == 2) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/transfer_station.php');
-    } else if ($(this).val() == 3) {
+    } else if ($("#transaction_type").val() == 3) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/employment_status_change.php');
     } else if ($("#transaction_type").val() == 4) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/new_nbc.php');
-    } else if ($(this).val() == 5) {
+    } else if ($("#transaction_type").val() == 5) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/step_increment.php');
     } else if ($("#transaction_type").val() == 6) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/promotion.php');
     } else if ($(this).val() == 7) {
     } else if ($(this).val() == 8) {
-    } else if ($(this).val() == 9) {
+    } else if ($("#transaction_type").val() == 9) {
+      $("#modalNewServiceRecord").modal("toggle");
+      $('#transaction-div').load('pages/service_record/per_employee/service_record/seperation.php');
     }
   // }
   

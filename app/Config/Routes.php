@@ -299,6 +299,9 @@ $routes->post('service/newServiceRecord', 'ServiceRecord::newServiceRecord');
 $routes->post('service/promotionServiceRecord', 'ServiceRecord::promotionServiceRecord');
 $routes->post('service/transferServiceRecord', 'ServiceRecord::transferServiceRecord');
 $routes->post('service/newSalarySchedule', 'ServiceRecord::newSalarySchedule');
+$routes->post('service/stepIncrement', 'ServiceRecord::stepIncrement');
+$routes->post('service/appointmentStatus', 'ServiceRecord::appointmentStatus');
+$routes->post('service/seperation', 'ServiceRecord::seperation');
 
 $routes->get('service/getTeachersForStepIncrease', 'ServiceRecord::getTeachersForStepIncrease');
 $routes->get('service/getTeachersLoyalty10Years', 'ServiceRecord::getTeachersLoyalty10Years');
