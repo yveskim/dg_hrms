@@ -109,6 +109,7 @@
                         <th>NBC no.</th>
                         <th>Remarks</th>
                         <th>Action</th>
+                        <th>Edit</th>
                     </tr>
                 </thead>
             </table>

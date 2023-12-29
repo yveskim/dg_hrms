@@ -220,10 +220,15 @@ function loadeEmpServiceRecord(emp_id) {
               render: function (data, type, row, meta) {
                 return '<button type="button" id="' +
                   data.sr_id +
-                  '" class="p-0 fs-small ml-1 btn btn-primary btn-sm _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>'+
-                  '<button type="button" id="' +
+                  '" class="fs-small ml-1 btn btn-info btn-sm btn-xs _loa full-size" title="loa details"><i class="fa fa-calendar-plus-o"></i>&nbsp;LOA</button>';
+              },
+            },
+            {
+              data: null,
+              render: function (data, type, row, meta) {
+                return '<button type="button" id="' +
                   data.sr_id +
-                  '" class="p-0 fs-small ml-1 btn btn-warning btn-sm _loa" title="loa details"><i class="fa fa-calendar-plus-o"></i>&nbsp;LOA</button>';
+                  '" class="fs-small ml-1 btn btn-primary btn-xs btn-sm _edit full-size" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>';
               },
             },
           ],
