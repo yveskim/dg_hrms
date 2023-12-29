@@ -233,6 +233,12 @@ function loadeEmpServiceRecord(emp_id) {
             },
           ],
         }); //end of datatable
+
+        $(".table-service-record").on("click", "._loa", function () {
+          $("#modalLoa").modal("toggle");
+          let sr_id = $(this).prop("id");
+          $('#sr_id').val(sr_id);
+        });
       });
 
       $("html, body").animate(

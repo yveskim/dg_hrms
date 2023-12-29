@@ -245,6 +245,48 @@
         </div>
     </div>
 </div>
+
+<div class="modal fade mb-4" id="modalLoa">
+    <div class="modal-dialog modal-lg  modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Modal Header -->
+            <div class="modal-header bg-primary">
+                <h4 class="modal-title">LOA w/o Pay Form</h4>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <!-- TODO: Tapuson and submit -->
+            <!-- Modal body -->
+            <div class="modal-body">
+                <form id="loaForm">
+                    <input type="hidden" name="sr_id" id="sr_id">
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <label for="date_from">Date From</label>
+                            <input type="date" class="form-control" name="date_from" id="date_from" required>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <label for="date_to">Date To</label>
+                            <input type="date" class="form-control" name="date_to" id="date_to" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <label for="total_deductions">Total Deductions</label>
+                            <input type="text" class="form-control" name="total_deductions" id="total_deductions" required>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <button class="btn btn-success full-size float-right" type="submit">SUBMIT</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
                                     
 
 <script src="pages/service_record/per_employee/per_employee.js"></script>

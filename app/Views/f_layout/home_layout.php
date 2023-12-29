@@ -281,7 +281,7 @@
           <a href="#"><small>&copy; By: Yves Kim Cabanting</small></a>
         </div> -->
         <div class="col-md-12 ">
-          <a href="#" class="developer"><small>ICT Team & Developer</small></a>
+          <a href="#" class="developer"><small>ICT Team</small></a>
         </div>
       </div>
 
