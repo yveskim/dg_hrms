@@ -247,9 +247,10 @@ $('#promotionServiceRecordForm').submit(function(event){
                 text: "Date Successfully Updated",
                 showConfirmButton: true,
                 });
-                $("#modalNewServiceRecord").hide();
-                $('.modal-backdrop').remove();
+                // $("#modalNewServiceRecord").hide();
+                // $('.modal-backdrop').remove();
                 // $("#modalUpdateServiceRecord").modal("toggle");
+                $("#modalNewServiceRecord").modal("toggle");
                 $("#promotionServiceRecordForm")[0].reset();
                 loadeEmpServiceRecord($('#emp_id_ref').val());
             } else {

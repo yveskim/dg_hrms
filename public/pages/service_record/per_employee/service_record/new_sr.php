@@ -406,7 +406,7 @@ $('#newServiceRecordForm').submit(function(event){
             $(".div-blur").show();
         },
         success: function (res) {
-            console.log(res);
+            // console.log(res);
             if (res.status == 1) {
                 Swal.fire({
                 position: "center",
@@ -415,9 +415,10 @@ $('#newServiceRecordForm').submit(function(event){
                 text: "Date Successfully Updated",
                 showConfirmButton: true,
                 });
-                $("#modalNewServiceRecord").hide();
-                $('.modal-backdrop').remove();
+                // $("#modalNewServiceRecord").hide();
+                // $('.modal-backdrop').remove();
                 // $("#modalUpdateServiceRecord").modal("toggle");
+                $("#modalNewServiceRecord").modal("toggle");
                 $("#newServiceRecordForm")[0].reset();
                 loadeEmpServiceRecord($('#emp_id_ref').val());
             } else {
@@ -431,8 +432,8 @@ $('#newServiceRecordForm').submit(function(event){
             } //end ifelse
         },
         complete: function () {
-        $(".spiner-div").hide();
-        $(".div-blur").hide();
+            $(".spiner-div").hide();
+            $(".div-blur").hide();
         },
     });
 
