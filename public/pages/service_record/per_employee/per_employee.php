@@ -60,15 +60,13 @@
         <div class="col-md-3">
             <select class="form-control" name="transaction_type" id="transaction_type">
                 <option value="">--Transaction Type--</option>
-                <option value="1">New</option>
+                <option value="1">New Hire</option>
                 <option value="2">Transfer Station</option>
                 <option value="3">Change Employement Status</option>
                 <option value="4">New Tranche</option>
                 <option value="5">Step Increment</option>
                 <option value="6">Promotion</option>
-                <option value="7">Loyalty Increment (10 years)</option>
-                <option value="8">Loyalty Increment (5 years after 10 years)</option>
-                <option value="9">Seperation</option>
+                <option value="7">Seperation</option>
             </select>
         </div>
         <div class="col-md-2">

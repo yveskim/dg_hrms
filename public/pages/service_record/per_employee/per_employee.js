@@ -48,9 +48,9 @@ $("#modalChooseEmp").on("show.bs.modal", function () {
             data: null,
             render: function (data, type, row) {
               return (
-                '<div class="display-block"><button type="button" id="' +
+                '<button type="button" id="' +
                 data.emp_id +
-                '" class="btn btn-success btn-sm btn-xs _select" title="select employee"><i class="fa fa-check-square"></i>&nbsp;Select</button>'
+                '" class="btn btn-success btn-sm btn-xs _select full-size" title="select employee"><i class="fa fa-check-square"></i>&nbsp;Select</button>'
               );
             },
           },
@@ -382,9 +382,7 @@ $("#btnSetSr").click(function () {
     } else if ($("#transaction_type").val() == 6) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/promotion.php');
-    } else if ($(this).val() == 7) {
-    } else if ($(this).val() == 8) {
-    } else if ($("#transaction_type").val() == 9) {
+    } else if ($("#transaction_type").val() == 7) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/seperation.php');
     }

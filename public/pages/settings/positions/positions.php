@@ -72,6 +72,7 @@
                         <option value="Supervisory">Supervisory</option>
                         <option value="Teaching">Teaching</option>
                         <option value="Non-Teaching">Non-Teaching</option>
+                        <option value="Teaching Related">Teaching Related</option>
                     </select>
                   </div>
                 </div>

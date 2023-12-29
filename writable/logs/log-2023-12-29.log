@@ -1,0 +1,1 @@
+ERROR - 2023-12-29 10:51:58 --> Cannot add or update a child row: a foreign key constraint fails (`hrms`.`service_record_tbl`, CONSTRAINT `service_record_tbl_ibfk_3` FOREIGN KEY (`sr_nbc_id`) REFERENCES `nbc_tbl` (`nbc_id`) ON DELETE CASCADE ON UPDATE CASCADE)

@@ -14,7 +14,8 @@
                     <thead class="bg-info">
                         <tr>
                             <th width="5%"></th>
-                            <th>Action</th>
+                            <th>Edit</th>
+                            <th>Open</th>
                             <th>Station Title/ Office</th>
                             <th>Office ID</th>
                             <th>Address</th>

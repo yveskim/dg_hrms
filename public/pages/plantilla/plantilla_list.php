@@ -19,7 +19,8 @@
                                     <thead class="bg-info">
                                         <tr>
                                             <th>-</th>
-                                            <th>Action</th>
+                                            <th>Edit</th>
+                                            <th>Open</th>
                                             <th>Plantilla Item No.</th>
                                             <th>Postion/Title</th>
                                             <th>SG</th>

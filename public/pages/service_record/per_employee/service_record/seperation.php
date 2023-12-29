@@ -40,6 +40,7 @@
                 <input type="text" class="form-control form-control-sm full-size" name="remarks" id="remarks" form="seperationForm" required>
             </div>
         </div>
+        <hr>
         <div class="row">
             <div class="col-md-6"></div>
             <div class="col-md-3">

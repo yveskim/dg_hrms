@@ -37,14 +37,17 @@ function loadAllStations() {
           {
             data: null,
             render: function (data, type, row) {
-              return (
-                '<button type="button" id="' +
+              return '<button type="button" id="' +
                 data.station_id +
-                '" class="mr-1 btn col-md-6 btn-success btn-sm btn-xs full-size _view" title="view details"><i class="fa fa-folder-open "></i></button>' +
-                '<button type="button" id="' +
+                '" class="p-0 btn-success btn-sm btn-xs full-size _view" title="view details"><i class="fa fa-folder-open "></i>&nbsp;Open</button>';
+            },
+          },
+          {
+            data: null,
+            render: function (data, type, row) {
+              return '<button type="button" id="' +
                 data.station_id +
-                '" class=" col-md-5 btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i></button>'
-              );
+                '" class="p-0 btn btn-primary btn-sm btn-xs full-size _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>';
             },
           },
           { data: "st_title" },
@@ -57,7 +60,7 @@ function loadAllStations() {
               return (
                 '<button type="button" id="' +
                 data.station_id +
-                '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i></button>'
+                '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i>&nbsp;Delete</button>'
               );
             },
           },

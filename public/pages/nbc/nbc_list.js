@@ -34,14 +34,17 @@ function loadNbc() {
           {
             data: null,
             render: function (data, type, row) {
-              return (
-                '<div class="display-block"><button type="button" id="' +
+              return '<button type="button" id="' +
                 data.nbc_id +
-                '" class="mb-1 mr-1 col-md-6 btn btn-primary btn-sm btn-xs btn-edit _edit" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>'+
-                '<button type="button" id="' +
+                '" class="btn btn-info btn-sm btn-xs _view full-size" title="open nbc"><i class="fa fa-folder-open"></i>&nbsp;Open</button>';
+            },
+          },
+          {
+            data: null,
+            render: function (data, type, row) {
+              return '<button type="button" id="' +
                 data.nbc_id +
-                '" class="col-md-6 btn btn-info btn-sm btn-xs btn-view _view" title="view entry"><i class="fa fa-folder-open"></i>&nbsp;Open</button></div>'
-              );
+                '" class="btn btn-primary btn-sm btn-xs _edit full-size" title="edit entry"><i class="fa fa-edit"></i>&nbsp;Edit</button>';
             },
           },
           { data: "nbc_no" },
@@ -52,9 +55,9 @@ function loadNbc() {
             data: null,
             render: function (data, type, row) {
               return (
-                '<center><button type="button" id="' +
+                '<button type="button" id="' +
                 data.nbc_id +
-                '" class="btn btn-danger btn-sm btn-xs btn-delete _delete" title="delete entry"><i class="fa fa-trash"></i>&nbsp;Delete</button></center>'
+                '" class="btn btn-danger btn-sm btn-xs _delete full-size" title="delete entry"><i class="fa fa-trash"></i>&nbsp;Delete</button>'
               );
             },
           },

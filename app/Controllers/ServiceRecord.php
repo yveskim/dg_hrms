@@ -413,14 +413,14 @@ class ServiceRecord extends BaseController
         $activeSr = $serviceMdl->getActiveSr($emp_id);//find the last service record id
         $last_plantilla_id = "";
         $nbc_id = "";
-        $step = "";
+        // $step = "";
         $status = "";
         $station_id = "";
         foreach($activeSr as $sr){
             $activeSr = $sr['sr_id'];
             $last_plantilla_id = $sr['sr_plantilla_id'];
             $nbc_id = $sr['sr_nbc_id'];
-            $step = $sr['sr_step'];
+            // $step = $sr['sr_step'];
             $status = $sr['sr_status'];
             $station_id = $sr['sr_station_id'];
         }
@@ -429,7 +429,7 @@ class ServiceRecord extends BaseController
             'sr_emp_id' => $emp_id,
             'sr_nbc_id' => $nbc_id,
             'sr_plantilla_id' => $plantilla_id,
-            'sr_step' => $step,
+            'sr_step' => 1,
             'sr_status' => $status,
             'sr_station_id' => $station_id,
             'sr_date_started' => $this->request->getPost('date_started'),
@@ -564,6 +564,7 @@ class ServiceRecord extends BaseController
         $status = "";
         $plantilla_id = "";
         $station_id = "";
+        $last_plantilla_id = "";
         foreach($activeSr as $sr){
             $activeSr = $sr['sr_id'];
             $nbc_id = $sr['sr_nbc_id'];
@@ -571,6 +572,7 @@ class ServiceRecord extends BaseController
             $status = $sr['sr_status'];
             $plantilla_id = $sr['sr_plantilla_id'];
             $station_id = $sr['sr_station_id'];
+            $last_plantilla_id = $sr['sr_plantilla_id'];
         }
         $data = [
             'sr_emp_id' => $emp_id,
@@ -592,23 +594,34 @@ class ServiceRecord extends BaseController
         try {
             $res2 = $serviceMdl->save($data);
             if($res2){
-                $updateData = [
-                    'is_active' => 0,
-                    'sr_date_end' => $this->request->getPost('date_current_service_end')
-                ];
                 try {
-                    $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
-                    if($res){
-                        $result['status'] = 1;
-                        echo json_encode($result);
-                        die;
+                    $res3 = $plantMdl->set('is_assigned', 0)->where('plantilla_id', $last_plantilla_id)->update();//remove assigned plantilla
+                    if($res3){
+                        $updateData = [
+                            'is_active' => 0,
+                            'sr_date_end' => $this->request->getPost('date_current_service_end')
+                        ];
+                        try {
+                            $res = $serviceMdl->set($updateData)->where('sr_id', $activeSr)->update();
+                            if($res){
+                                $result['status'] = 1;
+                                echo json_encode($result);
+                                die;
+                            }
+                        }catch (\Exception $e) {
+                            $result['status'] = 0;
+                            $result['message'] = $e->getMessage();
+                            echo json_encode($result);
+                            die;
+                        }
                     }
-                }catch (\Exception $e) {
+                } catch (\Exception $e) {
                     $result['status'] = 0;
                     $result['message'] = $e->getMessage();
                     echo json_encode($result);
                     die;
                 }
+                
             }
         } catch (\Exception $e) {
             $result['status'] = 0;

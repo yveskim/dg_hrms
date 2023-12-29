@@ -19,7 +19,8 @@
                                     <thead class="bg-info">
                                         <tr>
                                             <th></th>
-                                            <th>Action</th>
+                                            <th>Open</th>
+                                            <th>Edit</th>
                                             <th>NBC No</th>
                                             <th>Title</th>
                                             <th>Tranche</th>
