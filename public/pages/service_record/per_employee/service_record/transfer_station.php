@@ -44,8 +44,6 @@
     </div>
 </form>
 
-<!-- TODO: show stations -->
-
 <div class="modal fade mb-4" id="getStationsModal">
     <div class="modal-dialog modal-lg  modal-dialog-centered">
         <div class="modal-content">
@@ -229,7 +227,7 @@ $('#transferStationForm').submit(function(event){
             $(".div-blur").show();
         },
         success: function (res) {
-            console.log(res);
+            // console.log(res);
             if (res.status == 1) {
                 Swal.fire({
                 position: "center",

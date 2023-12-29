@@ -495,14 +495,13 @@ class ServiceRecord extends BaseController
         $step = "";
         $status = "";
         $plantilla_id = "";
-        $station_id = "";
         foreach($activeSr as $sr){
             $activeSr = $sr['sr_id'];
             $nbc_id = $sr['sr_nbc_id'];
             $step = $sr['sr_step'];
             $status = $sr['sr_status'];
             $plantilla_id = $sr['sr_plantilla_id'];
-            $station_id = $sr['sr_station_id'];
+            // $station_id = $sr['sr_station_id'];
         }
 
         $data = [
