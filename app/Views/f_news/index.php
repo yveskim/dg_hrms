@@ -176,18 +176,17 @@
         <!-- logo content -->
         <div class="col-md-4">
             <div class="">
-              <img class="updates-logo"  src="upload/programs/ohsp/program_head.png" alt="ohsp logo">
+              <img class="updates-logo"  src="upload/system_file/matatag.jpg" alt="image">
             </div>
         </div>
         <!-- title content -->
         <div class="col-md-8">
             <a href="news_ohsp" class="update-header">
-              INHS New Special Program (OHSP)
+              Lorem Epsum
             </a>
             <hr>
             <p class="updates-headlines">
-              The Republic Act No. 10665 or The Open High School System Act provided the mandate to the 
-              Department of Education to create Open High School Program. 
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam suscipit modi, obcaecati dolores velit, quam enim fuga tempora eligendi officia sequi reprehenderit itaque voluptates? Minima enim velit in perspiciatis accusantium.
             </p>
         </div>
       </div>
@@ -197,17 +196,17 @@
         <!-- logo content -->
         <div class="col-md-4">
             <div class="">
-              <img class="updates-logo"  src="upload/program logo/SPFL-K.png" alt="spfl logo">
+              <img class="updates-logo"  src="upload/system_file/matatag.jpg" alt="image">
             </div>
         </div>
         <!-- title content -->
         <div class="col-md-8">
             <a href="news_spfl" class="update-header">
-              INHS Opens a New Special Program (SPFL-K)
+              lorem ipsum
             </a>
             <hr>
             <p class="updates-headlines">
-              Special Program in Foreign Language - Korean is open to all graduates of Grade 6 with grades of 85 and above in Filipino and English.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam recusandae, minima numquam distinctio explicabo accusamus reiciendis exercitationem ipsa saepe voluptatibus omnis earum suscipit modi illum cum temporibus deleniti quam deserunt!
             </p>
         </div>
         <hr>
@@ -223,18 +222,17 @@
         <!-- logo content -->
         <div class="col-md-4">
             <div class="">
-              <img class="updates-logo"  src="upload/program logo/SPSTE.png" alt="ste logo">
+              <img class="updates-logo"  src="upload/system_file/matatag.jpg" alt="image">
             </div>
         </div>
         <!-- title content -->
         <div class="col-md-8">
             <a href="news_spste" class="update-header">
-              Program Update from SSC to SPSTE
+              Lorem Ipsum
             </a>
             <hr>
             <p class="updates-headlines">
-            The Special Science Class (SSC), now the Special Program in Science Technology and Engineering (SPSTE) is the first Special Science Class in Western Visayas which was launched at the Iloilo National High School in 1988 to meet the scientific and technological manpower needs of the country.
-
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime blanditiis labore laborum soluta libero nostrum dolorem odit rem? Animi similique officia eius veniam quod fugit laboriosam rem! Nostrum, error quo.
             </p>
         </div>
       </div>
@@ -244,17 +242,17 @@
         <!-- logo content -->
         <div class="col-md-4">
             <div class="">
-              <img class="updates-logo"  src="upload/program logo/SPBE.png" alt="spbe logo">
+              <img class="updates-logo"  src="upload/system_file/matatag.jpg" alt="image">
             </div>
         </div>
         <!-- title content -->
         <div class="col-md-8">
             <a href="news_spbe" class="update-header">
-              Program Update from SSE to SPBE
+              Lorem Ipsum
             </a>
             <hr>
             <p class="updates-headlines">
-              SPBE is a blended entrepreneurship class that follows the DepEd curriculum for Junior High School with eight core learning areas as specified in DepEd Order No.21,s. 2019.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id tenetur rerum doloremque tempore, dolores fugiat temporibus quasi doloribus est repellendus atque quibusdam dignissimos repellat exercitationem pariatur illum? Porro, quibusdam aspernatur!
             </p>
         </div>
         <hr>

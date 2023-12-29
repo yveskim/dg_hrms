@@ -261,18 +261,12 @@
           </div>
         </div>
       </div>
-
+    <hr>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-12">
           <p>Republic of the Philippines</p>
           <p>All content is in the public domain unless otherwise stated.</p>
         </div>
-        <div class="col-md-4">
-
-        </div>
-        <div class="col-md-4">
-          
-          </div>
       </div>
 
       <div class="row">
@@ -288,6 +282,12 @@
         </div> -->
         <div class="col-md-12 ">
           <a href="#" class="developer"><small>ICT Team & Developer</small></a>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-12">
+          <a href="#" class="developer float-right"><small>Developer YKC.</small></a>
         </div>
       </div>
 
