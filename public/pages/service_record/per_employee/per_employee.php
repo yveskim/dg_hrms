@@ -258,7 +258,7 @@
             <!-- Modal body -->
             <div class="modal-body">
                 <form id="loaForm">
-                    <input type="text" name="sr_id" id="sr_id" form="loaForm">
+                    <input type="hidden" name="sr_id" id="sr_id" form="loaForm">
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <label for="date_from">Date From</label>
