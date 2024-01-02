@@ -302,6 +302,7 @@ $routes->post('service/newSalarySchedule', 'ServiceRecord::newSalarySchedule');
 $routes->post('service/stepIncrement', 'ServiceRecord::stepIncrement');
 $routes->post('service/appointmentStatus', 'ServiceRecord::appointmentStatus');
 $routes->post('service/seperation', 'ServiceRecord::seperation');
+$routes->post('service/setLoaWoPay', 'ServiceRecord::setLoaWoPay');
 
 $routes->get('service/getTeachersForStepIncrease', 'ServiceRecord::getTeachersForStepIncrease');
 $routes->get('service/getTeachersLoyalty10Years', 'ServiceRecord::getTeachersLoyalty10Years');

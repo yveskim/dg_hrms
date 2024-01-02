@@ -884,7 +884,34 @@ class ServiceRecord extends BaseController
         }
     }
     
+    function setLoaWoPay(){
+        $serviceMdl = new ServiceRecordModel();
+        $user_id = $this->request->getPost('user_id');
+        $emp_id = $this->request->getPost('emp_id');
+        $sr_id = $this->request->getPost('sr_id');
 
+        $data = [
+            'loa_wo_pay_date_from' => $this->request->getPost('date_from'),
+            'loa_wo_pay_date_to' => $this->request->getPost('date_to'),
+            'total_deductions' => $this->request->getPost('total_deductions'),
+            'loa_set_by' => $user_id
+        ];
+
+        try {
+            $res = $serviceMdl->set($data)->where('sr_id', $sr_id)->update();
+            if($res){
+                $result['status'] = 1;
+                echo json_encode($result);
+                die;
+            }
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
+            $result['message'] = $sr_id;
+            echo json_encode($result);
+            die;
+        }
+    }
 
 
 

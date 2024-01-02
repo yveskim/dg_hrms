@@ -81,7 +81,7 @@ function loadeEmpServiceRecord(emp_id) {
       $(".div-blur").hide();
     },
     success: function (data) {
-      console.log(data);
+      // console.log(data);
       let house = data.emp.emp_p_add_house;
       if (house == null || house == "") {
         house = "";
@@ -370,6 +370,54 @@ $("#modalUpdateServiceRecord").on("hidden.bs.modal", function (e) {
   $("#updateServiceRecordForm").empty();
   $("#transaction_type").val($("#transaction_type option:first").val());
 });
+
+$("#loaForm").submit(function (event) {
+  event.preventDefault();
+  let formData = new FormData(this);
+  let emp_id_ref = $("#emp_id_ref").val();
+  formData.append("user_id", $("#user").val());
+  formData.append("emp_id", emp_id_ref);
+  $.ajax({
+    url: "service/setLoaWoPay",
+    method: "post",
+    dataType: "json",
+    data: formData,
+    contentType: false,
+    cache: false,
+    processData: false,
+    beforeSend: function () {
+      $(".spiner-div").show();
+      $(".div-blur").show();
+    },
+    success: function (res) {
+      if (res.status == 1) {
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "Process Successfull",
+          text: "Data Successfully Updated",
+          showConfirmButton: true,
+        });
+        $("#modalLoa").modal("toggle");
+        $("#loaForm")[0].reset();
+        loadeEmpServiceRecord($("#emp_id_ref").val());
+      } else {
+        Swal.fire({
+          position: "center",
+          icon: "error",
+          title: "Action Failed",
+          text: res.message,
+          showConfirmButton: true,
+        });
+      } //end ifelse
+    },
+    complete: function () {
+      $(".spiner-div").hide();
+      $(".div-blur").hide();
+    },
+  });
+});
+// ++++++++++++++++++++++++++++++++++++++++++++
 
 $("#btnSetSr").click(function () {
   // if($('#emp_station_id').val() == "" || $('#emp_station_id').val() == null){

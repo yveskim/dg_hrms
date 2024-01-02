@@ -258,28 +258,28 @@
             <!-- Modal body -->
             <div class="modal-body">
                 <form id="loaForm">
-                    <input type="hidden" name="sr_id" id="sr_id">
+                    <input type="text" name="sr_id" id="sr_id" form="loaForm">
                     <div class="row">
                         <div class="col-md-6 mb-4">
                             <label for="date_from">Date From</label>
-                            <input type="date" class="form-control" name="date_from" id="date_from" required>
+                            <input type="date" class="form-control" name="date_from" id="date_from" required form="loaForm">
                         </div>
 
                         <div class="col-md-6 mb-4">
                             <label for="date_to">Date To</label>
-                            <input type="date" class="form-control" name="date_to" id="date_to" required>
+                            <input type="date" class="form-control" name="date_to" id="date_to" required form="loaForm">
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12">
                             <label for="total_deductions">Total Deductions</label>
-                            <input type="text" class="form-control" name="total_deductions" id="total_deductions" required>
+                            <input type="text" class="form-control" name="total_deductions" id="total_deductions" required form="loaForm">
                         </div>
                     </div>
                     <hr>
                     <div class="row">
-                        <div class="col-md-4">
-                            <button class="btn btn-success full-size float-right" type="submit">SUBMIT</button>
+                        <div class="col-md-4 float-right">
+                            <button class="btn btn-success full-size float-right" type="submit" form="loaForm">SUBMIT</button>
                         </div>
                     </div>
                 </form>
