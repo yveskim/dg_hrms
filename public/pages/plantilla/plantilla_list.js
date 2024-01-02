@@ -55,7 +55,7 @@ function loadPlantilla() {
             data: null,
             render: function (data, type, row) {
               if(data.is_assigned == true) {
-                return '<1 class="full-size bg-warning text-light text-center">assigned</1>'
+                return '<div class="full-size bg-warning text-light text-center">assigned</div>'
               }else{
                 return '<div class="full-size bg-success text-light text-center">vacant</div>'
               }
