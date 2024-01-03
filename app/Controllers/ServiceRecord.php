@@ -907,7 +907,25 @@ class ServiceRecord extends BaseController
         } catch (\Exception $e) {
             $result['status'] = 0;
             $result['message'] = $e->getMessage();
-            $result['message'] = $sr_id;
+            echo json_encode($result);
+            die;
+        }
+    }
+
+    function checkSrHasData(){
+        $serviceMdl = new ServiceRecordModel();
+        $emp_id = $this->request->getGet('emp_id');
+        try {
+            $res = $serviceMdl->where('sr_emp_id', $emp_id)->countAllResults();
+            if($res > 0){
+                $result['status'] =  1;
+                echo json_encode($result);
+                die;
+            }
+
+        } catch (\Exception $e) {
+            $result['status'] = 0;
+            $result['message'] = $e->getMessage();
             echo json_encode($result);
             die;
         }

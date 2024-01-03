@@ -307,6 +307,7 @@ $routes->post('service/setLoaWoPay', 'ServiceRecord::setLoaWoPay');
 $routes->get('service/getTeachersForStepIncrease', 'ServiceRecord::getTeachersForStepIncrease');
 $routes->get('service/getTeachersLoyalty10Years', 'ServiceRecord::getTeachersLoyalty10Years');
 $routes->get('service/getTeachersLoyalty5YearsSucceeding10Years', 'ServiceRecord::getTeachersLoyalty5YearsSucceeding10Years');
+$routes->get('service/checkSrHasData', 'ServiceRecord::checkSrHasData');
 
 
 // _______________________________________________

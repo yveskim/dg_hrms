@@ -223,9 +223,9 @@
                     data: null,
                     render: function (data, type, row) {
                     return (
-                        '<input type="checkbox" id="' +
+                        '<center><input type="checkbox" id="' +
                         data.sal_sched_id +
-                        '" class="select-step" name="sal_sched_id[]" style="transform: scale(1.5);" form="stepForm">'
+                        '" class="select-step" name="sal_sched_id[]" style="transform: scale(1.5);" form="stepForm"></center>'
                     );
                     },
                 },

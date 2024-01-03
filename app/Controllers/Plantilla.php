@@ -14,7 +14,7 @@ class Plantilla extends BaseController
     function getPlantilla()
     {
         $plntMdl = new PlantillaModel();
-        $data['plant'] = $plntMdl->findAll();
+        $data['plant'] = $plntMdl->orderBy('salary_grade', 'ASC')->findAll();
         return $this->response->setJSON($data);
     }
 

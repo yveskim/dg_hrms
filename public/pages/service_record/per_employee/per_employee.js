@@ -419,16 +419,38 @@ $("#loaForm").submit(function (event) {
 });
 // ++++++++++++++++++++++++++++++++++++++++++++
 
+function checkSrHasData(){
+  let emp_id = $("#emp_id_ref").val();
+  $.ajax({
+    url: "service/checkSrHasData",
+    method: "get",
+    dataType: "json",
+    data:{emp_id: emp_id},
+    success: function (res) {
+      return  res.status;
+    },
+  });
+
+}
+
 $("#btnSetSr").click(function () {
-  // if($('#emp_station_id').val() == "" || $('#emp_station_id').val() == null){
-  //   alert("Station Not Set, Please Set Station to Proceed");
-  // }else{
     if ($("#transaction_type").val() == 1) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
     } else if ($("#transaction_type").val() == 2) {
-      $("#modalNewServiceRecord").modal("toggle");
-      $('#transaction-div').load('pages/service_record/per_employee/service_record/transfer_station.php');
+      console.log(checkSrHasData());
+      if(checkSrHasData() > 0){
+        $("#modalNewServiceRecord").modal("toggle");
+        $('#transaction-div').load('pages/service_record/per_employee/service_record/transfer_station.php');
+      }else{
+        Swal.fire({
+            position: "center",
+            icon: "error",
+            title: "Action Failed",
+            text: "The employee has no existing Service Record. Add new Service Record or contanct your administrative officer to verify.",
+            showConfirmButton: true,
+        });
+      }
     } else if ($("#transaction_type").val() == 3) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/employment_status_change.php');
@@ -444,7 +466,8 @@ $("#btnSetSr").click(function () {
     } else if ($("#transaction_type").val() == 7) {
       $("#modalNewServiceRecord").modal("toggle");
       $('#transaction-div').load('pages/service_record/per_employee/service_record/seperation.php');
+    }else{
+      alert('Please select Transaction Type');
     }
-  // }
   
 });
