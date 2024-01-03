@@ -425,8 +425,27 @@ $("#loaForm").submit(function (event) {
 $("#btnSetSr").click(function () {
   let emp_id = $("#emp_id_ref").val();
     if ($("#transaction_type").val() == 1) {
-      $("#modalNewServiceRecord").modal("toggle");
-      $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
+      $.ajax({
+        url: "service/checkSrHasData",
+        method: "get",
+        dataType: "json",
+        data:{emp_id: emp_id},
+        success: function (res) {
+          if(res.count > 0){
+            Swal.fire({
+              position: "center",
+              icon: "info",
+              title: "Action Failed",
+              text: "The employee has already an existing Service Record. Please select another transaction or contact your administrator to verify",
+              showConfirmButton: true,
+            });
+          }else{
+            $("#modalNewServiceRecord").modal("toggle");
+            $('#transaction-div').load('pages/service_record/per_employee/service_record/new_sr.php');
+          }
+        },
+      });
+      
     } else if ($("#transaction_type").val() == 2) {
       $.ajax({
         url: "service/checkSrHasData",
